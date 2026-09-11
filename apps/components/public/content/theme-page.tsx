@@ -560,6 +560,10 @@ export type LocalizedArticle = {
     stat?: { value: string; label: string };
   };
   sections: ReadonlyArray<LocalizedSection>;
+  /** Heading of the cross-links block, resolved from `pages.<theme>.related.title`. */
+  relatedTitle: string;
+  /** Kicker of the cross-links block, resolved from `pages.<theme>.related.kicker`. */
+  relatedKicker: string;
   related: ReadonlyArray<{ key: string; label: string; desc: string; href: string }>;
 };
 
@@ -796,7 +800,8 @@ export function ThemeArticle({
       ))}
 
       <RelatedPages
-        title={content.related.length > 4 ? "Les pages du thème Monnaie" : "Poursuivre sur le thème Monnaie"}
+        title={content.relatedTitle}
+        kicker={content.relatedKicker}
         pages={content.related.filter((page) => page.href !== currentHref)}
       />
     </>

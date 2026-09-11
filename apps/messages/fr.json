@@ -341,7 +341,9 @@
         "donneesMonetaires": {
           "label": "Données monétaires",
           "desc": "Les agrégats, la masse monétaire et les statistiques monétaires."
-        }
+        },
+        "title": "Poursuivre sur le thème Monnaie",
+        "kicker": "Dans le même thème"
       },
       "section": {
         "meta": {
@@ -3932,6 +3934,4273 @@
                 "p2": "Les séries sont mises à jour selon le calendrier officiel."
               },
               "cta": "Consulter les statistiques monétaires"
+            }
+          }
+        }
+      }
+    },
+    "politiqueMonetaire": {
+      "related": {
+        "title": "Les pages du thème Politique monétaire",
+        "kicker": "Dans le même thème",
+        "decisions": {
+          "label": "Décisions de politique monétaire",
+          "desc": "Comment la Banque centrale décide de sa politique monétaire et ses décisions récentes."
+        },
+        "tauxDirecteurs": {
+          "label": "Taux directeurs",
+          "desc": "Les taux utilisés par la Banque centrale et leur transmission au système bancaire."
+        },
+        "instrumentsMonetaires": {
+          "label": "Instruments monétaires",
+          "desc": "Les opérations par lesquelles la Banque centrale met en œuvre sa politique monétaire."
+        },
+        "publications": {
+          "label": "Publications",
+          "desc": "Rapports, communiqués, analyses et données de la politique monétaire."
+        }
+      },
+      "section": {
+        "meta": {
+          "title": "Politique monétaire",
+          "description": "La politique monétaire de la Banque centrale d'Astoria : décisions, taux directeurs, instruments monétaires et publications."
+        },
+        "hero": {
+          "kicker": "Politique monétaire",
+          "title": "La politique monétaire",
+          "lead": "La Banque centrale d'Astoria conduit la politique monétaire de la République : elle fixe ses taux directeurs, fournit la liquidité au système bancaire et veille à la stabilité des prix. Ce thème présente ses décisions, ses taux, ses instruments et ses publications.",
+          "cta": "Voir la dernière décision",
+          "notice": "Les valeurs présentées sont des exemples de démonstration, en attendant la publication des données officielles."
+        },
+        "sections": {
+          "pillars": {
+            "kicker": "Les quatre volets",
+            "title": "La politique monétaire en quatre volets",
+            "lead": "Chaque volet du thème répond à une question : comment la Banque centrale décide-t-elle ? Quels taux utilise-t-elle ? Comment met-elle en œuvre ses décisions ? Quelles publications documentent son action ?",
+            "tiles": {
+              "decisions": {
+                "title": "Décisions",
+                "desc": "Comment les décisions sont préparées, prises et communiquées."
+              },
+              "tauxDirecteurs": {
+                "title": "Taux directeurs",
+                "desc": "Les taux qui orientent les conditions de financement de l'économie."
+              },
+              "instrumentsMonetaires": {
+                "title": "Instruments monétaires",
+                "desc": "Les opérations qui mettent en œuvre la politique monétaire."
+              },
+              "publications": {
+                "title": "Publications",
+                "desc": "Rapports, communiqués, analyses et données du thème."
+              }
+            }
+          },
+          "institution": {
+            "kicker": "La Banque centrale",
+            "title": "La Banque centrale, pilote des conditions monétaires",
+            "lead": "Trois principes guident la conduite de la politique monétaire de la Banque centrale d'Astoria.",
+            "paragraphs": {
+              "p1": "La Banque centrale exerce sa mission de politique monétaire dans le cadre fixé par la Constitution et la loi, en toute indépendance dans l'usage de ses instruments.",
+              "p2": "Elle rend compte de son action : ses décisions, ses analyses et ses prévisions font l'objet de communications régulières et publiques.",
+              "p3": "Elle répond de la stabilité monétaire et de la stabilité des prix, dans le respect de ses objectifs statutaires."
+            },
+            "cards": {
+              "independance": {
+                "title": "L'indépendance",
+                "text": "Dans l'usage de ses instruments, dans le cadre fixé par la loi."
+              },
+              "transparence": {
+                "title": "La transparence",
+                "text": "Des décisions expliquées et des publications régulières."
+              },
+              "responsabilite": {
+                "title": "La responsabilité",
+                "text": "Une action orientée vers les objectifs statutaires de la République."
+              }
+            },
+            "cta": "Découvrir la Banque centrale"
+          },
+          "figures": {
+            "kicker": "En chiffres",
+            "title": "La politique monétaire en chiffres",
+            "lead": "Les principaux indicateurs suivis par la Banque centrale, mis à jour à chaque décision.",
+            "statGrid": {
+              "taux": {
+                "value": "—",
+                "label": "Taux directeur"
+              },
+              "prochaineReunion": {
+                "value": "—",
+                "label": "Prochaine réunion du Conseil"
+              },
+              "inflation": {
+                "value": "—",
+                "label": "Inflation (IPC, glissement annuel)"
+              },
+              "dernieresDecisions": {
+                "value": "—",
+                "label": "Décisions publiées"
+              }
+            },
+            "notice": "En attendant la publication des séries officielles, les indicateurs sont laissés en attente."
+          },
+          "mandat": {
+            "kicker": "Le mandat",
+            "title": "Les objectifs de la politique monétaire",
+            "lead": "La politique monétaire poursuit des objectifs statutaires définis par le cadre institutionnel de la République.",
+            "paragraphs": {
+              "p1": "La Banque centrale vise en premier lieu la stabilité des prix : la monnaie doit conserver sa valeur au fil du temps et protéger le pouvoir d'achat des citoyens.",
+              "p2": "Elle veille également à la stabilité monétaire et, dans le cadre de ses compétences, contribue à la stabilité financière et au bon fonctionnement des conditions monétaires."
+            },
+            "cards": {
+              "stabilitePrix": {
+                "title": "La stabilité des prix",
+                "text": "La monnaie conserve sa valeur dans le temps."
+              },
+              "stabiliteMonetaire": {
+                "title": "La stabilité monétaire",
+                "text": "La monnaie demeure une unité de compte fiable."
+              },
+              "stabiliteFinanciere": {
+                "title": "La stabilité financière",
+                "text": "Le système financier reste solide et résilient."
+              },
+              "soutienEconomie": {
+                "title": "Le soutien à l'économie",
+                "text": "Dans le cadre défini par la Constitution et la loi."
+              }
+            }
+          },
+          "transmission": {
+            "kicker": "Comment ça agit",
+            "title": "De la décision à l'économie",
+            "lead": "La politique monétaire agit sur l'économie par une chaîne de transmission.",
+            "paragraphs": {
+              "p1": "La Banque centrale annonce une décision, oriente ses taux, fournit ou absorbe la liquidité ; les banques ajustent leurs conditions ; le financement de l'économie en est affecté ; l'activité et, à terme, les prix en dépendent."
+            },
+            "flow": {
+              "decision": "Décision",
+              "taux": "Taux",
+              "liquidite": "Liquidité",
+              "banques": "Banques",
+              "economie": "Économie",
+              "prix": "Prix"
+            },
+            "cta": "Comprendre les instruments"
+          },
+          "cadre": {
+            "kicker": "Le cadre institutionnel",
+            "title": "Les acteurs de la politique monétaire",
+            "lead": "La politique monétaire s'inscrit dans un cadre qui distingue les responsabilités de la République, de la Banque centrale et des autres acteurs.",
+            "paragraphs": {
+              "p1": "La République fixe le cadre légal ; la Banque centrale conduit la politique monétaire en toute indépendance ; les banques transmettent ses décisions au financement de l'économie ; les marchés reflètent ces conditions."
+            },
+            "cards": {
+              "republique": {
+                "title": "La République",
+                "text": "Elle définit par la loi le cadre et les objectifs de la politique monétaire."
+              },
+              "bca": {
+                "title": "La Banque centrale",
+                "text": "Elle conduit la politique monétaire et en rend compte."
+              },
+              "banques": {
+                "title": "Les banques",
+                "text": "Elles transmettent les conditions monétaires au financement de l'économie."
+              },
+              "marches": {
+                "title": "Les marchés",
+                "text": "Ils reflètent les anticipations et les conditions de financement."
+              }
+            }
+          },
+          "essentiels": {
+            "kicker": "L'essentiel",
+            "title": "Ce qu'il faut retenir",
+            "lead": "Les pages essentielles du thème pour suivre l'action de la Banque centrale.",
+            "links": {
+              "derniereDecision": "La dernière décision",
+              "tauxDirecteur": "Le taux directeur",
+              "calendrier": "Le calendrier des décisions",
+              "rapports": "Les rapports de politique monétaire"
+            }
+          },
+          "navigation": {
+            "kicker": "Poursuivre la visite",
+            "title": "La politique monétaire dans le portail",
+            "lead": "La politique monétaire est une mission parmi les autres de la Banque centrale : elle prolonge la monnaie, s'appuie sur les banques et le système financier.",
+            "links": {
+              "monnaie": "Le thème Monnaie",
+              "banques": "Le thème Banques",
+              "marchesFinanciers": "Le thème Marchés financiers",
+              "systemeFinancier": "Le thème Système financier"
+            }
+          }
+        }
+      },
+      "decisions": {
+        "meta": {
+          "title": "Décisions de politique monétaire",
+          "description": "Comment la Banque centrale d'Astoria décide de sa politique monétaire : compréhension, dernière décision, taux directeur, objectifs, facteurs, processus, calendrier et historique."
+        },
+        "hero": {
+          "kicker": "Politique monétaire · Décisions",
+          "title": "Les décisions de politique monétaire",
+          "lead": "La Banque centrale d'Astoria annonce ses décisions de politique monétaire à l'issue de ses réunions. Cette page explique comment elles sont préparées, prises et communiquées.",
+          "cta": "Voir les taux directeurs",
+          "notice": "Les informations de cette page seront mises à jour lors de la publication des prochaines décisions."
+        },
+        "sections": {
+          "comprendre": {
+            "kicker": "Comprendre",
+            "title": "Comprendre la politique monétaire",
+            "lead": "La politique monétaire est l'action par laquelle la Banque centrale agit sur les conditions monétaires de l'économie.",
+            "paragraphs": {
+              "p1": "La politique monétaire désigne l'ensemble des décisions par lesquelles la Banque centrale oriente le coût et la disponibilité de la monnaie et du crédit. Elle agit sur les taux d'intérêt, la liquidité et, plus largement, les conditions de financement de l'économie astorienne.",
+              "p2": "Elle existe parce que la monnaie doit conserver sa valeur dans le temps. En protégeant la stabilité des prix, la politique monétaire préserve le pouvoir d'achat des citoyens et crée les conditions d'une croissance durable.",
+              "p3": "La Banque centrale conduit cette politique dans le cadre fixé par la Constitution et la loi. Elle agit en toute indépendance dans l'usage de ses instruments et rend compte de ses décisions à la République et aux citoyens."
+            },
+            "cards": {
+              "stabilitePrix": {
+                "title": "La stabilité des prix",
+                "text": "Préserver la valeur de la monnaie dans le temps."
+              },
+              "pouvoirAchat": {
+                "title": "Le pouvoir d'achat",
+                "text": "Protéger la monnaie que les citoyens utilisent au quotidien."
+              },
+              "confiance": {
+                "title": "La confiance",
+                "text": "Fonder la monnaie sur une conduite crédible et prévisible."
+              },
+              "economie": {
+                "title": "L'économie",
+                "text": "Créer des conditions favorables à une croissance saine."
+              }
+            }
+          },
+          "derniereDecision": {
+            "kicker": "La dernière décision",
+            "title": "La dernière décision de la Banque centrale",
+            "lead": "La décision la plus récente du Conseil de la Banque centrale, telle qu'elle a été publiée.",
+            "paragraphs": {
+              "p1": "Les décisions de politique monétaire sont annoncées par communiqué à l'issue de chaque réunion, accompagnées des éléments qui les justifient."
+            },
+            "facts": {
+              "date": {
+                "label": "Date de la décision",
+                "value": "En attente de publication"
+              },
+              "decision": {
+                "label": "Décision prise",
+                "value": "En attente de publication"
+              },
+              "taux": {
+                "label": "Taux concernés",
+                "value": "En attente de publication"
+              },
+              "communication": {
+                "label": "Communication",
+                "value": "En attente de publication"
+              }
+            },
+            "notice": "Cette section affichera la prochaine décision officielle dès sa publication.",
+            "cta": "Consulter les publications"
+          },
+          "tauxDirecteur": {
+            "kicker": "Le taux directeur",
+            "title": "Le taux directeur et son évolution",
+            "lead": "Le taux principal de refinancement est l'instrument central de la politique monétaire de la Banque centrale.",
+            "paragraphs": {
+              "p1": "Le taux directeur détermine le coût auquel la Banque centrale fournit la liquidité aux banques. Son niveau traduit l'orientation de la politique monétaire."
+            },
+            "statGrid": {
+              "niveau": {
+                "value": "—",
+                "label": "Taux directeur actuel"
+              },
+              "variation": {
+                "value": "—",
+                "label": "Variation depuis la dernière décision"
+              },
+              "derniereModification": {
+                "value": "—",
+                "label": "Date de la dernière modification"
+              }
+            },
+            "notice": "Les valeurs seront renseignées lors de la prochaine publication officielle.",
+            "cta": "Voir les taux directeurs"
+          },
+          "objectifs": {
+            "kicker": "Les objectifs",
+            "title": "Les objectifs de la politique monétaire",
+            "lead": "La politique monétaire de la Banque centrale poursuit des objectifs statutaires définis par le cadre institutionnel de la République.",
+            "paragraphs": {
+              "p1": "La Banque centrale vise en premier lieu la stabilité des prix. Elle protège ainsi le pouvoir d'achat de la monnaie et le niveau général des prix au fil du temps.",
+              "p2": "Elle veille également à la stabilité monétaire et contribue, dans le cadre de ses compétences, à la stabilité financière et à des conditions monétaires ordonnées, en soutien à la stabilité économique."
+            },
+            "cards": {
+              "stabilitePrix": {
+                "title": "La stabilité des prix",
+                "text": "L'objectif premier de la politique monétaire."
+              },
+              "stabiliteMonetaire": {
+                "title": "La stabilité monétaire",
+                "text": "La valeur de la monnaie reste prévisible."
+              },
+              "stabiliteFinanciere": {
+                "title": "La stabilité financière",
+                "text": "Dans le cadre des compétences de la Banque centrale."
+              },
+              "conditionsMonetaires": {
+                "title": "Les conditions monétaires",
+                "text": "Le coût et la disponibilité de la monnaie et du crédit."
+              }
+            }
+          },
+          "facteurs": {
+            "kicker": "Les facteurs",
+            "title": "Les facteurs pris en compte",
+            "lead": "Avant chaque décision, la Banque centrale analyse l'évolution de l'économie et du système monétaire et financier.",
+            "paragraphs": {
+              "p1": "Cette analyse porte sur l'ensemble des informations disponibles : prix, activité, emploi, crédit, conditions financières, liquidité, taux de change et situation internationale."
+            },
+            "cards": {
+              "inflation": {
+                "title": "L'inflation",
+                "text": "L'évolution des prix à la consommation."
+              },
+              "activite": {
+                "title": "L'activité économique",
+                "text": "La production, la consommation et l'investissement."
+              },
+              "emploi": {
+                "title": "L'emploi",
+                "text": "La situation du marché du travail."
+              },
+              "credit": {
+                "title": "Le crédit",
+                "text": "Les conditions de financement des ménages et des entreprises."
+              }
+            },
+            "bullets": {
+              "b1": "Les conditions financières : taux d'intérêt, marges et accès au financement.",
+              "b2": "La liquidité : la disponibilité de la monnaie centrale dans le système bancaire.",
+              "b3": "Le taux de change et son incidence sur l'économie astorienne.",
+              "b4": "La situation internationale : commerce, prix des matières premières et conjoncture mondiale.",
+              "b5": "Les risques financiers et leur incidence éventuelle sur la stabilité."
+            }
+          },
+          "processus": {
+            "kicker": "Le processus",
+            "title": "Le processus de décision",
+            "lead": "Les décisions de politique monétaire sont préparées, débattues et communiquées selon un processus institutionnel.",
+            "paragraphs": {
+              "p1": "Ce processus garantit que chaque décision repose sur une analyse approfondie et sur une gouvernance collégiale."
+            },
+            "steps": {
+              "preparation": {
+                "title": "Préparation des analyses",
+                "text": "Les services de la Banque centrale préparent les analyses économiques et monétaires préalables aux réunions."
+              },
+              "reunion": {
+                "title": "Réunion",
+                "text": "Le Conseil se réunit selon le calendrier annoncé, sur la base des analyses préparées."
+              },
+              "deliberation": {
+                "title": "Délibération",
+                "text": "Les membres débattent de la situation économique et des options de politique monétaire."
+              },
+              "decision": {
+                "title": "Décision",
+                "text": "Le Conseil arrête la décision, le cas échéant par consensus ou selon la règle de vote prévue."
+              },
+              "communication": {
+                "title": "Communication",
+                "text": "La décision est annoncée et expliquée, accompagnée des éléments qui la justifient."
+              },
+              "miseEnOeuvre": {
+                "title": "Mise en œuvre",
+                "text": "Les services mettent en œuvre la décision au moyen des instruments de la politique monétaire."
+              }
+            }
+          },
+          "calendrier": {
+            "kicker": "Le calendrier",
+            "title": "Le calendrier des décisions",
+            "lead": "Les réunions et les publications associées suivent un calendrier annoncé à l'avance.",
+            "paragraphs": {
+              "p1": "Le calendrier prévisionnel indique les prochaines réunions, les dates de décision et les publications qui les accompagnent."
+            },
+            "table": {
+              "caption": "Calendrier prévisionnel des réunions",
+              "headers": {
+                "0": "Réunion",
+                "1": "Date",
+                "2": "Décision",
+                "3": "Publication"
+              },
+              "rows": {
+                "0": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir"
+                },
+                "1": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir"
+                },
+                "2": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir"
+                },
+                "3": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir"
+                }
+              },
+              "note": "Calendrier prévisionnel, susceptible d'évolution. Les dates officielles seront publiées dès confirmation."
+            },
+            "cta": "Voir le calendrier des décisions"
+          },
+          "historique": {
+            "kicker": "L'historique",
+            "title": "L'historique des décisions",
+            "lead": "L'ensemble des décisions de politique monétaire publiées par la Banque centrale.",
+            "paragraphs": {
+              "p1": "Cet historique retracera, pour chaque décision, la date, les taux avant et après la décision, la variation et le contexte."
+            },
+            "table": {
+              "caption": "Historique des décisions de politique monétaire",
+              "headers": {
+                "0": "Date",
+                "1": "Taux avant",
+                "2": "Taux après",
+                "3": "Variation"
+              },
+              "rows": {
+                "0": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir"
+                },
+                "1": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir"
+                },
+                "2": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir"
+                },
+                "3": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir"
+                },
+                "4": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir"
+                }
+              },
+              "note": "L'historique complet sera publié avec les premières décisions officielles."
+            },
+            "links": {
+              "communiques": "Consulter les communiqués",
+              "calendrier": "Le calendrier des décisions",
+              "monnaie": "Les données monétaires",
+              "banqueCentrale": "La gouvernance de la Banque centrale"
+            }
+          }
+        }
+      },
+      "tauxDirecteurs": {
+        "meta": {
+          "title": "Taux directeurs",
+          "description": "Les taux directeurs de la Banque centrale d'Astoria : le taux de refinancement, les facilités de dépôt et de prêt, leur évolution et leur transmission à l'économie."
+        },
+        "hero": {
+          "kicker": "Politique monétaire · Taux directeurs",
+          "title": "Les taux directeurs",
+          "lead": "Les taux directeurs sont les taux auxquels la Banque centrale fournit ou retire la liquidité au système bancaire. Ils orientent les conditions de financement de l'économie astorienne.",
+          "cta": "Découvrir les instruments",
+          "notice": "Les valeurs des taux seront publiées dès la disponibilité des données officielles."
+        },
+        "sections": {
+          "vueEnsemble": {
+            "kicker": "Vue d'ensemble",
+            "title": "Les taux directeurs de la Banque centrale",
+            "lead": "La Banque centrale utilise plusieurs taux, chacun ayant une fonction précise.",
+            "paragraphs": {
+              "p1": "Le taux principal de refinancement, la facilité de dépôt et la facilité de prêt forment le corridor des taux directeurs. Ils encadrent les conditions auxquelles les banques se financent et placent leurs liquidités auprès de la Banque centrale."
+            },
+            "cards": {
+              "refinancement": {
+                "title": "Le taux de refinancement",
+                "text": "Le taux principal auquel les banques se refinancent."
+              },
+              "faciliteDepot": {
+                "title": "La facilité de dépôt",
+                "text": "Le taux auquel les banques placent leurs excédents."
+              },
+              "facilitePret": {
+                "title": "La facilité de prêt",
+                "text": "Le taux auquel les banques empruntent au jour le jour."
+              },
+              "reserve": {
+                "title": "La réserve obligatoire",
+                "text": "Les réserves que les banques constituent auprès de la Banque centrale."
+              }
+            }
+          },
+          "tauxPrincipal": {
+            "kicker": "Le taux principal",
+            "title": "Le taux principal de refinancement",
+            "lead": "Le taux principal de refinancement est l'instrument central de la politique monétaire.",
+            "paragraphs": {
+              "p1": "C'est le taux auquel la Banque centrale fournit, à titre principal, la liquidité aux établissements bancaires au moyen de ses opérations de refinancement.",
+              "p2": "En modifiant ce taux, la Banque centrale influence le coût de refinancement des banques et, par voie de conséquence, les conditions de financement offertes à l'économie."
+            },
+            "facts": {
+              "definition": {
+                "label": "Définition",
+                "value": "Le taux appliqué aux opérations principales de refinancement."
+              },
+              "role": {
+                "label": "Rôle",
+                "value": "Orienter les conditions de financement du système bancaire."
+              },
+              "fonctionnement": {
+                "label": "Fonctionnement",
+                "value": "Le taux central du corridor des taux directeurs."
+              },
+              "etablissements": {
+                "label": "Établissements concernés",
+                "value": "Les établissements bancaires de la République."
+              }
+            },
+            "cta": "Comprendre les décisions"
+          },
+          "faciliteDepot": {
+            "kicker": "La facilité de dépôt",
+            "title": "La facilité de dépôt",
+            "lead": "La facilité de dépôt permet aux banques de placer, du jour au lendemain, leurs excédents de liquidité auprès de la Banque centrale.",
+            "paragraphs": {
+              "p1": "Les banques disposent de comptes auprès de la Banque centrale. Lorsqu'elles ont plus de liquidités que nécessaire, elles peuvent les y déposer à des conditions fixées par la Banque centrale.",
+              "p2": "La facilité de dépôt constitue le plancher du corridor des taux directeurs : elle borne la rémunération des excédents et participe à la gestion de la liquidité du système bancaire."
+            },
+            "bullets": {
+              "b1": "Accès : ouvert aux établissements éligibles, de façon permanente.",
+              "b2": "Rémunération : au taux de la facilité, fixé par la Banque centrale.",
+              "b3": "Fonction : absorber les excédents et encadrer le taux du marché monétaire."
+            },
+            "notice": "Les conditions précises d'accès seront précisées dans le cadre opérationnel."
+          },
+          "facilitePret": {
+            "kicker": "La facilité de prêt",
+            "title": "La facilité de prêt",
+            "lead": "La facilité de prêt permet aux banques d'obtenir, du jour au lendemain, des liquidités auprès de la Banque centrale.",
+            "paragraphs": {
+              "p1": "Face à un besoin ponctuel de liquidité, les banques peuvent emprunter auprès de la Banque centrale à des conditions fixées à l'avance, contre des garanties éligibles.",
+              "p2": "La facilité de prêt constitue le plafond du corridor des taux directeurs : elle sert de filet de sécurité et borne le coût d'un refinancement d'urgence."
+            },
+            "bullets": {
+              "b1": "Accès : ouvert aux établissements éligibles, de façon permanente.",
+              "b2": "Conditions : contre des garanties éligibles, à des conditions prédéfinies.",
+              "b3": "Fonction : couvrir les besoins ponctuels de liquidité bancaire."
+            },
+            "notice": "Les conditions précises d'accès seront précisées dans le cadre opérationnel."
+          },
+          "evolution": {
+            "kicker": "Évolution",
+            "title": "L'évolution des taux",
+            "lead": "Les taux directeurs évoluent en fonction des décisions de politique monétaire.",
+            "paragraphs": {
+              "p1": "Le tableau et les indicateurs ci-dessous permettront de suivre l'évolution des différents taux au fil des décisions."
+            },
+            "statGrid": {
+              "refinancement": {
+                "value": "—",
+                "label": "Taux de refinancement"
+              },
+              "depot": {
+                "value": "—",
+                "label": "Facilité de dépôt"
+              },
+              "pret": {
+                "value": "—",
+                "label": "Facilité de prêt"
+              }
+            },
+            "table": {
+              "caption": "Taux directeurs et dernières modifications",
+              "headers": {
+                "0": "Taux",
+                "1": "Niveau",
+                "2": "Dernière modification",
+                "3": "Variation"
+              },
+              "rows": {
+                "0": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir"
+                },
+                "1": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir"
+                },
+                "2": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir"
+                },
+                "3": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir"
+                }
+              },
+              "note": "Série en cours de constitution, en attendant la publication des données officielles."
+            },
+            "notice": "Les valeurs seront renseignées lors de la prochaine publication officielle.",
+            "cta": "Voir l'évolution des taux"
+          },
+          "transmission": {
+            "kicker": "La transmission",
+            "title": "La transmission aux banques",
+            "lead": "Les décisions de la Banque centrale se transmettent au système bancaire par plusieurs canaux.",
+            "paragraphs": {
+              "p1": "La transmission n'est ni mécanique, ni instantanée : elle dépend de la concurrence, de l'état des bilans bancaires et des anticipations des agents."
+            },
+            "steps": {
+              "refinancement": {
+                "title": "Le coût de refinancement",
+                "text": "Les banques voient le coût auquel elles se financent auprès de la Banque centrale."
+              },
+              "interbancaire": {
+                "title": "Les taux interbancaires",
+                "text": "Les conditions du marché interbancaire s'ajustent au corridor des taux directeurs."
+              },
+              "credits": {
+                "title": "Les crédits",
+                "text": "Les banques répercutent partiellement ces conditions sur les crédits aux ménages et aux entreprises."
+              },
+              "depots": {
+                "title": "Les dépôts",
+                "text": "La rémunération des dépôts s'ajuste également, généralement dans une moindre mesure."
+              },
+              "conditionsFinancieres": {
+                "title": "Les conditions financières",
+                "text": "L'ensemble des conditions de financement de l'économie se répercute."
+              }
+            },
+            "cta": "Voir la répercussion sur le crédit"
+          },
+          "effetsEconomie": {
+            "kicker": "Les effets",
+            "title": "Les effets sur l'économie",
+            "lead": "Les taux directeurs agissent sur l'économie par une chaîne de transmission.",
+            "paragraphs": {
+              "p1": "La chaîne BCA → banques → financement → entreprises et ménages → activité → inflation résume la manière dont les décisions de la Banque centrale se répercutent sur l'économie réelle.",
+              "p2": "Cette relation n'est ni mécanique, ni instantanée : son ampleur et son délai dépendent du contexte, de la confiance des agents et de l'état du système financier."
+            },
+            "flow": {
+              "bca": "BCA",
+              "banques": "Banques",
+              "financement": "Financement",
+              "agents": "Entreprises et ménages",
+              "activite": "Activité",
+              "inflation": "Inflation"
+            },
+            "notice": "Schéma pédagogique : la transmission réelle dépend de nombreux facteurs."
+          },
+          "historiqueDonnees": {
+            "kicker": "Données",
+            "title": "Historique et données",
+            "lead": "La section rassemblera les données historiques des taux directeurs.",
+            "paragraphs": {
+              "p1": "Tableaux, séries temporelles, téléchargements et méthodologie seront disponibles ici pour suivre l'évolution des taux dans la durée."
+            },
+            "table": {
+              "caption": "Série des taux directeurs",
+              "headers": {
+                "0": "Date",
+                "1": "Taux de refinancement",
+                "2": "Facilité de dépôt",
+                "3": "Facilité de prêt"
+              },
+              "rows": {
+                "0": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir"
+                },
+                "1": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir"
+                },
+                "2": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir"
+                },
+                "3": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir"
+                },
+                "4": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir"
+                }
+              },
+              "note": "Série en cours de constitution."
+            },
+            "links": {
+              "evolution": "L'évolution des taux",
+              "statistiques": "Les statistiques monétaires",
+              "credit": "La répercussion sur le crédit",
+              "systemeBancaire": "Le thème Banques",
+              "liquidite": "La liquidité du système"
+            },
+            "notice": "Les données officielles seront publiées dès leur disponibilité."
+          }
+        }
+      },
+      "instrumentsMonetaires": {
+        "meta": {
+          "title": "Instruments monétaires",
+          "description": "Les instruments de la politique monétaire de la Banque centrale d'Astoria : opérations d'open market, refinancement, réserves, opérations exceptionnelles et cadre opérationnel."
+        },
+        "hero": {
+          "kicker": "Politique monétaire · Instruments",
+          "title": "Les instruments monétaires",
+          "lead": "La Banque centrale met en œuvre sa politique monétaire au moyen d'instruments opérationnels : opérations d'open market, facilités, réserves obligatoires et mesures exceptionnelles.",
+          "cta": "Consulter les publications",
+          "notice": "Cette page présente le cadre institutionnel et opérationnel ; aucune mesure spécifique n'est décrite en dehors des textes officiels."
+        },
+        "sections": {
+          "vueEnsemble": {
+            "kicker": "Vue d'ensemble",
+            "title": "Les instruments de la Banque centrale",
+            "lead": "Décision, taux, instrument et intervention : des notions distinctes qu'il convient de ne pas confondre.",
+            "paragraphs": {
+              "p1": "La décision de politique monétaire définit l'orientation générale ; le taux directeur en traduit le niveau ; l'instrument opérationnel est le moyen concret par lequel la Banque centrale agit sur la liquidité ; l'intervention est une opération particulière réalisée à un moment donné.",
+              "p2": "Cet ensemble permet à la Banque centrale d'influencer les conditions monétaires et de remplir ses objectifs statutaires."
+            },
+            "cards": {
+              "openMarket": {
+                "title": "Les opérations d'open market",
+                "text": "Les opérations menées sur le marché pour orienter la liquidité."
+              },
+              "refinancement": {
+                "title": "Le refinancement",
+                "text": "La fourniture de liquidité aux établissements bancaires."
+              },
+              "reserves": {
+                "title": "Les réserves et la liquidité",
+                "text": "Les comptes et réserves des banques auprès de la Banque centrale."
+              },
+              "exceptionnelles": {
+                "title": "Les opérations exceptionnelles",
+                "text": "Les mesures que le contexte peut rendre nécessaires."
+              }
+            }
+          },
+          "openMarket": {
+            "kicker": "Open market",
+            "title": "Les opérations d'open market",
+            "lead": "Les opérations d'open market sont l'instrument principal de la conduite de la politique monétaire.",
+            "paragraphs": {
+              "p1": "Ces opérations consistent pour la Banque centrale à fournir ou à absorber la liquidité du système bancaire en intervenant sur le marché monétaire, au moyen d'opérations de cession ou de reprise, selon le cadre en vigueur.",
+              "p2": "Elles sont menées selon un calendrier et des procédures définis, avec des acteurs éligibles, et influencent directement les conditions monétaires."
+            },
+            "facts": {
+              "objectif": {
+                "label": "Objectif",
+                "value": "Fournir ou absorber la liquidité pour maintenir les conditions monétaires souhaitées."
+              },
+              "acteurs": {
+                "label": "Acteurs concernés",
+                "value": "La Banque centrale et les établissements bancaires éligibles."
+              },
+              "mecanisme": {
+                "label": "Mécanisme",
+                "value": "Opérations de marché à échéances définies, selon les procédures publiées."
+              },
+              "impact": {
+                "label": "Impact sur la liquidité",
+                "value": "Variation directe de la liquidité disponible dans le système bancaire."
+              }
+            },
+            "cta": "Voir les opérations de marché"
+          },
+          "refinancement": {
+            "kicker": "Refinancement",
+            "title": "Le refinancement des établissements",
+            "lead": "La Banque centrale fournit la liquidité aux établissements bancaires par des opérations de refinancement.",
+            "paragraphs": {
+              "p1": "Ces opérations permettent aux banques de se procurer des liquidités auprès de la Banque centrale, à des conditions et selon des échéances définies, contre des garanties éligibles.",
+              "p2": "Elles jouent un rôle central dans la gestion de la liquidité bancaire et dans la transmission de la politique monétaire."
+            },
+            "cards": {
+              "conditions": {
+                "title": "Les conditions",
+                "text": "Des conditions fixées par la Banque centrale et publiées."
+              },
+              "garanties": {
+                "title": "Les garanties",
+                "text": "Des actifs éligibles fournis en garantie des opérations."
+              },
+              "echeances": {
+                "title": "Les échéances",
+                "text": "Des durées définies selon le type d'opération."
+              },
+              "liquidite": {
+                "title": "La liquidité",
+                "text": "La disponibilité de monnaie centrale dans le système bancaire."
+              }
+            },
+            "cta": "Voir le refinancement"
+          },
+          "reservesLiquidite": {
+            "kicker": "Réserves et liquidité",
+            "title": "Réserves et liquidité",
+            "lead": "Les banques détiennent des comptes et des réserves auprès de la Banque centrale.",
+            "paragraphs": {
+              "p1": "La liquidité bancaire correspond aux soldes que les banques détiennent sur leurs comptes auprès de la Banque centrale. Elle évolue au gré des opérations de politique monétaire et des mouvements de trésorerie.",
+              "p2": "En gérant cette liquidité, la Banque centrale influence les conditions du marché monétaire et le coût du financement bancaire."
+            },
+            "flow": {
+              "bca": "BCA",
+              "comptes": "Comptes",
+              "banques": "Banques",
+              "marcheInterbancaire": "Marché interbancaire",
+              "liquidite": "Liquidité"
+            },
+            "cta": "Voir les réserves"
+          },
+          "operationsExceptionnelles": {
+            "kicker": "Mesures exceptionnelles",
+            "title": "Les opérations exceptionnelles",
+            "lead": "Le cadre permet à la Banque centrale de recourir à des mesures exceptionnelles lorsque le contexte l'exige.",
+            "paragraphs": {
+              "p1": "En situation de tensions ou de crise, la Banque centrale peut être amenée à déployer des mesures au-delà de ses opérations habituelles, dans le respect de son mandat et du cadre légal.",
+              "p2": "Ces mesures ne sont pas décidées à l'avance : elles répondent à un contexte particulier et sont encadrées par les règles de gouvernance et de communication de la Banque centrale."
+            },
+            "bullets": {
+              "b1": "Un cadre d'action défini par le mandat statutaire de la Banque centrale.",
+              "b2": "Des mesures décidées en fonction du contexte et de la situation.",
+              "b3": "Une communication adaptée, dans le respect de la transparence.",
+              "b4": "Un encadrement par les règles de gouvernance et les procédures internes."
+            },
+            "notice": "Aucun programme spécifique n'est décrit ici : cette section présente uniquement le cadre institutionnel et opérationnel.",
+            "cta": "Consulter les publications"
+          },
+          "interventionsMarches": {
+            "kicker": "Interventions",
+            "title": "Les interventions sur les marchés",
+            "lead": "La Banque centrale peut intervenir sur certains marchés lorsque cela relève de ses compétences.",
+            "paragraphs": {
+              "p1": "Il convient de distinguer la politique monétaire, la gestion des réserves, la stabilité financière et les opérations de marché : ces activités obéissent à des objectifs et à des règles distincts.",
+              "p2": "Chaque intervention respecte le cadre défini et la transparence attendue d'une banque centrale."
+            },
+            "cards": {
+              "politiqueMonetaire": {
+                "title": "La politique monétaire",
+                "text": "Les opérations visant les conditions monétaires."
+              },
+              "reserves": {
+                "title": "La gestion des réserves",
+                "text": "La gestion des avoirs de réserve de la République."
+              },
+              "stabiliteFinanciere": {
+                "title": "La stabilité financière",
+                "text": "Les actions relevant de la stabilité du système financier."
+              },
+              "operationsDeMarche": {
+                "title": "Les opérations de marché",
+                "text": "Les interventions sur les marchés selon le cadre en vigueur."
+              }
+            },
+            "cta": "Voir le thème Marchés financiers"
+          },
+          "conditionsMonetaires": {
+            "kicker": "Conditions monétaires",
+            "title": "La gestion des conditions monétaires",
+            "lead": "L'ensemble des instruments contribue à maintenir des conditions monétaires compatibles avec les objectifs de la Banque centrale.",
+            "paragraphs": {
+              "p1": "Taux, liquidité et crédit forment un tout : les instruments agissent de concert pour que les conditions monétaires restent cohérentes avec la stabilité des prix et le soutien à l'économie."
+            },
+            "statGrid": {
+              "taux": {
+                "value": "—",
+                "label": "Taux directeur"
+              },
+              "liquidite": {
+                "value": "—",
+                "label": "Liquidité du système"
+              },
+              "credit": {
+                "value": "—",
+                "label": "Croissance du crédit"
+              }
+            },
+            "links": {
+              "decisions": "Les décisions de politique monétaire",
+              "taux": "Les taux directeurs",
+              "donnees": "Les données monétaires"
+            }
+          },
+          "cadreOperationnel": {
+            "kicker": "Cadre opérationnel",
+            "title": "Le cadre opérationnel",
+            "lead": "Les instruments s'inscrivent dans un cadre opérationnel précis, documenté et publié.",
+            "paragraphs": {
+              "p1": "Ce cadre définit les acteurs, les procédures, les conditions, les garanties, les opérations et les règles applicables à l'utilisation des instruments."
+            },
+            "steps": {
+              "acteurs": {
+                "title": "Les acteurs",
+                "text": "La Banque centrale, les établissements éligibles et les contreparties autorisées."
+              },
+              "procedures": {
+                "title": "Les procédures",
+                "text": "Les étapes et modalités de réalisation des opérations."
+              },
+              "conditions": {
+                "title": "Les conditions",
+                "text": "Les taux, montants et échéances applicables aux opérations."
+              },
+              "garanties": {
+                "title": "Les garanties",
+                "text": "La liste des actifs éligibles et les règles de valorisation."
+              },
+              "documentation": {
+                "title": "La documentation",
+                "text": "Les textes, notices et documents décrivant le cadre opérationnel."
+              }
+            },
+            "links": {
+              "operations": "Les opérations de marché",
+              "refinancement": "Le refinancement",
+              "reserve": "La réserve obligatoire"
+            },
+            "notice": "La documentation complète du cadre opérationnel sera publiée avec la mise en service des opérations."
+          }
+        }
+      },
+      "publications": {
+        "meta": {
+          "title": "Publications",
+          "description": "Les publications de la politique monétaire de la Banque centrale d'Astoria : rapports, décisions et communiqués, analyses économiques, statistiques, prévisions, archives et ressources."
+        },
+        "hero": {
+          "kicker": "Politique monétaire · Publications",
+          "title": "Les publications",
+          "lead": "La Banque centrale publie régulièrement rapports, communiqués, analyses et données relatives à la politique monétaire. Cette page est le point d'entrée documentaire du thème.",
+          "cta": "Voir les rapports",
+          "notice": "Les documents seront publiés dès leur disponibilité. Les listes présentées sont en cours de constitution."
+        },
+        "sections": {
+          "familles": {
+            "kicker": "Les familles",
+            "title": "Les publications de la Banque centrale",
+            "lead": "Les publications de la politique monétaire se répartissent en quatre grandes familles.",
+            "paragraphs": {
+              "p1": "Rapports, décisions et communiqués, analyses économiques et statistiques monétaires constituent l'essentiel de la production documentaire du thème."
+            },
+            "tiles": {
+              "rapports": {
+                "title": "Rapports",
+                "desc": "Les rapports réguliers sur la situation économique et monétaire."
+              },
+              "decisions": {
+                "title": "Décisions et communiqués",
+                "desc": "Les annonces officielles des décisions de politique monétaire."
+              },
+              "analyses": {
+                "title": "Analyses économiques",
+                "desc": "Études, notes et travaux d'analyse des services de la Banque centrale."
+              },
+              "statistiques": {
+                "title": "Statistiques monétaires",
+                "desc": "Les données monétaires, les taux et les agrégats."
+              }
+            }
+          },
+          "rapports": {
+            "kicker": "Rapports",
+            "title": "Les rapports de politique monétaire",
+            "lead": "Des rapports réguliers présentent la situation économique et monétaire et l'action de la Banque centrale.",
+            "paragraphs": {
+              "p1": "Ces rapports décrivent l'évolution de l'inflation, de l'activité et de la politique monétaire, ainsi que les risques et les perspectives.",
+              "p2": "Ils sont publiés selon un calendrier régulier et constituent la référence de la communication économique de la Banque centrale."
+            },
+            "cards": {
+              "situationEconomique": {
+                "title": "La situation économique",
+                "text": "L'évolution de l'activité et de la conjoncture."
+              },
+              "inflation": {
+                "title": "L'inflation",
+                "text": "L'analyse de l'évolution des prix."
+              },
+              "politiqueMonetaire": {
+                "title": "La politique monétaire",
+                "text": "Les décisions et leur justification."
+              },
+              "risques": {
+                "title": "Les risques",
+                "text": "Les risques identifiés et leurs implications."
+              }
+            },
+            "cta": "Voir les rapports"
+          },
+          "decisionsCommuniques": {
+            "kicker": "Décisions",
+            "title": "Décisions et communiqués",
+            "lead": "Les décisions de politique monétaire sont annoncées et documentées par des communiqués et des comptes rendus.",
+            "paragraphs": {
+              "p1": "Chaque décision donne lieu à un communiqué officiel, accompagné des éléments qui la justifient et des documents associés."
+            },
+            "links": {
+              "decisions": "Les décisions de politique monétaire",
+              "communiques": "Les communiqués",
+              "comptesRendus": "Le calendrier des décisions"
+            },
+            "notice": "Les comptes rendus des réunions seront publiés selon les règles de transparence de la Banque centrale."
+          },
+          "analysesEconomiques": {
+            "kicker": "Analyses",
+            "title": "Les analyses économiques",
+            "lead": "Les services de la Banque centrale produisent des travaux d'analyse sur l'économie astorienne.",
+            "paragraphs": {
+              "p1": "Études, notes et documents économiques alimentent le débat public et la compréhension de la politique monétaire."
+            },
+            "cards": {
+              "etudes": {
+                "title": "Les études",
+                "text": "Des travaux approfondis sur des sujets économiques et monétaires."
+              },
+              "analyses": {
+                "title": "Les analyses",
+                "text": "Des analyses régulières de la conjoncture et des évolutions."
+              },
+              "notes": {
+                "title": "Les notes",
+                "text": "Des documents courts sur des questions particulières."
+              },
+              "recherches": {
+                "title": "Les recherches",
+                "text": "Les travaux de recherche des économistes de la Banque centrale."
+              }
+            },
+            "cta": "Voir les analyses économiques"
+          },
+          "statistiquesMonetaires": {
+            "kicker": "Statistiques",
+            "title": "Les statistiques monétaires",
+            "lead": "Les statistiques monétaires documentent la mise en œuvre de la politique monétaire.",
+            "paragraphs": {
+              "p1": "Données monétaires, taux, liquidité, agrégats et crédit constituent les principales statistiques du thème."
+            },
+            "cards": {
+              "donnees": {
+                "title": "Les données monétaires",
+                "text": "Les agrégats et la masse monétaire."
+              },
+              "taux": {
+                "title": "Les taux",
+                "text": "Les taux directeurs et les taux de marché."
+              },
+              "liquidite": {
+                "title": "La liquidité",
+                "text": "Les conditions de liquidité du système bancaire."
+              },
+              "credit": {
+                "title": "Le crédit",
+                "text": "Les encours et conditions de crédit."
+              }
+            },
+            "links": {
+              "donneesMonetaires": "Les données monétaires",
+              "statistiques": "Les statistiques monétaires"
+            }
+          },
+          "previsions": {
+            "kicker": "Prévisions",
+            "title": "Prévisions et projections",
+            "lead": "La Banque centrale publiera des projections et des perspectives économiques régulières.",
+            "paragraphs": {
+              "p1": "Ces publications présenteront les projections d'inflation et d'activité, les scénarios possibles et les hypothèses retenues.",
+              "p2": "Elles seront actualisées selon un calendrier régulier et accompagnées des méthodes et hypothèses utilisées."
+            },
+            "cards": {
+              "projections": {
+                "title": "Les projections",
+                "text": "Les trajectoires d'inflation et d'activité."
+              },
+              "perspectives": {
+                "title": "Les perspectives",
+                "text": "Les évolutions attendues à moyen terme."
+              },
+              "scenarios": {
+                "title": "Les scénarios",
+                "text": "Les trajectoires selon différents scénarios."
+              },
+              "hypotheses": {
+                "title": "Les hypothèses",
+                "text": "Les hypothèses techniques retenues."
+              }
+            },
+            "notice": "Les projections seront publiées dès leur disponibilité.",
+            "cta": "Voir les projections"
+          },
+          "archives": {
+            "kicker": "Archives",
+            "title": "Les archives",
+            "lead": "L'ensemble des publications passées sera consultable dans une archive structurée.",
+            "paragraphs": {
+              "p1": "Les archives permettront de retrouver les publications par année, type, date et titre."
+            },
+            "table": {
+              "caption": "Archive des publications",
+              "headers": {
+                "0": "Année",
+                "1": "Type",
+                "2": "Date",
+                "3": "Titre",
+                "4": "Document"
+              },
+              "rows": {
+                "0": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir",
+                  "4": "À venir"
+                },
+                "1": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir",
+                  "4": "À venir"
+                },
+                "2": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir",
+                  "4": "À venir"
+                },
+                "3": {
+                  "0": "À venir",
+                  "1": "À venir",
+                  "2": "À venir",
+                  "3": "À venir",
+                  "4": "À venir"
+                }
+              },
+              "note": "L'archive sera alimentée au fil des publications officielles."
+            },
+            "cta": "Voir les rapports"
+          },
+          "donneesRessources": {
+            "kicker": "Ressources",
+            "title": "Données et ressources",
+            "lead": "Téléchargements, méthodologies et documentation complètent l'offre documentaire du thème.",
+            "paragraphs": {
+              "p1": "Cette section rassemblera les ressources utiles : fichiers de données, méthodologies, documentation et, à terme, interfaces de données."
+            },
+            "links": {
+              "telechargements": "Les téléchargements",
+              "methodologies": "Les méthodologies",
+              "marches": "Données et statistiques de marché",
+              "banqueCentrale": "La Banque centrale"
+            },
+            "notice": "Les ressources seront publiées avec les données officielles."
+          }
+        }
+      },
+      "sub": {
+        "dernieresDecisions": {
+          "meta": {
+            "title": "Les dernières décisions",
+            "description": "Les dernières décisions de politique monétaire de la Banque centrale d'Astoria : comment les lire, le taux directeur, le calendrier et l'orientation monétaire."
+          },
+          "hero": {
+            "kicker": "Politique monétaire · Décisions",
+            "title": "Les dernières décisions",
+            "lead": "Les décisions de politique monétaire sont publiées à l'issue de chaque réunion du Conseil. Cette page explique comment les lire et suivre la plus récente.",
+            "cta": "Consulter les communiqués",
+            "notice": "Les informations seront mises à jour lors de la publication des prochaines décisions."
+          },
+          "sections": {
+            "comprendre": {
+              "kicker": "Comprendre",
+              "title": "Comprendre les décisions",
+              "lead": "Chaque décision est annoncée selon un format stable, pensé pour être lisible par tous.",
+              "paragraphs": {
+                "p1": "La Banque centrale communique ses décisions par un communiqué officiel, accompagné d'éléments de contexte et, le cas échéant, d'une conférence de presse.",
+                "p2": "Le calendrier des réunions est connu à l'avance et les archives des décisions passées restent consultables."
+              },
+              "cards": {
+                "communique": {
+                  "title": "Le communiqué",
+                  "text": "L'annonce officielle de la décision et de sa justification."
+                },
+                "calendrier": {
+                  "title": "Le calendrier",
+                  "text": "Les prochaines réunions et dates de décision."
+                },
+                "archives": {
+                  "title": "Les archives",
+                  "text": "Les décisions passées et leurs documents."
+                },
+                "abonnement": {
+                  "title": "Le suivi",
+                  "text": "Être informé des nouvelles publications."
+                }
+              }
+            },
+            "lecture": {
+              "kicker": "Comment lire",
+              "title": "Comment lire une décision",
+              "lead": "Un communiqué de décision répond à des questions précises.",
+              "paragraphs": {
+                "p1": "La date, la décision prise, les taux concernés et les éléments qui la justifient forment l'essentiel de l'information.",
+                "p2": "Les termes utilisés sont définis dans les pages du thème pour permettre à chacun de les comprendre."
+              },
+              "facts": {
+                "date": {
+                  "label": "Date",
+                  "value": "La date de la réunion du Conseil."
+                },
+                "decision": {
+                  "label": "Décision",
+                  "value": "La mesure décidée et son sens."
+                },
+                "taux": {
+                  "label": "Taux",
+                  "value": "Les taux concernés par la décision."
+                },
+                "justification": {
+                  "label": "Justification",
+                  "value": "Les éléments économiques invoqués."
+                }
+              }
+            },
+            "derniereDecision": {
+              "kicker": "La plus récente",
+              "title": "La dernière décision",
+              "lead": "La décision la plus récente, dans son format officiel.",
+              "paragraphs": {
+                "p1": "Cette section reprend les éléments de la dernière décision publiée par la Banque centrale."
+              },
+              "facts": {
+                "date": {
+                  "label": "Date",
+                  "value": "En attente de publication"
+                },
+                "decision": {
+                  "label": "Décision",
+                  "value": "En attente de publication"
+                },
+                "taux": {
+                  "label": "Taux",
+                  "value": "En attente de publication"
+                },
+                "communication": {
+                  "label": "Communication",
+                  "value": "En attente de publication"
+                }
+              },
+              "notice": "Cette section affichera la prochaine décision officielle dès sa publication.",
+              "cta": "Voir les décisions"
+            },
+            "decisionsRecentes": {
+              "kicker": "Récentes",
+              "title": "Les décisions récentes",
+              "lead": "Les dernières décisions publiées, sous forme de tableau de synthèse.",
+              "paragraphs": {
+                "p1": "Chaque ligne renvoie vers le communiqué complet de la décision."
+              },
+              "table": {
+                "caption": "Décisions récentes",
+                "headers": {
+                  "0": "Date",
+                  "1": "Décision",
+                  "2": "Taux",
+                  "3": "Communiqué"
+                },
+                "rows": {
+                  "0": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "1": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "2": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "3": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  }
+                },
+                "note": "Les liens vers les communiqués seront publiés avec les décisions officielles."
+              }
+            },
+            "tauxConseil": {
+              "kicker": "Taux et Conseil",
+              "title": "Les taux et le Conseil",
+              "lead": "La décision porte sur les taux directeurs et est arrêtée par le Conseil.",
+              "paragraphs": {
+                "p1": "Le Conseil de la Banque centrale est l'instance qui arrête les décisions de politique monétaire."
+              },
+              "cards": {
+                "taux": {
+                  "title": "Les taux",
+                  "text": "Le taux de refinancement et les facilités."
+                },
+                "conseil": {
+                  "title": "Le Conseil",
+                  "text": "L'instance de décision de la Banque centrale."
+                },
+                "quorum": {
+                  "title": "La réunion",
+                  "text": "Les membres se réunissent selon le calendrier."
+                },
+                "vote": {
+                  "title": "La décision",
+                  "text": "La décision est arrêtée par consensus ou par vote."
+                }
+              }
+            },
+            "communication": {
+              "kicker": "Canaux",
+              "title": "Les canaux de communication",
+              "lead": "Les décisions sont diffusées par plusieurs canaux, pour toucher tous les publics.",
+              "paragraphs": {
+                "p1": "La Banque centrale veille à une diffusion large et simultanée de ses décisions."
+              },
+              "bullets": {
+                "b1": "Le communiqué officiel, publié à une heure annoncée.",
+                "b2": "La conférence de presse du Gouverneur, lorsqu'elle est prévue.",
+                "b3": "Les documents d'accompagnement et les données associées.",
+                "b4": "Les synthèses et explications destinées au grand public."
+              }
+            },
+            "comptesRendus": {
+              "kicker": "Comptes rendus",
+              "title": "Les comptes rendus",
+              "lead": "Les réunions donnent lieu à des comptes rendus publiés dans le respect des règles de transparence.",
+              "paragraphs": {
+                "p1": "Les comptes rendus présentent les principaux échanges et les éléments ayant conduit à la décision.",
+                "p2": "Leur degré de détail respecte l'équilibre entre transparence et indépendance de la délibération."
+              },
+              "notice": "Les comptes rendus seront publiés selon les règles de transparence de la Banque centrale.",
+              "cta": "Consulter les communiqués"
+            },
+            "orientation": {
+              "kicker": "Orientation",
+              "title": "L'orientation monétaire",
+              "lead": "Les décisions traduisent l'orientation générale de la politique monétaire.",
+              "paragraphs": {
+                "p1": "Taux, calendrier et communication dessinent une orientation que chacun peut suivre."
+              },
+              "statGrid": {
+                "orientation": {
+                  "value": "—",
+                  "label": "Orientation de la politique monétaire"
+                },
+                "calendrier": {
+                  "value": "—",
+                  "label": "Prochaine réunion"
+                },
+                "prochaine": {
+                  "value": "—",
+                  "label": "Prochaine décision"
+                }
+              },
+              "notice": "Les indicateurs seront renseignés lors des prochaines publications officielles."
+            }
+          }
+        },
+        "calendrierDesDecisions": {
+          "meta": {
+            "title": "Le calendrier des décisions",
+            "description": "Le calendrier des réunions et des décisions de politique monétaire de la Banque centrale d'Astoria : prochaines dates, publications associées et archives."
+          },
+          "hero": {
+            "kicker": "Politique monétaire · Décisions",
+            "title": "Le calendrier des décisions",
+            "lead": "Les réunions de politique monétaire suivent un calendrier publié à l'avance. Cette page présente les prochaines dates et les publications associées.",
+            "cta": "Voir les décisions",
+            "notice": "Calendrier prévisionnel, susceptible d'évolution."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "Le principe",
+              "title": "Le principe du calendrier",
+              "lead": "Un calendrier annoncé permet à chacun d'anticiper les décisions et leurs publications.",
+              "paragraphs": {
+                "p1": "La Banque centrale publie à l'avance les dates de ses réunions de politique monétaire. Cette prévisibilité est un élément de confiance pour les citoyens et les marchés.",
+                "p2": "Le calendrier indique les réunions, les dates de décision et les publications qui les accompagnent."
+              }
+            },
+            "reunions": {
+              "kicker": "Les réunions",
+              "title": "Les réunions",
+              "lead": "Plusieurs instances et services interviennent dans le cycle des décisions.",
+              "paragraphs": {
+                "p1": "Le cycle commence par la préparation des analyses et s'achève par la communication de la décision."
+              },
+              "cards": {
+                "conseil": {
+                  "title": "Le Conseil",
+                  "text": "Il arrête les décisions de politique monétaire."
+                },
+                "gouverneur": {
+                  "title": "Le Gouverneur",
+                  "text": "Il préside les réunions et communique les décisions."
+                },
+                "services": {
+                  "title": "Les services",
+                  "text": "Ils préparent les analyses économiques et monétaires."
+                },
+                "publications": {
+                  "title": "Les publications",
+                  "text": "Communiqués, comptes rendus et données."
+                }
+              }
+            },
+            "prochainesDates": {
+              "kicker": "Prochaines dates",
+              "title": "Les prochaines dates",
+              "lead": "Les prochaines réunions et décisions, sous forme de calendrier prévisionnel.",
+              "paragraphs": {
+                "p1": "Chaque entrée indique la nature de l'échéance et, le cas échéant, la publication associée."
+              },
+              "table": {
+                "caption": "Prochaines échéances",
+                "headers": {
+                  "0": "Date",
+                  "1": "Échéance",
+                  "2": "Décision",
+                  "3": "Publication"
+                },
+                "rows": {
+                  "0": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "1": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "2": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "3": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  }
+                },
+                "note": "Calendrier prévisionnel, susceptible d'évolution."
+              },
+              "notice": "Les dates officielles seront publiées dès confirmation."
+            },
+            "publicationsAssociees": {
+              "kicker": "Publications",
+              "title": "Les publications associées",
+              "lead": "Chaque réunion s'accompagne de publications et de documents.",
+              "paragraphs": {
+                "p1": "Le calendrier prévoit les documents publiés autour de chaque décision."
+              },
+              "cards": {
+                "communique": {
+                  "title": "Le communiqué",
+                  "text": "L'annonce officielle de la décision."
+                },
+                "compteRendu": {
+                  "title": "Le compte rendu",
+                  "text": "Les éléments de la réunion."
+                },
+                "rapport": {
+                  "title": "Les rapports",
+                  "text": "Les analyses économiques et monétaires."
+                },
+                "donnees": {
+                  "title": "Les données",
+                  "text": "Les statistiques associées."
+                }
+              },
+              "bullets": {
+                "b1": "Une heure de publication annoncée pour les communiqués.",
+                "b2": "Des documents d'accompagnement publiés simultanément."
+              }
+            },
+            "annonces": {
+              "kicker": "Annonces",
+              "title": "Les dates d'annonce",
+              "lead": "Les échéances clés autour d'une décision.",
+              "paragraphs": {
+                "p1": "Une réunion de politique monétaire s'organise autour de plusieurs dates."
+              },
+              "facts": {
+                "decision": {
+                  "label": "Décision",
+                  "value": "La date à laquelle le Conseil arrête la décision."
+                },
+                "communique": {
+                  "label": "Communiqué",
+                  "value": "La date et l'heure de publication du communiqué."
+                },
+                "conference": {
+                  "label": "Conférence de presse",
+                  "value": "La date de la conférence, lorsqu'elle est prévue."
+                },
+                "compteRendu": {
+                  "label": "Compte rendu",
+                  "value": "La date de publication du compte rendu."
+                }
+              }
+            },
+            "revision": {
+              "kicker": "Révision",
+              "title": "La révision du calendrier",
+              "lead": "Le calendrier peut être adapté en fonction des circonstances.",
+              "paragraphs": {
+                "p1": "Des réunions additionnelles peuvent être convoquées, notamment en situation de tension, dans le respect des procédures.",
+                "p2": "Toute modification du calendrier est annoncée et expliquée."
+              },
+              "notice": "En cas de modification, la Banque centrale en informe le public par un avis dédié."
+            },
+            "archives": {
+              "kicker": "Archives",
+              "title": "Les archives du calendrier",
+              "lead": "Les calendriers passés restent consultables.",
+              "paragraphs": {
+                "p1": "Les archives permettent de retrouver les réunions passées et leurs publications."
+              },
+              "table": {
+                "caption": "Calendriers passés",
+                "headers": {
+                  "0": "Année",
+                  "1": "Réunions",
+                  "2": "Décisions",
+                  "3": "Publications"
+                },
+                "rows": {
+                  "0": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "1": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "2": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "3": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  }
+                },
+                "note": "Les archives seront alimentées au fil des publications."
+              },
+              "links": {
+                "communiques": "Les communiqués",
+                "historique": "L'historique des décisions"
+              }
+            },
+            "notifications": {
+              "kicker": "Suivre",
+              "title": "Suivre le calendrier",
+              "lead": "Plusieurs moyens permettent de rester informé des échéances.",
+              "paragraphs": {
+                "p1": "La Banque centrale propose différents canaux de suivi du calendrier."
+              },
+              "bullets": {
+                "b1": "La consultation régulière du calendrier en ligne.",
+                "b2": "L'abonnement aux annonces et aux publications.",
+                "b3": "Les canaux officiels de la Banque centrale."
+              },
+              "cta": "Voir les publications"
+            }
+          }
+        },
+        "communiques": {
+          "meta": {
+            "title": "Communiqués",
+            "description": "Les communiqués de politique monétaire de la Banque centrale d'Astoria : rôle, contenu, derniers communiqués, calendrier, comptes rendus et archives."
+          },
+          "hero": {
+            "kicker": "Politique monétaire · Décisions",
+            "title": "Les communiqués",
+            "lead": "Les communiqués sont le support officiel des annonces de politique monétaire. Cette page présente leur rôle, leur contenu et les derniers publiés.",
+            "cta": "Voir les décisions",
+            "notice": "Les communiqués seront publiés à l'occasion des prochaines décisions."
+          },
+          "sections": {
+            "role": {
+              "kicker": "Le rôle",
+              "title": "Le rôle des communiqués",
+              "lead": "Le communiqué est la parole officielle de la Banque centrale sur ses décisions.",
+              "paragraphs": {
+                "p1": "Chaque décision de politique monétaire est annoncée par un communiqué qui présente la décision, les taux concernés et les éléments qui la justifient.",
+                "p2": "Le communiqué assure une diffusion simultanée et égale de l'information à tous les publics."
+              }
+            },
+            "contenu": {
+              "kicker": "Le contenu",
+              "title": "Le contenu d'un communiqué",
+              "lead": "Un communiqué suit une structure stable et lisible.",
+              "paragraphs": {
+                "p1": "La structure du communiqué facilite sa lecture et sa comparaison dans le temps."
+              },
+              "cards": {
+                "decision": {
+                  "title": "La décision",
+                  "text": "La mesure décidée et son sens."
+                },
+                "taux": {
+                  "title": "Les taux",
+                  "text": "Les taux concernés et leur évolution."
+                },
+                "justification": {
+                  "title": "La justification",
+                  "text": "Les éléments économiques invoqués."
+                },
+                "prochaines": {
+                  "title": "Les prochaines étapes",
+                  "text": "Les échéances à venir."
+                }
+              }
+            },
+            "derniersCommuniques": {
+              "kicker": "Derniers",
+              "title": "Les derniers communiqués",
+              "lead": "Les communiqués les plus récents de la Banque centrale.",
+              "paragraphs": {
+                "p1": "Chaque communiqué renvoie à la décision et aux documents associés."
+              },
+              "links": {
+                "communique1": "Communiqué de politique monétaire",
+                "communique2": "Communiqué du Conseil",
+                "communique3": "Communiqué de politique monétaire"
+              },
+              "notice": "Les liens seront publiés avec les communiqués officiels."
+            },
+            "calendrier": {
+              "kicker": "Calendrier",
+              "title": "Le calendrier des publications",
+              "lead": "Les communiqués suivent le calendrier des réunions.",
+              "paragraphs": {
+                "p1": "La date et l'heure de publication sont annoncées avec le calendrier des décisions."
+              },
+              "table": {
+                "caption": "Publications de communiqués",
+                "headers": {
+                  "0": "Date",
+                  "1": "Réunion",
+                  "2": "Communiqué",
+                  "3": "Heure"
+                },
+                "rows": {
+                  "0": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "1": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "2": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "3": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  }
+                },
+                "note": "Calendrier prévisionnel des publications."
+              }
+            },
+            "comptesRendus": {
+              "kicker": "Comptes rendus",
+              "title": "Les comptes rendus des réunions",
+              "lead": "Les réunions font l'objet de comptes rendus publiés.",
+              "paragraphs": {
+                "p1": "Les comptes rendus complètent les communiqués en présentant les éléments de la délibération.",
+                "p2": "Ils sont publiés selon un calendrier propre, dans le respect de la transparence."
+              },
+              "notice": "Les comptes rendus seront publiés selon les règles de transparence de la Banque centrale."
+            },
+            "langage": {
+              "kicker": "Le langage",
+              "title": "Le langage des communiqués",
+              "lead": "Les communiqués utilisent un vocabulaire précis et stable.",
+              "paragraphs": {
+                "p1": "Les termes employés sont définis dans les pages du thème pour être compréhensibles par tous."
+              },
+              "bullets": {
+                "b1": "Des termes techniques précis et cohérents.",
+                "b2": "Des explications destinées au grand public.",
+                "b3": "Des renvois vers les définitions du thème.",
+                "b4": "Une structure comparable d'un communiqué à l'autre."
+              }
+            },
+            "archives": {
+              "kicker": "Archives",
+              "title": "Les archives des communiqués",
+              "lead": "Les communiqués passés restent consultables.",
+              "paragraphs": {
+                "p1": "L'archive rassemble l'ensemble des communiqués publiés, classés par date."
+              },
+              "table": {
+                "caption": "Archive des communiqués",
+                "headers": {
+                  "0": "Date",
+                  "1": "Réunion",
+                  "2": "Décision",
+                  "3": "Titre",
+                  "4": "Document"
+                },
+                "rows": {
+                  "0": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir",
+                    "4": "À venir"
+                  },
+                  "1": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir",
+                    "4": "À venir"
+                  },
+                  "2": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir",
+                    "4": "À venir"
+                  },
+                  "3": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir",
+                    "4": "À venir"
+                  }
+                },
+                "note": "L'archive sera alimentée au fil des publications."
+              },
+              "links": {
+                "historique": "L'historique des décisions",
+                "calendrier": "Le calendrier des décisions"
+              }
+            },
+            "abonnement": {
+              "kicker": "Suivre",
+              "title": "S'abonner aux communiqués",
+              "lead": "Plusieurs moyens permettent de recevoir les communiqués.",
+              "paragraphs": {
+                "p1": "La Banque centrale propose des canaux pour être informé des publications."
+              },
+              "bullets": {
+                "b1": "La consultation du calendrier des publications.",
+                "b2": "Les canaux officiels de la Banque centrale.",
+                "b3": "Les lettres et alertes de publication."
+              },
+              "cta": "Voir les publications"
+            }
+          }
+        },
+        "objectifsMonetaires": {
+          "meta": {
+            "title": "Les objectifs monétaires",
+            "description": "Les objectifs de la politique monétaire de la Banque centrale d'Astoria : stabilité des prix, stabilité monétaire, stabilité financière et conditions monétaires."
+          },
+          "hero": {
+            "kicker": "Politique monétaire · Décisions",
+            "title": "Les objectifs monétaires",
+            "lead": "La politique monétaire poursuit des objectifs statutaires définis par le cadre institutionnel de la République. Cette page les présente et les hiérarchise.",
+            "cta": "Voir les décisions",
+            "notice": "Les objectifs présentés correspondent au cadre institutionnel de la République."
+          },
+          "sections": {
+            "mandat": {
+              "kicker": "Le mandat",
+              "title": "Le mandat statutaire",
+              "lead": "Les objectifs de la politique monétaire sont fixés par le cadre institutionnel.",
+              "paragraphs": {
+                "p1": "La Constitution et la loi définissent le mandat de la Banque centrale dans le domaine monétaire.",
+                "p2": "Dans ce cadre, la Banque centrale conduit la politique monétaire en toute indépendance dans l'usage de ses instruments."
+              },
+              "cta": "Découvrir les missions"
+            },
+            "stabilitePrix": {
+              "kicker": "Premier objectif",
+              "title": "La stabilité des prix",
+              "lead": "La stabilité des prix est l'objectif premier de la politique monétaire.",
+              "paragraphs": {
+                "p1": "Une monnaie stable conserve sa valeur dans le temps : les prix ne connaissent ni hausse excessive, ni baisse généralisée et durable.",
+                "p2": "En assurant la stabilité des prix, la politique monétaire protège le pouvoir d'achat et ancre les anticipations."
+              },
+              "cards": {
+                "pouvoirAchat": {
+                  "title": "Le pouvoir d'achat",
+                  "text": "Les revenus conservent leur valeur réelle."
+                },
+                "anticipations": {
+                  "title": "Les anticipations",
+                  "text": "Les agents peuvent planifier à moyen terme."
+                },
+                "decision": {
+                  "title": "La décision",
+                  "text": "Chaque décision vise cet objectif."
+                }
+              }
+            },
+            "stabiliteMonetaire": {
+              "kicker": "Second objectif",
+              "title": "La stabilité monétaire",
+              "lead": "La politique monétaire assure la stabilité de la monnaie elle-même.",
+              "paragraphs": {
+                "p1": "La stabilité monétaire recouvre la confiance dans la monnaie nationale et la prévisibilité de sa valeur.",
+                "p2": "Elle conditionne le rôle de la monnaie comme unité de compte, moyen d'échange et réserve de valeur."
+              },
+              "cards": {
+                "uniteCompte": {
+                  "title": "L'unité de compte",
+                  "text": "La monnaie sert de référence commune."
+                },
+                "confiance": {
+                  "title": "La confiance",
+                  "text": "La monnaie est acceptée par tous."
+                },
+                "circulation": {
+                  "title": "La circulation",
+                  "text": "La monnaie circule dans de bonnes conditions."
+                }
+              },
+              "bullets": {
+                "b1": "Une valeur stable dans le temps.",
+                "b2": "Une conduite crédible et prévisible."
+              }
+            },
+            "stabiliteFinanciere": {
+              "kicker": "Contribution",
+              "title": "La stabilité financière",
+              "lead": "La Banque centrale contribue à la stabilité financière dans le cadre de ses compétences.",
+              "paragraphs": {
+                "p1": "La stabilité financière désigne la robustesse du système financier face aux chocs.",
+                "p2": "La Banque centrale y contribue par ses fonctions de banque centrale, en lien avec les autres autorités."
+              },
+              "notice": "La stabilité financière relève de plusieurs autorités ; la Banque centrale y contribue dans le cadre de ses compétences."
+            },
+            "conditionsMonetaires": {
+              "kicker": "Conditions",
+              "title": "Les conditions monétaires",
+              "lead": "Les conditions monétaires traduisent le coût et la disponibilité de la monnaie et du crédit.",
+              "paragraphs": {
+                "p1": "Taux, liquidité et crédit définissent les conditions dans lesquelles l'économie se finance."
+              },
+              "facts": {
+                "taux": {
+                  "label": "Les taux",
+                  "value": "Le niveau des taux directeurs et des taux de marché."
+                },
+                "liquidite": {
+                  "label": "La liquidité",
+                  "value": "La disponibilité de monnaie centrale."
+                },
+                "credit": {
+                  "label": "Le crédit",
+                  "value": "L'offre et les conditions de crédit."
+                },
+                "financement": {
+                  "label": "Le financement",
+                  "value": "L'accès au financement des agents économiques."
+                }
+              }
+            },
+            "cadre": {
+              "kicker": "Le cadre",
+              "title": "Le cadre institutionnel",
+              "lead": "Les objectifs s'inscrivent dans le cadre de la République.",
+              "paragraphs": {
+                "p1": "La Constitution, la loi et les statuts de la Banque centrale encadrent la poursuite des objectifs."
+              },
+              "cards": {
+                "constitution": {
+                  "title": "La Constitution",
+                  "text": "Le cadre suprême de la République."
+                },
+                "loi": {
+                  "title": "La loi",
+                  "text": "Les règles applicables à la Banque centrale."
+                },
+                "bca": {
+                  "title": "La Banque centrale",
+                  "text": "L'institution chargée de conduire la politique monétaire."
+                },
+                "republique": {
+                  "title": "La République",
+                  "text": "Le cadre politique et institutionnel."
+                }
+              }
+            },
+            "hierarchie": {
+              "kicker": "Hiérarchie",
+              "title": "La hiérarchie des objectifs",
+              "lead": "Les objectifs ne sont pas de même rang : la stabilité des prix est première.",
+              "paragraphs": {
+                "p1": "La hiérarchie des objectifs guide chaque décision de politique monétaire."
+              },
+              "steps": {
+                "stabilitePrix": {
+                  "title": "La stabilité des prix",
+                  "text": "L'objectif premier de la politique monétaire."
+                },
+                "stabiliteMonetaire": {
+                  "title": "La stabilité monétaire",
+                  "text": "La prévisibilité de la valeur de la monnaie."
+                },
+                "stabiliteFinanciere": {
+                  "title": "La stabilité financière",
+                  "text": "La contribution à la robustesse du système financier."
+                },
+                "conditionsMonetaires": {
+                  "title": "Les conditions monétaires",
+                  "text": "Des conditions ordonnées de financement."
+                }
+              }
+            },
+            "renduCompte": {
+              "kicker": "Rendu compte",
+              "title": "Le rendu compte",
+              "lead": "La Banque centrale rend compte de la poursuite de ses objectifs.",
+              "paragraphs": {
+                "p1": "Rapports, communiqués et communications régulières documentent l'action de la Banque centrale."
+              },
+              "links": {
+                "rapports": "Les rapports de politique monétaire",
+                "communiques": "Les communiqués",
+                "gouvernance": "La gouvernance de la Banque centrale"
+              },
+              "notice": "Le rendu compte est un élément de la responsabilité de la Banque centrale."
+            }
+          }
+        },
+        "tauxDirecteur": {
+          "meta": {
+            "title": "Le taux directeur",
+            "description": "Le taux directeur de la Banque centrale d'Astoria : définition, rôle, fonctionnement, niveau actuel, décisions, relation avec les banques et transmission."
+          },
+          "hero": {
+            "kicker": "Politique monétaire · Taux directeurs",
+            "title": "Le taux directeur",
+            "lead": "Le taux directeur est l'instrument central de la politique monétaire. Cette page explique sa définition, son rôle et son fonctionnement.",
+            "cta": "Voir l'évolution des taux",
+            "notice": "Les valeurs seront publiées dès la disponibilité des données officielles."
+          },
+          "sections": {
+            "definition": {
+              "kicker": "Définition",
+              "title": "Le taux directeur, définition",
+              "lead": "Le taux directeur est le taux auquel la Banque centrale fournit la liquidité au système bancaire.",
+              "paragraphs": {
+                "p1": "Plus précisément, le taux principal de refinancement est le taux appliqué aux opérations principales par lesquelles la Banque centrale fournit des liquidités aux banques.",
+                "p2": "Son niveau traduit l'orientation de la politique monétaire : il est l'un des principaux signaux de la Banque centrale."
+              },
+              "facts": {
+                "definition": {
+                  "label": "Définition",
+                  "value": "Le taux appliqué aux opérations principales de refinancement."
+                },
+                "role": {
+                  "label": "Rôle",
+                  "value": "Orienter les conditions de financement de l'économie."
+                },
+                "fonctionnement": {
+                  "label": "Fonctionnement",
+                  "value": "Le taux central du corridor des taux directeurs."
+                },
+                "etablissements": {
+                  "label": "Établissements concernés",
+                  "value": "Les établissements bancaires de la République."
+                }
+              }
+            },
+            "role": {
+              "kicker": "Le rôle",
+              "title": "Le rôle du taux directeur",
+              "lead": "Le taux directeur influence les conditions de financement de l'économie.",
+              "paragraphs": {
+                "p1": "En modifiant le taux directeur, la Banque centrale agit sur le coût de refinancement des banques.",
+                "p2": "Ce coût se répercute, partiellement et avec retard, sur les crédits et les dépôts offerts aux ménages et aux entreprises."
+              },
+              "cards": {
+                "refinancement": {
+                  "title": "Le refinancement",
+                  "text": "Le coût auquel les banques se financent."
+                },
+                "transmission": {
+                  "title": "La transmission",
+                  "text": "La diffusion des conditions aux crédits et dépôts."
+                },
+                "orientation": {
+                  "title": "L'orientation",
+                  "text": "Le signal de la politique monétaire."
+                },
+                "conditions": {
+                  "title": "Les conditions",
+                  "text": "Les conditions de financement de l'économie."
+                }
+              }
+            },
+            "fonctionnement": {
+              "kicker": "Fonctionnement",
+              "title": "Le fonctionnement",
+              "lead": "Le taux directeur s'applique à des opérations concrètes.",
+              "paragraphs": {
+                "p1": "Du signal de politique monétaire aux conditions offertes aux banques, le fonctionnement suit un cycle."
+              },
+              "steps": {
+                "decision": {
+                  "title": "La décision",
+                  "text": "Le Conseil fixe le niveau du taux directeur."
+                },
+                "operations": {
+                  "title": "Les opérations",
+                  "text": "La Banque centrale mène ses opérations de refinancement à ce taux."
+                },
+                "liquidite": {
+                  "title": "La liquidité",
+                  "text": "Les banques obtiennent la liquidité souhaitée."
+                },
+                "conditions": {
+                  "title": "Les conditions",
+                  "text": "Les conditions de financement de l'économie s'ajustent."
+                }
+              }
+            },
+            "niveau": {
+              "kicker": "Le niveau",
+              "title": "Le niveau actuel",
+              "lead": "Le niveau du taux directeur et son évolution récente.",
+              "paragraphs": {
+                "p1": "Le niveau du taux directeur est mis à jour à chaque décision de politique monétaire."
+              },
+              "statGrid": {
+                "niveau": {
+                  "value": "—",
+                  "label": "Taux directeur"
+                },
+                "variation": {
+                  "value": "—",
+                  "label": "Variation depuis la dernière décision"
+                },
+                "date": {
+                  "value": "—",
+                  "label": "Date de la dernière modification"
+                }
+              },
+              "notice": "Les valeurs seront renseignées lors de la prochaine publication officielle."
+            },
+            "decisions": {
+              "kicker": "Décisions",
+              "title": "Les décisions relatives au taux",
+              "lead": "L'historique des modifications du taux directeur.",
+              "paragraphs": {
+                "p1": "Chaque décision modifiant le taux directeur est enregistrée et documentée."
+              },
+              "table": {
+                "caption": "Modifications du taux directeur",
+                "headers": {
+                  "0": "Date",
+                  "1": "Taux avant",
+                  "2": "Taux après",
+                  "3": "Décision"
+                },
+                "rows": {
+                  "0": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "1": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "2": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "3": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  }
+                },
+                "note": "L'historique sera publié avec les données officielles."
+              },
+              "cta": "Voir les décisions"
+            },
+            "etablissements": {
+              "kicker": "Les banques",
+              "title": "La relation avec les banques",
+              "lead": "Le taux directeur s'applique dans la relation entre la Banque centrale et les banques.",
+              "paragraphs": {
+                "p1": "Les banques éligibles participent aux opérations de refinancement à hauteur de leurs besoins de liquidité.",
+                "p2": "La relation s'appuie sur des comptes, des garanties et des procédures définis dans le cadre opérationnel."
+              },
+              "cards": {
+                "contreparties": {
+                  "title": "Les contreparties",
+                  "text": "Les banques éligibles aux opérations."
+                },
+                "comptes": {
+                  "title": "Les comptes",
+                  "text": "Les comptes des banques auprès de la Banque centrale."
+                },
+                "garanties": {
+                  "title": "Les garanties",
+                  "text": "Les actifs éligibles aux opérations."
+                },
+                "operations": {
+                  "title": "Les opérations",
+                  "text": "Les opérations menées selon le calendrier."
+                }
+              }
+            },
+            "transmission": {
+              "kicker": "Transmission",
+              "title": "La transmission",
+              "lead": "Le taux directeur se transmet au financement de l'économie.",
+              "paragraphs": {
+                "p1": "Le schéma ci-dessous résume le circuit du taux directeur."
+              },
+              "flow": {
+                "taux": "Taux directeur",
+                "banques": "Banques",
+                "credit": "Crédit",
+                "economie": "Économie"
+              },
+              "cta": "Voir la répercussion sur le crédit"
+            },
+            "questions": {
+              "kicker": "Questions",
+              "title": "Les questions fréquentes",
+              "lead": "Quelques questions fréquentes sur le taux directeur.",
+              "paragraphs": {
+                "p1": "Le taux directeur concerne-t-il directement les citoyens ? Non directement : son effet passe par les conditions offertes par les banques."
+              },
+              "bullets": {
+                "b1": "Le taux directeur est-il le taux des crédits ? Non, il influence les conditions sans les fixer.",
+                "b2": "Qui décide du taux ? Le Conseil de la Banque centrale.",
+                "b3": "À quelle fréquence est-il révisé ? À l'occasion des réunions de politique monétaire.",
+                "b4": "Où suivre son évolution ? Dans les pages du thème et dans les communiqués."
+              },
+              "notice": "Les explications de cette page sont générales et pédagogiques."
+            }
+          }
+        },
+        "facilites": {
+          "meta": {
+            "title": "Les facilités",
+            "description": "Les facilités de la Banque centrale d'Astoria : facilité de dépôt, facilité de prêt, corridor des taux et rôle dans la gestion de la liquidité."
+          },
+          "hero": {
+            "kicker": "Politique monétaire · Taux directeurs",
+            "title": "Les facilités",
+            "lead": "Les facilités permanentes encadrent les conditions de liquidité au jour le jour. Cette page présente la facilité de dépôt et la facilité de prêt.",
+            "cta": "Voir les taux directeurs",
+            "notice": "Les conditions précises seront publiées dans le cadre opérationnel."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "Le principe",
+              "title": "Le principe des facilités",
+              "lead": "Les facilités sont des opérations permanentes offertes aux banques.",
+              "paragraphs": {
+                "p1": "La facilité de dépôt permet aux banques de placer leurs excédents de liquidité ; la facilité de prêt leur permet d'obtenir des liquidités à très court terme.",
+                "p2": "Elles encadrent le taux du marché monétaire et forment le corridor des taux directeurs."
+              }
+            },
+            "corridor": {
+              "kicker": "Le corridor",
+              "title": "Le corridor des taux",
+              "lead": "Les facilités délimitent le corridor dans lequel évolue le taux du marché monétaire.",
+              "paragraphs": {
+                "p1": "La facilité de prêt forme le plafond, le taux de refinancement en constitue le centre et la facilité de dépôt forme le plancher."
+              },
+              "flow": {
+                "pret": "Facilité de prêt (plafond)",
+                "refinancement": "Taux de refinancement",
+                "depot": "Facilité de dépôt (plancher)"
+              },
+              "notice": "Schéma pédagogique du corridor des taux."
+            },
+            "faciliteDepot": {
+              "kicker": "Dépôt",
+              "title": "La facilité de dépôt",
+              "lead": "La facilité de dépôt permet de placer les excédents de liquidité du jour au lendemain.",
+              "paragraphs": {
+                "p1": "Les banques disposent de comptes auprès de la Banque centrale. Lorsqu'elles ont des excédents, elles peuvent les y déposer à des conditions fixées par la Banque centrale.",
+                "p2": "Cette facilité borne la rémunération des excédents et participe à la gestion de la liquidité."
+              },
+              "facts": {
+                "principe": {
+                  "label": "Principe",
+                  "value": "Placer les excédents de liquidité au jour le jour."
+                },
+                "acces": {
+                  "label": "Accès",
+                  "value": "Ouvert aux établissements éligibles, de façon permanente."
+                },
+                "remuneration": {
+                  "label": "Rémunération",
+                  "value": "Au taux de la facilité, fixé par la Banque centrale."
+                },
+                "fonction": {
+                  "label": "Fonction",
+                  "value": "Absorber les excédents et encadrer le marché monétaire."
+                }
+              }
+            },
+            "facilitePret": {
+              "kicker": "Prêt",
+              "title": "La facilité de prêt",
+              "lead": "La facilité de prêt permet d'obtenir des liquidités à très court terme.",
+              "paragraphs": {
+                "p1": "Face à un besoin ponctuel de liquidité, les banques peuvent emprunter auprès de la Banque centrale, contre des garanties éligibles.",
+                "p2": "Cette facilité sert de filet de sécurité et borne le coût d'un refinancement d'urgence."
+              },
+              "facts": {
+                "principe": {
+                  "label": "Principe",
+                  "value": "Obtenir des liquidités au jour le jour."
+                },
+                "acces": {
+                  "label": "Accès",
+                  "value": "Ouvert aux établissements éligibles, de façon permanente."
+                },
+                "conditions": {
+                  "label": "Conditions",
+                  "value": "Contre des garanties éligibles, à des conditions prédéfinies."
+                },
+                "fonction": {
+                  "label": "Fonction",
+                  "value": "Filet de sécurité et plafond du corridor."
+                }
+              }
+            },
+            "acces": {
+              "kicker": "Accès",
+              "title": "L'accès aux facilités",
+              "lead": "L'accès aux facilités est encadré et permanent.",
+              "paragraphs": {
+                "p1": "Les facilités sont accessibles aux établissements éligibles, selon des procédures définies."
+              },
+              "bullets": {
+                "b1": "Un accès permanent aux facilités de dépôt et de prêt.",
+                "b2": "Des contreparties éligibles selon le cadre opérationnel.",
+                "b3": "Des opérations réalisées via les comptes auprès de la Banque centrale.",
+                "b4": "Des conditions publiées et prévisibles."
+              }
+            },
+            "remuneration": {
+              "kicker": "Rémunération",
+              "title": "La rémunération",
+              "lead": "Les facilités sont rémunérées à des taux fixés par la Banque centrale.",
+              "paragraphs": {
+                "p1": "Les taux des facilités sont fixés dans le corridor des taux directeurs."
+              },
+              "table": {
+                "caption": "Taux des facilités",
+                "headers": {
+                  "0": "Facilité",
+                  "1": "Type",
+                  "2": "Taux",
+                  "3": "Échéance"
+                },
+                "rows": {
+                  "0": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "1": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "2": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  }
+                },
+                "note": "Les taux seront publiés avec les données officielles."
+              },
+              "notice": "Les valeurs seront renseignées lors de la prochaine publication officielle."
+            },
+            "gestionLiquidite": {
+              "kicker": "Liquidité",
+              "title": "Le rôle dans la gestion de la liquidité",
+              "lead": "Les facilités participent à la gestion de la liquidité du système bancaire.",
+              "paragraphs": {
+                "p1": "En offrant un débouché aux excédents et une source pour les besoins, les facilités contribuent à lisser la liquidité bancaire.",
+                "p2": "Elles complètent les opérations d'open market et la réserve obligatoire."
+              },
+              "notice": "Le rôle des facilités est complémentaire de celui des autres instruments."
+            },
+            "complement": {
+              "kicker": "Complémentarité",
+              "title": "La complémentarité des facilités",
+              "lead": "Les instruments agissent ensemble pour maintenir des conditions monétaires ordonnées.",
+              "paragraphs": {
+                "p1": "Facilités, opérations d'open market et réserves forment un ensemble cohérent."
+              },
+              "cards": {
+                "depot": {
+                  "title": "La facilité de dépôt",
+                  "text": "Placer les excédents de liquidité."
+                },
+                "pret": {
+                  "title": "La facilité de prêt",
+                  "text": "Couvrir les besoins de liquidité."
+                },
+                "marche": {
+                  "title": "Le marché",
+                  "text": "Encadrer le taux du marché monétaire."
+                },
+                "reserve": {
+                  "title": "La réserve",
+                  "text": "Stabiliser la demande de liquidité."
+                }
+              },
+              "cta": "Voir les taux directeurs"
+            }
+          }
+        },
+        "evolutionDesTaux": {
+          "meta": {
+            "title": "L'évolution des taux",
+            "description": "L'évolution des taux directeurs de la Banque centrale d'Astoria : série des taux, dernières modifications, tendances, comparaison, contexte historique et accès aux données."
+          },
+          "hero": {
+            "kicker": "Politique monétaire · Taux directeurs",
+            "title": "L'évolution des taux",
+            "lead": "Les taux directeurs évoluent au fil des décisions de politique monétaire. Cette page présente leur série, leurs tendances et leur contexte historique.",
+            "cta": "Voir les taux directeurs",
+            "notice": "Les données seront publiées dès leur disponibilité."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "Le principe",
+              "title": "Suivre l'évolution des taux",
+              "lead": "Les taux directeurs se suivent dans le temps, décision après décision.",
+              "paragraphs": {
+                "p1": "Leur évolution traduit l'adaptation de la politique monétaire à la conjoncture : resserrement, assouplissement ou maintien.",
+                "p2": "Cette page rassemble les informations nécessaires pour suivre cette évolution."
+              }
+            },
+            "serie": {
+              "kicker": "La série",
+              "title": "La série des taux",
+              "lead": "L'ensemble des taux et de leurs modifications, sous forme de série.",
+              "paragraphs": {
+                "p1": "La série sera alimentée au fil des publications officielles."
+              },
+              "table": {
+                "caption": "Série des taux directeurs",
+                "headers": {
+                  "0": "Date",
+                  "1": "Refinancement",
+                  "2": "Dépôt",
+                  "3": "Prêt"
+                },
+                "rows": {
+                  "0": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "1": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "2": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "3": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "4": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  }
+                },
+                "note": "Série en cours de constitution."
+              },
+              "notice": "Les valeurs seront renseignées lors de la prochaine publication officielle."
+            },
+            "dernieresModifications": {
+              "kicker": "Récentes",
+              "title": "Les dernières modifications",
+              "lead": "Les modifications les plus récentes du taux directeur.",
+              "paragraphs": {
+                "p1": "Chaque modification est documentée et reliée à la décision qui l'a décidée."
+              },
+              "facts": {
+                "date": {
+                  "label": "Date",
+                  "value": "En attente de publication"
+                },
+                "taux": {
+                  "label": "Taux",
+                  "value": "En attente de publication"
+                },
+                "variation": {
+                  "label": "Variation",
+                  "value": "En attente de publication"
+                },
+                "decision": {
+                  "label": "Décision",
+                  "value": "En attente de publication"
+                }
+              }
+            },
+            "tendances": {
+              "kicker": "Tendances",
+              "title": "Les tendances",
+              "lead": "Les évolutions des taux se lisent en tendances.",
+              "paragraphs": {
+                "p1": "Hausses, baisses et périodes de stabilité dessinent l'orientation de la politique monétaire."
+              },
+              "cards": {
+                "hausse": {
+                  "title": "Le resserrement",
+                  "text": "Des taux relevés pour contenir les pressions sur les prix."
+                },
+                "baisse": {
+                  "title": "L'assouplissement",
+                  "text": "Des taux abaissés pour soutenir le financement."
+                },
+                "stabilite": {
+                  "title": "Le maintien",
+                  "text": "Des taux laissés inchangés, dans l'attente d'informations."
+                },
+                "cycle": {
+                  "title": "Le cycle",
+                  "text": "L'évolution se lit sur la durée."
+                }
+              }
+            },
+            "comparaison": {
+              "kicker": "Comparaison",
+              "title": "La comparaison des taux",
+              "lead": "Les différents taux se comparent au sein du corridor.",
+              "paragraphs": {
+                "p1": "Les écarts entre le taux de refinancement et les facilités délimitent le corridor des taux."
+              },
+              "statGrid": {
+                "refinancement": {
+                  "value": "—",
+                  "label": "Taux de refinancement"
+                },
+                "depot": {
+                  "value": "—",
+                  "label": "Facilité de dépôt"
+                },
+                "pret": {
+                  "value": "—",
+                  "label": "Facilité de prêt"
+                }
+              },
+              "notice": "Les valeurs seront renseignées lors de la prochaine publication officielle."
+            },
+            "interpretation": {
+              "kicker": "Lire",
+              "title": "Comment lire les évolutions",
+              "lead": "Une évolution des taux s'interprète dans son contexte.",
+              "paragraphs": {
+                "p1": "Une modification des taux répond à une analyse de la conjoncture et des perspectives."
+              },
+              "bullets": {
+                "b1": "Le contexte économique au moment de la décision.",
+                "b2": "La justification publiée dans le communiqué.",
+                "b3": "L'ampleur et le sens de la variation.",
+                "b4": "La trajectoire suivie sur plusieurs décisions."
+              }
+            },
+            "contexte": {
+              "kicker": "Contexte",
+              "title": "Le contexte historique",
+              "lead": "L'évolution des taux s'inscrit dans un contexte historique plus large.",
+              "paragraphs": {
+                "p1": "La politique monétaire s'adapte aux grandes phases économiques : croissance, tensions inflationnistes, crises ou ralentissements.",
+                "p2": "Chaque décision s'explique par les conditions de son époque."
+              },
+              "notice": "Le contexte historique sera documenté au fil de la constitution des archives.",
+              "cta": "Voir les décisions"
+            },
+            "donnees": {
+              "kicker": "Données",
+              "title": "Accéder aux données",
+              "lead": "Les données des taux seront disponibles en plusieurs formats.",
+              "paragraphs": {
+                "p1": "Tableaux, séries et téléchargements seront proposés avec les données officielles."
+              },
+              "links": {
+                "taux": "Les taux directeurs",
+                "historique": "L'historique des décisions",
+                "statistiques": "Les statistiques monétaires"
+              },
+              "notice": "Les ressources seront publiées avec les données officielles."
+            }
+          }
+        },
+        "repercussionSurLeCredit": {
+          "meta": {
+            "title": "La répercussion sur le crédit",
+            "description": "La répercussion des taux directeurs de la Banque centrale d'Astoria sur le crédit aux ménages et aux entreprises : canal des taux, délais et statistiques."
+          },
+          "hero": {
+            "kicker": "Politique monétaire · Taux directeurs",
+            "title": "La répercussion sur le crédit",
+            "lead": "Les décisions de la Banque centrale se répercutent, avec délai et de façon partielle, sur les conditions de crédit. Cette page explique comment.",
+            "cta": "Voir les taux directeurs",
+            "notice": "Les données seront publiées dès leur disponibilité."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "Le principe",
+              "title": "Le principe de la transmission",
+              "lead": "La répercussion n'est ni mécanique, ni instantanée, ni complète.",
+              "paragraphs": {
+                "p1": "Les taux directeurs influencent le coût de refinancement des banques. Ces dernières répercutent partiellement ces conditions sur leurs crédits et leurs dépôts.",
+                "p2": "L'ampleur de la répercussion dépend de la concurrence, de la structure des bilans et de la situation de chaque banque."
+              }
+            },
+            "canalTaux": {
+              "kicker": "Le canal",
+              "title": "Le canal des taux",
+              "lead": "Le canal des taux décrit le chemin de la décision aux crédits.",
+              "paragraphs": {
+                "p1": "De la décision de la Banque centrale aux conditions de crédit, le canal suit plusieurs étapes."
+              },
+              "flow": {
+                "taux": "Taux directeurs",
+                "financement": "Coût de refinancement",
+                "credit": "Conditions de crédit",
+                "demande": "Demande de crédit",
+                "economie": "Économie"
+              }
+            },
+            "creditMenages": {
+              "kicker": "Ménages",
+              "title": "Le crédit aux ménages",
+              "lead": "Les conditions de crédit aux ménages s'ajustent avec retard.",
+              "paragraphs": {
+                "p1": "Le crédit immobilier et le crédit à la consommation sont concernés, avec des délais et des ampleurs variables.",
+                "p2": "Les taux proposés dépendent des conditions de marché et de la situation de chaque emprunteur."
+              },
+              "cards": {
+                "immobilier": {
+                  "title": "Le crédit immobilier",
+                  "text": "Les prêts à l'habitat et leurs taux."
+                },
+                "consommation": {
+                  "title": "Le crédit à la consommation",
+                  "text": "Les prêts personnels et renouvelables."
+                },
+                "duree": {
+                  "title": "La durée",
+                  "text": "Les prêts s'étalent sur de longues durées."
+                },
+                "cout": {
+                  "title": "Le coût",
+                  "text": "Le coût du crédit pour l'emprunteur."
+                }
+              },
+              "bullets": {
+                "b1": "La répercussion est progressive, pas immédiate.",
+                "b2": "Elle varie selon les établissements et les produits."
+              }
+            },
+            "creditEntreprises": {
+              "kicker": "Entreprises",
+              "title": "Le crédit aux entreprises",
+              "lead": "Les entreprises financent leurs investissements et leur trésorerie.",
+              "paragraphs": {
+                "p1": "Les conditions de crédit aux entreprises dépendent de la taille, du secteur et du profil de risque de chaque entreprise.",
+                "p2": "Les petites entreprises sont souvent plus sensibles aux variations des conditions de crédit."
+              },
+              "cards": {
+                "investissement": {
+                  "title": "L'investissement",
+                  "text": "Le financement des équipements et de la production."
+                },
+                "tresorerie": {
+                  "title": "La trésorerie",
+                  "text": "Le financement à court terme de l'activité."
+                },
+                "export": {
+                  "title": "L'export",
+                  "text": "Le financement des activités internationales."
+                },
+                "petites": {
+                  "title": "Les petites entreprises",
+                  "text": "Un accès au crédit souvent plus contraint."
+                }
+              }
+            },
+            "depots": {
+              "kicker": "Dépôts",
+              "title": "Les dépôts",
+              "lead": "Les dépôts sont également concernés, généralement dans une moindre mesure.",
+              "paragraphs": {
+                "p1": "La rémunération des dépôts s'ajuste aux conditions de taux, souvent avec retard et partiellement.",
+                "p2": "Les dépôts à vue et les livrets ne réagissent pas de la même manière."
+              },
+              "bullets": {
+                "b1": "La rémunération des dépôts suit les taux avec retard.",
+                "b2": "Certains dépôts ne sont pas rémunérés."
+              }
+            },
+            "delais": {
+              "kicker": "Délais",
+              "title": "Les délais de transmission",
+              "lead": "La transmission prend du temps et son ampleur est incertaine.",
+              "paragraphs": {
+                "p1": "La pleine transmission peut prendre plusieurs trimestres et varie selon les circonstances."
+              },
+              "bullets": {
+                "b1": "Des délais variables selon les crédits et les dépôts.",
+                "b2": "Une transmission plus rapide sur les crédits à court terme.",
+                "b3": "Un effet plus progressif sur les crédits longs.",
+                "b4": "Une ampleur dépendante de la concurrence et de la conjoncture."
+              },
+              "notice": "La transmission réelle dépend de nombreux facteurs ; ce schéma est pédagogique."
+            },
+            "statistiques": {
+              "kicker": "Statistiques",
+              "title": "Les statistiques de crédit",
+              "lead": "Les statistiques de crédit documentent la répercussion.",
+              "paragraphs": {
+                "p1": "Encours, taux et conditions de crédit permettent de suivre la transmission."
+              },
+              "statGrid": {
+                "creditMenages": {
+                  "value": "—",
+                  "label": "Crédit aux ménages"
+                },
+                "creditEntreprises": {
+                  "value": "—",
+                  "label": "Crédit aux entreprises"
+                },
+                "conditions": {
+                  "value": "—",
+                  "label": "Conditions de crédit"
+                }
+              },
+              "notice": "Les statistiques seront publiées avec les données officielles."
+            },
+            "documentation": {
+              "kicker": "Pour aller plus loin",
+              "title": "Pour aller plus loin",
+              "lead": "Les pages du thème complètent cette présentation.",
+              "paragraphs": {
+                "p1": "Taux, instruments et rapports éclairent la répercussion sur le crédit."
+              },
+              "links": {
+                "taux": "Les taux directeurs",
+                "instruments": "Les instruments monétaires",
+                "rapports": "Les rapports de politique monétaire",
+                "banques": "Le thème Banques"
+              },
+              "notice": "Les références seront complétées au fil des publications."
+            }
+          }
+        },
+        "operationsDeMarche": {
+          "meta": {
+            "title": "Les opérations de marché",
+            "description": "Les opérations d'open market de la Banque centrale d'Astoria : principe, types d'opérations, objectifs, fonctionnement, acteurs, impact sur la liquidité et calendrier."
+          },
+          "hero": {
+            "kicker": "Politique monétaire · Instruments",
+            "title": "Les opérations de marché",
+            "lead": "Les opérations d'open market sont l'instrument principal de la conduite de la politique monétaire. Cette page explique leur principe et leur fonctionnement.",
+            "cta": "Voir les instruments",
+            "notice": "Les modalités précises seront publiées dans le cadre opérationnel."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "Le principe",
+              "title": "Le principe des opérations de marché",
+              "lead": "La Banque centrale intervient sur le marché monétaire pour orienter la liquidité.",
+              "paragraphs": {
+                "p1": "Les opérations d'open market consistent à fournir ou à absorber la liquidité du système bancaire par des interventions sur le marché monétaire.",
+                "p2": "Elles s'appuient sur des opérations de cession ou de reprise d'actifs, selon le cadre en vigueur."
+              }
+            },
+            "types": {
+              "kicker": "Les types",
+              "title": "Les types d'opérations",
+              "lead": "Les opérations d'open market se déclinent selon leur objet.",
+              "paragraphs": {
+                "p1": "On distingue les opérations d'injection et d'absorption, ainsi que les opérations régulières et ponctuelles."
+              },
+              "cards": {
+                "injection": {
+                  "title": "L'injection",
+                  "text": "Fournir de la liquidité au système bancaire."
+                },
+                "absorption": {
+                  "title": "L'absorption",
+                  "text": "Retirer de la liquidité du système bancaire."
+                },
+                "regulieres": {
+                  "title": "Les opérations régulières",
+                  "text": "Menées selon un calendrier annoncé."
+                },
+                "ponctuelles": {
+                  "title": "Les opérations ponctuelles",
+                  "text": "Menées en fonction des besoins."
+                }
+              }
+            },
+            "objectifs": {
+              "kicker": "Les objectifs",
+              "title": "Les objectifs",
+              "lead": "Les opérations de marché poursuivent des objectifs précis.",
+              "paragraphs": {
+                "p1": "Elles visent à maintenir les conditions monétaires compatibles avec les objectifs de la Banque centrale."
+              },
+              "facts": {
+                "liquidite": {
+                  "label": "Liquidité",
+                  "value": "Fournir ou absorber la liquidité du système."
+                },
+                "taux": {
+                  "label": "Taux",
+                  "value": "Orienter le taux du marché monétaire."
+                },
+                "conditions": {
+                  "label": "Conditions",
+                  "value": "Maintenir des conditions monétaires ordonnées."
+                },
+                "signal": {
+                  "label": "Signal",
+                  "value": "Traduire l'orientation de la politique monétaire."
+                }
+              }
+            },
+            "fonctionnement": {
+              "kicker": "Fonctionnement",
+              "title": "Le fonctionnement",
+              "lead": "Chaque opération suit des étapes définies.",
+              "paragraphs": {
+                "p1": "De l'annonce à l'échéance, les opérations suivent une procédure stable et publiée."
+              },
+              "steps": {
+                "annonce": {
+                  "title": "L'annonce",
+                  "text": "La Banque centrale annonce l'opération et ses modalités."
+                },
+                "demande": {
+                  "title": "La demande",
+                  "text": "Les contreparties éligibles présentent leurs demandes."
+                },
+                "attribution": {
+                  "title": "L'attribution",
+                  "text": "La Banque centrale attribue les montants selon les règles."
+                },
+                "reglement": {
+                  "title": "Le règlement",
+                  "text": "Les fonds sont échangés contre les actifs."
+                },
+                "echange": {
+                  "title": "L'échéance",
+                  "text": "L'opération arrive à son terme selon les modalités."
+                }
+              }
+            },
+            "acteurs": {
+              "kicker": "Les acteurs",
+              "title": "Les acteurs concernés",
+              "lead": "Plusieurs acteurs participent aux opérations de marché.",
+              "paragraphs": {
+                "p1": "La Banque centrale intervient avec les établissements éligibles sur le marché monétaire."
+              },
+              "cards": {
+                "bca": {
+                  "title": "La Banque centrale",
+                  "text": "L'opérateur des opérations de marché."
+                },
+                "banques": {
+                  "title": "Les banques",
+                  "text": "Les contreparties éligibles aux opérations."
+                },
+                "contreparties": {
+                  "title": "Les contreparties",
+                  "text": "Les établissements autorisés à participer."
+                },
+                "marche": {
+                  "title": "Le marché",
+                  "text": "Le lieu des opérations et de la formation des taux."
+                }
+              }
+            },
+            "liquidite": {
+              "kicker": "Liquidité",
+              "title": "L'impact sur la liquidité",
+              "lead": "Les opérations de marché modifient directement la liquidité bancaire.",
+              "paragraphs": {
+                "p1": "Une opération d'injection accroît les réserves des banques ; une opération d'absorption les réduit.",
+                "p2": "Cet impact est au cœur de la transmission de la politique monétaire."
+              },
+              "flow": {
+                "bca": "BCA",
+                "operations": "Opérations",
+                "banques": "Banques",
+                "liquidite": "Liquidité"
+              },
+              "notice": "Schéma pédagogique de l'impact sur la liquidité."
+            },
+            "calendrier": {
+              "kicker": "Calendrier",
+              "title": "Le calendrier des opérations",
+              "lead": "Les opérations régulières suivent un calendrier annoncé.",
+              "paragraphs": {
+                "p1": "Le calendrier des opérations est publié et actualisé en fonction des besoins."
+              },
+              "table": {
+                "caption": "Calendrier des opérations",
+                "headers": {
+                  "0": "Date",
+                  "1": "Opération",
+                  "2": "Type",
+                  "3": "Échéance"
+                },
+                "rows": {
+                  "0": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "1": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "2": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "3": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  }
+                },
+                "note": "Calendrier prévisionnel des opérations."
+              }
+            },
+            "documentation": {
+              "kicker": "Documentation",
+              "title": "La documentation",
+              "lead": "Le cadre des opérations est documenté et publié.",
+              "paragraphs": {
+                "p1": "Les textes et notices décrivent les modalités des opérations de marché."
+              },
+              "links": {
+                "cadre": "Le cadre opérationnel",
+                "refinancement": "Le refinancement",
+                "taux": "Les taux directeurs"
+              },
+              "notice": "La documentation complète sera publiée avec la mise en service des opérations."
+            }
+          }
+        },
+        "refinancement": {
+          "meta": {
+            "title": "Le refinancement",
+            "description": "Le refinancement des établissements par la Banque centrale d'Astoria : principe, mécanisme, conditions, garanties, échéances et rôle dans la liquidité bancaire."
+          },
+          "hero": {
+            "kicker": "Politique monétaire · Instruments",
+            "title": "Le refinancement",
+            "lead": "La Banque centrale fournit la liquidité aux établissements bancaires par des opérations de refinancement. Cette page présente leur mécanisme et leurs conditions.",
+            "cta": "Voir les instruments",
+            "notice": "Les modalités précises seront publiées dans le cadre opérationnel."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "Le principe",
+              "title": "Le principe du refinancement",
+              "lead": "Le refinancement permet aux banques d'obtenir des liquidités.",
+              "paragraphs": {
+                "p1": "Les établissements bancaires se procurent des liquidités auprès de la Banque centrale, à des conditions et selon des échéances définies.",
+                "p2": "Ces opérations jouent un rôle central dans la gestion de la liquidité bancaire et la transmission de la politique monétaire."
+              }
+            },
+            "mecanisme": {
+              "kicker": "Le mécanisme",
+              "title": "Le mécanisme",
+              "lead": "Une opération de refinancement suit un déroulement défini.",
+              "paragraphs": {
+                "p1": "De la demande à l'échéance, chaque étape est encadrée."
+              },
+              "steps": {
+                "demande": {
+                  "title": "La demande",
+                  "text": "La banque présente sa demande de refinancement."
+                },
+                "garanties": {
+                  "title": "Les garanties",
+                  "text": "La banque fournit des actifs éligibles en garantie."
+                },
+                "attribution": {
+                  "title": "L'attribution",
+                  "text": "La Banque centrale fournit la liquidité selon les règles."
+                },
+                "remboursement": {
+                  "title": "Le remboursement",
+                  "text": "La banque rembourse à l'échéance."
+                }
+              }
+            },
+            "conditions": {
+              "kicker": "Les conditions",
+              "title": "Les conditions",
+              "lead": "Les conditions de refinancement sont fixées et publiées.",
+              "paragraphs": {
+                "p1": "Taux, montants, échéances et fréquence définissent les conditions des opérations."
+              },
+              "facts": {
+                "taux": {
+                  "label": "Taux",
+                  "value": "Le taux applicable aux opérations."
+                },
+                "montant": {
+                  "label": "Montant",
+                  "value": "Le montant alloué selon les règles."
+                },
+                "echeance": {
+                  "label": "Échéance",
+                  "value": "La durée de l'opération."
+                },
+                "frequence": {
+                  "label": "Fréquence",
+                  "value": "La périodicité des opérations."
+                }
+              }
+            },
+            "garanties": {
+              "kicker": "Les garanties",
+              "title": "Les garanties",
+              "lead": "Les opérations de refinancement sont adossées à des garanties.",
+              "paragraphs": {
+                "p1": "Les banques fournissent des actifs éligibles en garantie, évalués selon des règles publiées.",
+                "p2": "Le dispositif de garanties protège la Banque centrale contre le risque de non-remboursement."
+              },
+              "cards": {
+                "types": {
+                  "title": "Les types",
+                  "text": "Les catégories d'actifs éligibles."
+                },
+                "evaluation": {
+                  "title": "L'évaluation",
+                  "text": "Les règles de valorisation des actifs."
+                },
+                "marge": {
+                  "title": "Les décotes",
+                  "text": "Les marges appliquées aux actifs."
+                },
+                "cadre": {
+                  "title": "Le cadre",
+                  "text": "Les règles publiées du dispositif."
+                }
+              },
+              "bullets": {
+                "b1": "Une liste d'actifs éligibles, publiée et actualisée.",
+                "b2": "Des règles de valorisation transparentes."
+              }
+            },
+            "echeances": {
+              "kicker": "Les échéances",
+              "title": "Les échéances",
+              "lead": "Les opérations de refinancement couvrent différentes échéances.",
+              "paragraphs": {
+                "p1": "Des opérations à plus courte et plus longue échéance répondent aux différents besoins."
+              },
+              "table": {
+                "caption": "Échéances des opérations",
+                "headers": {
+                  "0": "Opération",
+                  "1": "Échéance",
+                  "2": "Fréquence",
+                  "3": "Type"
+                },
+                "rows": {
+                  "0": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "1": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "2": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  }
+                },
+                "note": "Le détail sera publié avec le cadre opérationnel."
+              }
+            },
+            "role": {
+              "kicker": "Le rôle",
+              "title": "Le rôle dans la liquidité",
+              "lead": "Le refinancement est au cœur de la liquidité bancaire.",
+              "paragraphs": {
+                "p1": "En fournissant la liquidité, le refinancement permet aux banques de financer l'économie.",
+                "p2": "Son coût est un élément central de la transmission de la politique monétaire."
+              },
+              "flow": {
+                "bca": "BCA",
+                "refinancement": "Refinancement",
+                "banques": "Banques",
+                "credit": "Crédit"
+              },
+              "cta": "Voir les taux directeurs"
+            },
+            "etablissements": {
+              "kicker": "Établissements",
+              "title": "Les établissements concernés",
+              "lead": "Le refinancement s'adresse aux établissements éligibles.",
+              "paragraphs": {
+                "p1": "L'accès au refinancement est ouvert aux établissements répondant aux conditions du cadre opérationnel."
+              },
+              "cards": {
+                "eligibles": {
+                  "title": "Les éligibles",
+                  "text": "Les établissements autorisés au refinancement."
+                },
+                "comptes": {
+                  "title": "Les comptes",
+                  "text": "Les comptes des banques auprès de la Banque centrale."
+                },
+                "accords": {
+                  "title": "Les accords",
+                  "text": "Les conventions encadrant la participation."
+                },
+                "surveillance": {
+                  "title": "La surveillance",
+                  "text": "Le suivi des opérations et des contreparties."
+                }
+              }
+            },
+            "documentation": {
+              "kicker": "Documentation",
+              "title": "La documentation",
+              "lead": "Le cadre du refinancement est documenté.",
+              "paragraphs": {
+                "p1": "Les textes et notices décrivent les modalités du refinancement."
+              },
+              "links": {
+                "operations": "Les opérations de marché",
+                "reserve": "La réserve obligatoire",
+                "cadre": "Le cadre opérationnel"
+              },
+              "notice": "La documentation complète sera publiée avec la mise en service des opérations."
+            }
+          }
+        },
+        "reserveObligatoire": {
+          "meta": {
+            "title": "La réserve obligatoire",
+            "description": "La réserve obligatoire de la Banque centrale d'Astoria : principe, objectif, calcul, rémunération, comptes, gestion et incidence sur la liquidité."
+          },
+          "hero": {
+            "kicker": "Politique monétaire · Instruments",
+            "title": "La réserve obligatoire",
+            "lead": "La réserve obligatoire impose aux banques de détenir des réserves auprès de la Banque centrale. Cette page explique son principe et son rôle.",
+            "cta": "Voir les instruments",
+            "notice": "Les modalités précises seront publiées dans le cadre opérationnel."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "Le principe",
+              "title": "Le principe de la réserve obligatoire",
+              "lead": "La réserve obligatoire est une obligation de constitution de réserves.",
+              "paragraphs": {
+                "p1": "Les établissements bancaires sont tenus de détenir des réserves sur leurs comptes auprès de la Banque centrale, à hauteur de certaines de leurs ressources.",
+                "p2": "Cet instrument stabilise la demande de réserves et contribue à la conduite de la politique monétaire."
+              }
+            },
+            "objectif": {
+              "kicker": "L'objectif",
+              "title": "L'objectif",
+              "lead": "La réserve obligatoire poursuit plusieurs objectifs.",
+              "paragraphs": {
+                "p1": "Elle stabilise la demande de liquidité des banques et soutient la transmission de la politique monétaire."
+              },
+              "cards": {
+                "stabilite": {
+                  "title": "La stabilité",
+                  "text": "Stabiliser la demande de réserves des banques."
+                },
+                "liquidite": {
+                  "title": "La liquidité",
+                  "text": "Lisser la gestion de la liquidité bancaire."
+                },
+                "demande": {
+                  "title": "La demande",
+                  "text": "Créer une demande stable de monnaie centrale."
+                },
+                "marche": {
+                  "title": "Le marché",
+                  "text": "Soutenir le fonctionnement du marché monétaire."
+                }
+              }
+            },
+            "calcul": {
+              "kicker": "Le calcul",
+              "title": "Le calcul",
+              "lead": "Le montant des réserves se calcule selon des règles publiées.",
+              "paragraphs": {
+                "p1": "Le calcul s'appuie sur une assiette, un taux et une période de constitution."
+              },
+              "steps": {
+                "assiette": {
+                  "title": "L'assiette",
+                  "text": "Les ressources prises en compte dans le calcul."
+                },
+                "taux": {
+                  "title": "Le taux",
+                  "text": "Le taux de réserves applicable à l'assiette."
+                },
+                "montant": {
+                  "title": "Le montant",
+                  "text": "Le montant de réserves à constituer."
+                },
+                "constitution": {
+                  "title": "La constitution",
+                  "text": "Les réserves sont détenues sur les comptes."
+                }
+              },
+              "facts": {
+                "assiette": {
+                  "label": "Assiette",
+                  "value": "En attente de publication"
+                },
+                "taux": {
+                  "label": "Taux",
+                  "value": "En attente de publication"
+                },
+                "periodicite": {
+                  "label": "Périodicité",
+                  "value": "En attente de publication"
+                }
+              }
+            },
+            "remuneration": {
+              "kicker": "Rémunération",
+              "title": "La rémunération",
+              "lead": "Les réserves peuvent être rémunérées.",
+              "paragraphs": {
+                "p1": "La rémunération des réserves est fixée par la Banque centrale, selon les règles en vigueur.",
+                "p2": "Elle s'inscrit dans le corridor des taux directeurs."
+              },
+              "table": {
+                "caption": "Rémunération des réserves",
+                "headers": {
+                  "0": "Réserves",
+                  "1": "Taux",
+                  "2": "Période",
+                  "3": "Modalités"
+                },
+                "rows": {
+                  "0": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "1": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "2": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  }
+                },
+                "note": "Les modalités seront publiées avec le cadre opérationnel."
+              },
+              "notice": "Les valeurs seront renseignées lors de la prochaine publication officielle."
+            },
+            "comptes": {
+              "kicker": "Les comptes",
+              "title": "Les comptes",
+              "lead": "Les réserves sont détenues sur les comptes des banques.",
+              "paragraphs": {
+                "p1": "Les établissements détiennent leurs réserves sur leurs comptes auprès de la Banque centrale."
+              },
+              "bullets": {
+                "b1": "Un compte de réserves par établissement.",
+                "b2": "Un suivi quotidien des soldes.",
+                "b3": "Une période de constitution définie.",
+                "b4": "Des règles de respect de la réserve."
+              }
+            },
+            "gestion": {
+              "kicker": "Gestion",
+              "title": "La gestion des réserves",
+              "lead": "Les banques gèrent leurs réserves dans un cadre défini.",
+              "paragraphs": {
+                "p1": "La gestion des réserves permet aux banques de lisser leurs besoins de liquidité au cours de la période.",
+                "p2": "Le non-respect des obligations donne lieu à des procédures définies."
+              },
+              "notice": "Les règles de gestion seront précisées dans le cadre opérationnel."
+            },
+            "incidence": {
+              "kicker": "Incidence",
+              "title": "L'incidence sur la liquidité",
+              "lead": "La réserve obligatoire influence la demande de liquidité.",
+              "paragraphs": {
+                "p1": "En créant une demande stable de réserves, la réserve obligatoire soutient la gestion de la liquidité par la Banque centrale."
+              },
+              "flow": {
+                "reserves": "Réserves",
+                "comptes": "Comptes",
+                "banques": "Banques",
+                "marche": "Marché monétaire"
+              },
+              "cta": "Voir les réserves"
+            },
+            "documentation": {
+              "kicker": "Documentation",
+              "title": "La documentation",
+              "lead": "Le cadre de la réserve obligatoire est documenté.",
+              "paragraphs": {
+                "p1": "Les textes et notices décrivent les modalités de la réserve obligatoire."
+              },
+              "links": {
+                "instruments": "Les instruments monétaires",
+                "refinancement": "Le refinancement",
+                "liquidite": "La liquidité du système"
+              },
+              "notice": "La documentation complète sera publiée avec la mise en service des opérations."
+            }
+          }
+        },
+        "transmissionDeLaPolitiqueMonetaire": {
+          "meta": {
+            "title": "La transmission de la politique monétaire",
+            "description": "La transmission de la politique monétaire de la Banque centrale d'Astoria : chaîne, canaux, délais, anticipations et effets sur l'économie."
+          },
+          "hero": {
+            "kicker": "Politique monétaire · Instruments",
+            "title": "La transmission de la politique monétaire",
+            "lead": "La politique monétaire agit sur l'économie par une chaîne de transmission. Cette page explique les canaux, les délais et les effets.",
+            "cta": "Voir la répercussion sur le crédit",
+            "notice": "La transmission réelle dépend de nombreux facteurs ; cette présentation est pédagogique."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "Le principe",
+              "title": "Le principe de la transmission",
+              "lead": "La politique monétaire agit sur l'économie par des canaux multiples.",
+              "paragraphs": {
+                "p1": "Les décisions de la Banque centrale modifient les conditions monétaires, qui influencent le financement de l'économie, puis l'activité et les prix.",
+                "p2": "La transmission est progressive et son ampleur varie dans le temps."
+              }
+            },
+            "chaine": {
+              "kicker": "La chaîne",
+              "title": "La chaîne de transmission",
+              "lead": "La chaîne résume le chemin de la décision à l'inflation.",
+              "paragraphs": {
+                "p1": "BCA → banques → financement → entreprises et ménages → activité → inflation."
+              },
+              "flow": {
+                "bca": "BCA",
+                "banques": "Banques",
+                "financement": "Financement",
+                "agents": "Entreprises et ménages",
+                "activite": "Activité",
+                "inflation": "Inflation"
+              },
+              "notice": "Schéma pédagogique : la transmission réelle n'est ni mécanique, ni instantanée."
+            },
+            "canaux": {
+              "kicker": "Les canaux",
+              "title": "Les canaux de transmission",
+              "lead": "Plusieurs canaux relaient la politique monétaire.",
+              "paragraphs": {
+                "p1": "Les canaux des taux, du crédit, des anticipations et des actifs agissent ensemble."
+              },
+              "cards": {
+                "taux": {
+                  "title": "Le canal des taux",
+                  "text": "Les conditions de taux se répercutent."
+                },
+                "credit": {
+                  "title": "Le canal du crédit",
+                  "text": "L'offre et les conditions de crédit s'ajustent."
+                },
+                "anticipations": {
+                  "title": "Le canal des anticipations",
+                  "text": "Les attentes des agents évoluent."
+                },
+                "actifs": {
+                  "title": "Le canal des actifs",
+                  "text": "Les prix des actifs et la richesse réagissent."
+                }
+              }
+            },
+            "delais": {
+              "kicker": "Les délais",
+              "title": "Les délais",
+              "lead": "La transmission prend du temps.",
+              "paragraphs": {
+                "p1": "La pleine transmission des décisions peut prendre plusieurs trimestres, voire davantage."
+              },
+              "bullets": {
+                "b1": "Des effets rapides sur le marché monétaire.",
+                "b2": "Des effets progressifs sur les crédits et les dépôts.",
+                "b3": "Des effets différés sur l'activité et les prix.",
+                "b4": "Des délais variables selon le contexte."
+              },
+              "notice": "Les délais de transmission sont irréguliers et incertains."
+            },
+            "anticipations": {
+              "kicker": "Les anticipations",
+              "title": "Le rôle des anticipations",
+              "lead": "Les anticipations des agents comptent autant que les taux eux-mêmes.",
+              "paragraphs": {
+                "p1": "Une politique monétaire crédible influence les anticipations d'inflation, ce qui facilite la stabilité des prix.",
+                "p2": "La communication de la Banque centrale nourrit ces anticipations."
+              },
+              "cards": {
+                "credibilite": {
+                  "title": "La crédibilité",
+                  "text": "Une conduite cohérente et prévisible."
+                },
+                "previsibilite": {
+                  "title": "La prévisibilité",
+                  "text": "Des décisions annoncées et expliquées."
+                },
+                "communication": {
+                  "title": "La communication",
+                  "text": "Des publications régulières."
+                }
+              }
+            },
+            "incertitude": {
+              "kicker": "L'incertitude",
+              "title": "L'incertitude",
+              "lead": "La transmission est entourée d'incertitude.",
+              "paragraphs": {
+                "p1": "L'ampleur et le délai des effets dépendent de circonstances difficiles à prévoir."
+              },
+              "bullets": {
+                "b1": "L'état de l'économie et du crédit.",
+                "b2": "La confiance des ménages et des entreprises.",
+                "b3": "La situation internationale."
+              }
+            },
+            "economie": {
+              "kicker": "Les effets",
+              "title": "Les effets sur l'économie",
+              "lead": "Les effets de la politique monétaire se mesurent sur les grands agrégats.",
+              "paragraphs": {
+                "p1": "Taux, crédit et inflation sont les principaux indicateurs de la transmission."
+              },
+              "statGrid": {
+                "taux": {
+                  "value": "—",
+                  "label": "Taux directeurs"
+                },
+                "credit": {
+                  "value": "—",
+                  "label": "Crédit à l'économie"
+                },
+                "inflation": {
+                  "value": "—",
+                  "label": "Inflation"
+                }
+              },
+              "notice": "Les indicateurs seront publiés avec les données officielles."
+            },
+            "lecture": {
+              "kicker": "Pour aller plus loin",
+              "title": "Pour aller plus loin",
+              "lead": "Les pages du thème approfondissent la transmission.",
+              "paragraphs": {
+                "p1": "La répercussion sur le crédit et les instruments complètent cette présentation."
+              },
+              "links": {
+                "repercussion": "La répercussion sur le crédit",
+                "instruments": "Les instruments monétaires",
+                "rapports": "Les rapports de politique monétaire"
+              },
+              "cta": "Voir les publications"
+            }
+          }
+        },
+        "rapports": {
+          "meta": {
+            "title": "Rapports",
+            "description": "Les rapports de politique monétaire de la Banque centrale d'Astoria : contenu, calendrier des publications, derniers rapports, méthodes, audience et archives."
+          },
+          "hero": {
+            "kicker": "Politique monétaire · Publications",
+            "title": "Les rapports",
+            "lead": "Les rapports de politique monétaire présentent la situation économique et monétaire et l'action de la Banque centrale.",
+            "cta": "Voir les publications",
+            "notice": "Les rapports seront publiés dès leur disponibilité."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "Le principe",
+              "title": "Le principe des rapports",
+              "lead": "Les rapports constituent la référence de la communication économique de la Banque centrale.",
+              "paragraphs": {
+                "p1": "Ils présentent la situation économique, l'évolution de l'inflation et l'orientation de la politique monétaire.",
+                "p2": "Ils sont publiés selon un calendrier régulier."
+              }
+            },
+            "contenu": {
+              "kicker": "Le contenu",
+              "title": "Le contenu",
+              "lead": "Un rapport de politique monétaire couvre plusieurs thèmes.",
+              "paragraphs": {
+                "p1": "Situation économique, inflation, politique monétaire, risques et perspectives forment la structure des rapports."
+              },
+              "cards": {
+                "situation": {
+                  "title": "La situation économique",
+                  "text": "L'évolution de l'activité et de la conjoncture."
+                },
+                "inflation": {
+                  "title": "L'inflation",
+                  "text": "L'analyse de l'évolution des prix."
+                },
+                "politique": {
+                  "title": "La politique monétaire",
+                  "text": "Les décisions et leur justification."
+                },
+                "risques": {
+                  "title": "Les risques",
+                  "text": "Les risques identifiés et leurs implications."
+                }
+              }
+            },
+            "calendrier": {
+              "kicker": "Le calendrier",
+              "title": "Le calendrier des publications",
+              "lead": "Les rapports suivent un calendrier régulier.",
+              "paragraphs": {
+                "p1": "Les dates de publication sont annoncées à l'avance."
+              },
+              "table": {
+                "caption": "Calendrier des rapports",
+                "headers": {
+                  "0": "Rapport",
+                  "1": "Date",
+                  "2": "Fréquence",
+                  "3": "Publication"
+                },
+                "rows": {
+                  "0": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "1": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "2": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "3": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  }
+                },
+                "note": "Calendrier prévisionnel des publications."
+              },
+              "notice": "Les dates officielles seront publiées dès confirmation."
+            },
+            "derniersRapports": {
+              "kicker": "Derniers",
+              "title": "Les derniers rapports",
+              "lead": "Les rapports les plus récents.",
+              "paragraphs": {
+                "p1": "Chaque rapport renvoie vers le document complet et ses annexes."
+              },
+              "links": {
+                "rapport1": "Rapport de politique monétaire",
+                "rapport2": "Rapport de politique monétaire",
+                "rapport3": "Rapport de politique monétaire"
+              }
+            },
+            "methodes": {
+              "kicker": "Les méthodes",
+              "title": "Les méthodes",
+              "lead": "Les rapports reposent sur des méthodes documentées.",
+              "paragraphs": {
+                "p1": "Les données, modèles et hypothèses utilisés sont présentés dans les rapports et leurs annexes."
+              },
+              "bullets": {
+                "b1": "Des données issues de sources officielles.",
+                "b2": "Des méthodes d'analyse transparentes.",
+                "b3": "Des hypothèses explicitées."
+              },
+              "notice": "Les méthodes seront détaillées avec la publication des rapports."
+            },
+            "audience": {
+              "kicker": "L'audience",
+              "title": "L'audience des rapports",
+              "lead": "Les rapports s'adressent à plusieurs publics.",
+              "paragraphs": {
+                "p1": "Citoyens, marchés, institutions et analystes utilisent les rapports pour comprendre la politique monétaire.",
+                "p2": "Un effort de pédagogie accompagne leur diffusion."
+              },
+              "cards": {
+                "citoyens": {
+                  "title": "Les citoyens",
+                  "text": "Comprendre les décisions et leurs raisons."
+                },
+                "marches": {
+                  "title": "Les marchés",
+                  "text": "Anticiper l'évolution des conditions monétaires."
+                },
+                "institutions": {
+                  "title": "Les institutions",
+                  "text": "Suivre l'action de la Banque centrale."
+                },
+                "analystes": {
+                  "title": "Les analystes",
+                  "text": "Utiliser les données et les analyses."
+                }
+              }
+            },
+            "archives": {
+              "kicker": "Les archives",
+              "title": "Les archives",
+              "lead": "Les rapports passés restent consultables.",
+              "paragraphs": {
+                "p1": "L'archive rassemble l'ensemble des rapports publiés."
+              },
+              "table": {
+                "caption": "Archive des rapports",
+                "headers": {
+                  "0": "Date",
+                  "1": "Rapport",
+                  "2": "Thème",
+                  "3": "Titre",
+                  "4": "Document"
+                },
+                "rows": {
+                  "0": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir",
+                    "4": "À venir"
+                  },
+                  "1": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir",
+                    "4": "À venir"
+                  },
+                  "2": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir",
+                    "4": "À venir"
+                  },
+                  "3": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir",
+                    "4": "À venir"
+                  }
+                },
+                "note": "L'archive sera alimentée au fil des publications."
+              },
+              "cta": "Voir les publications"
+            },
+            "ressources": {
+              "kicker": "Les ressources",
+              "title": "Les ressources",
+              "lead": "Analyses, projections et statistiques complètent les rapports.",
+              "paragraphs": {
+                "p1": "Les ressources documentaires du thème éclairent les rapports."
+              },
+              "links": {
+                "analyses": "Les analyses économiques",
+                "projections": "Les projections",
+                "statistiques": "Les statistiques monétaires"
+              },
+              "notice": "Les ressources seront publiées avec les données officielles."
+            }
+          }
+        },
+        "analysesEconomiques": {
+          "meta": {
+            "title": "Analyses économiques",
+            "description": "Les analyses économiques de la Banque centrale d'Astoria : études, notes, travaux de recherche et ressources documentaires sur l'économie astorienne."
+          },
+          "hero": {
+            "kicker": "Politique monétaire · Publications",
+            "title": "Les analyses économiques",
+            "lead": "Les services de la Banque centrale produisent études, notes et travaux de recherche sur l'économie astorienne.",
+            "cta": "Voir les publications",
+            "notice": "Les travaux seront publiés dès leur disponibilité."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "Le principe",
+              "title": "Le principe des analyses",
+              "lead": "Les analyses économiques éclairent la compréhension de l'économie.",
+              "paragraphs": {
+                "p1": "Études, analyses, notes et travaux de recherche documentent la situation économique et les questions monétaires.",
+                "p2": "Ils alimentent le débat public et la préparation des décisions."
+              }
+            },
+            "types": {
+              "kicker": "Les types",
+              "title": "Les types de travaux",
+              "lead": "Les travaux d'analyse se déclinent en plusieurs formats.",
+              "paragraphs": {
+                "p1": "Des études approfondies aux notes courtes, les formats répondent à des besoins différents."
+              },
+              "cards": {
+                "etudes": {
+                  "title": "Les études",
+                  "text": "Des travaux approfondis sur des sujets économiques et monétaires."
+                },
+                "analyses": {
+                  "title": "Les analyses",
+                  "text": "Des analyses régulières de la conjoncture et des évolutions."
+                },
+                "notes": {
+                  "title": "Les notes",
+                  "text": "Des documents courts sur des questions particulières."
+                },
+                "recherches": {
+                  "title": "Les recherches",
+                  "text": "Les travaux de recherche des économistes."
+                }
+              }
+            },
+            "etudes": {
+              "kicker": "Les études",
+              "title": "Les études",
+              "lead": "Les études sont des travaux approfondis.",
+              "paragraphs": {
+                "p1": "Chaque étude aborde un sujet économique ou monétaire de façon détaillée."
+              },
+              "links": {
+                "etude1": "Étude sur l'économie astorienne",
+                "etude2": "Étude sur la politique monétaire",
+                "etude3": "Étude sur le système financier"
+              },
+              "notice": "Les études seront publiées dès leur disponibilité."
+            },
+            "notes": {
+              "kicker": "Les notes",
+              "title": "Les notes",
+              "lead": "Les notes traitent de questions particulières.",
+              "paragraphs": {
+                "p1": "De format court, elles apportent un éclairage ciblé."
+              },
+              "links": {
+                "note1": "Note sur la conjoncture",
+                "note2": "Note sur le crédit"
+              }
+            },
+            "recherches": {
+              "kicker": "Les recherches",
+              "title": "Les travaux de recherche",
+              "lead": "La recherche alimente l'analyse économique de la Banque centrale.",
+              "paragraphs": {
+                "p1": "Les économistes de la Banque centrale conduisent des travaux de recherche sur les questions monétaires et financières.",
+                "p2": "Ces travaux nourrissent les analyses et les décisions."
+              },
+              "cards": {
+                "economistes": {
+                  "title": "Les économistes",
+                  "text": "Des chercheurs au sein de la Banque centrale."
+                },
+                "modeles": {
+                  "title": "Les modèles",
+                  "text": "Des outils d'analyse et de prévision."
+                },
+                "donnees": {
+                  "title": "Les données",
+                  "text": "Des données économiques et financières."
+                },
+                "publications": {
+                  "title": "Les publications",
+                  "text": "Des travaux diffusés publiquement."
+                }
+              }
+            },
+            "utilisation": {
+              "kicker": "L'utilisation",
+              "title": "L'utilisation des analyses",
+              "lead": "Les analyses servent plusieurs usages.",
+              "paragraphs": {
+                "p1": "Elles éclairent les décisions, le débat public et la compréhension de l'économie."
+              },
+              "bullets": {
+                "b1": "La préparation des décisions de politique monétaire.",
+                "b2": "Le débat public et la pédagogie économique.",
+                "b3": "La documentation des rapports et des projections."
+              }
+            },
+            "equipe": {
+              "kicker": "Qui produit",
+              "title": "Qui produit les analyses",
+              "lead": "Les analyses sont produites par les services de la Banque centrale.",
+              "paragraphs": {
+                "p1": "Les directions économiques et monétaires conduisent ces travaux, en lien avec les autres services."
+              },
+              "cards": {
+                "directions": {
+                  "title": "Les directions",
+                  "text": "Les services économiques et monétaires."
+                },
+                "economistes": {
+                  "title": "Les économistes",
+                  "text": "Les spécialistes de l'analyse économique."
+                },
+                "reseau": {
+                  "title": "Le réseau",
+                  "text": "Les partenaires institutionnels et académiques."
+                }
+              },
+              "cta": "Voir les directions"
+            },
+            "ressources": {
+              "kicker": "Les ressources",
+              "title": "Les ressources",
+              "lead": "Rapports, projections et données complètent les analyses.",
+              "paragraphs": {
+                "p1": "Les ressources documentaires du thème éclairent les travaux d'analyse."
+              },
+              "links": {
+                "rapports": "Les rapports de politique monétaire",
+                "projections": "Les projections",
+                "donnees": "Les données monétaires"
+              },
+              "notice": "Les ressources seront publiées avec les données officielles."
+            }
+          }
+        },
+        "projections": {
+          "meta": {
+            "title": "Projections",
+            "description": "Les projections de la Banque centrale d'Astoria : contenu, calendrier, méthodes, hypothèses, scénarios et lecture des projections économiques."
+          },
+          "hero": {
+            "kicker": "Politique monétaire · Publications",
+            "title": "Les projections",
+            "lead": "La Banque centrale publiera des projections régulières d'inflation et d'activité. Cette page présente leur contenu, leurs méthodes et leur lecture.",
+            "cta": "Voir les publications",
+            "notice": "Les projections seront publiées dès leur disponibilité."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "Le principe",
+              "title": "Le principe des projections",
+              "lead": "Les projections décrivent des évolutions économiques probables.",
+              "paragraphs": {
+                "p1": "Elles présentent les trajectoires d'inflation et d'activité attendues sous des hypothèses explicites.",
+                "p2": "Elles sont actualisées régulièrement et accompagnées de leurs méthodes."
+              }
+            },
+            "contenu": {
+              "kicker": "Le contenu",
+              "title": "Le contenu",
+              "lead": "Les projections couvrent les principaux agrégats.",
+              "paragraphs": {
+                "p1": "Inflation, activité, emploi et crédit forment l'essentiel des projections."
+              },
+              "cards": {
+                "inflation": {
+                  "title": "L'inflation",
+                  "text": "Les trajectoires de prix attendues."
+                },
+                "activite": {
+                  "title": "L'activité",
+                  "text": "La croissance attendue de l'économie."
+                },
+                "emploi": {
+                  "title": "L'emploi",
+                  "text": "Les perspectives du marché du travail."
+                },
+                "credit": {
+                  "title": "Le crédit",
+                  "text": "Les évolutions attendues du financement."
+                }
+              }
+            },
+            "calendrier": {
+              "kicker": "Le calendrier",
+              "title": "Le calendrier",
+              "lead": "Les projections suivent un calendrier régulier.",
+              "paragraphs": {
+                "p1": "Les dates de publication sont annoncées à l'avance."
+              },
+              "table": {
+                "caption": "Calendrier des projections",
+                "headers": {
+                  "0": "Publication",
+                  "1": "Date",
+                  "2": "Horizon",
+                  "3": "Thème"
+                },
+                "rows": {
+                  "0": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "1": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "2": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  },
+                  "3": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir"
+                  }
+                },
+                "note": "Calendrier prévisionnel des publications."
+              },
+              "notice": "Les dates officielles seront publiées dès confirmation."
+            },
+            "methodes": {
+              "kicker": "Les méthodes",
+              "title": "Les méthodes",
+              "lead": "Les projections reposent sur des méthodes documentées.",
+              "paragraphs": {
+                "p1": "Données, modèles et hypothèses sont présentés avec les projections."
+              },
+              "steps": {
+                "donnees": {
+                  "title": "Les données",
+                  "text": "Les informations économiques disponibles."
+                },
+                "modeles": {
+                  "title": "Les modèles",
+                  "text": "Les outils d'analyse et de simulation."
+                },
+                "hypotheses": {
+                  "title": "Les hypothèses",
+                  "text": "Les hypothèses techniques retenues."
+                },
+                "scenarios": {
+                  "title": "Les scénarios",
+                  "text": "Les trajectoires possibles."
+                },
+                "publication": {
+                  "title": "La publication",
+                  "text": "La diffusion des projections et des annexes."
+                }
+              }
+            },
+            "hypotheses": {
+              "kicker": "Les hypothèses",
+              "title": "Les hypothèses",
+              "lead": "Les projections reposent sur des hypothèses explicites.",
+              "paragraphs": {
+                "p1": "Les hypothèses portent notamment sur la politique budgétaire, les taux et la conjoncture internationale."
+              },
+              "bullets": {
+                "b1": "Des hypothèses techniques transparentes.",
+                "b2": "Des hypothèses sur la politique budgétaire.",
+                "b3": "Des hypothèses sur la conjoncture internationale.",
+                "b4": "Des scénarios alternatifs en cas d'incertitude."
+              },
+              "notice": "Les hypothèses seront détaillées avec les projections."
+            },
+            "scenarios": {
+              "kicker": "Les scénarios",
+              "title": "Les scénarios",
+              "lead": "Les projections présentent souvent plusieurs scénarios.",
+              "paragraphs": {
+                "p1": "Un scénario central est accompagné de scénarios alternatifs, notamment lorsque l'incertitude est élevée."
+              },
+              "cards": {
+                "central": {
+                  "title": "Le scénario central",
+                  "text": "La trajectoire la plus probable."
+                },
+                "favorable": {
+                  "title": "Le scénario favorable",
+                  "text": "Une évolution plus favorable."
+                },
+                "defavorable": {
+                  "title": "Le scénario défavorable",
+                  "text": "Une évolution moins favorable."
+                },
+                "alternatifs": {
+                  "title": "Les scénarios alternatifs",
+                  "text": "D'autres trajectoires possibles."
+                }
+              }
+            },
+            "lecture": {
+              "kicker": "La lecture",
+              "title": "Comment lire les projections",
+              "lead": "Les projections se lisent avec précaution.",
+              "paragraphs": {
+                "p1": "Une projection n'est pas une prévision exacte : elle décrit une évolution probable sous des hypothèses données.",
+                "p2": "La comparaison dans le temps et entre scénarios est plus instructive que la valeur ponctuelle."
+              },
+              "bullets": {
+                "b1": "Lire l'horizon et les hypothèses.",
+                "b2": "Comparer le central et les scénarios alternatifs."
+              }
+            },
+            "ressources": {
+              "kicker": "Les ressources",
+              "title": "Les ressources",
+              "lead": "Rapports, analyses et discours complètent les projections.",
+              "paragraphs": {
+                "p1": "Les ressources documentaires du thème éclairent les projections."
+              },
+              "links": {
+                "rapports": "Les rapports de politique monétaire",
+                "analyses": "Les analyses économiques",
+                "discours": "Les discours"
+              },
+              "notice": "Les ressources seront publiées avec les projections."
+            }
+          }
+        },
+        "discours": {
+          "meta": {
+            "title": "Discours",
+            "description": "Les discours des dirigeants de la Banque centrale d'Astoria : types de discours, derniers discours, contenu, rôle dans la communication, archives et transcriptions."
+          },
+          "hero": {
+            "kicker": "Politique monétaire · Publications",
+            "title": "Les discours",
+            "lead": "Les discours des dirigeants de la Banque centrale éclairent la politique monétaire et sa communication. Cette page les rassemble.",
+            "cta": "Voir les publications",
+            "notice": "Les discours seront publiés dès leur disponibilité."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "Le principe",
+              "title": "Le principe des discours",
+              "lead": "Les discours prolongent la communication officielle de la Banque centrale.",
+              "paragraphs": {
+                "p1": "Ils présentent l'analyse de la Banque centrale, ses décisions et ses perspectives dans un cadre public.",
+                "p2": "Ils s'adressent aux citoyens, aux marchés et aux institutions."
+              }
+            },
+            "types": {
+              "kicker": "Les types",
+              "title": "Les types de discours",
+              "lead": "Les discours prennent plusieurs formes.",
+              "paragraphs": {
+                "p1": "Discours du Gouverneur, interventions du Conseil, conférences et entretiens forment les principales formes."
+              },
+              "cards": {
+                "gouverneur": {
+                  "title": "Le Gouverneur",
+                  "text": "Les prises de parole du Gouverneur."
+                },
+                "conseil": {
+                  "title": "Le Conseil",
+                  "text": "Les interventions des membres du Conseil."
+                },
+                "conferences": {
+                  "title": "Les conférences",
+                  "text": "Les interventions dans des cadres publics."
+                },
+                "entretiens": {
+                  "title": "Les entretiens",
+                  "text": "Les entretiens et interviews publiés."
+                }
+              }
+            },
+            "derniersDiscours": {
+              "kicker": "Derniers",
+              "title": "Les derniers discours",
+              "lead": "Les discours les plus récents.",
+              "paragraphs": {
+                "p1": "Chaque discours renvoie vers le texte intégral et les documents associés."
+              },
+              "links": {
+                "discours1": "Discours du Gouverneur",
+                "discours2": "Intervention du Conseil",
+                "discours3": "Conférence de la Banque centrale"
+              },
+              "notice": "Les discours seront publiés dès leur disponibilité."
+            },
+            "contenu": {
+              "kicker": "Le contenu",
+              "title": "Le contenu",
+              "lead": "Les discours abordent des thèmes précis.",
+              "paragraphs": {
+                "p1": "Situation économique, politique monétaire, stabilité financière et perspectives forment les thèmes récurrents."
+              },
+              "bullets": {
+                "b1": "L'analyse de la situation économique.",
+                "b2": "La présentation des décisions et de leurs raisons.",
+                "b3": "Les perspectives d'évolution.",
+                "b4": "Les questions de stabilité et de régulation."
+              }
+            },
+            "communication": {
+              "kicker": "Communication",
+              "title": "Le rôle dans la communication",
+              "lead": "Les discours participent à la communication de la Banque centrale.",
+              "paragraphs": {
+                "p1": "Ils complètent les communiqués et les rapports en apportant un éclairage public.",
+                "p2": "Ils participent à la transparence et à la pédagogie de la politique monétaire."
+              },
+              "notice": "Les discours sont diffusés dans le respect des règles de communication de la Banque centrale."
+            },
+            "archives": {
+              "kicker": "Les archives",
+              "title": "Les archives",
+              "lead": "Les discours passés restent consultables.",
+              "paragraphs": {
+                "p1": "L'archive rassemble l'ensemble des discours publiés."
+              },
+              "table": {
+                "caption": "Archive des discours",
+                "headers": {
+                  "0": "Date",
+                  "1": "Intervenant",
+                  "2": "Type",
+                  "3": "Titre",
+                  "4": "Document"
+                },
+                "rows": {
+                  "0": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir",
+                    "4": "À venir"
+                  },
+                  "1": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir",
+                    "4": "À venir"
+                  },
+                  "2": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir",
+                    "4": "À venir"
+                  },
+                  "3": {
+                    "0": "À venir",
+                    "1": "À venir",
+                    "2": "À venir",
+                    "3": "À venir",
+                    "4": "À venir"
+                  }
+                },
+                "note": "L'archive sera alimentée au fil des publications."
+              },
+              "cta": "Voir les publications"
+            },
+            "transcription": {
+              "kicker": "Les transcriptions",
+              "title": "Les transcriptions",
+              "lead": "Les discours sont disponibles en plusieurs formats.",
+              "paragraphs": {
+                "p1": "Texte intégral, résumé et, le cas échéant, enregistrement accompagnent chaque discours."
+              },
+              "facts": {
+                "texte": {
+                  "label": "Texte",
+                  "value": "Le texte intégral du discours."
+                },
+                "video": {
+                  "label": "Enregistrement",
+                  "value": "La vidéo ou l'audio, le cas échéant."
+                },
+                "resume": {
+                  "label": "Résumé",
+                  "value": "Une synthèse du discours."
+                },
+                "langue": {
+                  "label": "Langue",
+                  "value": "La langue de diffusion du discours."
+                }
+              },
+              "notice": "Les formats disponibles seront précisés avec chaque discours."
+            },
+            "ressources": {
+              "kicker": "Les ressources",
+              "title": "Les ressources",
+              "lead": "Rapports, analyses et projections complètent les discours.",
+              "paragraphs": {
+                "p1": "Les ressources documentaires du thème éclairent les discours."
+              },
+              "links": {
+                "rapports": "Les rapports de politique monétaire",
+                "analyses": "Les analyses économiques",
+                "projections": "Les projections"
+              },
+              "notice": "Les ressources seront publiées avec les données officielles."
             }
           }
         }

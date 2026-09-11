@@ -341,7 +341,9 @@
         "donneesMonetaires": {
           "label": "Monetary data",
           "desc": "The aggregates, the money supply and the monetary statistics."
-        }
+        },
+        "title": "Continue on the Money theme",
+        "kicker": "In the same theme"
       },
       "section": {
         "meta": {
@@ -3932,6 +3934,4273 @@
                 "p2": "Series are updated according to the official calendar."
               },
               "cta": "Consult monetary statistics"
+            }
+          }
+        }
+      }
+    },
+    "politiqueMonetaire": {
+      "related": {
+        "title": "The monetary policy theme pages",
+        "kicker": "In the same theme",
+        "decisions": {
+          "label": "Monetary policy decisions",
+          "desc": "How the Central Bank decides its monetary policy and its recent decisions."
+        },
+        "tauxDirecteurs": {
+          "label": "Key rates",
+          "desc": "The rates used by the Central Bank and their transmission to the banking system."
+        },
+        "instrumentsMonetaires": {
+          "label": "Monetary instruments",
+          "desc": "The operations by which the Central Bank implements its monetary policy."
+        },
+        "publications": {
+          "label": "Publications",
+          "desc": "Reports, press releases, analyses and data on monetary policy."
+        }
+      },
+      "section": {
+        "meta": {
+          "title": "Monetary policy",
+          "description": "The monetary policy of the Central Bank of Astoria: decisions, key rates, monetary instruments and publications."
+        },
+        "hero": {
+          "kicker": "Monetary policy",
+          "title": "Monetary policy",
+          "lead": "The Central Bank of Astoria conducts the monetary policy of the Republic: it sets its key rates, supplies liquidity to the banking system and works to keep prices stable. This theme presents its decisions, its rates, its instruments and its publications.",
+          "cta": "See the latest decision",
+          "notice": "The values shown are demonstration examples, pending the publication of official data."
+        },
+        "sections": {
+          "pillars": {
+            "kicker": "The four sections",
+            "title": "Monetary policy in four sections",
+            "lead": "Each section of the theme answers a question: how does the Central Bank decide? Which rates does it use? How does it implement its decisions? What publications document its action?",
+            "tiles": {
+              "decisions": {
+                "title": "Decisions",
+                "desc": "How decisions are prepared, taken and communicated."
+              },
+              "tauxDirecteurs": {
+                "title": "Key rates",
+                "desc": "The rates that steer the financing conditions of the economy."
+              },
+              "instrumentsMonetaires": {
+                "title": "Monetary instruments",
+                "desc": "The operations that implement monetary policy."
+              },
+              "publications": {
+                "title": "Publications",
+                "desc": "Reports, press releases, analyses and data of the theme."
+              }
+            }
+          },
+          "institution": {
+            "kicker": "The Central Bank",
+            "title": "The Central Bank, steward of monetary conditions",
+            "lead": "Three principles guide the conduct of monetary policy by the Central Bank of Astoria.",
+            "paragraphs": {
+              "p1": "The Central Bank exercises its monetary policy mission within the framework set by the Constitution and the law, independently in the use of its instruments.",
+              "p2": "It accounts for its action: its decisions, analyses and forecasts are the subject of regular public communications.",
+              "p3": "It is accountable for monetary and price stability, in accordance with its statutory objectives."
+            },
+            "cards": {
+              "independance": {
+                "title": "Independence",
+                "text": "In the use of its instruments, within the framework set by law."
+              },
+              "transparence": {
+                "title": "Transparency",
+                "text": "Explained decisions and regular publications."
+              },
+              "responsabilite": {
+                "title": "Accountability",
+                "text": "Action focused on the statutory objectives of the Republic."
+              }
+            },
+            "cta": "Discover the Central Bank"
+          },
+          "figures": {
+            "kicker": "In figures",
+            "title": "Monetary policy in figures",
+            "lead": "The main indicators followed by the Central Bank, updated at each decision.",
+            "statGrid": {
+              "taux": {
+                "value": "—",
+                "label": "Key rate"
+              },
+              "prochaineReunion": {
+                "value": "—",
+                "label": "Next Board meeting"
+              },
+              "inflation": {
+                "value": "—",
+                "label": "Inflation (CPI, year-on-year)"
+              },
+              "dernieresDecisions": {
+                "value": "—",
+                "label": "Published decisions"
+              }
+            },
+            "notice": "Pending the publication of official series, indicators are left blank."
+          },
+          "mandat": {
+            "kicker": "The mandate",
+            "title": "The objectives of monetary policy",
+            "lead": "Monetary policy pursues statutory objectives defined by the institutional framework of the Republic.",
+            "paragraphs": {
+              "p1": "The Central Bank primarily targets price stability: money must hold its value over time and protect the purchasing power of citizens.",
+              "p2": "It also works for monetary stability and, within its remit, contributes to financial stability and the proper functioning of monetary conditions."
+            },
+            "cards": {
+              "stabilitePrix": {
+                "title": "Price stability",
+                "text": "Money keeps its value over time."
+              },
+              "stabiliteMonetaire": {
+                "title": "Monetary stability",
+                "text": "Money remains a reliable unit of account."
+              },
+              "stabiliteFinanciere": {
+                "title": "Financial stability",
+                "text": "The financial system remains sound and resilient."
+              },
+              "soutienEconomie": {
+                "title": "Support for the economy",
+                "text": "Within the framework set by the Constitution and the law."
+              }
+            }
+          },
+          "transmission": {
+            "kicker": "How it works",
+            "title": "From decision to the economy",
+            "lead": "Monetary policy acts on the economy through a transmission chain.",
+            "paragraphs": {
+              "p1": "The Central Bank announces a decision, steers its rates, supplies or absorbs liquidity; banks adjust their conditions; the financing of the economy is affected; activity and, eventually, prices depend on it."
+            },
+            "flow": {
+              "decision": "Decision",
+              "taux": "Rates",
+              "liquidite": "Liquidity",
+              "banques": "Banks",
+              "economie": "Economy",
+              "prix": "Prices"
+            },
+            "cta": "Understand the instruments"
+          },
+          "cadre": {
+            "kicker": "The institutional framework",
+            "title": "The actors of monetary policy",
+            "lead": "Monetary policy fits into a framework that distinguishes the responsibilities of the Republic, the Central Bank and the other actors.",
+            "paragraphs": {
+              "p1": "The Republic sets the legal framework; the Central Bank conducts monetary policy independently; banks transmit its decisions to the financing of the economy; markets reflect these conditions."
+            },
+            "cards": {
+              "republique": {
+                "title": "The Republic",
+                "text": "It defines by law the framework and objectives of monetary policy."
+              },
+              "bca": {
+                "title": "The Central Bank",
+                "text": "It conducts monetary policy and accounts for it."
+              },
+              "banques": {
+                "title": "The banks",
+                "text": "They transmit monetary conditions to the financing of the economy."
+              },
+              "marches": {
+                "title": "The markets",
+                "text": "They reflect expectations and financing conditions."
+              }
+            }
+          },
+          "essentiels": {
+            "kicker": "The essentials",
+            "title": "What to remember",
+            "lead": "The essential pages of the theme to follow the action of the Central Bank.",
+            "links": {
+              "derniereDecision": "The latest decision",
+              "tauxDirecteur": "The key rate",
+              "calendrier": "The decision calendar",
+              "rapports": "The monetary policy reports"
+            }
+          },
+          "navigation": {
+            "kicker": "Continue the visit",
+            "title": "Monetary policy in the portal",
+            "lead": "Monetary policy is one mission among others of the Central Bank: it extends money, relies on banks and the financial system.",
+            "links": {
+              "monnaie": "The Money theme",
+              "banques": "The Banks theme",
+              "marchesFinanciers": "The Financial markets theme",
+              "systemeFinancier": "The Financial system theme"
+            }
+          }
+        }
+      },
+      "decisions": {
+        "meta": {
+          "title": "Monetary policy decisions",
+          "description": "How the Central Bank of Astoria decides its monetary policy: understanding, latest decision, key rate, objectives, factors, process, calendar and history."
+        },
+        "hero": {
+          "kicker": "Monetary policy · Decisions",
+          "title": "Monetary policy decisions",
+          "lead": "The Central Bank of Astoria announces its monetary policy decisions at the end of its meetings. This page explains how they are prepared, taken and communicated.",
+          "cta": "See the key rates",
+          "notice": "The information on this page will be updated upon the publication of the next decisions."
+        },
+        "sections": {
+          "comprendre": {
+            "kicker": "Understanding",
+            "title": "Understanding monetary policy",
+            "lead": "Monetary policy is the action by which the Central Bank influences the monetary conditions of the economy.",
+            "paragraphs": {
+              "p1": "Monetary policy designates the set of decisions by which the Central Bank steers the cost and availability of money and credit. It acts on interest rates, liquidity and, more broadly, on the financing conditions of the Astorian economy.",
+              "p2": "It exists because money must hold its value over time. By protecting price stability, monetary policy preserves the purchasing power of citizens and creates the conditions for sustainable growth.",
+              "p3": "The Central Bank conducts this policy within the framework set by the Constitution and the law. It acts independently in the use of its instruments and accounts for its decisions to the Republic and to citizens."
+            },
+            "cards": {
+              "stabilitePrix": {
+                "title": "Price stability",
+                "text": "Preserving the value of money over time."
+              },
+              "pouvoirAchat": {
+                "title": "Purchasing power",
+                "text": "Protecting the money citizens use every day."
+              },
+              "confiance": {
+                "title": "Confidence",
+                "text": "Grounding money in credible and predictable conduct."
+              },
+              "economie": {
+                "title": "The economy",
+                "text": "Creating conditions for sound growth."
+              }
+            }
+          },
+          "derniereDecision": {
+            "kicker": "The latest decision",
+            "title": "The latest decision of the Central Bank",
+            "lead": "The most recent decision of the Board of the Central Bank, as published.",
+            "paragraphs": {
+              "p1": "Monetary policy decisions are announced by press release at the end of each meeting, together with the elements justifying them."
+            },
+            "facts": {
+              "date": {
+                "label": "Date of the decision",
+                "value": "Awaiting publication"
+              },
+              "decision": {
+                "label": "Decision taken",
+                "value": "Awaiting publication"
+              },
+              "taux": {
+                "label": "Rates concerned",
+                "value": "Awaiting publication"
+              },
+              "communication": {
+                "label": "Communication",
+                "value": "Awaiting publication"
+              }
+            },
+            "notice": "This section will display the next official decision as soon as it is published.",
+            "cta": "Browse the publications"
+          },
+          "tauxDirecteur": {
+            "kicker": "The key rate",
+            "title": "The key rate and its evolution",
+            "lead": "The main refinancing rate is the central instrument of the Central Bank's monetary policy.",
+            "paragraphs": {
+              "p1": "The key rate determines the cost at which the Central Bank supplies liquidity to banks. Its level reflects the orientation of monetary policy."
+            },
+            "statGrid": {
+              "niveau": {
+                "value": "—",
+                "label": "Current key rate"
+              },
+              "variation": {
+                "value": "—",
+                "label": "Change since the last decision"
+              },
+              "derniereModification": {
+                "value": "—",
+                "label": "Date of the last change"
+              }
+            },
+            "notice": "Values will be filled in at the next official publication.",
+            "cta": "See the key rates"
+          },
+          "objectifs": {
+            "kicker": "The objectives",
+            "title": "The objectives of monetary policy",
+            "lead": "The Central Bank's monetary policy pursues statutory objectives defined by the institutional framework of the Republic.",
+            "paragraphs": {
+              "p1": "The Central Bank primarily targets price stability. It thus protects the purchasing power of money and the general level of prices over time.",
+              "p2": "It also works for monetary stability and contributes, within its remit, to financial stability and to orderly monetary conditions, in support of economic stability."
+            },
+            "cards": {
+              "stabilitePrix": {
+                "title": "Price stability",
+                "text": "The primary objective of monetary policy."
+              },
+              "stabiliteMonetaire": {
+                "title": "Monetary stability",
+                "text": "The value of money remains predictable."
+              },
+              "stabiliteFinanciere": {
+                "title": "Financial stability",
+                "text": "Within the remit of the Central Bank."
+              },
+              "conditionsMonetaires": {
+                "title": "Monetary conditions",
+                "text": "The cost and availability of money and credit."
+              }
+            }
+          },
+          "facteurs": {
+            "kicker": "The factors",
+            "title": "The factors taken into account",
+            "lead": "Before each decision, the Central Bank analyses the evolution of the economy and of the monetary and financial system.",
+            "paragraphs": {
+              "p1": "This analysis covers all available information: prices, activity, employment, credit, financial conditions, liquidity, the exchange rate and the international situation."
+            },
+            "cards": {
+              "inflation": {
+                "title": "Inflation",
+                "text": "The evolution of consumer prices."
+              },
+              "activite": {
+                "title": "Economic activity",
+                "text": "Production, consumption and investment."
+              },
+              "emploi": {
+                "title": "Employment",
+                "text": "The situation of the labour market."
+              },
+              "credit": {
+                "title": "Credit",
+                "text": "The financing conditions of households and firms."
+              }
+            },
+            "bullets": {
+              "b1": "Financial conditions: interest rates, margins and access to financing.",
+              "b2": "Liquidity: the availability of central bank money in the banking system.",
+              "b3": "The exchange rate and its impact on the Astorian economy.",
+              "b4": "The international situation: trade, commodity prices and the global outlook.",
+              "b5": "Financial risks and their possible impact on stability."
+            }
+          },
+          "processus": {
+            "kicker": "The process",
+            "title": "The decision process",
+            "lead": "Monetary policy decisions are prepared, debated and communicated through an institutional process.",
+            "paragraphs": {
+              "p1": "This process ensures that every decision rests on a thorough analysis and on collegiate governance."
+            },
+            "steps": {
+              "preparation": {
+                "title": "Preparation of the analyses",
+                "text": "The services of the Central Bank prepare the economic and monetary analyses ahead of the meetings."
+              },
+              "reunion": {
+                "title": "Meeting",
+                "text": "The Board meets according to the announced calendar, on the basis of the prepared analyses."
+              },
+              "deliberation": {
+                "title": "Deliberation",
+                "text": "Members debate the economic situation and the monetary policy options."
+              },
+              "decision": {
+                "title": "Decision",
+                "text": "The Board takes the decision, by consensus or according to the applicable voting rule."
+              },
+              "communication": {
+                "title": "Communication",
+                "text": "The decision is announced and explained, together with the elements justifying it."
+              },
+              "miseEnOeuvre": {
+                "title": "Implementation",
+                "text": "The services implement the decision through the instruments of monetary policy."
+              }
+            }
+          },
+          "calendrier": {
+            "kicker": "The calendar",
+            "title": "The decision calendar",
+            "lead": "Meetings and associated publications follow a calendar announced in advance.",
+            "paragraphs": {
+              "p1": "The provisional calendar shows the next meetings, the decision dates and the publications accompanying them."
+            },
+            "table": {
+              "caption": "Provisional meeting calendar",
+              "headers": {
+                "0": "Meeting",
+                "1": "Date",
+                "2": "Decision",
+                "3": "Publication"
+              },
+              "rows": {
+                "0": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced"
+                },
+                "1": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced"
+                },
+                "2": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced"
+                },
+                "3": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced"
+                }
+              },
+              "note": "Provisional calendar, subject to change. Official dates will be published once confirmed."
+            },
+            "cta": "See the decision calendar"
+          },
+          "historique": {
+            "kicker": "The history",
+            "title": "The history of decisions",
+            "lead": "All the monetary policy decisions published by the Central Bank.",
+            "paragraphs": {
+              "p1": "This history will record, for each decision, the date, the rates before and after the decision, the change and the context."
+            },
+            "table": {
+              "caption": "History of monetary policy decisions",
+              "headers": {
+                "0": "Date",
+                "1": "Rate before",
+                "2": "Rate after",
+                "3": "Change"
+              },
+              "rows": {
+                "0": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced"
+                },
+                "1": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced"
+                },
+                "2": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced"
+                },
+                "3": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced"
+                },
+                "4": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced"
+                }
+              },
+              "note": "The full history will be published with the first official decisions."
+            },
+            "links": {
+              "communiques": "Browse the press releases",
+              "calendrier": "The decision calendar",
+              "monnaie": "The monetary data",
+              "banqueCentrale": "The governance of the Central Bank"
+            }
+          }
+        }
+      },
+      "tauxDirecteurs": {
+        "meta": {
+          "title": "Key rates",
+          "description": "The key rates of the Central Bank of Astoria: the refinancing rate, the deposit and lending facilities, their evolution and their transmission to the economy."
+        },
+        "hero": {
+          "kicker": "Monetary policy · Key rates",
+          "title": "The key rates",
+          "lead": "Key rates are the rates at which the Central Bank supplies or withdraws liquidity to the banking system. They steer the financing conditions of the Astorian economy.",
+          "cta": "Discover the instruments",
+          "notice": "Rate values will be published as soon as official data are available."
+        },
+        "sections": {
+          "vueEnsemble": {
+            "kicker": "Overview",
+            "title": "The key rates of the Central Bank",
+            "lead": "The Central Bank uses several rates, each with a precise function.",
+            "paragraphs": {
+              "p1": "The main refinancing rate, the deposit facility and the lending facility form the corridor of key rates. They frame the conditions at which banks refinance and place their liquidity with the Central Bank."
+            },
+            "cards": {
+              "refinancement": {
+                "title": "The refinancing rate",
+                "text": "The main rate at which banks refinance."
+              },
+              "faciliteDepot": {
+                "title": "The deposit facility",
+                "text": "The rate at which banks place their surplus."
+              },
+              "facilitePret": {
+                "title": "The lending facility",
+                "text": "The rate at which banks borrow overnight."
+              },
+              "reserve": {
+                "title": "The reserve requirement",
+                "text": "The reserves banks hold with the Central Bank."
+              }
+            }
+          },
+          "tauxPrincipal": {
+            "kicker": "The main rate",
+            "title": "The main refinancing rate",
+            "lead": "The main refinancing rate is the central instrument of monetary policy.",
+            "paragraphs": {
+              "p1": "It is the rate at which the Central Bank provides, as its main operation, liquidity to banks through its refinancing operations.",
+              "p2": "By changing this rate, the Central Bank influences the refinancing cost of banks and, as a result, the financing conditions offered to the economy."
+            },
+            "facts": {
+              "definition": {
+                "label": "Definition",
+                "value": "The rate applied to the main refinancing operations."
+              },
+              "role": {
+                "label": "Role",
+                "value": "Steers the financing conditions of the banking system."
+              },
+              "fonctionnement": {
+                "label": "Functioning",
+                "value": "The central rate of the corridor of key rates."
+              },
+              "etablissements": {
+                "label": "Institutions concerned",
+                "value": "The banks of the Republic."
+              }
+            },
+            "cta": "Understand the decisions"
+          },
+          "faciliteDepot": {
+            "kicker": "The deposit facility",
+            "title": "The deposit facility",
+            "lead": "The deposit facility allows banks to place, overnight, their surplus liquidity with the Central Bank.",
+            "paragraphs": {
+              "p1": "Banks hold accounts with the Central Bank. When they have more liquidity than needed, they can deposit it there on terms set by the Central Bank.",
+              "p2": "The deposit facility forms the floor of the corridor of key rates: it caps the remuneration of surpluses and participates in the management of the liquidity of the banking system."
+            },
+            "bullets": {
+              "b1": "Access: open to eligible institutions, on a permanent basis.",
+              "b2": "Remuneration: at the facility rate, set by the Central Bank.",
+              "b3": "Function: absorb surpluses and frame the money market rate."
+            },
+            "notice": "The precise access conditions will be set out in the operational framework."
+          },
+          "facilitePret": {
+            "kicker": "The lending facility",
+            "title": "The lending facility",
+            "lead": "The lending facility allows banks to obtain, overnight, liquidity from the Central Bank.",
+            "paragraphs": {
+              "p1": "Facing a temporary liquidity need, banks can borrow from the Central Bank on pre-defined terms, against eligible collateral.",
+              "p2": "The lending facility forms the ceiling of the corridor of key rates: it acts as a safety net and caps the cost of an emergency refinancing."
+            },
+            "bullets": {
+              "b1": "Access: open to eligible institutions, on a permanent basis.",
+              "b2": "Terms: against eligible collateral, on pre-defined conditions.",
+              "b3": "Function: cover temporary banking liquidity needs."
+            },
+            "notice": "The precise access conditions will be set out in the operational framework."
+          },
+          "evolution": {
+            "kicker": "Evolution",
+            "title": "The evolution of rates",
+            "lead": "Key rates evolve according to monetary policy decisions.",
+            "paragraphs": {
+              "p1": "The table and the indicators below will allow tracking the evolution of the different rates over time."
+            },
+            "statGrid": {
+              "refinancement": {
+                "value": "—",
+                "label": "Refinancing rate"
+              },
+              "depot": {
+                "value": "—",
+                "label": "Deposit facility"
+              },
+              "pret": {
+                "value": "—",
+                "label": "Lending facility"
+              }
+            },
+            "table": {
+              "caption": "Key rates and latest changes",
+              "headers": {
+                "0": "Rate",
+                "1": "Level",
+                "2": "Latest change",
+                "3": "Change"
+              },
+              "rows": {
+                "0": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced"
+                },
+                "1": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced"
+                },
+                "2": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced"
+                },
+                "3": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced"
+                }
+              },
+              "note": "Series under construction, pending the publication of official data."
+            },
+            "notice": "Values will be filled in at the next official publication.",
+            "cta": "See the evolution of rates"
+          },
+          "transmission": {
+            "kicker": "Transmission",
+            "title": "Transmission to banks",
+            "lead": "The Central Bank's decisions are transmitted to the banking system through several channels.",
+            "paragraphs": {
+              "p1": "Transmission is neither mechanical nor instantaneous: it depends on competition, the state of bank balance sheets and the expectations of agents."
+            },
+            "steps": {
+              "refinancement": {
+                "title": "The refinancing cost",
+                "text": "Banks see the cost at which they refinance with the Central Bank."
+              },
+              "interbancaire": {
+                "title": "Interbank rates",
+                "text": "Money market conditions adjust to the corridor of key rates."
+              },
+              "credits": {
+                "title": "Credit",
+                "text": "Banks partially pass on these conditions to credit for households and firms."
+              },
+              "depots": {
+                "title": "Deposits",
+                "text": "The remuneration of deposits also adjusts, generally to a lesser extent."
+              },
+              "conditionsFinancieres": {
+                "title": "Financial conditions",
+                "text": "The overall financing conditions of the economy adjust."
+              }
+            },
+            "cta": "See the impact on credit"
+          },
+          "effetsEconomie": {
+            "kicker": "The effects",
+            "title": "The effects on the economy",
+            "lead": "Key rates act on the economy through a transmission chain.",
+            "paragraphs": {
+              "p1": "The chain central bank → banks → financing → firms and households → activity → inflation summarises how the Central Bank's decisions ripple through the real economy.",
+              "p2": "This relationship is neither mechanical nor instantaneous: its scale and timing depend on the context, the confidence of agents and the state of the financial system."
+            },
+            "flow": {
+              "bca": "Central bank",
+              "banques": "Banks",
+              "financement": "Financing",
+              "agents": "Firms and households",
+              "activite": "Activity",
+              "inflation": "Inflation"
+            },
+            "notice": "Pedagogical diagram: the actual transmission depends on many factors."
+          },
+          "historiqueDonnees": {
+            "kicker": "Data",
+            "title": "History and data",
+            "lead": "This section will gather the historical data of the key rates.",
+            "paragraphs": {
+              "p1": "Tables, time series, downloads and methodology will be available here to track the evolution of rates over time."
+            },
+            "table": {
+              "caption": "Key rates series",
+              "headers": {
+                "0": "Date",
+                "1": "Refinancing rate",
+                "2": "Deposit facility",
+                "3": "Lending facility"
+              },
+              "rows": {
+                "0": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced"
+                },
+                "1": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced"
+                },
+                "2": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced"
+                },
+                "3": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced"
+                },
+                "4": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced"
+                }
+              },
+              "note": "Series under construction."
+            },
+            "links": {
+              "evolution": "The evolution of rates",
+              "statistiques": "The monetary statistics",
+              "credit": "The impact on credit",
+              "systemeBancaire": "The Banks theme",
+              "liquidite": "The liquidity of the system"
+            },
+            "notice": "Official data will be published as soon as they are available."
+          }
+        }
+      },
+      "instrumentsMonetaires": {
+        "meta": {
+          "title": "Monetary instruments",
+          "description": "The instruments of the monetary policy of the Central Bank of Astoria: open market operations, refinancing, reserves, exceptional operations and the operational framework."
+        },
+        "hero": {
+          "kicker": "Monetary policy · Instruments",
+          "title": "The monetary instruments",
+          "lead": "The Central Bank implements its monetary policy through operational instruments: open market operations, facilities, reserve requirements and exceptional measures.",
+          "cta": "Browse the publications",
+          "notice": "This page presents the institutional and operational framework; no specific measure is described outside official texts."
+        },
+        "sections": {
+          "vueEnsemble": {
+            "kicker": "Overview",
+            "title": "The instruments of the Central Bank",
+            "lead": "Decision, rate, instrument and intervention: distinct notions that should not be confused.",
+            "paragraphs": {
+              "p1": "The monetary policy decision defines the general orientation; the key rate reflects its level; the operational instrument is the concrete means by which the Central Bank acts on liquidity; the intervention is a particular operation carried out at a given time.",
+              "p2": "This set allows the Central Bank to influence monetary conditions and fulfil its statutory objectives."
+            },
+            "cards": {
+              "openMarket": {
+                "title": "Open market operations",
+                "text": "Operations carried out on the market to steer liquidity."
+              },
+              "refinancement": {
+                "title": "Refinancing",
+                "text": "The supply of liquidity to banks."
+              },
+              "reserves": {
+                "title": "Reserves and liquidity",
+                "text": "The accounts and reserves of banks with the Central Bank."
+              },
+              "exceptionnelles": {
+                "title": "Exceptional operations",
+                "text": "The measures the context may require."
+              }
+            }
+          },
+          "openMarket": {
+            "kicker": "Open market",
+            "title": "Open market operations",
+            "lead": "Open market operations are the main instrument of monetary policy.",
+            "paragraphs": {
+              "p1": "These operations consist in the Central Bank supplying or absorbing liquidity of the banking system by intervening on the money market, through sale or repurchase operations, according to the framework in force.",
+              "p2": "They are carried out according to defined calendars and procedures, with eligible actors, and directly influence monetary conditions."
+            },
+            "facts": {
+              "objectif": {
+                "label": "Objective",
+                "value": "Supply or absorb liquidity to maintain the desired monetary conditions."
+              },
+              "acteurs": {
+                "label": "Actors concerned",
+                "value": "The Central Bank and eligible banks."
+              },
+              "mecanisme": {
+                "label": "Mechanism",
+                "value": "Market operations with defined maturities, according to published procedures."
+              },
+              "impact": {
+                "label": "Impact on liquidity",
+                "value": "Direct change in the liquidity available in the banking system."
+              }
+            },
+            "cta": "See the market operations"
+          },
+          "refinancement": {
+            "kicker": "Refinancing",
+            "title": "Refinancing of institutions",
+            "lead": "The Central Bank supplies liquidity to banks through refinancing operations.",
+            "paragraphs": {
+              "p1": "These operations allow banks to obtain liquidity from the Central Bank, on defined terms and maturities, against eligible collateral.",
+              "p2": "They play a central role in the management of banking liquidity and in the transmission of monetary policy."
+            },
+            "cards": {
+              "conditions": {
+                "title": "The terms",
+                "text": "Terms set and published by the Central Bank."
+              },
+              "garanties": {
+                "title": "The collateral",
+                "text": "Eligible assets provided as collateral for the operations."
+              },
+              "echeances": {
+                "title": "The maturities",
+                "text": "Durations defined according to the type of operation."
+              },
+              "liquidite": {
+                "title": "Liquidity",
+                "text": "The availability of central bank money in the banking system."
+              }
+            },
+            "cta": "See the refinancing"
+          },
+          "reservesLiquidite": {
+            "kicker": "Reserves and liquidity",
+            "title": "Reserves and liquidity",
+            "lead": "Banks hold accounts and reserves with the Central Bank.",
+            "paragraphs": {
+              "p1": "Banking liquidity corresponds to the balances banks hold on their accounts with the Central Bank. It evolves with monetary policy operations and treasury movements.",
+              "p2": "By managing this liquidity, the Central Bank influences money market conditions and the cost of bank financing."
+            },
+            "flow": {
+              "bca": "Central bank",
+              "comptes": "Accounts",
+              "banques": "Banks",
+              "marcheInterbancaire": "Interbank market",
+              "liquidite": "Liquidity"
+            },
+            "cta": "See the reserves"
+          },
+          "operationsExceptionnelles": {
+            "kicker": "Exceptional measures",
+            "title": "Exceptional operations",
+            "lead": "The framework allows the Central Bank to resort to exceptional measures when the context requires it.",
+            "paragraphs": {
+              "p1": "In situations of tension or crisis, the Central Bank may deploy measures beyond its usual operations, within its mandate and the legal framework.",
+              "p2": "These measures are not decided in advance: they respond to a particular context and are governed by the governance and communication rules of the Central Bank."
+            },
+            "bullets": {
+              "b1": "An action framework defined by the statutory mandate of the Central Bank.",
+              "b2": "Measures decided according to the context and the situation.",
+              "b3": "Adapted communication, in the respect of transparency.",
+              "b4": "Governed by governance rules and internal procedures."
+            },
+            "notice": "No specific programme is described here: this section presents only the institutional and operational framework.",
+            "cta": "Browse the publications"
+          },
+          "interventionsMarches": {
+            "kicker": "Interventions",
+            "title": "Interventions on the markets",
+            "lead": "The Central Bank may intervene on certain markets where this falls within its remit.",
+            "paragraphs": {
+              "p1": "One should distinguish monetary policy, reserve management, financial stability and market operations: these activities follow distinct objectives and rules.",
+              "p2": "Each intervention respects the defined framework and the transparency expected of a central bank."
+            },
+            "cards": {
+              "politiqueMonetaire": {
+                "title": "Monetary policy",
+                "text": "Operations targeting monetary conditions."
+              },
+              "reserves": {
+                "title": "Reserve management",
+                "text": "The management of the Republic's reserve assets."
+              },
+              "stabiliteFinanciere": {
+                "title": "Financial stability",
+                "text": "Actions relating to the stability of the financial system."
+              },
+              "operationsDeMarche": {
+                "title": "Market operations",
+                "text": "Interventions on markets according to the framework in force."
+              }
+            },
+            "cta": "See the Financial markets theme"
+          },
+          "conditionsMonetaires": {
+            "kicker": "Monetary conditions",
+            "title": "Managing monetary conditions",
+            "lead": "The set of instruments contributes to maintaining monetary conditions compatible with the objectives of the Central Bank.",
+            "paragraphs": {
+              "p1": "Rates, liquidity and credit form a whole: instruments act together so that monetary conditions remain consistent with price stability and support for the economy."
+            },
+            "statGrid": {
+              "taux": {
+                "value": "—",
+                "label": "Key rate"
+              },
+              "liquidite": {
+                "value": "—",
+                "label": "Liquidity of the system"
+              },
+              "credit": {
+                "value": "—",
+                "label": "Credit growth"
+              }
+            },
+            "links": {
+              "decisions": "The monetary policy decisions",
+              "taux": "The key rates",
+              "donnees": "The monetary data"
+            }
+          },
+          "cadreOperationnel": {
+            "kicker": "Operational framework",
+            "title": "The operational framework",
+            "lead": "The instruments fit into a precise, documented and published operational framework.",
+            "paragraphs": {
+              "p1": "This framework defines the actors, procedures, terms, collateral, operations and rules applicable to the use of instruments."
+            },
+            "steps": {
+              "acteurs": {
+                "title": "The actors",
+                "text": "The Central Bank, eligible institutions and authorised counterparties."
+              },
+              "procedures": {
+                "title": "The procedures",
+                "text": "The steps and modalities for carrying out operations."
+              },
+              "conditions": {
+                "title": "The terms",
+                "text": "The rates, amounts and maturities applicable to operations."
+              },
+              "garanties": {
+                "title": "The collateral",
+                "text": "The list of eligible assets and valuation rules."
+              },
+              "documentation": {
+                "title": "The documentation",
+                "text": "The texts, notices and documents describing the operational framework."
+              }
+            },
+            "links": {
+              "operations": "The market operations",
+              "refinancement": "Refinancing",
+              "reserve": "The reserve requirement"
+            },
+            "notice": "The full documentation of the operational framework will be published with the launch of operations."
+          }
+        }
+      },
+      "publications": {
+        "meta": {
+          "title": "Publications",
+          "description": "The publications on monetary policy of the Central Bank of Astoria: reports, decisions and press releases, economic analyses, statistics, forecasts, archives and resources."
+        },
+        "hero": {
+          "kicker": "Monetary policy · Publications",
+          "title": "Publications",
+          "lead": "The Central Bank regularly publishes reports, press releases, analyses and data relating to monetary policy. This page is the documentary entry point of the theme.",
+          "cta": "See the reports",
+          "notice": "Documents will be published as soon as they are available. The lists shown are under construction."
+        },
+        "sections": {
+          "familles": {
+            "kicker": "The families",
+            "title": "The publications of the Central Bank",
+            "lead": "Monetary policy publications fall into four main families.",
+            "paragraphs": {
+              "p1": "Reports, decisions and press releases, economic analyses and monetary statistics make up most of the documentary output of the theme."
+            },
+            "tiles": {
+              "rapports": {
+                "title": "Reports",
+                "desc": "The regular reports on the economic and monetary situation."
+              },
+              "decisions": {
+                "title": "Decisions and press releases",
+                "desc": "The official announcements of monetary policy decisions."
+              },
+              "analyses": {
+                "title": "Economic analyses",
+                "desc": "Studies, notes and analytical work by the Central Bank's services."
+              },
+              "statistiques": {
+                "title": "Monetary statistics",
+                "desc": "Monetary data, rates and aggregates."
+              }
+            }
+          },
+          "rapports": {
+            "kicker": "Reports",
+            "title": "Monetary policy reports",
+            "lead": "Regular reports present the economic and monetary situation and the action of the Central Bank.",
+            "paragraphs": {
+              "p1": "These reports describe the evolution of inflation, activity and monetary policy, as well as risks and prospects.",
+              "p2": "They are published on a regular schedule and are the reference of the Central Bank's economic communication."
+            },
+            "cards": {
+              "situationEconomique": {
+                "title": "The economic situation",
+                "text": "The evolution of activity and the economic outlook."
+              },
+              "inflation": {
+                "title": "Inflation",
+                "text": "The analysis of the evolution of prices."
+              },
+              "politiqueMonetaire": {
+                "title": "Monetary policy",
+                "text": "The decisions and their justification."
+              },
+              "risques": {
+                "title": "Risks",
+                "text": "The identified risks and their implications."
+              }
+            },
+            "cta": "See the reports"
+          },
+          "decisionsCommuniques": {
+            "kicker": "Decisions",
+            "title": "Decisions and press releases",
+            "lead": "Monetary policy decisions are announced and documented through press releases and accounts.",
+            "paragraphs": {
+              "p1": "Each decision gives rise to an official press release, accompanied by the elements justifying it and associated documents."
+            },
+            "links": {
+              "decisions": "The monetary policy decisions",
+              "communiques": "The press releases",
+              "comptesRendus": "The decision calendar"
+            },
+            "notice": "Meeting accounts will be published according to the transparency rules of the Central Bank."
+          },
+          "analysesEconomiques": {
+            "kicker": "Analyses",
+            "title": "Economic analyses",
+            "lead": "The Central Bank's services produce analytical work on the Astorian economy.",
+            "paragraphs": {
+              "p1": "Studies, notes and economic documents feed the public debate and the understanding of monetary policy."
+            },
+            "cards": {
+              "etudes": {
+                "title": "Studies",
+                "text": "In-depth work on economic and monetary topics."
+              },
+              "analyses": {
+                "title": "Analyses",
+                "text": "Regular analyses of the economic outlook and developments."
+              },
+              "notes": {
+                "title": "Notes",
+                "text": "Short documents on particular questions."
+              },
+              "recherches": {
+                "title": "Research",
+                "text": "The research work of the Central Bank's economists."
+              }
+            },
+            "cta": "See the economic analyses"
+          },
+          "statistiquesMonetaires": {
+            "kicker": "Statistics",
+            "title": "Monetary statistics",
+            "lead": "Monetary statistics document the implementation of monetary policy.",
+            "paragraphs": {
+              "p1": "Monetary data, rates, liquidity, aggregates and credit constitute the main statistics of the theme."
+            },
+            "cards": {
+              "donnees": {
+                "title": "Monetary data",
+                "text": "The aggregates and the money supply."
+              },
+              "taux": {
+                "title": "Rates",
+                "text": "Key rates and market rates."
+              },
+              "liquidite": {
+                "title": "Liquidity",
+                "text": "The liquidity conditions of the banking system."
+              },
+              "credit": {
+                "title": "Credit",
+                "text": "Credit outstanding and conditions."
+              }
+            },
+            "links": {
+              "donneesMonetaires": "The monetary data",
+              "statistiques": "The monetary statistics"
+            }
+          },
+          "previsions": {
+            "kicker": "Forecasts",
+            "title": "Forecasts and projections",
+            "lead": "The Central Bank will publish regular economic projections and outlooks.",
+            "paragraphs": {
+              "p1": "These publications will present inflation and activity projections, possible scenarios and the assumptions retained.",
+              "p2": "They will be updated on a regular schedule and accompanied by the methods and assumptions used."
+            },
+            "cards": {
+              "projections": {
+                "title": "Projections",
+                "text": "The inflation and activity trajectories."
+              },
+              "perspectives": {
+                "title": "Outlook",
+                "text": "The expected developments in the medium term."
+              },
+              "scenarios": {
+                "title": "Scenarios",
+                "text": "Trajectories under different scenarios."
+              },
+              "hypotheses": {
+                "title": "Assumptions",
+                "text": "The technical assumptions retained."
+              }
+            },
+            "notice": "Projections will be published as soon as they are available.",
+            "cta": "See the projections"
+          },
+          "archives": {
+            "kicker": "Archives",
+            "title": "The archives",
+            "lead": "All past publications will be searchable in a structured archive.",
+            "paragraphs": {
+              "p1": "The archives will allow finding publications by year, type, date and title."
+            },
+            "table": {
+              "caption": "Publication archive",
+              "headers": {
+                "0": "Year",
+                "1": "Type",
+                "2": "Date",
+                "3": "Title",
+                "4": "Document"
+              },
+              "rows": {
+                "0": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced",
+                  "4": "To be announced"
+                },
+                "1": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced",
+                  "4": "To be announced"
+                },
+                "2": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced",
+                  "4": "To be announced"
+                },
+                "3": {
+                  "0": "To be announced",
+                  "1": "To be announced",
+                  "2": "To be announced",
+                  "3": "To be announced",
+                  "4": "To be announced"
+                }
+              },
+              "note": "The archive will be fed as official publications are issued."
+            },
+            "cta": "See the reports"
+          },
+          "donneesRessources": {
+            "kicker": "Resources",
+            "title": "Data and resources",
+            "lead": "Downloads, methodologies and documentation complete the documentary offer of the theme.",
+            "paragraphs": {
+              "p1": "This section will gather useful resources: data files, methodologies, documentation and, eventually, data interfaces."
+            },
+            "links": {
+              "telechargements": "The downloads",
+              "methodologies": "The methodologies",
+              "marches": "Market data and statistics",
+              "banqueCentrale": "The Central Bank"
+            },
+            "notice": "Resources will be published with the official data."
+          }
+        }
+      },
+      "sub": {
+        "dernieresDecisions": {
+          "meta": {
+            "title": "The latest decisions",
+            "description": "The latest monetary policy decisions of the Central Bank of Astoria: how to read them, the key rate, the calendar and the monetary orientation."
+          },
+          "hero": {
+            "kicker": "Monetary policy · Decisions",
+            "title": "The latest decisions",
+            "lead": "Monetary policy decisions are published at the end of each Board meeting. This page explains how to read them and follow the most recent.",
+            "cta": "Browse the press releases",
+            "notice": "The information will be updated upon the publication of the next decisions."
+          },
+          "sections": {
+            "comprendre": {
+              "kicker": "Understanding",
+              "title": "Understanding the decisions",
+              "lead": "Each decision is announced in a stable format, designed to be readable by everyone.",
+              "paragraphs": {
+                "p1": "The Central Bank communicates its decisions through an official press release, accompanied by contextual elements and, where appropriate, a press conference.",
+                "p2": "The meeting calendar is known in advance and the archives of past decisions remain available."
+              },
+              "cards": {
+                "communique": {
+                  "title": "The press release",
+                  "text": "The official announcement of the decision and its justification."
+                },
+                "calendrier": {
+                  "title": "The calendar",
+                  "text": "The next meetings and decision dates."
+                },
+                "archives": {
+                  "title": "The archives",
+                  "text": "Past decisions and their documents."
+                },
+                "abonnement": {
+                  "title": "Follow",
+                  "text": "Be informed of new publications."
+                }
+              }
+            },
+            "lecture": {
+              "kicker": "How to read",
+              "title": "How to read a decision",
+              "lead": "A decision press release answers precise questions.",
+              "paragraphs": {
+                "p1": "The date, the decision taken, the rates concerned and the elements justifying it form the core of the information.",
+                "p2": "The terms used are defined in the theme pages so that everyone can understand them."
+              },
+              "facts": {
+                "date": {
+                  "label": "Date",
+                  "value": "The date of the Board meeting."
+                },
+                "decision": {
+                  "label": "Decision",
+                  "value": "The measure decided and its meaning."
+                },
+                "taux": {
+                  "label": "Rates",
+                  "value": "The rates concerned by the decision."
+                },
+                "justification": {
+                  "label": "Justification",
+                  "value": "The economic elements invoked."
+                }
+              }
+            },
+            "derniereDecision": {
+              "kicker": "The most recent",
+              "title": "The latest decision",
+              "lead": "The most recent decision, in its official format.",
+              "paragraphs": {
+                "p1": "This section reproduces the elements of the latest decision published by the Central Bank."
+              },
+              "facts": {
+                "date": {
+                  "label": "Date",
+                  "value": "Awaiting publication"
+                },
+                "decision": {
+                  "label": "Decision",
+                  "value": "Awaiting publication"
+                },
+                "taux": {
+                  "label": "Rates",
+                  "value": "Awaiting publication"
+                },
+                "communication": {
+                  "label": "Communication",
+                  "value": "Awaiting publication"
+                }
+              },
+              "notice": "This section will display the next official decision as soon as it is published.",
+              "cta": "See the decisions"
+            },
+            "decisionsRecentes": {
+              "kicker": "Recent",
+              "title": "The recent decisions",
+              "lead": "The latest published decisions, in a summary table.",
+              "paragraphs": {
+                "p1": "Each row links to the full press release of the decision."
+              },
+              "table": {
+                "caption": "Recent decisions",
+                "headers": {
+                  "0": "Date",
+                  "1": "Decision",
+                  "2": "Rates",
+                  "3": "Press release"
+                },
+                "rows": {
+                  "0": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "1": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "2": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "3": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  }
+                },
+                "note": "Links to press releases will be published with the official decisions."
+              }
+            },
+            "tauxConseil": {
+              "kicker": "Rates and Board",
+              "title": "Rates and the Board",
+              "lead": "The decision concerns the key rates and is taken by the Board.",
+              "paragraphs": {
+                "p1": "The Board of the Central Bank is the body that takes monetary policy decisions."
+              },
+              "cards": {
+                "taux": {
+                  "title": "The rates",
+                  "text": "The refinancing rate and the facilities."
+                },
+                "conseil": {
+                  "title": "The Board",
+                  "text": "The decision-making body of the Central Bank."
+                },
+                "quorum": {
+                  "title": "The meeting",
+                  "text": "Members meet according to the calendar."
+                },
+                "vote": {
+                  "title": "The decision",
+                  "text": "The decision is taken by consensus or by vote."
+                }
+              }
+            },
+            "communication": {
+              "kicker": "Channels",
+              "title": "The communication channels",
+              "lead": "Decisions are disseminated through several channels, to reach all audiences.",
+              "paragraphs": {
+                "p1": "The Central Bank ensures a wide and simultaneous dissemination of its decisions."
+              },
+              "bullets": {
+                "b1": "The official press release, published at an announced time.",
+                "b2": "The Governor's press conference, when scheduled.",
+                "b3": "The accompanying documents and associated data.",
+                "b4": "The summaries and explanations intended for the general public."
+              }
+            },
+            "comptesRendus": {
+              "kicker": "Meeting accounts",
+              "title": "The meeting accounts",
+              "lead": "Meetings give rise to accounts published in respect of the transparency rules.",
+              "paragraphs": {
+                "p1": "The accounts present the main exchanges and the elements that led to the decision.",
+                "p2": "Their level of detail respects the balance between transparency and the independence of deliberation."
+              },
+              "notice": "Meeting accounts will be published according to the transparency rules of the Central Bank.",
+              "cta": "Browse the press releases"
+            },
+            "orientation": {
+              "kicker": "Orientation",
+              "title": "The monetary orientation",
+              "lead": "Decisions reflect the general orientation of monetary policy.",
+              "paragraphs": {
+                "p1": "Rates, calendar and communication draw an orientation that everyone can follow."
+              },
+              "statGrid": {
+                "orientation": {
+                  "value": "—",
+                  "label": "Orientation of monetary policy"
+                },
+                "calendrier": {
+                  "value": "—",
+                  "label": "Next meeting"
+                },
+                "prochaine": {
+                  "value": "—",
+                  "label": "Next decision"
+                }
+              },
+              "notice": "Indicators will be filled in at the next official publications."
+            }
+          }
+        },
+        "calendrierDesDecisions": {
+          "meta": {
+            "title": "The decision calendar",
+            "description": "The calendar of monetary policy meetings and decisions of the Central Bank of Astoria: next dates, associated publications and archives."
+          },
+          "hero": {
+            "kicker": "Monetary policy · Decisions",
+            "title": "The decision calendar",
+            "lead": "Monetary policy meetings follow a calendar published in advance. This page presents the next dates and the associated publications.",
+            "cta": "See the decisions",
+            "notice": "Provisional calendar, subject to change."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "The principle",
+              "title": "The principle of the calendar",
+              "lead": "An announced calendar allows everyone to anticipate decisions and their publications.",
+              "paragraphs": {
+                "p1": "The Central Bank publishes in advance the dates of its monetary policy meetings. This predictability is an element of confidence for citizens and markets.",
+                "p2": "The calendar shows the meetings, the decision dates and the publications accompanying them."
+              }
+            },
+            "reunions": {
+              "kicker": "The meetings",
+              "title": "The meetings",
+              "lead": "Several bodies and services intervene in the decision cycle.",
+              "paragraphs": {
+                "p1": "The cycle begins with the preparation of analyses and ends with the communication of the decision."
+              },
+              "cards": {
+                "conseil": {
+                  "title": "The Board",
+                  "text": "It takes the monetary policy decisions."
+                },
+                "gouverneur": {
+                  "title": "The Governor",
+                  "text": "He chairs the meetings and communicates the decisions."
+                },
+                "services": {
+                  "title": "The services",
+                  "text": "They prepare the economic and monetary analyses."
+                },
+                "publications": {
+                  "title": "The publications",
+                  "text": "Press releases, accounts and data."
+                }
+              }
+            },
+            "prochainesDates": {
+              "kicker": "Next dates",
+              "title": "The next dates",
+              "lead": "The next meetings and decisions, in the form of a provisional calendar.",
+              "paragraphs": {
+                "p1": "Each entry indicates the nature of the deadline and, where appropriate, the associated publication."
+              },
+              "table": {
+                "caption": "Next deadlines",
+                "headers": {
+                  "0": "Date",
+                  "1": "Deadline",
+                  "2": "Decision",
+                  "3": "Publication"
+                },
+                "rows": {
+                  "0": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "1": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "2": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "3": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  }
+                },
+                "note": "Provisional calendar, subject to change."
+              },
+              "notice": "Official dates will be published once confirmed."
+            },
+            "publicationsAssociees": {
+              "kicker": "Publications",
+              "title": "The associated publications",
+              "lead": "Each meeting is accompanied by publications and documents.",
+              "paragraphs": {
+                "p1": "The calendar provides for the documents published around each decision."
+              },
+              "cards": {
+                "communique": {
+                  "title": "The press release",
+                  "text": "The official announcement of the decision."
+                },
+                "compteRendu": {
+                  "title": "The account",
+                  "text": "The elements of the meeting."
+                },
+                "rapport": {
+                  "title": "The reports",
+                  "text": "The economic and monetary analyses."
+                },
+                "donnees": {
+                  "title": "The data",
+                  "text": "The associated statistics."
+                }
+              },
+              "bullets": {
+                "b1": "An announced publication time for press releases.",
+                "b2": "Accompanying documents published simultaneously."
+              }
+            },
+            "annonces": {
+              "kicker": "Announcements",
+              "title": "The announcement dates",
+              "lead": "The key deadlines around a decision.",
+              "paragraphs": {
+                "p1": "A monetary policy meeting is organised around several dates."
+              },
+              "facts": {
+                "decision": {
+                  "label": "Decision",
+                  "value": "The date on which the Board takes the decision."
+                },
+                "communique": {
+                  "label": "Press release",
+                  "value": "The date and time of publication of the press release."
+                },
+                "conference": {
+                  "label": "Press conference",
+                  "value": "The date of the conference, when scheduled."
+                },
+                "compteRendu": {
+                  "label": "Account",
+                  "value": "The publication date of the account."
+                }
+              }
+            },
+            "revision": {
+              "kicker": "Revision",
+              "title": "The revision of the calendar",
+              "lead": "The calendar may be adapted according to circumstances.",
+              "paragraphs": {
+                "p1": "Additional meetings may be convened, notably in situations of tension, in respect of the procedures.",
+                "p2": "Any change to the calendar is announced and explained."
+              },
+              "notice": "In the event of a change, the Central Bank informs the public through a dedicated notice."
+            },
+            "archives": {
+              "kicker": "Archives",
+              "title": "The calendar archives",
+              "lead": "Past calendars remain available.",
+              "paragraphs": {
+                "p1": "The archives allow finding past meetings and their publications."
+              },
+              "table": {
+                "caption": "Past calendars",
+                "headers": {
+                  "0": "Year",
+                  "1": "Meetings",
+                  "2": "Decisions",
+                  "3": "Publications"
+                },
+                "rows": {
+                  "0": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "1": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "2": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "3": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  }
+                },
+                "note": "The archives will be fed as publications are issued."
+              },
+              "links": {
+                "communiques": "The press releases",
+                "historique": "The history of decisions"
+              }
+            },
+            "notifications": {
+              "kicker": "Follow",
+              "title": "Following the calendar",
+              "lead": "Several means allow staying informed of the deadlines.",
+              "paragraphs": {
+                "p1": "The Central Bank offers different channels to follow the calendar."
+              },
+              "bullets": {
+                "b1": "Regular consultation of the online calendar.",
+                "b2": "Subscription to announcements and publications.",
+                "b3": "The official channels of the Central Bank."
+              },
+              "cta": "See the publications"
+            }
+          }
+        },
+        "communiques": {
+          "meta": {
+            "title": "Press releases",
+            "description": "The monetary policy press releases of the Central Bank of Astoria: role, content, latest press releases, calendar, meeting accounts and archives."
+          },
+          "hero": {
+            "kicker": "Monetary policy · Decisions",
+            "title": "The press releases",
+            "lead": "Press releases are the official vehicle of monetary policy announcements. This page presents their role, their content and the latest published.",
+            "cta": "See the decisions",
+            "notice": "Press releases will be published on the occasion of the next decisions."
+          },
+          "sections": {
+            "role": {
+              "kicker": "The role",
+              "title": "The role of press releases",
+              "lead": "The press release is the official voice of the Central Bank on its decisions.",
+              "paragraphs": {
+                "p1": "Each monetary policy decision is announced by a press release presenting the decision, the rates concerned and the elements justifying it.",
+                "p2": "The press release ensures a simultaneous and equal dissemination of information to all audiences."
+              }
+            },
+            "contenu": {
+              "kicker": "The content",
+              "title": "The content of a press release",
+              "lead": "A press release follows a stable and readable structure.",
+              "paragraphs": {
+                "p1": "The structure of the press release facilitates its reading and its comparison over time."
+              },
+              "cards": {
+                "decision": {
+                  "title": "The decision",
+                  "text": "The measure decided and its meaning."
+                },
+                "taux": {
+                  "title": "The rates",
+                  "text": "The rates concerned and their evolution."
+                },
+                "justification": {
+                  "title": "The justification",
+                  "text": "The economic elements invoked."
+                },
+                "prochaines": {
+                  "title": "The next steps",
+                  "text": "The upcoming deadlines."
+                }
+              }
+            },
+            "derniersCommuniques": {
+              "kicker": "Latest",
+              "title": "The latest press releases",
+              "lead": "The most recent press releases of the Central Bank.",
+              "paragraphs": {
+                "p1": "Each press release links to the decision and the associated documents."
+              },
+              "links": {
+                "communique1": "Monetary policy press release",
+                "communique2": "Board press release",
+                "communique3": "Monetary policy press release"
+              },
+              "notice": "Links will be published with the official press releases."
+            },
+            "calendrier": {
+              "kicker": "Calendar",
+              "title": "The publication calendar",
+              "lead": "Press releases follow the meeting calendar.",
+              "paragraphs": {
+                "p1": "The date and time of publication are announced with the decision calendar."
+              },
+              "table": {
+                "caption": "Press release publications",
+                "headers": {
+                  "0": "Date",
+                  "1": "Meeting",
+                  "2": "Press release",
+                  "3": "Time"
+                },
+                "rows": {
+                  "0": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "1": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "2": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "3": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  }
+                },
+                "note": "Provisional publication calendar."
+              }
+            },
+            "comptesRendus": {
+              "kicker": "Meeting accounts",
+              "title": "The meeting accounts",
+              "lead": "Meetings are the subject of published accounts.",
+              "paragraphs": {
+                "p1": "The accounts complement the press releases by presenting the elements of the deliberation.",
+                "p2": "They are published on a dedicated schedule, in respect of transparency."
+              },
+              "notice": "Meeting accounts will be published according to the transparency rules of the Central Bank."
+            },
+            "langage": {
+              "kicker": "The language",
+              "title": "The language of press releases",
+              "lead": "Press releases use a precise and stable vocabulary.",
+              "paragraphs": {
+                "p1": "The terms used are defined in the theme pages so as to be understood by all."
+              },
+              "bullets": {
+                "b1": "Precise and consistent technical terms.",
+                "b2": "Explanations intended for the general public.",
+                "b3": "References to the definitions of the theme.",
+                "b4": "A structure comparable from one press release to another."
+              }
+            },
+            "archives": {
+              "kicker": "Archives",
+              "title": "The press release archives",
+              "lead": "Past press releases remain available.",
+              "paragraphs": {
+                "p1": "The archive brings together all the published press releases, sorted by date."
+              },
+              "table": {
+                "caption": "Press release archive",
+                "headers": {
+                  "0": "Date",
+                  "1": "Meeting",
+                  "2": "Decision",
+                  "3": "Title",
+                  "4": "Document"
+                },
+                "rows": {
+                  "0": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced",
+                    "4": "To be announced"
+                  },
+                  "1": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced",
+                    "4": "To be announced"
+                  },
+                  "2": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced",
+                    "4": "To be announced"
+                  },
+                  "3": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced",
+                    "4": "To be announced"
+                  }
+                },
+                "note": "The archive will be fed as publications are issued."
+              },
+              "links": {
+                "historique": "The history of decisions",
+                "calendrier": "The decision calendar"
+              }
+            },
+            "abonnement": {
+              "kicker": "Follow",
+              "title": "Subscribing to press releases",
+              "lead": "Several means allow receiving the press releases.",
+              "paragraphs": {
+                "p1": "The Central Bank offers channels to be informed of publications."
+              },
+              "bullets": {
+                "b1": "Consultation of the publication calendar.",
+                "b2": "The official channels of the Central Bank.",
+                "b3": "Publication letters and alerts."
+              },
+              "cta": "See the publications"
+            }
+          }
+        },
+        "objectifsMonetaires": {
+          "meta": {
+            "title": "The monetary objectives",
+            "description": "The objectives of the monetary policy of the Central Bank of Astoria: price stability, monetary stability, financial stability and monetary conditions."
+          },
+          "hero": {
+            "kicker": "Monetary policy · Decisions",
+            "title": "The monetary objectives",
+            "lead": "Monetary policy pursues statutory objectives defined by the institutional framework of the Republic. This page presents them and ranks them.",
+            "cta": "See the decisions",
+            "notice": "The objectives presented correspond to the institutional framework of the Republic."
+          },
+          "sections": {
+            "mandat": {
+              "kicker": "The mandate",
+              "title": "The statutory mandate",
+              "lead": "The objectives of monetary policy are set by the institutional framework.",
+              "paragraphs": {
+                "p1": "The Constitution and the law define the mandate of the Central Bank in the monetary field.",
+                "p2": "Within this framework, the Central Bank conducts monetary policy independently in the use of its instruments."
+              },
+              "cta": "Discover the missions"
+            },
+            "stabilitePrix": {
+              "kicker": "Primary objective",
+              "title": "Price stability",
+              "lead": "Price stability is the primary objective of monetary policy.",
+              "paragraphs": {
+                "p1": "A stable currency holds its value over time: prices experience neither excessive increase nor generalised and lasting decline.",
+                "p2": "By ensuring price stability, monetary policy protects purchasing power and anchors expectations."
+              },
+              "cards": {
+                "pouvoirAchat": {
+                  "title": "Purchasing power",
+                  "text": "Incomes keep their real value."
+                },
+                "anticipations": {
+                  "title": "Expectations",
+                  "text": "Agents can plan over the medium term."
+                },
+                "decision": {
+                  "title": "The decision",
+                  "text": "Each decision targets this objective."
+                }
+              }
+            },
+            "stabiliteMonetaire": {
+              "kicker": "Second objective",
+              "title": "Monetary stability",
+              "lead": "Monetary policy ensures the stability of money itself.",
+              "paragraphs": {
+                "p1": "Monetary stability covers confidence in the national currency and the predictability of its value.",
+                "p2": "It conditions the role of money as a unit of account, a means of exchange and a store of value."
+              },
+              "cards": {
+                "uniteCompte": {
+                  "title": "The unit of account",
+                  "text": "Money serves as a common reference."
+                },
+                "confiance": {
+                  "title": "Confidence",
+                  "text": "Money is accepted by everyone."
+                },
+                "circulation": {
+                  "title": "Circulation",
+                  "text": "Money circulates in good conditions."
+                }
+              },
+              "bullets": {
+                "b1": "A stable value over time.",
+                "b2": "Credible and predictable conduct."
+              }
+            },
+            "stabiliteFinanciere": {
+              "kicker": "Contribution",
+              "title": "Financial stability",
+              "lead": "The Central Bank contributes to financial stability within its remit.",
+              "paragraphs": {
+                "p1": "Financial stability refers to the robustness of the financial system in the face of shocks.",
+                "p2": "The Central Bank contributes to it through its central bank functions, in liaison with the other authorities."
+              },
+              "notice": "Financial stability involves several authorities; the Central Bank contributes within its remit."
+            },
+            "conditionsMonetaires": {
+              "kicker": "Conditions",
+              "title": "The monetary conditions",
+              "lead": "Monetary conditions reflect the cost and availability of money and credit.",
+              "paragraphs": {
+                "p1": "Rates, liquidity and credit define the conditions in which the economy finances itself."
+              },
+              "facts": {
+                "taux": {
+                  "label": "The rates",
+                  "value": "The level of key rates and market rates."
+                },
+                "liquidite": {
+                  "label": "Liquidity",
+                  "value": "The availability of central bank money."
+                },
+                "credit": {
+                  "label": "Credit",
+                  "value": "The supply and conditions of credit."
+                },
+                "financement": {
+                  "label": "Financing",
+                  "value": "The access of economic agents to financing."
+                }
+              }
+            },
+            "cadre": {
+              "kicker": "The framework",
+              "title": "The institutional framework",
+              "lead": "The objectives fit into the framework of the Republic.",
+              "paragraphs": {
+                "p1": "The Constitution, the law and the statutes of the Central Bank frame the pursuit of objectives."
+              },
+              "cards": {
+                "constitution": {
+                  "title": "The Constitution",
+                  "text": "The supreme framework of the Republic."
+                },
+                "loi": {
+                  "title": "The law",
+                  "text": "The rules applicable to the Central Bank."
+                },
+                "bca": {
+                  "title": "The Central Bank",
+                  "text": "The institution responsible for conducting monetary policy."
+                },
+                "republique": {
+                  "title": "The Republic",
+                  "text": "The political and institutional framework."
+                }
+              }
+            },
+            "hierarchie": {
+              "kicker": "Ranking",
+              "title": "The hierarchy of objectives",
+              "lead": "The objectives are not of equal rank: price stability comes first.",
+              "paragraphs": {
+                "p1": "The hierarchy of objectives guides each monetary policy decision."
+              },
+              "steps": {
+                "stabilitePrix": {
+                  "title": "Price stability",
+                  "text": "The primary objective of monetary policy."
+                },
+                "stabiliteMonetaire": {
+                  "title": "Monetary stability",
+                  "text": "The predictability of the value of money."
+                },
+                "stabiliteFinanciere": {
+                  "title": "Financial stability",
+                  "text": "The contribution to the robustness of the financial system."
+                },
+                "conditionsMonetaires": {
+                  "title": "Monetary conditions",
+                  "text": "Orderly financing conditions."
+                }
+              }
+            },
+            "renduCompte": {
+              "kicker": "Accountability",
+              "title": "Accountability",
+              "lead": "The Central Bank accounts for the pursuit of its objectives.",
+              "paragraphs": {
+                "p1": "Reports, press releases and regular communications document the action of the Central Bank."
+              },
+              "links": {
+                "rapports": "The monetary policy reports",
+                "communiques": "The press releases",
+                "gouvernance": "The governance of the Central Bank"
+              },
+              "notice": "Accountability is an element of the responsibility of the Central Bank."
+            }
+          }
+        },
+        "tauxDirecteur": {
+          "meta": {
+            "title": "The key rate",
+            "description": "The key rate of the Central Bank of Astoria: definition, role, functioning, current level, decisions, relation with banks and transmission."
+          },
+          "hero": {
+            "kicker": "Monetary policy · Key rates",
+            "title": "The key rate",
+            "lead": "The key rate is the central instrument of monetary policy. This page explains its definition, its role and its functioning.",
+            "cta": "See the evolution of rates",
+            "notice": "Values will be published as soon as official data are available."
+          },
+          "sections": {
+            "definition": {
+              "kicker": "Definition",
+              "title": "The key rate, definition",
+              "lead": "The key rate is the rate at which the Central Bank supplies liquidity to the banking system.",
+              "paragraphs": {
+                "p1": "More precisely, the main refinancing rate is the rate applied to the main operations by which the Central Bank provides liquidity to banks.",
+                "p2": "Its level reflects the orientation of monetary policy: it is one of the main signals of the Central Bank."
+              },
+              "facts": {
+                "definition": {
+                  "label": "Definition",
+                  "value": "The rate applied to the main refinancing operations."
+                },
+                "role": {
+                  "label": "Role",
+                  "value": "Steer the financing conditions of the economy."
+                },
+                "fonctionnement": {
+                  "label": "Functioning",
+                  "value": "The central rate of the corridor of key rates."
+                },
+                "etablissements": {
+                  "label": "Institutions concerned",
+                  "value": "The banks of the Republic."
+                }
+              }
+            },
+            "role": {
+              "kicker": "The role",
+              "title": "The role of the key rate",
+              "lead": "The key rate influences the financing conditions of the economy.",
+              "paragraphs": {
+                "p1": "By changing the key rate, the Central Bank acts on the refinancing cost of banks.",
+                "p2": "This cost is passed on, partially and with delay, to the credit and deposits offered to households and firms."
+              },
+              "cards": {
+                "refinancement": {
+                  "title": "Refinancing",
+                  "text": "The cost at which banks finance themselves."
+                },
+                "transmission": {
+                  "title": "Transmission",
+                  "text": "The diffusion of conditions to credit and deposits."
+                },
+                "orientation": {
+                  "title": "Orientation",
+                  "text": "The signal of monetary policy."
+                },
+                "conditions": {
+                  "title": "Conditions",
+                  "text": "The financing conditions of the economy."
+                }
+              }
+            },
+            "fonctionnement": {
+              "kicker": "Functioning",
+              "title": "The functioning",
+              "lead": "The key rate applies to concrete operations.",
+              "paragraphs": {
+                "p1": "From the monetary policy signal to the conditions offered to banks, the functioning follows a cycle."
+              },
+              "steps": {
+                "decision": {
+                  "title": "The decision",
+                  "text": "The Board sets the level of the key rate."
+                },
+                "operations": {
+                  "title": "The operations",
+                  "text": "The Central Bank conducts its refinancing operations at this rate."
+                },
+                "liquidite": {
+                  "title": "Liquidity",
+                  "text": "Banks obtain the desired liquidity."
+                },
+                "conditions": {
+                  "title": "Conditions",
+                  "text": "The financing conditions of the economy adjust."
+                }
+              }
+            },
+            "niveau": {
+              "kicker": "The level",
+              "title": "The current level",
+              "lead": "The level of the key rate and its recent evolution.",
+              "paragraphs": {
+                "p1": "The level of the key rate is updated at each monetary policy decision."
+              },
+              "statGrid": {
+                "niveau": {
+                  "value": "—",
+                  "label": "Key rate"
+                },
+                "variation": {
+                  "value": "—",
+                  "label": "Change since the last decision"
+                },
+                "date": {
+                  "value": "—",
+                  "label": "Date of the last change"
+                }
+              },
+              "notice": "Values will be filled in at the next official publication."
+            },
+            "decisions": {
+              "kicker": "Decisions",
+              "title": "The decisions relating to the rate",
+              "lead": "The history of changes to the key rate.",
+              "paragraphs": {
+                "p1": "Each decision changing the key rate is recorded and documented."
+              },
+              "table": {
+                "caption": "Changes to the key rate",
+                "headers": {
+                  "0": "Date",
+                  "1": "Rate before",
+                  "2": "Rate after",
+                  "3": "Decision"
+                },
+                "rows": {
+                  "0": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "1": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "2": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "3": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  }
+                },
+                "note": "The history will be published with the official data."
+              },
+              "cta": "See the decisions"
+            },
+            "etablissements": {
+              "kicker": "The banks",
+              "title": "The relation with banks",
+              "lead": "The key rate applies in the relation between the Central Bank and banks.",
+              "paragraphs": {
+                "p1": "Eligible banks participate in refinancing operations according to their liquidity needs.",
+                "p2": "The relation relies on accounts, collateral and procedures defined in the operational framework."
+              },
+              "cards": {
+                "contreparties": {
+                  "title": "The counterparties",
+                  "text": "The banks eligible for the operations."
+                },
+                "comptes": {
+                  "title": "The accounts",
+                  "text": "The accounts of banks with the Central Bank."
+                },
+                "garanties": {
+                  "title": "The collateral",
+                  "text": "The assets eligible for the operations."
+                },
+                "operations": {
+                  "title": "The operations",
+                  "text": "The operations conducted according to the calendar."
+                }
+              }
+            },
+            "transmission": {
+              "kicker": "Transmission",
+              "title": "The transmission",
+              "lead": "The key rate is transmitted to the financing of the economy.",
+              "paragraphs": {
+                "p1": "The diagram below summarises the circuit of the key rate."
+              },
+              "flow": {
+                "taux": "Key rate",
+                "banques": "Banks",
+                "credit": "Credit",
+                "economie": "Economy"
+              },
+              "cta": "See the impact on credit"
+            },
+            "questions": {
+              "kicker": "Questions",
+              "title": "The frequently asked questions",
+              "lead": "A few frequently asked questions about the key rate.",
+              "paragraphs": {
+                "p1": "Does the key rate directly concern citizens? Not directly: its effect operates through the conditions offered by banks."
+              },
+              "bullets": {
+                "b1": "Is the key rate the rate of credit? No, it influences conditions without setting them.",
+                "b2": "Who decides the rate? The Board of the Central Bank.",
+                "b3": "How often is it revised? On the occasion of the monetary policy meetings.",
+                "b4": "Where to follow its evolution? In the theme pages and in the press releases."
+              },
+              "notice": "The explanations on this page are general and pedagogical."
+            }
+          }
+        },
+        "facilites": {
+          "meta": {
+            "title": "The facilities",
+            "description": "The facilities of the Central Bank of Astoria: deposit facility, lending facility, corridor of rates and role in liquidity management."
+          },
+          "hero": {
+            "kicker": "Monetary policy · Key rates",
+            "title": "The facilities",
+            "lead": "The standing facilities frame overnight liquidity conditions. This page presents the deposit facility and the lending facility.",
+            "cta": "See the key rates",
+            "notice": "The precise conditions will be published in the operational framework."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "The principle",
+              "title": "The principle of the facilities",
+              "lead": "The facilities are standing operations offered to banks.",
+              "paragraphs": {
+                "p1": "The deposit facility allows banks to place their surplus liquidity; the lending facility allows them to obtain very short-term liquidity.",
+                "p2": "They frame the money market rate and form the corridor of key rates."
+              }
+            },
+            "corridor": {
+              "kicker": "The corridor",
+              "title": "The corridor of rates",
+              "lead": "The facilities delimit the corridor in which the money market rate evolves.",
+              "paragraphs": {
+                "p1": "The lending facility forms the ceiling, the refinancing rate constitutes the centre and the deposit facility forms the floor."
+              },
+              "flow": {
+                "pret": "Lending facility (ceiling)",
+                "refinancement": "Refinancing rate",
+                "depot": "Deposit facility (floor)"
+              },
+              "notice": "Pedagogical diagram of the corridor of rates."
+            },
+            "faciliteDepot": {
+              "kicker": "Deposit",
+              "title": "The deposit facility",
+              "lead": "The deposit facility allows placing surplus liquidity overnight.",
+              "paragraphs": {
+                "p1": "Banks hold accounts with the Central Bank. When they have surpluses, they can deposit them there on terms set by the Central Bank.",
+                "p2": "This facility caps the remuneration of surpluses and participates in the management of liquidity."
+              },
+              "facts": {
+                "principe": {
+                  "label": "Principle",
+                  "value": "Place surplus liquidity overnight."
+                },
+                "acces": {
+                  "label": "Access",
+                  "value": "Open to eligible institutions, on a permanent basis."
+                },
+                "remuneration": {
+                  "label": "Remuneration",
+                  "value": "At the facility rate, set by the Central Bank."
+                },
+                "fonction": {
+                  "label": "Function",
+                  "value": "Absorb surpluses and frame the money market."
+                }
+              }
+            },
+            "facilitePret": {
+              "kicker": "Lending",
+              "title": "The lending facility",
+              "lead": "The lending facility allows obtaining very short-term liquidity.",
+              "paragraphs": {
+                "p1": "Facing a temporary liquidity need, banks can borrow from the Central Bank, against eligible collateral.",
+                "p2": "This facility acts as a safety net and caps the cost of an emergency refinancing."
+              },
+              "facts": {
+                "principe": {
+                  "label": "Principle",
+                  "value": "Obtain overnight liquidity."
+                },
+                "acces": {
+                  "label": "Access",
+                  "value": "Open to eligible institutions, on a permanent basis."
+                },
+                "conditions": {
+                  "label": "Conditions",
+                  "value": "Against eligible collateral, on pre-defined terms."
+                },
+                "fonction": {
+                  "label": "Function",
+                  "value": "Safety net and ceiling of the corridor."
+                }
+              }
+            },
+            "acces": {
+              "kicker": "Access",
+              "title": "Access to the facilities",
+              "lead": "Access to the facilities is framed and permanent.",
+              "paragraphs": {
+                "p1": "The facilities are accessible to eligible institutions, according to defined procedures."
+              },
+              "bullets": {
+                "b1": "Permanent access to the deposit and lending facilities.",
+                "b2": "Eligible counterparties according to the operational framework.",
+                "b3": "Operations carried out via the accounts with the Central Bank.",
+                "b4": "Published and predictable conditions."
+              }
+            },
+            "remuneration": {
+              "kicker": "Remuneration",
+              "title": "The remuneration",
+              "lead": "The facilities are remunerated at rates set by the Central Bank.",
+              "paragraphs": {
+                "p1": "The facility rates are set within the corridor of key rates."
+              },
+              "table": {
+                "caption": "Facility rates",
+                "headers": {
+                  "0": "Facility",
+                  "1": "Type",
+                  "2": "Rate",
+                  "3": "Maturity"
+                },
+                "rows": {
+                  "0": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "1": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "2": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  }
+                },
+                "note": "Rates will be published with the official data."
+              },
+              "notice": "Values will be filled in at the next official publication."
+            },
+            "gestionLiquidite": {
+              "kicker": "Liquidity",
+              "title": "The role in liquidity management",
+              "lead": "The facilities participate in the management of the liquidity of the banking system.",
+              "paragraphs": {
+                "p1": "By offering an outlet for surpluses and a source for needs, the facilities help smooth banking liquidity.",
+                "p2": "They complement open market operations and the reserve requirement."
+              },
+              "notice": "The role of the facilities is complementary to that of the other instruments."
+            },
+            "complement": {
+              "kicker": "Complementarity",
+              "title": "The complementarity of the facilities",
+              "lead": "The instruments act together to maintain orderly monetary conditions.",
+              "paragraphs": {
+                "p1": "Facilities, open market operations and reserves form a coherent set."
+              },
+              "cards": {
+                "depot": {
+                  "title": "The deposit facility",
+                  "text": "Place surplus liquidity."
+                },
+                "pret": {
+                  "title": "The lending facility",
+                  "text": "Cover liquidity needs."
+                },
+                "marche": {
+                  "title": "The market",
+                  "text": "Frame the money market rate."
+                },
+                "reserve": {
+                  "title": "The reserve",
+                  "text": "Stabilise the demand for liquidity."
+                }
+              },
+              "cta": "See the key rates"
+            }
+          }
+        },
+        "evolutionDesTaux": {
+          "meta": {
+            "title": "The evolution of rates",
+            "description": "The evolution of the key rates of the Central Bank of Astoria: rate series, latest changes, trends, comparison, historical context and access to data."
+          },
+          "hero": {
+            "kicker": "Monetary policy · Key rates",
+            "title": "The evolution of rates",
+            "lead": "Key rates evolve over the course of monetary policy decisions. This page presents their series, their trends and their historical context.",
+            "cta": "See the key rates",
+            "notice": "Data will be published as soon as they are available."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "The principle",
+              "title": "Following the evolution of rates",
+              "lead": "Key rates are followed over time, decision after decision.",
+              "paragraphs": {
+                "p1": "Their evolution reflects the adaptation of monetary policy to the situation: tightening, easing or maintaining.",
+                "p2": "This page gathers the information needed to follow this evolution."
+              }
+            },
+            "serie": {
+              "kicker": "The series",
+              "title": "The rate series",
+              "lead": "The set of rates and their changes, in the form of a series.",
+              "paragraphs": {
+                "p1": "The series will be fed as official publications are issued."
+              },
+              "table": {
+                "caption": "Key rates series",
+                "headers": {
+                  "0": "Date",
+                  "1": "Refinancing",
+                  "2": "Deposit",
+                  "3": "Lending"
+                },
+                "rows": {
+                  "0": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "1": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "2": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "3": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "4": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  }
+                },
+                "note": "Series under construction."
+              },
+              "notice": "Values will be filled in at the next official publication."
+            },
+            "dernieresModifications": {
+              "kicker": "Recent",
+              "title": "The latest changes",
+              "lead": "The most recent changes to the key rate.",
+              "paragraphs": {
+                "p1": "Each change is documented and linked to the decision that decided it."
+              },
+              "facts": {
+                "date": {
+                  "label": "Date",
+                  "value": "Awaiting publication"
+                },
+                "taux": {
+                  "label": "Rate",
+                  "value": "Awaiting publication"
+                },
+                "variation": {
+                  "label": "Change",
+                  "value": "Awaiting publication"
+                },
+                "decision": {
+                  "label": "Decision",
+                  "value": "Awaiting publication"
+                }
+              }
+            },
+            "tendances": {
+              "kicker": "Trends",
+              "title": "The trends",
+              "lead": "The evolution of rates is read in trends.",
+              "paragraphs": {
+                "p1": "Increases, decreases and periods of stability draw the orientation of monetary policy."
+              },
+              "cards": {
+                "hausse": {
+                  "title": "Tightening",
+                  "text": "Rates raised to contain price pressures."
+                },
+                "baisse": {
+                  "title": "Easing",
+                  "text": "Rates lowered to support financing."
+                },
+                "stabilite": {
+                  "title": "Maintaining",
+                  "text": "Rates left unchanged, awaiting information."
+                },
+                "cycle": {
+                  "title": "The cycle",
+                  "text": "Evolution is read over time."
+                }
+              }
+            },
+            "comparaison": {
+              "kicker": "Comparison",
+              "title": "The comparison of rates",
+              "lead": "The different rates are compared within the corridor.",
+              "paragraphs": {
+                "p1": "The spreads between the refinancing rate and the facilities delimit the corridor of rates."
+              },
+              "statGrid": {
+                "refinancement": {
+                  "value": "—",
+                  "label": "Refinancing rate"
+                },
+                "depot": {
+                  "value": "—",
+                  "label": "Deposit facility"
+                },
+                "pret": {
+                  "value": "—",
+                  "label": "Lending facility"
+                }
+              },
+              "notice": "Values will be filled in at the next official publication."
+            },
+            "interpretation": {
+              "kicker": "Reading",
+              "title": "How to read the changes",
+              "lead": "A change in rates is interpreted in its context.",
+              "paragraphs": {
+                "p1": "A change in rates responds to an analysis of the situation and the outlook."
+              },
+              "bullets": {
+                "b1": "The economic context at the time of the decision.",
+                "b2": "The justification published in the press release.",
+                "b3": "The scale and direction of the change.",
+                "b4": "The trajectory followed over several decisions."
+              }
+            },
+            "contexte": {
+              "kicker": "Context",
+              "title": "The historical context",
+              "lead": "The evolution of rates fits into a broader historical context.",
+              "paragraphs": {
+                "p1": "Monetary policy adapts to the main economic phases: growth, inflationary tensions, crises or slowdowns.",
+                "p2": "Each decision is explained by the conditions of its era."
+              },
+              "notice": "The historical context will be documented as the archives are built.",
+              "cta": "See the decisions"
+            },
+            "donnees": {
+              "kicker": "Data",
+              "title": "Accessing the data",
+              "lead": "The rate data will be available in several formats.",
+              "paragraphs": {
+                "p1": "Tables, series and downloads will be offered with the official data."
+              },
+              "links": {
+                "taux": "The key rates",
+                "historique": "The history of decisions",
+                "statistiques": "The monetary statistics"
+              },
+              "notice": "Resources will be published with the official data."
+            }
+          }
+        },
+        "repercussionSurLeCredit": {
+          "meta": {
+            "title": "The impact on credit",
+            "description": "The impact of the key rates of the Central Bank of Astoria on credit to households and firms: rate channel, delays and statistics."
+          },
+          "hero": {
+            "kicker": "Monetary policy · Key rates",
+            "title": "The impact on credit",
+            "lead": "The decisions of the Central Bank are passed on, with delay and partially, to credit conditions. This page explains how.",
+            "cta": "See the key rates",
+            "notice": "Data will be published as soon as they are available."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "The principle",
+              "title": "The principle of transmission",
+              "lead": "The pass-through is neither mechanical, nor instantaneous, nor complete.",
+              "paragraphs": {
+                "p1": "Key rates influence the refinancing cost of banks. Banks partially pass on these conditions to their credit and deposits.",
+                "p2": "The scale of the pass-through depends on competition, the structure of balance sheets and the situation of each bank."
+              }
+            },
+            "canalTaux": {
+              "kicker": "The channel",
+              "title": "The rate channel",
+              "lead": "The rate channel describes the path from the decision to credit.",
+              "paragraphs": {
+                "p1": "From the decision of the Central Bank to credit conditions, the channel follows several steps."
+              },
+              "flow": {
+                "taux": "Key rates",
+                "financement": "Refinancing cost",
+                "credit": "Credit conditions",
+                "demande": "Demand for credit",
+                "economie": "Economy"
+              }
+            },
+            "creditMenages": {
+              "kicker": "Households",
+              "title": "Credit to households",
+              "lead": "Credit conditions for households adjust with delay.",
+              "paragraphs": {
+                "p1": "Housing credit and consumer credit are concerned, with variable delays and scales.",
+                "p2": "The rates offered depend on market conditions and the situation of each borrower."
+              },
+              "cards": {
+                "immobilier": {
+                  "title": "Housing credit",
+                  "text": "Loans for housing and their rates."
+                },
+                "consommation": {
+                  "title": "Consumer credit",
+                  "text": "Personal and revolving loans."
+                },
+                "duree": {
+                  "title": "Duration",
+                  "text": "Loans extend over long periods."
+                },
+                "cout": {
+                  "title": "The cost",
+                  "text": "The cost of credit for the borrower."
+                }
+              },
+              "bullets": {
+                "b1": "The pass-through is progressive, not immediate.",
+                "b2": "It varies by institution and product."
+              }
+            },
+            "creditEntreprises": {
+              "kicker": "Firms",
+              "title": "Credit to firms",
+              "lead": "Firms finance their investment and their working capital.",
+              "paragraphs": {
+                "p1": "Credit conditions for firms depend on the size, sector and risk profile of each firm.",
+                "p2": "Small firms are often more sensitive to changes in credit conditions."
+              },
+              "cards": {
+                "investissement": {
+                  "title": "Investment",
+                  "text": "The financing of equipment and production."
+                },
+                "tresorerie": {
+                  "title": "Working capital",
+                  "text": "Short-term financing of activity."
+                },
+                "export": {
+                  "title": "Export",
+                  "text": "The financing of international activities."
+                },
+                "petites": {
+                  "title": "Small firms",
+                  "text": "Often more constrained access to credit."
+                }
+              }
+            },
+            "depots": {
+              "kicker": "Deposits",
+              "title": "The deposits",
+              "lead": "Deposits are also concerned, generally to a lesser extent.",
+              "paragraphs": {
+                "p1": "The remuneration of deposits adjusts to rate conditions, often with delay and partially.",
+                "p2": "Sight deposits and savings accounts do not react in the same way."
+              },
+              "bullets": {
+                "b1": "The remuneration of deposits follows rates with delay.",
+                "b2": "Some deposits are not remunerated."
+              }
+            },
+            "delais": {
+              "kicker": "Delays",
+              "title": "The transmission delays",
+              "lead": "Transmission takes time and its scale is uncertain.",
+              "paragraphs": {
+                "p1": "Full transmission can take several quarters and varies according to circumstances."
+              },
+              "bullets": {
+                "b1": "Variable delays according to credit and deposits.",
+                "b2": "Faster transmission on short-term credit.",
+                "b3": "A more gradual effect on long-term credit.",
+                "b4": "A scale depending on competition and the situation."
+              },
+              "notice": "Actual transmission depends on many factors; this diagram is pedagogical."
+            },
+            "statistiques": {
+              "kicker": "Statistics",
+              "title": "The credit statistics",
+              "lead": "Credit statistics document the pass-through.",
+              "paragraphs": {
+                "p1": "Outstanding, rates and credit conditions allow following the transmission."
+              },
+              "statGrid": {
+                "creditMenages": {
+                  "value": "—",
+                  "label": "Credit to households"
+                },
+                "creditEntreprises": {
+                  "value": "—",
+                  "label": "Credit to firms"
+                },
+                "conditions": {
+                  "value": "—",
+                  "label": "Credit conditions"
+                }
+              },
+              "notice": "Statistics will be published with the official data."
+            },
+            "documentation": {
+              "kicker": "Further reading",
+              "title": "Further reading",
+              "lead": "The theme pages complement this presentation.",
+              "paragraphs": {
+                "p1": "Rates, instruments and reports shed light on the impact on credit."
+              },
+              "links": {
+                "taux": "The key rates",
+                "instruments": "The monetary instruments",
+                "rapports": "The monetary policy reports",
+                "banques": "The Banks theme"
+              },
+              "notice": "References will be completed as publications are issued."
+            }
+          }
+        },
+        "operationsDeMarche": {
+          "meta": {
+            "title": "Market operations",
+            "description": "The open market operations of the Central Bank of Astoria: principle, types of operations, objectives, functioning, actors, impact on liquidity and calendar."
+          },
+          "hero": {
+            "kicker": "Monetary policy · Instruments",
+            "title": "Market operations",
+            "lead": "Open market operations are the main instrument of monetary policy. This page explains their principle and their functioning.",
+            "cta": "See the instruments",
+            "notice": "The precise modalities will be published in the operational framework."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "The principle",
+              "title": "The principle of market operations",
+              "lead": "The Central Bank intervenes on the money market to steer liquidity.",
+              "paragraphs": {
+                "p1": "Open market operations consist in supplying or absorbing liquidity of the banking system through interventions on the money market.",
+                "p2": "They rely on sale or repurchase operations of assets, according to the framework in force."
+              }
+            },
+            "types": {
+              "kicker": "The types",
+              "title": "The types of operations",
+              "lead": "Open market operations come in different forms according to their purpose.",
+              "paragraphs": {
+                "p1": "One distinguishes injection and absorption operations, as well as regular and ad hoc operations."
+              },
+              "cards": {
+                "injection": {
+                  "title": "Injection",
+                  "text": "Supply liquidity to the banking system."
+                },
+                "absorption": {
+                  "title": "Absorption",
+                  "text": "Withdraw liquidity from the banking system."
+                },
+                "regulieres": {
+                  "title": "Regular operations",
+                  "text": "Conducted according to an announced calendar."
+                },
+                "ponctuelles": {
+                  "title": "Ad hoc operations",
+                  "text": "Conducted according to needs."
+                }
+              }
+            },
+            "objectifs": {
+              "kicker": "The objectives",
+              "title": "The objectives",
+              "lead": "Market operations pursue precise objectives.",
+              "paragraphs": {
+                "p1": "They aim to maintain monetary conditions compatible with the objectives of the Central Bank."
+              },
+              "facts": {
+                "liquidite": {
+                  "label": "Liquidity",
+                  "value": "Supply or absorb the liquidity of the system."
+                },
+                "taux": {
+                  "label": "Rates",
+                  "value": "Steer the money market rate."
+                },
+                "conditions": {
+                  "label": "Conditions",
+                  "value": "Maintain orderly monetary conditions."
+                },
+                "signal": {
+                  "label": "Signal",
+                  "value": "Reflect the orientation of monetary policy."
+                }
+              }
+            },
+            "fonctionnement": {
+              "kicker": "Functioning",
+              "title": "The functioning",
+              "lead": "Each operation follows defined steps.",
+              "paragraphs": {
+                "p1": "From the announcement to the maturity, the operations follow a stable and published procedure."
+              },
+              "steps": {
+                "annonce": {
+                  "title": "The announcement",
+                  "text": "The Central Bank announces the operation and its modalities."
+                },
+                "demande": {
+                  "title": "The bid",
+                  "text": "Eligible counterparties submit their bids."
+                },
+                "attribution": {
+                  "title": "The allotment",
+                  "text": "The Central Bank allots the amounts according to the rules."
+                },
+                "reglement": {
+                  "title": "The settlement",
+                  "text": "Funds are exchanged against assets."
+                },
+                "echange": {
+                  "title": "The maturity",
+                  "text": "The operation reaches its term according to the modalities."
+                }
+              }
+            },
+            "acteurs": {
+              "kicker": "The actors",
+              "title": "The actors concerned",
+              "lead": "Several actors participate in market operations.",
+              "paragraphs": {
+                "p1": "The Central Bank intervenes with eligible institutions on the money market."
+              },
+              "cards": {
+                "bca": {
+                  "title": "The Central Bank",
+                  "text": "The operator of market operations."
+                },
+                "banques": {
+                  "title": "The banks",
+                  "text": "The counterparties eligible for the operations."
+                },
+                "contreparties": {
+                  "title": "The counterparties",
+                  "text": "The institutions authorised to participate."
+                },
+                "marche": {
+                  "title": "The market",
+                  "text": "The place of operations and rate formation."
+                }
+              }
+            },
+            "liquidite": {
+              "kicker": "Liquidity",
+              "title": "The impact on liquidity",
+              "lead": "Market operations directly change banking liquidity.",
+              "paragraphs": {
+                "p1": "An injection operation increases bank reserves; an absorption operation reduces them.",
+                "p2": "This impact is at the heart of the transmission of monetary policy."
+              },
+              "flow": {
+                "bca": "Central bank",
+                "operations": "Operations",
+                "banques": "Banks",
+                "liquidite": "Liquidity"
+              },
+              "notice": "Pedagogical diagram of the impact on liquidity."
+            },
+            "calendrier": {
+              "kicker": "Calendar",
+              "title": "The operations calendar",
+              "lead": "Regular operations follow an announced calendar.",
+              "paragraphs": {
+                "p1": "The operations calendar is published and updated according to needs."
+              },
+              "table": {
+                "caption": "Operations calendar",
+                "headers": {
+                  "0": "Date",
+                  "1": "Operation",
+                  "2": "Type",
+                  "3": "Maturity"
+                },
+                "rows": {
+                  "0": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "1": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "2": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "3": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  }
+                },
+                "note": "Provisional operations calendar."
+              }
+            },
+            "documentation": {
+              "kicker": "Documentation",
+              "title": "The documentation",
+              "lead": "The framework of the operations is documented and published.",
+              "paragraphs": {
+                "p1": "The texts and notices describe the modalities of market operations."
+              },
+              "links": {
+                "cadre": "The operational framework",
+                "refinancement": "Refinancing",
+                "taux": "The key rates"
+              },
+              "notice": "The full documentation will be published with the launch of the operations."
+            }
+          }
+        },
+        "refinancement": {
+          "meta": {
+            "title": "Refinancing",
+            "description": "Refinancing of institutions by the Central Bank of Astoria: principle, mechanism, terms, collateral, maturities and role in banking liquidity."
+          },
+          "hero": {
+            "kicker": "Monetary policy · Instruments",
+            "title": "Refinancing",
+            "lead": "The Central Bank supplies liquidity to banks through refinancing operations. This page presents their mechanism and their terms.",
+            "cta": "See the instruments",
+            "notice": "The precise modalities will be published in the operational framework."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "The principle",
+              "title": "The principle of refinancing",
+              "lead": "Refinancing allows banks to obtain liquidity.",
+              "paragraphs": {
+                "p1": "Banks obtain liquidity from the Central Bank, on defined terms and maturities.",
+                "p2": "These operations play a central role in the management of banking liquidity and the transmission of monetary policy."
+              }
+            },
+            "mecanisme": {
+              "kicker": "The mechanism",
+              "title": "The mechanism",
+              "lead": "A refinancing operation follows a defined sequence.",
+              "paragraphs": {
+                "p1": "From the bid to the maturity, each step is framed."
+              },
+              "steps": {
+                "demande": {
+                  "title": "The bid",
+                  "text": "The bank submits its refinancing bid."
+                },
+                "garanties": {
+                  "title": "The collateral",
+                  "text": "The bank provides eligible assets as collateral."
+                },
+                "attribution": {
+                  "title": "The allotment",
+                  "text": "The Central Bank supplies liquidity according to the rules."
+                },
+                "remboursement": {
+                  "title": "The repayment",
+                  "text": "The bank repays at maturity."
+                }
+              }
+            },
+            "conditions": {
+              "kicker": "The terms",
+              "title": "The terms",
+              "lead": "The refinancing terms are set and published.",
+              "paragraphs": {
+                "p1": "Rates, amounts, maturities and frequency define the terms of the operations."
+              },
+              "facts": {
+                "taux": {
+                  "label": "Rate",
+                  "value": "The rate applicable to the operations."
+                },
+                "montant": {
+                  "label": "Amount",
+                  "value": "The amount allotted according to the rules."
+                },
+                "echeance": {
+                  "label": "Maturity",
+                  "value": "The duration of the operation."
+                },
+                "frequence": {
+                  "label": "Frequency",
+                  "value": "The periodicity of the operations."
+                }
+              }
+            },
+            "garanties": {
+              "kicker": "The collateral",
+              "title": "The collateral",
+              "lead": "Refinancing operations are backed by collateral.",
+              "paragraphs": {
+                "p1": "Banks provide eligible assets as collateral, valued according to published rules.",
+                "p2": "The collateral framework protects the Central Bank against the risk of non-repayment."
+              },
+              "cards": {
+                "types": {
+                  "title": "The types",
+                  "text": "The categories of eligible assets."
+                },
+                "evaluation": {
+                  "title": "The valuation",
+                  "text": "The valuation rules of the assets."
+                },
+                "marge": {
+                  "title": "The haircuts",
+                  "text": "The margins applied to the assets."
+                },
+                "cadre": {
+                  "title": "The framework",
+                  "text": "The published rules of the framework."
+                }
+              },
+              "bullets": {
+                "b1": "A list of eligible assets, published and updated.",
+                "b2": "Transparent valuation rules."
+              }
+            },
+            "echeances": {
+              "kicker": "The maturities",
+              "title": "The maturities",
+              "lead": "Refinancing operations cover different maturities.",
+              "paragraphs": {
+                "p1": "Shorter and longer-dated operations meet the different needs."
+              },
+              "table": {
+                "caption": "Operation maturities",
+                "headers": {
+                  "0": "Operation",
+                  "1": "Maturity",
+                  "2": "Frequency",
+                  "3": "Type"
+                },
+                "rows": {
+                  "0": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "1": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "2": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  }
+                },
+                "note": "The detail will be published with the operational framework."
+              }
+            },
+            "role": {
+              "kicker": "The role",
+              "title": "The role in liquidity",
+              "lead": "Refinancing is at the heart of banking liquidity.",
+              "paragraphs": {
+                "p1": "By supplying liquidity, refinancing allows banks to finance the economy.",
+                "p2": "Its cost is a central element of the transmission of monetary policy."
+              },
+              "flow": {
+                "bca": "Central bank",
+                "refinancement": "Refinancing",
+                "banques": "Banks",
+                "credit": "Credit"
+              },
+              "cta": "See the key rates"
+            },
+            "etablissements": {
+              "kicker": "Institutions",
+              "title": "The institutions concerned",
+              "lead": "Refinancing is addressed to eligible institutions.",
+              "paragraphs": {
+                "p1": "Access to refinancing is open to institutions meeting the conditions of the operational framework."
+              },
+              "cards": {
+                "eligibles": {
+                  "title": "The eligible",
+                  "text": "The institutions authorised for refinancing."
+                },
+                "comptes": {
+                  "title": "The accounts",
+                  "text": "The accounts of banks with the Central Bank."
+                },
+                "accords": {
+                  "title": "The agreements",
+                  "text": "The conventions framing participation."
+                },
+                "surveillance": {
+                  "title": "The monitoring",
+                  "text": "The follow-up of operations and counterparties."
+                }
+              }
+            },
+            "documentation": {
+              "kicker": "Documentation",
+              "title": "The documentation",
+              "lead": "The refinancing framework is documented.",
+              "paragraphs": {
+                "p1": "The texts and notices describe the modalities of refinancing."
+              },
+              "links": {
+                "operations": "The market operations",
+                "reserve": "The reserve requirement",
+                "cadre": "The operational framework"
+              },
+              "notice": "The full documentation will be published with the launch of the operations."
+            }
+          }
+        },
+        "reserveObligatoire": {
+          "meta": {
+            "title": "The reserve requirement",
+            "description": "The reserve requirement of the Central Bank of Astoria: principle, objective, calculation, remuneration, accounts, management and impact on liquidity."
+          },
+          "hero": {
+            "kicker": "Monetary policy · Instruments",
+            "title": "The reserve requirement",
+            "lead": "The reserve requirement obliges banks to hold reserves with the Central Bank. This page explains its principle and its role.",
+            "cta": "See the instruments",
+            "notice": "The precise modalities will be published in the operational framework."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "The principle",
+              "title": "The principle of the reserve requirement",
+              "lead": "The reserve requirement is an obligation to hold reserves.",
+              "paragraphs": {
+                "p1": "Banks are required to hold reserves on their accounts with the Central Bank, in proportion to certain of their resources.",
+                "p2": "This instrument stabilises the demand for reserves and contributes to the conduct of monetary policy."
+              }
+            },
+            "objectif": {
+              "kicker": "The objective",
+              "title": "The objective",
+              "lead": "The reserve requirement pursues several objectives.",
+              "paragraphs": {
+                "p1": "It stabilises the demand for liquidity of banks and supports the transmission of monetary policy."
+              },
+              "cards": {
+                "stabilite": {
+                  "title": "Stability",
+                  "text": "Stabilise the demand for reserves of banks."
+                },
+                "liquidite": {
+                  "title": "Liquidity",
+                  "text": "Smooth the management of banking liquidity."
+                },
+                "demande": {
+                  "title": "Demand",
+                  "text": "Create a stable demand for central bank money."
+                },
+                "marche": {
+                  "title": "The market",
+                  "text": "Support the functioning of the money market."
+                }
+              }
+            },
+            "calcul": {
+              "kicker": "The calculation",
+              "title": "The calculation",
+              "lead": "The amount of reserves is calculated according to published rules.",
+              "paragraphs": {
+                "p1": "The calculation relies on a base, a rate and a maintenance period."
+              },
+              "steps": {
+                "assiette": {
+                  "title": "The base",
+                  "text": "The resources taken into account in the calculation."
+                },
+                "taux": {
+                  "title": "The rate",
+                  "text": "The reserve rate applicable to the base."
+                },
+                "montant": {
+                  "title": "The amount",
+                  "text": "The amount of reserves to hold."
+                },
+                "constitution": {
+                  "title": "The holding",
+                  "text": "The reserves are held on the accounts."
+                }
+              },
+              "facts": {
+                "assiette": {
+                  "label": "Base",
+                  "value": "Awaiting publication"
+                },
+                "taux": {
+                  "label": "Rate",
+                  "value": "Awaiting publication"
+                },
+                "periodicite": {
+                  "label": "Periodicity",
+                  "value": "Awaiting publication"
+                }
+              }
+            },
+            "remuneration": {
+              "kicker": "Remuneration",
+              "title": "The remuneration",
+              "lead": "The reserves may be remunerated.",
+              "paragraphs": {
+                "p1": "The remuneration of reserves is set by the Central Bank, according to the rules in force.",
+                "p2": "It fits within the corridor of key rates."
+              },
+              "table": {
+                "caption": "Remuneration of reserves",
+                "headers": {
+                  "0": "Reserves",
+                  "1": "Rate",
+                  "2": "Period",
+                  "3": "Modalities"
+                },
+                "rows": {
+                  "0": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "1": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "2": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  }
+                },
+                "note": "The modalities will be published with the operational framework."
+              },
+              "notice": "Values will be filled in at the next official publication."
+            },
+            "comptes": {
+              "kicker": "The accounts",
+              "title": "The accounts",
+              "lead": "The reserves are held on the accounts of banks.",
+              "paragraphs": {
+                "p1": "Institutions hold their reserves on their accounts with the Central Bank."
+              },
+              "bullets": {
+                "b1": "One reserve account per institution.",
+                "b2": "Daily monitoring of balances.",
+                "b3": "A defined maintenance period.",
+                "b4": "Rules for complying with the reserve."
+              }
+            },
+            "gestion": {
+              "kicker": "Management",
+              "title": "The management of reserves",
+              "lead": "Banks manage their reserves within a defined framework.",
+              "paragraphs": {
+                "p1": "The management of reserves allows banks to smooth their liquidity needs over the period.",
+                "p2": "Failure to comply with the obligations gives rise to defined procedures."
+              },
+              "notice": "The management rules will be set out in the operational framework."
+            },
+            "incidence": {
+              "kicker": "Impact",
+              "title": "The impact on liquidity",
+              "lead": "The reserve requirement influences the demand for liquidity.",
+              "paragraphs": {
+                "p1": "By creating a stable demand for reserves, the reserve requirement supports the management of liquidity by the Central Bank."
+              },
+              "flow": {
+                "reserves": "Reserves",
+                "comptes": "Accounts",
+                "banques": "Banks",
+                "marche": "Money market"
+              },
+              "cta": "See the reserves"
+            },
+            "documentation": {
+              "kicker": "Documentation",
+              "title": "The documentation",
+              "lead": "The reserve requirement framework is documented.",
+              "paragraphs": {
+                "p1": "The texts and notices describe the modalities of the reserve requirement."
+              },
+              "links": {
+                "instruments": "The monetary instruments",
+                "refinancement": "Refinancing",
+                "liquidite": "The liquidity of the system"
+              },
+              "notice": "The full documentation will be published with the launch of the operations."
+            }
+          }
+        },
+        "transmissionDeLaPolitiqueMonetaire": {
+          "meta": {
+            "title": "The transmission of monetary policy",
+            "description": "The transmission of the monetary policy of the Central Bank of Astoria: chain, channels, delays, expectations and effects on the economy."
+          },
+          "hero": {
+            "kicker": "Monetary policy · Instruments",
+            "title": "The transmission of monetary policy",
+            "lead": "Monetary policy acts on the economy through a transmission chain. This page explains the channels, the delays and the effects.",
+            "cta": "See the impact on credit",
+            "notice": "Actual transmission depends on many factors; this presentation is pedagogical."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "The principle",
+              "title": "The principle of transmission",
+              "lead": "Monetary policy acts on the economy through multiple channels.",
+              "paragraphs": {
+                "p1": "The decisions of the Central Bank change monetary conditions, which influence the financing of the economy, then activity and prices.",
+                "p2": "Transmission is gradual and its scale varies over time."
+              }
+            },
+            "chaine": {
+              "kicker": "The chain",
+              "title": "The transmission chain",
+              "lead": "The chain summarises the path from the decision to inflation.",
+              "paragraphs": {
+                "p1": "Central bank → banks → financing → firms and households → activity → inflation."
+              },
+              "flow": {
+                "bca": "Central bank",
+                "banques": "Banks",
+                "financement": "Financing",
+                "agents": "Firms and households",
+                "activite": "Activity",
+                "inflation": "Inflation"
+              },
+              "notice": "Pedagogical diagram: actual transmission is neither mechanical nor instantaneous."
+            },
+            "canaux": {
+              "kicker": "The channels",
+              "title": "The transmission channels",
+              "lead": "Several channels relay monetary policy.",
+              "paragraphs": {
+                "p1": "The rate, credit, expectations and asset channels act together."
+              },
+              "cards": {
+                "taux": {
+                  "title": "The rate channel",
+                  "text": "Rate conditions are passed on."
+                },
+                "credit": {
+                  "title": "The credit channel",
+                  "text": "The supply and conditions of credit adjust."
+                },
+                "anticipations": {
+                  "title": "The expectations channel",
+                  "text": "The expectations of agents evolve."
+                },
+                "actifs": {
+                  "title": "The asset channel",
+                  "text": "Asset prices and wealth react."
+                }
+              }
+            },
+            "delais": {
+              "kicker": "The delays",
+              "title": "The delays",
+              "lead": "Transmission takes time.",
+              "paragraphs": {
+                "p1": "Full transmission of decisions can take several quarters or more."
+              },
+              "bullets": {
+                "b1": "Rapid effects on the money market.",
+                "b2": "Gradual effects on credit and deposits.",
+                "b3": "Delayed effects on activity and prices.",
+                "b4": "Variable delays according to the context."
+              },
+              "notice": "Transmission delays are irregular and uncertain."
+            },
+            "anticipations": {
+              "kicker": "The expectations",
+              "title": "The role of expectations",
+              "lead": "The expectations of agents matter as much as the rates themselves.",
+              "paragraphs": {
+                "p1": "A credible monetary policy influences inflation expectations, which facilitates price stability.",
+                "p2": "The communication of the Central Bank feeds these expectations."
+              },
+              "cards": {
+                "credibilite": {
+                  "title": "Credibility",
+                  "text": "Coherent and predictable conduct."
+                },
+                "previsibilite": {
+                  "title": "Predictability",
+                  "text": "Announced and explained decisions."
+                },
+                "communication": {
+                  "title": "Communication",
+                  "text": "Regular publications."
+                }
+              }
+            },
+            "incertitude": {
+              "kicker": "The uncertainty",
+              "title": "The uncertainty",
+              "lead": "Transmission is surrounded by uncertainty.",
+              "paragraphs": {
+                "p1": "The scale and timing of the effects depend on circumstances that are difficult to predict."
+              },
+              "bullets": {
+                "b1": "The state of the economy and of credit.",
+                "b2": "The confidence of households and firms.",
+                "b3": "The international situation."
+              }
+            },
+            "economie": {
+              "kicker": "The effects",
+              "title": "The effects on the economy",
+              "lead": "The effects of monetary policy are measured on the main aggregates.",
+              "paragraphs": {
+                "p1": "Rates, credit and inflation are the main indicators of transmission."
+              },
+              "statGrid": {
+                "taux": {
+                  "value": "—",
+                  "label": "Key rates"
+                },
+                "credit": {
+                  "value": "—",
+                  "label": "Credit to the economy"
+                },
+                "inflation": {
+                  "value": "—",
+                  "label": "Inflation"
+                }
+              },
+              "notice": "Indicators will be published with the official data."
+            },
+            "lecture": {
+              "kicker": "Further reading",
+              "title": "Further reading",
+              "lead": "The theme pages deepen the transmission.",
+              "paragraphs": {
+                "p1": "The impact on credit and the instruments complement this presentation."
+              },
+              "links": {
+                "repercussion": "The impact on credit",
+                "instruments": "The monetary instruments",
+                "rapports": "The monetary policy reports"
+              },
+              "cta": "See the publications"
+            }
+          }
+        },
+        "rapports": {
+          "meta": {
+            "title": "Reports",
+            "description": "The monetary policy reports of the Central Bank of Astoria: content, publication calendar, latest reports, methods, audience and archives."
+          },
+          "hero": {
+            "kicker": "Monetary policy · Publications",
+            "title": "The reports",
+            "lead": "The monetary policy reports present the economic and monetary situation and the action of the Central Bank.",
+            "cta": "See the publications",
+            "notice": "Reports will be published as soon as they are available."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "The principle",
+              "title": "The principle of the reports",
+              "lead": "The reports are the reference of the Central Bank's economic communication.",
+              "paragraphs": {
+                "p1": "They present the economic situation, the evolution of inflation and the orientation of monetary policy.",
+                "p2": "They are published on a regular schedule."
+              }
+            },
+            "contenu": {
+              "kicker": "The content",
+              "title": "The content",
+              "lead": "A monetary policy report covers several themes.",
+              "paragraphs": {
+                "p1": "Economic situation, inflation, monetary policy, risks and prospects form the structure of the reports."
+              },
+              "cards": {
+                "situation": {
+                  "title": "The economic situation",
+                  "text": "The evolution of activity and the outlook."
+                },
+                "inflation": {
+                  "title": "Inflation",
+                  "text": "The analysis of the evolution of prices."
+                },
+                "politique": {
+                  "title": "Monetary policy",
+                  "text": "The decisions and their justification."
+                },
+                "risques": {
+                  "title": "Risks",
+                  "text": "The identified risks and their implications."
+                }
+              }
+            },
+            "calendrier": {
+              "kicker": "The calendar",
+              "title": "The publication calendar",
+              "lead": "The reports follow a regular schedule.",
+              "paragraphs": {
+                "p1": "The publication dates are announced in advance."
+              },
+              "table": {
+                "caption": "Report calendar",
+                "headers": {
+                  "0": "Report",
+                  "1": "Date",
+                  "2": "Frequency",
+                  "3": "Publication"
+                },
+                "rows": {
+                  "0": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "1": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "2": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "3": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  }
+                },
+                "note": "Provisional publication calendar."
+              },
+              "notice": "Official dates will be published once confirmed."
+            },
+            "derniersRapports": {
+              "kicker": "Latest",
+              "title": "The latest reports",
+              "lead": "The most recent reports.",
+              "paragraphs": {
+                "p1": "Each report links to the full document and its annexes."
+              },
+              "links": {
+                "rapport1": "Monetary policy report",
+                "rapport2": "Monetary policy report",
+                "rapport3": "Monetary policy report"
+              }
+            },
+            "methodes": {
+              "kicker": "The methods",
+              "title": "The methods",
+              "lead": "The reports rely on documented methods.",
+              "paragraphs": {
+                "p1": "The data, models and assumptions used are presented in the reports and their annexes."
+              },
+              "bullets": {
+                "b1": "Data from official sources.",
+                "b2": "Transparent analytical methods.",
+                "b3": "Explained assumptions."
+              },
+              "notice": "The methods will be detailed with the publication of the reports."
+            },
+            "audience": {
+              "kicker": "The audience",
+              "title": "The audience of the reports",
+              "lead": "The reports address several audiences.",
+              "paragraphs": {
+                "p1": "Citizens, markets, institutions and analysts use the reports to understand monetary policy.",
+                "p2": "An effort of pedagogy accompanies their dissemination."
+              },
+              "cards": {
+                "citoyens": {
+                  "title": "The citizens",
+                  "text": "Understand the decisions and their reasons."
+                },
+                "marches": {
+                  "title": "The markets",
+                  "text": "Anticipate the evolution of monetary conditions."
+                },
+                "institutions": {
+                  "title": "The institutions",
+                  "text": "Follow the action of the Central Bank."
+                },
+                "analystes": {
+                  "title": "The analysts",
+                  "text": "Use the data and the analyses."
+                }
+              }
+            },
+            "archives": {
+              "kicker": "The archives",
+              "title": "The archives",
+              "lead": "Past reports remain available.",
+              "paragraphs": {
+                "p1": "The archive brings together all the published reports."
+              },
+              "table": {
+                "caption": "Report archive",
+                "headers": {
+                  "0": "Date",
+                  "1": "Report",
+                  "2": "Theme",
+                  "3": "Title",
+                  "4": "Document"
+                },
+                "rows": {
+                  "0": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced",
+                    "4": "To be announced"
+                  },
+                  "1": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced",
+                    "4": "To be announced"
+                  },
+                  "2": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced",
+                    "4": "To be announced"
+                  },
+                  "3": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced",
+                    "4": "To be announced"
+                  }
+                },
+                "note": "The archive will be fed as publications are issued."
+              },
+              "cta": "See the publications"
+            },
+            "ressources": {
+              "kicker": "The resources",
+              "title": "The resources",
+              "lead": "Analyses, projections and statistics complete the reports.",
+              "paragraphs": {
+                "p1": "The documentary resources of the theme shed light on the reports."
+              },
+              "links": {
+                "analyses": "The economic analyses",
+                "projections": "The projections",
+                "statistiques": "The monetary statistics"
+              },
+              "notice": "Resources will be published with the official data."
+            }
+          }
+        },
+        "analysesEconomiques": {
+          "meta": {
+            "title": "Economic analyses",
+            "description": "The economic analyses of the Central Bank of Astoria: studies, notes, research work and documentary resources on the Astorian economy."
+          },
+          "hero": {
+            "kicker": "Monetary policy · Publications",
+            "title": "The economic analyses",
+            "lead": "The services of the Central Bank produce studies, notes and research work on the Astorian economy.",
+            "cta": "See the publications",
+            "notice": "The work will be published as soon as it is available."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "The principle",
+              "title": "The principle of the analyses",
+              "lead": "Economic analyses shed light on the understanding of the economy.",
+              "paragraphs": {
+                "p1": "Studies, analyses, notes and research work document the economic situation and monetary questions.",
+                "p2": "They feed the public debate and the preparation of decisions."
+              }
+            },
+            "types": {
+              "kicker": "The types",
+              "title": "The types of work",
+              "lead": "The analytical work comes in several formats.",
+              "paragraphs": {
+                "p1": "From in-depth studies to short notes, the formats respond to different needs."
+              },
+              "cards": {
+                "etudes": {
+                  "title": "The studies",
+                  "text": "In-depth work on economic and monetary topics."
+                },
+                "analyses": {
+                  "title": "The analyses",
+                  "text": "Regular analyses of the situation and developments."
+                },
+                "notes": {
+                  "title": "The notes",
+                  "text": "Short documents on particular questions."
+                },
+                "recherches": {
+                  "title": "The research",
+                  "text": "The research work of the economists."
+                }
+              }
+            },
+            "etudes": {
+              "kicker": "The studies",
+              "title": "The studies",
+              "lead": "Studies are in-depth work.",
+              "paragraphs": {
+                "p1": "Each study addresses an economic or monetary topic in a detailed manner."
+              },
+              "links": {
+                "etude1": "Study on the Astorian economy",
+                "etude2": "Study on monetary policy",
+                "etude3": "Study on the financial system"
+              },
+              "notice": "Studies will be published as soon as they are available."
+            },
+            "notes": {
+              "kicker": "The notes",
+              "title": "The notes",
+              "lead": "Notes address particular questions.",
+              "paragraphs": {
+                "p1": "Short in format, they provide a targeted insight."
+              },
+              "links": {
+                "note1": "Note on the economic situation",
+                "note2": "Note on credit"
+              }
+            },
+            "recherches": {
+              "kicker": "The research",
+              "title": "The research work",
+              "lead": "Research feeds the economic analysis of the Central Bank.",
+              "paragraphs": {
+                "p1": "The economists of the Central Bank conduct research work on monetary and financial questions.",
+                "p2": "This work feeds the analyses and the decisions."
+              },
+              "cards": {
+                "economistes": {
+                  "title": "The economists",
+                  "text": "Researchers within the Central Bank."
+                },
+                "modeles": {
+                  "title": "The models",
+                  "text": "Analysis and forecasting tools."
+                },
+                "donnees": {
+                  "title": "The data",
+                  "text": "Economic and financial data."
+                },
+                "publications": {
+                  "title": "The publications",
+                  "text": "Work disseminated publicly."
+                }
+              }
+            },
+            "utilisation": {
+              "kicker": "The use",
+              "title": "The use of the analyses",
+              "lead": "The analyses serve several purposes.",
+              "paragraphs": {
+                "p1": "They inform decisions, the public debate and the understanding of the economy."
+              },
+              "bullets": {
+                "b1": "The preparation of monetary policy decisions.",
+                "b2": "The public debate and economic education.",
+                "b3": "The documentation of reports and projections."
+              }
+            },
+            "equipe": {
+              "kicker": "Who produces",
+              "title": "Who produces the analyses",
+              "lead": "The analyses are produced by the services of the Central Bank.",
+              "paragraphs": {
+                "p1": "The economic and monetary departments conduct this work, in liaison with the other services."
+              },
+              "cards": {
+                "directions": {
+                  "title": "The departments",
+                  "text": "The economic and monetary services."
+                },
+                "economistes": {
+                  "title": "The economists",
+                  "text": "The specialists of economic analysis."
+                },
+                "reseau": {
+                  "title": "The network",
+                  "text": "The institutional and academic partners."
+                }
+              },
+              "cta": "See the departments"
+            },
+            "ressources": {
+              "kicker": "The resources",
+              "title": "The resources",
+              "lead": "Reports, projections and data complete the analyses.",
+              "paragraphs": {
+                "p1": "The documentary resources of the theme shed light on the analytical work."
+              },
+              "links": {
+                "rapports": "The monetary policy reports",
+                "projections": "The projections",
+                "donnees": "The monetary data"
+              },
+              "notice": "Resources will be published with the official data."
+            }
+          }
+        },
+        "projections": {
+          "meta": {
+            "title": "Projections",
+            "description": "The projections of the Central Bank of Astoria: content, calendar, methods, assumptions, scenarios and reading of the economic projections."
+          },
+          "hero": {
+            "kicker": "Monetary policy · Publications",
+            "title": "The projections",
+            "lead": "The Central Bank will publish regular inflation and activity projections. This page presents their content, their methods and their reading.",
+            "cta": "See the publications",
+            "notice": "Projections will be published as soon as they are available."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "The principle",
+              "title": "The principle of the projections",
+              "lead": "Projections describe probable economic developments.",
+              "paragraphs": {
+                "p1": "They present the inflation and activity trajectories expected under explicit assumptions.",
+                "p2": "They are updated regularly and accompanied by their methods."
+              }
+            },
+            "contenu": {
+              "kicker": "The content",
+              "title": "The content",
+              "lead": "The projections cover the main aggregates.",
+              "paragraphs": {
+                "p1": "Inflation, activity, employment and credit form the core of the projections."
+              },
+              "cards": {
+                "inflation": {
+                  "title": "Inflation",
+                  "text": "The expected price trajectories."
+                },
+                "activite": {
+                  "title": "Activity",
+                  "text": "The expected growth of the economy."
+                },
+                "emploi": {
+                  "title": "Employment",
+                  "text": "The labour market prospects."
+                },
+                "credit": {
+                  "title": "Credit",
+                  "text": "The expected financing developments."
+                }
+              }
+            },
+            "calendrier": {
+              "kicker": "The calendar",
+              "title": "The calendar",
+              "lead": "The projections follow a regular schedule.",
+              "paragraphs": {
+                "p1": "The publication dates are announced in advance."
+              },
+              "table": {
+                "caption": "Projection calendar",
+                "headers": {
+                  "0": "Publication",
+                  "1": "Date",
+                  "2": "Horizon",
+                  "3": "Theme"
+                },
+                "rows": {
+                  "0": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "1": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "2": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  },
+                  "3": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced"
+                  }
+                },
+                "note": "Provisional publication calendar."
+              },
+              "notice": "Official dates will be published once confirmed."
+            },
+            "methodes": {
+              "kicker": "The methods",
+              "title": "The methods",
+              "lead": "The projections rely on documented methods.",
+              "paragraphs": {
+                "p1": "Data, models and assumptions are presented with the projections."
+              },
+              "steps": {
+                "donnees": {
+                  "title": "The data",
+                  "text": "The available economic information."
+                },
+                "modeles": {
+                  "title": "The models",
+                  "text": "The analysis and simulation tools."
+                },
+                "hypotheses": {
+                  "title": "The assumptions",
+                  "text": "The technical assumptions retained."
+                },
+                "scenarios": {
+                  "title": "The scenarios",
+                  "text": "The possible trajectories."
+                },
+                "publication": {
+                  "title": "The publication",
+                  "text": "The dissemination of the projections and annexes."
+                }
+              }
+            },
+            "hypotheses": {
+              "kicker": "The assumptions",
+              "title": "The assumptions",
+              "lead": "The projections rely on explicit assumptions.",
+              "paragraphs": {
+                "p1": "The assumptions concern notably fiscal policy, rates and the international situation."
+              },
+              "bullets": {
+                "b1": "Transparent technical assumptions.",
+                "b2": "Assumptions on fiscal policy.",
+                "b3": "Assumptions on the international situation.",
+                "b4": "Alternative scenarios in case of uncertainty."
+              },
+              "notice": "The assumptions will be detailed with the projections."
+            },
+            "scenarios": {
+              "kicker": "The scenarios",
+              "title": "The scenarios",
+              "lead": "The projections often present several scenarios.",
+              "paragraphs": {
+                "p1": "A central scenario is accompanied by alternative scenarios, notably when uncertainty is high."
+              },
+              "cards": {
+                "central": {
+                  "title": "The central scenario",
+                  "text": "The most likely trajectory."
+                },
+                "favorable": {
+                  "title": "The favourable scenario",
+                  "text": "A more favourable evolution."
+                },
+                "defavorable": {
+                  "title": "The adverse scenario",
+                  "text": "A less favourable evolution."
+                },
+                "alternatifs": {
+                  "title": "The alternative scenarios",
+                  "text": "Other possible trajectories."
+                }
+              }
+            },
+            "lecture": {
+              "kicker": "The reading",
+              "title": "How to read the projections",
+              "lead": "The projections should be read with care.",
+              "paragraphs": {
+                "p1": "A projection is not an exact forecast: it describes a probable evolution under given assumptions.",
+                "p2": "Comparison over time and between scenarios is more informative than the point value."
+              },
+              "bullets": {
+                "b1": "Read the horizon and the assumptions.",
+                "b2": "Compare the central scenario and the alternative scenarios."
+              }
+            },
+            "ressources": {
+              "kicker": "The resources",
+              "title": "The resources",
+              "lead": "Reports, analyses and speeches complete the projections.",
+              "paragraphs": {
+                "p1": "The documentary resources of the theme shed light on the projections."
+              },
+              "links": {
+                "rapports": "The monetary policy reports",
+                "analyses": "The economic analyses",
+                "discours": "The speeches"
+              },
+              "notice": "Resources will be published with the projections."
+            }
+          }
+        },
+        "discours": {
+          "meta": {
+            "title": "Speeches",
+            "description": "The speeches of the leaders of the Central Bank of Astoria: types of speeches, latest speeches, content, role in communication, archives and transcripts."
+          },
+          "hero": {
+            "kicker": "Monetary policy · Publications",
+            "title": "The speeches",
+            "lead": "The speeches of the leaders of the Central Bank shed light on monetary policy and its communication. This page brings them together.",
+            "cta": "See the publications",
+            "notice": "Speeches will be published as soon as they are available."
+          },
+          "sections": {
+            "principe": {
+              "kicker": "The principle",
+              "title": "The principle of the speeches",
+              "lead": "Speeches extend the official communication of the Central Bank.",
+              "paragraphs": {
+                "p1": "They present the analysis of the Central Bank, its decisions and its outlook in a public setting.",
+                "p2": "They address citizens, markets and institutions."
+              }
+            },
+            "types": {
+              "kicker": "The types",
+              "title": "The types of speeches",
+              "lead": "Speeches take several forms.",
+              "paragraphs": {
+                "p1": "Speeches of the Governor, interventions of the Board, conferences and interviews form the main forms."
+              },
+              "cards": {
+                "gouverneur": {
+                  "title": "The Governor",
+                  "text": "The speeches of the Governor."
+                },
+                "conseil": {
+                  "title": "The Board",
+                  "text": "The interventions of the Board members."
+                },
+                "conferences": {
+                  "title": "The conferences",
+                  "text": "Interventions in public settings."
+                },
+                "entretiens": {
+                  "title": "The interviews",
+                  "text": "The published interviews."
+                }
+              }
+            },
+            "derniersDiscours": {
+              "kicker": "Latest",
+              "title": "The latest speeches",
+              "lead": "The most recent speeches.",
+              "paragraphs": {
+                "p1": "Each speech links to the full text and the associated documents."
+              },
+              "links": {
+                "discours1": "Speech of the Governor",
+                "discours2": "Intervention of the Board",
+                "discours3": "Conference of the Central Bank"
+              },
+              "notice": "Speeches will be published as soon as they are available."
+            },
+            "contenu": {
+              "kicker": "The content",
+              "title": "The content",
+              "lead": "Speeches address precise themes.",
+              "paragraphs": {
+                "p1": "Economic situation, monetary policy, financial stability and prospects form the recurring themes."
+              },
+              "bullets": {
+                "b1": "The analysis of the economic situation.",
+                "b2": "The presentation of the decisions and their reasons.",
+                "b3": "The prospects for evolution.",
+                "b4": "The questions of stability and regulation."
+              }
+            },
+            "communication": {
+              "kicker": "Communication",
+              "title": "The role in communication",
+              "lead": "Speeches participate in the communication of the Central Bank.",
+              "paragraphs": {
+                "p1": "They complement the press releases and the reports by providing a public insight.",
+                "p2": "They participate in the transparency and the pedagogy of monetary policy."
+              },
+              "notice": "Speeches are disseminated in respect of the communication rules of the Central Bank."
+            },
+            "archives": {
+              "kicker": "The archives",
+              "title": "The archives",
+              "lead": "Past speeches remain available.",
+              "paragraphs": {
+                "p1": "The archive brings together all the published speeches."
+              },
+              "table": {
+                "caption": "Speech archive",
+                "headers": {
+                  "0": "Date",
+                  "1": "Speaker",
+                  "2": "Type",
+                  "3": "Title",
+                  "4": "Document"
+                },
+                "rows": {
+                  "0": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced",
+                    "4": "To be announced"
+                  },
+                  "1": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced",
+                    "4": "To be announced"
+                  },
+                  "2": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced",
+                    "4": "To be announced"
+                  },
+                  "3": {
+                    "0": "To be announced",
+                    "1": "To be announced",
+                    "2": "To be announced",
+                    "3": "To be announced",
+                    "4": "To be announced"
+                  }
+                },
+                "note": "The archive will be fed as publications are issued."
+              },
+              "cta": "See the publications"
+            },
+            "transcription": {
+              "kicker": "The transcripts",
+              "title": "The transcripts",
+              "lead": "The speeches are available in several formats.",
+              "paragraphs": {
+                "p1": "Full text, summary and, where appropriate, recording accompany each speech."
+              },
+              "facts": {
+                "texte": {
+                  "label": "Text",
+                  "value": "The full text of the speech."
+                },
+                "video": {
+                  "label": "Recording",
+                  "value": "The video or audio, where available."
+                },
+                "resume": {
+                  "label": "Summary",
+                  "value": "A summary of the speech."
+                },
+                "langue": {
+                  "label": "Language",
+                  "value": "The language of dissemination of the speech."
+                }
+              },
+              "notice": "The available formats will be specified with each speech."
+            },
+            "ressources": {
+              "kicker": "The resources",
+              "title": "The resources",
+              "lead": "Reports, analyses and projections complete the speeches.",
+              "paragraphs": {
+                "p1": "The documentary resources of the theme shed light on the speeches."
+              },
+              "links": {
+                "rapports": "The monetary policy reports",
+                "analyses": "The economic analyses",
+                "projections": "The projections"
+              },
+              "notice": "Resources will be published with the official data."
             }
           }
         }
