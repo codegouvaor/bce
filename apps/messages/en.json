@@ -8226,6 +8226,4162 @@
           }
         }
       }
+    },
+    "banques": {
+      "related": {
+        "title": "Pages from the Banks theme",
+        "kicker": "In the same theme",
+        "etablissementsBancaires": {
+          "label": "Banking institutions",
+          "desc": "Who makes up the Astorian banking system: types of institutions, services, relations with the BCA and obligations."
+        },
+        "agrementsEtLicences": {
+          "label": "Authorisations and licences",
+          "desc": "How an institution can be authorised to operate: procedure, conditions, licences and register."
+        },
+        "reglementationBancaire": {
+          "label": "Banking regulation",
+          "desc": "The framework in which banks operate: prudential requirements, risks, customers, applicable rules."
+        },
+        "supervision": {
+          "label": "Supervision",
+          "desc": "How the stability and compliance of the banking system are monitored, between the BCA and the AMSF."
+        }
+      },
+      "section": {
+        "meta": {
+          "title": "Banks",
+          "description": "The Astorian banking system: institutions, authorisations and licences, banking regulation and supervision. The Central Bank's mission to «oversee»."
+        },
+        "hero": {
+          "kicker": "Banks",
+          "title": "The Astorian banking system",
+          "lead": "Banks play a central role in the economy: they hold deposits, extend credit and make money circulate. This activity takes place within a precise framework defined by authorisations, regulation and supervision.",
+          "cta": "Discover the institutions",
+          "notice": "The Banks theme presents the institutional framework of the Astorian banking system. Published values are demonstration examples, pending official data."
+        },
+        "sections": {
+          "pillars": {
+            "kicker": "The four pillars of the theme",
+            "title": "Overseeing the banking system",
+            "lead": "The Banks theme organises the «oversee» mission into four pillars, from how the system works to how it is controlled.",
+            "tiles": {
+              "etablissementsBancaires": {
+                "title": "Banking institutions",
+                "desc": "Who makes up the banking system and how."
+              },
+              "agrementsEtLicences": {
+                "title": "Authorisations and licences",
+                "desc": "How to be authorised to operate."
+              },
+              "reglementationBancaire": {
+                "title": "Banking regulation",
+                "desc": "The framework for banking activities."
+              },
+              "supervision": {
+                "title": "Supervision",
+                "desc": "How stability is monitored."
+              }
+            }
+          },
+          "perimetre": {
+            "kicker": "The scope",
+            "title": "What the Banks theme covers",
+            "lead": "The theme presents the banking system as a whole, from the status of institutions to the framework governing their activity.",
+            "paragraphs": {
+              "p1": "A banking institution takes deposits, extends credit and offers payment services to the public. This activity is essential to financing the economy, but it exposes customers' savings to risks.",
+              "p2": "That is why banking activity is strictly regulated: an institution must be authorised, comply with prudent regulation and be supervised. The Banks theme explains these three requirements.",
+              "p3": "It first sets out the inventory of the categories of institutions, then explains how an institution can be authorised, within which framework it operates and how its soundness and compliance are checked."
+            },
+            "cards": {
+              "etablissements": {
+                "title": "The institutions",
+                "text": "Banks and other institutions authorised to operate."
+              },
+              "agrements": {
+                "title": "The authorisations",
+                "text": "Prior authorisation for any banking activity."
+              },
+              "cadre": {
+                "title": "The framework",
+                "text": "The regulation that applies to institutions."
+              },
+              "supervision": {
+                "title": "Supervision",
+                "text": "Monitoring soundness and compliance."
+              }
+            },
+            "cta": "Understand supervision"
+          },
+          "figures": {
+            "kicker": "The banking system in figures",
+            "title": "The banking system, awaiting official data",
+            "lead": "These indicators will be provided by the Central Bank as soon as the official data on the banking system are published.",
+            "statGrid": {
+              "etablissements": {
+                "value": "—",
+                "label": "Authorised institutions"
+              },
+              "licences": {
+                "value": "—",
+                "label": "Licence categories"
+              },
+              "agrements": {
+                "value": "—",
+                "label": "Applications processed since inception"
+              },
+              "supervision": {
+                "value": "—",
+                "label": "Supervised institutions"
+              }
+            },
+            "notice": "Values will be published by the Central Bank when the official statistics on the banking system become available."
+          },
+          "encadrement": {
+            "kicker": "The overall logic",
+            "title": "From the institution to confidence",
+            "lead": "The banking system rests on a continuous chain: the institution is authorised, regulated, supervised, to preserve confidence in deposits and credit.",
+            "paragraphs": {
+              "p1": "Each link in the system contributes to confidence: authorisation ensures the institution is fit, regulation governs its risks, supervision verifies that it meets its obligations."
+            },
+            "flow": {
+              "etablissement": "Institution",
+              "agrement": "Authorisation",
+              "cadre": "Regulation",
+              "supervision": "Supervision",
+              "confiance": "Confidence"
+            },
+            "cta": "The authorisation procedure"
+          },
+          "institutions": {
+            "kicker": "The institutions",
+            "title": "A system with several actors",
+            "lead": "The Astorian banking system brings together several institutions, each in its own role.",
+            "paragraphs": {
+              "p1": "The Republic sets the legal framework, the Central Bank acts on money and liquidity, the Financial Supervisory Authority (AMSF) carries out the supervision within its mandate, and the institutions offer banking services to the public."
+            },
+            "cards": {
+              "republique": {
+                "title": "The Republic",
+                "text": "The legal and monetary framework of the system."
+              },
+              "bca": {
+                "title": "The Central Bank",
+                "text": "Money, liquidity, infrastructures and stability within its mandate."
+              },
+              "amsf": {
+                "title": "The AMSF",
+                "text": "Financial supervision within its independent mandate."
+              },
+              "etablissements": {
+                "title": "The institutions",
+                "text": "The actors of credit and deposits."
+              }
+            }
+          },
+          "assertion": {
+            "kicker": "The institutional separation",
+            "title": "Central Bank and supervisory authority: two distinct roles",
+            "lead": "The Astorian model clearly distinguishes the role of the Central Bank from that of the financial supervisory authority.",
+            "paragraphs": {
+              "p1": "The Central Bank of Astoria is responsible for money, liquidity and payment infrastructures. It contributes to financial stability within the framework of its mandate.",
+              "p2": "The Financial Supervisory Authority (AMSF) carries out, within its independent mandate, financial supervision and regulation. This separation guarantees a balanced and legible system."
+            },
+            "facts": {
+              "bca": {
+                "label": "BCA",
+                "value": "Central Bank: money, liquidity, infrastructures, stability within its mandate."
+              },
+              "amsf": {
+                "label": "AMSF",
+                "value": "Financial supervisory authority: supervision and regulation within its mandate."
+              },
+              "gouvernement": {
+                "label": "Republic",
+                "value": "Legislator and guarantor of the institutional framework."
+              },
+              "ordonnancement": {
+                "label": "Scopes",
+                "value": "Distinct scopes, organised cooperation."
+              }
+            },
+            "notice": "The detailed division of responsibilities between the BCA and the AMSF will be set out in the dedicated pages."
+          },
+          "essentiels": {
+            "kicker": "The essentials",
+            "title": "Key points of the theme",
+            "lead": "Four entries to go straight into the theme.",
+            "links": {
+              "registre": "The register of authorised institutions",
+              "licences": "Banking licences",
+              "prudentielles": "Prudential standards",
+              "roleBca": "The role of the Central Bank"
+            }
+          },
+          "navigation": {
+            "kicker": "Continue the visit",
+            "title": "The banking system in the portal",
+            "lead": "Banks are at the heart of the financial system: they create bank money, transmit monetary policy, settle payments and rely on the liquidity of the system.",
+            "links": {
+              "monnaie": "The Money theme",
+              "politiqueMonetaire": "The Monetary policy theme",
+              "paiements": "The Payments theme",
+              "systemeFinancier": "The Financial system theme",
+              "banqueCentrale": "The Central Bank"
+            }
+          }
+        }
+      },
+      "etablissementsBancaires": {
+        "meta": {
+          "title": "Banking institutions",
+          "description": "The Astorian banking system: definition, categories of institutions, banking services, relations with the BCA, obligations and future official register."
+        },
+        "hero": {
+          "kicker": "Banks · Banking institutions",
+          "title": "Banking institutions",
+          "lead": "The Astorian banking system is made up of institutions that take deposits, extend credit and offer payment services. This page explains who makes up the system and how it works.",
+          "cta": "Discover the categories of institutions",
+          "notice": "No institution is presented on this page until the official register is published."
+        },
+        "sections": {
+          "comprendre": {
+            "kicker": "Understand",
+            "title": "Understanding banking institutions",
+            "lead": "A banking institution is an institution authorised to carry out banking operations on behalf of the public.",
+            "paragraphs": {
+              "p1": "A banking institution is a legal person authorised to take deposits from the public, extend credit and offer means of payment. It carries out this activity within the framework of an authorisation and under the control of the competent authorities.",
+              "p2": "Institutions play a key economic role: they transform savings into credit, finance households and businesses and ensure the circulation of scriptural money. Through this activity, they are at the heart of financing the economy.",
+              "p3": "Their relationship with individuals, businesses and other institutions is regulated: deposits, credit, savings and payments follow rules that protect customers and the stability of the system."
+            },
+            "cards": {
+              "role": {
+                "title": "The role",
+                "text": "Taking deposits, extending credit, offering payments."
+              },
+              "economie": {
+                "title": "The economy",
+                "text": "Financing the activity of households and businesses."
+              },
+              "types": {
+                "title": "The types",
+                "text": "Several categories of institutions coexist."
+              },
+              "relation": {
+                "title": "The relationship",
+                "text": "Regulated relations with customers and institutions."
+              }
+            }
+          },
+          "banquesEnAstoria": {
+            "kicker": "In Astoria",
+            "title": "Banks in Astoria",
+            "lead": "The Astorian banking system brings together institutions of different categories, all subject to authorisation and regulation.",
+            "paragraphs": {
+              "p1": "The official list of institutions authorised to operate in the territory will be published in the register of authorised institutions. It will include, for each institution, its name, status, category, licence, authorised activities and the state of its authorisation.",
+              "p2": "Until the official register is published, the Central Bank presents no institution: no name, no file, no data should be taken as official."
+            },
+            "notice": "The official register of authorised institutions will be the only reference for identifying authorised institutions.",
+            "cta": "Consult the future register"
+          },
+          "typesEtablissements": {
+            "kicker": "The categories",
+            "title": "The different types of institutions",
+            "lead": "Astorian law recognises several categories of institutions, each authorised to carry out specific activities.",
+            "paragraphs": {
+              "p1": "Commercial banks serve individuals, businesses and local authorities. Public banks carry out public-interest missions. Specialised institutions operate on a specific segment of financing. Payment institutions offer payment services without taking deposits.",
+              "p2": "These categories are presented here as institutional categories. The definitive legal classification will be the one provided for by Astorian law."
+            },
+            "cards": {
+              "commerciales": {
+                "title": "Commercial banks",
+                "text": "Banking services in the broad sense."
+              },
+              "publiques": {
+                "title": "Public banks",
+                "text": "Public-interest missions."
+              },
+              "specialisees": {
+                "title": "Specialised institutions",
+                "text": "A specific segment of financing."
+              },
+              "paiement": {
+                "title": "Payment institutions",
+                "text": "Payment services without deposits."
+              }
+            },
+            "cta": "See the categories in detail"
+          },
+          "servicesBancaires": {
+            "kicker": "The services",
+            "title": "Banking services",
+            "lead": "Institutions offer a set of services, the scope of which depends on the category and the authorisation of each.",
+            "paragraphs": {
+              "p1": "The main banking activities are accounts, deposits, credit, payments, corporate financing, savings and digital banking services. Not all activities are necessarily authorised for all institutions: the exact scope is set by the authorisation."
+            },
+            "cards": {
+              "comptes": {
+                "title": "Accounts",
+                "text": "Deposit accounts and related services."
+              },
+              "depots": {
+                "title": "Deposits",
+                "text": "Collecting public savings."
+              },
+              "credits": {
+                "title": "Credit",
+                "text": "Loans to households and businesses."
+              },
+              "paiements": {
+                "title": "Payments",
+                "text": "Means of payment and their operations."
+              },
+              "financement": {
+                "title": "Financing",
+                "text": "The needs of businesses and local authorities."
+              },
+              "epargne": {
+                "title": "Savings",
+                "text": "Managing customers' savings."
+              },
+              "numerique": {
+                "title": "Digital banking",
+                "text": "Online and mobile services."
+              }
+            }
+          },
+          "relationsBca": {
+            "kicker": "The relationship with the BCA",
+            "title": "Relations with the Central Bank",
+            "lead": "Institutions have an institutional relationship with the Central Bank, distinct from their relationship with their customers.",
+            "paragraphs": {
+              "p1": "The Central Bank of Astoria holds the accounts of credit institutions, provides liquidity to the banking system, sets the conditions for the reserve requirement and monitors the circulation of bank money. Through these functions, it ensures the orderly functioning of the monetary system.",
+              "p2": "The distinction is essential: the Central Bank is the banks' bank; banking institutions serve individuals and businesses. These two levels must not be confused."
+            },
+            "flow": {
+              "banque": "Bank",
+              "bca": "BCA",
+              "liquidite": "Liquidity",
+              "reserves": "Reserves",
+              "paiements": "Payments"
+            },
+            "facts": {
+              "comptes": {
+                "label": "Accounts",
+                "value": "Institutions hold an account with the Central Bank."
+              },
+              "liquidite": {
+                "label": "Liquidity",
+                "value": "The Central Bank provides liquidity to the banking system."
+              },
+              "reserves": {
+                "label": "Reserves",
+                "value": "Required reserves are held at the Central Bank."
+              },
+              "refinancement": {
+                "label": "Refinancing",
+                "value": "Refinancing relies on central bank operations."
+              }
+            },
+            "cta": "The institutions' accounts"
+          },
+          "obligations": {
+            "kicker": "The obligations",
+            "title": "The obligations of institutions",
+            "lead": "Any authorised institution is subject to a set of obligations proportionate to its activity.",
+            "paragraphs": {
+              "p1": "These obligations concern compliance with the regulatory framework, prudential requirements, customer protection, reporting, risk management, security and business continuity. They ensure that the banking business remains safe and orderly."
+            },
+            "bullets": {
+              "b1": "Compliance with the regulatory framework in force.",
+              "b2": "Compliance with prudential requirements, in particular capital and liquidity.",
+              "b3": "The protection of customers and their deposits.",
+              "b4": "Regular transmission of data to the authorities.",
+              "b5": "Proportionate and effective risk management.",
+              "b6": "The security of systems and data.",
+              "b7": "Business continuity and recovery after an incident."
+            },
+            "cta": "The regulatory framework"
+          },
+          "registre": {
+            "kicker": "The future register",
+            "title": "Register of institutions",
+            "lead": "A section is planned to host the public register of authorised institutions.",
+            "paragraphs": {
+              "p1": "This register will allow institutions to be searched, filtered by category, status, licence or date, and access the essential information of each: name, type, status, licence, number and date of authorisation, authorised activities, state of the authorisation.",
+              "p2": "The Central Bank will publish this register as soon as the official data are available. No substitute data are presented."
+            },
+            "table": {
+              "caption": "Preview of the future register (pending publication)",
+              "headers": {
+                "0": "Name",
+                "1": "Type",
+                "2": "Status",
+                "3": "Licence",
+                "4": "Authorisation",
+                "5": "Activities"
+              },
+              "rows": {
+                "0": {
+                  "0": "To come",
+                  "1": "To come",
+                  "2": "To come",
+                  "3": "To come",
+                  "4": "To come",
+                  "5": "To come"
+                },
+                "1": {
+                  "0": "To come",
+                  "1": "To come",
+                  "2": "To come",
+                  "3": "To come",
+                  "4": "To come",
+                  "5": "To come"
+                },
+                "2": {
+                  "0": "To come",
+                  "1": "To come",
+                  "2": "To come",
+                  "3": "To come",
+                  "4": "To come",
+                  "5": "To come"
+                }
+              },
+              "note": "Structural mock-up: the rows will be fed by the official register."
+            },
+            "notice": "The official register will be accessible from this section as soon as it is published."
+          },
+          "trouver": {
+            "kicker": "In practice",
+            "title": "Find an institution",
+            "lead": "This section will guide visitors towards official information on institutions.",
+            "paragraphs": {
+              "p1": "Consult the register to identify an institution, check the validity of a licence, or obtain information about an authorisation. Official information is that of the register and of the competent authorities."
+            },
+            "links": {
+              "registre": "Consult the future register of institutions",
+              "licences": "Check the types of licences",
+              "competences": "Learn about the AMSF's responsibilities",
+              "reclamations": "Learn about complaints"
+            }
+          }
+        }
+      },
+      "agrementsEtLicences": {
+        "meta": {
+          "title": "Authorisations and licences",
+          "description": "How an institution can be authorised to operate: definition of the authorisation, general conditions, types of licences, application procedure, decision and register."
+        },
+        "hero": {
+          "kicker": "Banks · Authorisations and licences",
+          "title": "Authorisations and licences",
+          "lead": "The exercise of banking activity is subject to prior authorisation. This page explains how an institution can be authorised to operate and how this authorisation is granted, published, amended or withdrawn.",
+          "cta": "The conditions of authorisation",
+          "notice": "The detailed rules of the authorisation will be published once they are definitively defined. The information presented describes the general principles."
+        },
+        "sections": {
+          "comprendre": {
+            "kicker": "Understand",
+            "title": "Understanding the banking authorisation",
+            "lead": "The authorisation is the prior approval without which no banking activity can be carried out.",
+            "paragraphs": {
+              "p1": "An authorisation is the approval granted to a legal person to carry out a banking activity. It guarantees that the institution presents the necessary guarantees: financial soundness, appropriate governance, reliable systems and effective risk management.",
+              "p2": "The authorisation is necessary to protect customers and the stability of the system. The activities concerned are banking operations — deposits, credit, means of payment — and, depending on the case, other financial services.",
+              "p3": "The process involves the competent authorities, which process the file, assess the project and take a decision, then enter it in the register."
+            },
+            "cards": {
+              "definition": {
+                "title": "Definition",
+                "text": "Prior authorisation for any banking activity."
+              },
+              "necessite": {
+                "title": "Why",
+                "text": "Protect customers and the stability of the system."
+              },
+              "activites": {
+                "title": "Activities",
+                "text": "Deposits, credit, payments and related services."
+              },
+              "intervenants": {
+                "title": "Actors",
+                "text": "The competent authorities, according to their mandates."
+              }
+            }
+          },
+          "quiPeutDemander": {
+            "kicker": "The applicants",
+            "title": "Who can apply for an authorisation",
+            "lead": "The application for authorisation is open to legal persons that present a solid and well-organised banking project.",
+            "paragraphs": {
+              "p1": "Authorisation is open to legal persons that meet the general conditions: a coherent banking project, appropriate governance, sufficient capital, a robust organisation, reliable systems and effective risk management.",
+              "p2": "These conditions will be specified by the applicable texts. They are presented here as general principles, without definitive legal value."
+            },
+            "bullets": {
+              "b1": "A legal person constituted under Astorian law.",
+              "b2": "A coherent and documented banking project.",
+              "b3": "Clear governance and suitable officers.",
+              "b4": "Capital sufficient in relation to the project.",
+              "b5": "A robust organisation and procedures.",
+              "b6": "Reliable and secure information systems.",
+              "b7": "Risk management proportionate to the project."
+            }
+          },
+          "typesLicences": {
+            "kicker": "The licences",
+            "title": "Types of licences",
+            "lead": "The authorisation regime may include several levels or categories, depending on the scope of the activities envisaged.",
+            "paragraphs": {
+              "p1": "A banking licence authorises the exercise of banking operations. A specialised licence governs a particular field of financing. A payment authorisation covers payment services. Other financial authorisations may be provided for by Astorian law.",
+              "p2": "These categories are presented as institutional categories. The precise catalogue of licences will be the one defined by the official regulatory framework."
+            },
+            "cards": {
+              "bancaire": {
+                "title": "Banking licence",
+                "text": "The exercise of banking operations."
+              },
+              "specialisee": {
+                "title": "Specialised licence",
+                "text": "A particular field of financing."
+              },
+              "paiement": {
+                "title": "Payment authorisation",
+                "text": "Payment services."
+              },
+              "autres": {
+                "title": "Other authorisations",
+                "text": "Authorisations provided for by law."
+              }
+            },
+            "cta": "Banking licences"
+          },
+          "deposerDemande": {
+            "kicker": "The procedure",
+            "title": "Submitting an application",
+            "lead": "The authorisation application process follows a predictable procedure, from setting up the project to entering the register.",
+            "paragraphs": {
+              "p1": "The process takes place in several stages: setting up the project, submitting the file, processing, assessment, decision, granting the authorisation and entering the register. A future operational platform will make it possible to actually submit a file."
+            },
+            "flow": {
+              "projet": "Project",
+              "dossier": "File",
+              "instruction": "Processing",
+              "evaluation": "Assessment",
+              "decision": "Decision",
+              "agrement": "Authorisation",
+              "registre": "Entry in the register"
+            },
+            "cta": "The detailed application process"
+          },
+          "conditions": {
+            "kicker": "The conditions",
+            "title": "Conditions of authorisation",
+            "lead": "Authorisation is subject to the fulfilment of broad families of requirements.",
+            "paragraphs": {
+              "p1": "These requirements relate to capital, governance, officers, ownership, IT systems, security, risk management, continuity and compliance.",
+              "p2": "The precise detail and scope of each requirement will be set by the regulatory framework and assessed on a case-by-case basis during processing."
+            },
+            "bullets": {
+              "b1": "Sufficient and available capital.",
+              "b2": "Clear and balanced governance.",
+              "b3": "Experienced and reputable officers.",
+              "b4": "Transparent and suitable ownership.",
+              "b5": "Secure information systems.",
+              "b6": "The security of operations and data.",
+              "b7": "Effective risk management.",
+              "b8": "Business continuity.",
+              "b9": "Compliance with applicable rules."
+            }
+          },
+          "decision": {
+            "kicker": "The decision",
+            "title": "Decision and publication",
+            "lead": "The outcome of the procedure is a decision, notified and published.",
+            "paragraphs": {
+              "p1": "The decision, whether positive or negative, is notified to the applicant and then published in accordance with the applicable rules. In the event of authorisation, the institution is entered in the register.",
+              "p2": "The authorisation may be subject to conditions or restrictions, where the scope of activity or the profile of the institution justifies it."
+            },
+            "steps": {
+              "decision": {
+                "title": "Decision",
+                "text": "The competent authority takes its decision on the basis of the file."
+              },
+              "notification": {
+                "title": "Notification",
+                "text": "The decision is notified to the applicant, with its reasons."
+              },
+              "publication": {
+                "title": "Publication",
+                "text": "The decision is published according to the applicable publicity rules."
+              },
+              "registre": {
+                "title": "Entry",
+                "text": "The authorised institution is entered in the register."
+              },
+              "conditions": {
+                "title": "Conditions",
+                "text": "The authorisation may be subject to conditions."
+              },
+              "restrictions": {
+                "title": "Restrictions",
+                "text": "Restrictions may govern the exercise."
+              }
+            }
+          },
+          "modification": {
+            "kicker": "The life of the authorisation",
+            "title": "Amendment, withdrawal and suspension",
+            "lead": "An authorisation may change during the life of the institution.",
+            "paragraphs": {
+              "p1": "The authorisation may be amended or extended, restricted, suspended or withdrawn. These events follow distinct procedures, always aimed at protecting customers and the stability of the system.",
+              "p2": "An institution may also voluntarily cease its activity and renounce its authorisation."
+            },
+            "table": {
+              "caption": "Events affecting an authorisation",
+              "headers": {
+                "0": "Event",
+                "1": "Effects"
+              },
+              "rows": {
+                "0": {
+                  "0": "Amendment",
+                  "1": "The scope of the authorisation changes."
+                },
+                "1": {
+                  "0": "Extension",
+                  "1": "New activities are authorised."
+                },
+                "2": {
+                  "0": "Restriction",
+                  "1": "The scope of activity is reduced."
+                },
+                "3": {
+                  "0": "Suspension",
+                  "1": "The exercise is temporarily suspended."
+                },
+                "4": {
+                  "0": "Withdrawal",
+                  "1": "The authorisation is withdrawn."
+                },
+                "5": {
+                  "0": "Cessation",
+                  "1": "The institution voluntarily ceases its activity."
+                }
+              },
+              "note": "The precise conditions of each event will be set by the regulatory framework."
+            },
+            "cta": "The withdrawal of the authorisation"
+          },
+          "consulter": {
+            "kicker": "In practice",
+            "title": "Consult the authorisations",
+            "lead": "This section will be the gateway to the official register of financial institutions.",
+            "paragraphs": {
+              "p1": "It will allow institutions, licences, their statuses, decisions, dates and associated documents to be searched."
+            },
+            "links": {
+              "registre": "Consult the register of authorised institutions",
+              "licences": "The types of licences",
+              "demande": "Submit an application",
+              "plateforme": "The BCA operational platform"
+            }
+          }
+        }
+      },
+      "reglementationBancaire": {
+        "meta": {
+          "title": "Banking regulation",
+          "description": "The framework for banking activity: prudential requirements, risk management, customer protection, security, reporting and applicable rules."
+        },
+        "hero": {
+          "kicker": "Banks · Banking regulation",
+          "title": "Banking regulation",
+          "lead": "Banks operate within a precise regulatory framework: prudential requirements, risk management, customer protection, security and reporting obligations. This page explains how this framework works and evolves.",
+          "cta": "Prudential standards",
+          "notice": "Ratios and thresholds will be published once officially defined. The categories presented describe the general principles."
+        },
+        "sections": {
+          "cadre": {
+            "kicker": "The framework",
+            "title": "The banking regulatory framework",
+            "lead": "Banking regulation exists to protect savings, stability and confidence in the financial system.",
+            "paragraphs": {
+              "p1": "Banking regulation governs the activities, risks and governance of institutions. It seeks to prevent crises, protect customers and ensure that each institution remains solvent and liquid.",
+              "p2": "It protects depositors first and foremost and, more broadly, the stability of the financial system: a failing institution can lead to a loss of confidence that spreads throughout the system.",
+              "p3": "It fits into the Astorian financial system alongside monetary policy and supervision: regulation sets the rules, supervision verifies their application."
+            },
+            "cards": {
+              "pourquoi": {
+                "title": "Why",
+                "text": "Protect savings and prevent crises."
+              },
+              "protection": {
+                "title": "Protection",
+                "text": "Depositors and confidence in the system."
+              },
+              "systeme": {
+                "title": "The system",
+                "text": "A framework that complements monetary policy."
+              },
+              "evolution": {
+                "title": "Evolution",
+                "text": "A living regulation, adapted to risks."
+              }
+            }
+          },
+          "prudentielles": {
+            "kicker": "The requirements",
+            "title": "Prudential requirements",
+            "lead": "Prudential requirements set a common baseline of soundness for all institutions.",
+            "paragraphs": {
+              "p1": "They relate to capital, liquidity, solvency, risk exposures, concentration and loss-absorption capacity.",
+              "p2": "The precise levels of these requirements will be defined by the official framework. No quantified ratio is published at this stage."
+            },
+            "bullets": {
+              "b1": "A level of capital suited to the activity.",
+              "b2": "The ability to meet cash outflows.",
+              "b3": "The ability to absorb losses.",
+              "b4": "The measurement and limitation of risk exposures.",
+              "b5": "The limitation of risk concentrations.",
+              "b6": "The capacity to absorb losses in times of stress."
+            },
+            "cta": "Prudential standards"
+          },
+          "risques": {
+            "kicker": "The risks",
+            "title": "Risk management",
+            "lead": "Regulation requires institutions to identify, measure and control their risks.",
+            "paragraphs": {
+              "p1": "The main risks monitored are credit risk, market risk, liquidity risk, operational risk, IT risk, cyber risk and systemic risks."
+            },
+            "cards": {
+              "credit": {
+                "title": "Credit",
+                "text": "The risk of borrower default."
+              },
+              "marche": {
+                "title": "Market",
+                "text": "Changes in the value of assets."
+              },
+              "liquidite": {
+                "title": "Liquidity",
+                "text": "The ability to meet obligations."
+              },
+              "operationnel": {
+                "title": "Operational",
+                "text": "Failures in processes and people."
+              },
+              "informatique": {
+                "title": "IT",
+                "text": "Failures in information systems."
+              },
+              "cyber": {
+                "title": "Cyber",
+                "text": "Attacks and intrusions."
+              },
+              "systemique": {
+                "title": "Systemic",
+                "text": "Risks to the system as a whole."
+              }
+            }
+          },
+          "clients": {
+            "kicker": "The customers",
+            "title": "Customer protection",
+            "lead": "Customer protection is a central purpose of banking regulation.",
+            "paragraphs": {
+              "p1": "It covers information, transparency, contractual terms, the treatment of customers, security, the protection of funds and the handling of complaints.",
+              "p2": "Each institution must treat its customers fairly, inform them clearly about products and terms, and protect their funds and data."
+            },
+            "bullets": {
+              "b1": "Clear and complete information.",
+              "b2": "Transparency of terms and costs.",
+              "b3": "Balanced contractual terms.",
+              "b4": "Fair treatment of customers.",
+              "b5": "The security of operations and data.",
+              "b6": "The protection of customers' funds.",
+              "b7": "Effective handling of complaints."
+            },
+            "cta": "Learn about complaints"
+          },
+          "securite": {
+            "kicker": "Resilience",
+            "title": "Security and resilience",
+            "lead": "Regulation requires institutions to have enhanced security and recovery capability after an incident.",
+            "paragraphs": {
+              "p1": "Institutions must implement effective cybersecurity, ensure business continuity and organise recovery after an incident. Their systems must remain resilient and their payments secure.",
+              "p2": "Incident management is subject to procedures and, where applicable, alerts. These requirements tie in with those of the Payments theme."
+            },
+            "cards": {
+              "cybersecurite": {
+                "title": "Cybersecurity",
+                "text": "Protection against cyber attacks."
+              },
+              "continuite": {
+                "title": "Continuity",
+                "text": "Maintaining services under all circumstances."
+              },
+              "reprise": {
+                "title": "Recovery",
+                "text": "Restoring services after an incident."
+              },
+              "paiements": {
+                "title": "Payments",
+                "text": "The security of payments and infrastructures."
+              },
+              "incidents": {
+                "title": "Incidents",
+                "text": "Detecting and handling incidents."
+              }
+            },
+            "cta": "The Payments theme"
+          },
+          "declaratives": {
+            "kicker": "Reporting",
+            "title": "Reporting obligations",
+            "lead": "Institutions regularly transmit data to the competent authority.",
+            "paragraphs": {
+              "p1": "These obligations relate to reporting, prudential data, statistics and regulatory declarations. Institutions must transmit complete, accurate and timely data."
+            },
+            "facts": {
+              "reporting": {
+                "label": "Reporting",
+                "value": "The periodic transmission of activity data."
+              },
+              "prudentielles": {
+                "label": "Prudential",
+                "value": "Capital, liquidity and risk data."
+              },
+              "statistiques": {
+                "label": "Statistics",
+                "value": "Statistical data on banking activity."
+              },
+              "frequence": {
+                "label": "Frequency",
+                "value": "The frequency of declarations depending on the nature of the data."
+              },
+              "qualite": {
+                "label": "Quality",
+                "value": "The accuracy, completeness and timeliness of data."
+              }
+            },
+            "notice": "A future reporting platform will allow institutions to transmit and track their declarations."
+          },
+          "textes": {
+            "kicker": "The rules",
+            "title": "Rules and applicable texts",
+            "lead": "The regulatory framework is made up of several types of published and accessible texts.",
+            "paragraphs": {
+              "p1": "This documentary library will list the regulations, decisions, instructions, frameworks, guides and technical documents applicable to institutions."
+            },
+            "bullets": {
+              "b1": "Regulations, of general scope.",
+              "b2": "Decisions, of individual or categorical scope.",
+              "b3": "Instructions, of a technical nature.",
+              "b4": "Frameworks setting common reference bases.",
+              "b5": "Guides and references of good practice.",
+              "b6": "Technical and methodological documents."
+            },
+            "links": {
+              "textes": "The library of applicable texts",
+              "etablissements": "Information for institutions",
+              "amsf": "AMSF responsibilities",
+              "systemeFinancier": "The Financial system theme"
+            }
+          },
+          "evolution": {
+            "kicker": "Evolution",
+            "title": "The evolution of regulation",
+            "lead": "Banking regulation is an evolving system, permanently adapted to risks.",
+            "paragraphs": {
+              "p1": "New rules are prepared, published and communicated. Their entry into force follows a calendar that allows institutions to adapt.",
+              "p2": "Consultations and the history of changes will be presented in this section to make the regulatory system legible."
+            },
+            "steps": {
+              "nouveautes": {
+                "title": "New rules",
+                "text": "Changes to the regulatory framework."
+              },
+              "consultations": {
+                "title": "Consultations",
+                "text": "Consultations open to the public."
+              },
+              "changements": {
+                "title": "Changes",
+                "text": "The history of published changes."
+              },
+              "calendrier": {
+                "title": "Calendar",
+                "text": "Upcoming entry-into-force dates."
+              }
+            },
+            "notice": "The calendar of regulatory changes will be published as soon as it is established."
+          }
+        }
+      },
+      "supervision": {
+        "meta": {
+          "title": "Supervision",
+          "description": "How the stability and compliance of the banking system are monitored: role of the BCA, role of the AMSF, surveillance, risks, crisis and data."
+        },
+        "hero": {
+          "kicker": "Banks · Supervision",
+          "title": "Supervising the banking system",
+          "lead": "Supervision aims to ensure that institutions remain sound, liquid and compliant. The Astorian model divides it between the Central Bank and the Financial Supervisory Authority, each within its mandate.",
+          "cta": "The role of the Central Bank",
+          "notice": "The precise division of supervisory responsibilities is that of Astorian law, presented here in its principles."
+        },
+        "sections": {
+          "comprendre": {
+            "kicker": "Understand",
+            "title": "Understanding banking supervision",
+            "lead": "Supervising means monitoring the soundness and compliance of institutions to preserve the stability of the system.",
+            "paragraphs": {
+              "p1": "Banking supervision consists of monitoring the situation of institutions, verifying their compliance and intervening in case of difficulty. It relies on data, indicators, controls and exchanges with the institutions.",
+              "p2": "The risks monitored relate to solvency, liquidity, credit, market, operational functioning and cyber risks. The aim is to detect fragilities before they become crises.",
+              "p3": "Supervision differs from monetary policy: monetary policy acts on the monetary conditions of the economy; supervision ensures the soundness and compliance of institutions."
+            },
+            "cards": {
+              "pourquoi": {
+                "title": "Why",
+                "text": "Detect fragilities before the crisis."
+              },
+              "risques": {
+                "title": "Risks",
+                "text": "Solvency, liquidity, operations, cyber."
+              },
+              "objectifs": {
+                "title": "Objectives",
+                "text": "Soundness, compliance, stability."
+              },
+              "difference": {
+                "title": "Distinction",
+                "text": "Supervision is not monetary policy."
+              }
+            }
+          },
+          "roleBca": {
+            "kicker": "The BCA",
+            "title": "The role of the Central Bank",
+            "lead": "The Central Bank exercises the responsibilities that fall within its mandate in the Astorian system.",
+            "paragraphs": {
+              "p1": "Monetary stability, liquidity, payment infrastructures and access to central bank operations fall within the mandate of the Central Bank. It also monitors systemic risks falling within its responsibilities.",
+              "p2": "The Central Bank is not presented as the sole supervisory authority: in the Astorian model, financial supervision falls within the independent mandate of the AMSF."
+            },
+            "bullets": {
+              "b1": "The monetary stability of the Republic.",
+              "b2": "The liquidity of the banking system.",
+              "b3": "Payment and settlement infrastructures.",
+              "b4": "Access to central bank operations.",
+              "b5": "Systemic risks within its mandate.",
+              "b6": "Monitoring aspects falling within its responsibilities."
+            },
+            "cta": "The role of the BCA in detail"
+          },
+          "roleAmsf": {
+            "kicker": "The AMSF",
+            "title": "The role of the AMSF",
+            "lead": "The Financial Supervisory Authority carries out an independent supervisory mission.",
+            "paragraphs": {
+              "p1": "The AMSF is the financial supervisory and regulatory authority within its independent mandate. It is distinct from the Central Bank.",
+              "p2": "This institutional separation is important: it ensures that the supervision of institutions and financial markets is carried out by an authority independent of the central bank.",
+              "p3": "The Central Bank and the AMSF cooperate on shared matters — liquidity, stability, infrastructures — while each acting within its scope."
+            },
+            "facts": {
+              "bca": {
+                "label": "BCA",
+                "value": "Central Bank: money, liquidity, infrastructures, stability within its mandate."
+              },
+              "amsf": {
+                "label": "AMSF",
+                "value": "Financial supervision and regulation within its independent mandate."
+              },
+              "separation": {
+                "label": "Separation",
+                "value": "Two authorities, two mandates, organised cooperation."
+              },
+              "cooperation": {
+                "label": "Cooperation",
+                "value": "Exchanges and sharing of information on shared matters."
+              }
+            },
+            "cta": "The role of the AMSF in detail"
+          },
+          "surveillance": {
+            "kicker": "Surveillance",
+            "title": "Monitoring institutions",
+            "lead": "Surveillance relies on continuous mechanisms of collection, analysis and control.",
+            "paragraphs": {
+              "p1": "Institutions transmit data, the authorities analyse indicators, conduct inspections and controls, and regularly exchange with institutions on their situation and risks."
+            },
+            "cards": {
+              "donnees": {
+                "title": "Data",
+                "text": "The collection of activity data."
+              },
+              "reporting": {
+                "title": "Reporting",
+                "text": "Regular reporting by institutions."
+              },
+              "indicateurs": {
+                "title": "Indicators",
+                "text": "Monitoring soundness indicators."
+              },
+              "inspections": {
+                "title": "Inspections",
+                "text": "On-site and off-site controls."
+              },
+              "controles": {
+                "title": "Controls",
+                "text": "Targeted verifications."
+              },
+              "echanges": {
+                "title": "Exchanges",
+                "text": "Regular institutional exchanges."
+              }
+            },
+            "cta": "Controls and inspections"
+          },
+          "risques": {
+            "kicker": "The risks",
+            "title": "The risks monitored",
+            "lead": "Supervision monitors all the risks to which institutions are exposed.",
+            "paragraphs": {
+              "p1": "Liquidity, solvency, credit, market, operational, cyber, concentration and systemic risks are subject to continuous monitoring.",
+              "p2": "The precise arrangements for this monitoring will be detailed with the publication of the supervision documentation."
+            },
+            "cards": {
+              "liquidite": {
+                "title": "Liquidity",
+                "text": "The ability to meet short-term obligations."
+              },
+              "solvabilite": {
+                "title": "Solvency",
+                "text": "The ability to absorb losses."
+              },
+              "credit": {
+                "title": "Credit",
+                "text": "The quality of credit exposures."
+              },
+              "marche": {
+                "title": "Market",
+                "text": "Exposures to markets."
+              },
+              "operationnel": {
+                "title": "Operational",
+                "text": "Operational risks."
+              },
+              "cyber": {
+                "title": "Cyber",
+                "text": "IT and cyber risks."
+              },
+              "concentration": {
+                "title": "Concentration",
+                "text": "Concentration risks."
+              },
+              "systemique": {
+                "title": "Systemic",
+                "text": "Risks to the system as a whole."
+              }
+            },
+            "notice": "The detailed nomenclature of supervisory indicators will be published with the official documentation."
+          },
+          "intervention": {
+            "kicker": "The measures",
+            "title": "Intervention and corrective measures",
+            "lead": "In case of fragility or breach, graduated measures may be taken.",
+            "paragraphs": {
+              "p1": "The action of the authorities rests on general principles: request for correction, preventive measures, restrictions, recovery plans, cooperation with the competent authority and crisis management."
+            },
+            "bullets": {
+              "b1": "The request for correction of a situation.",
+              "b2": "Preventive reinforcement measures.",
+              "b3": "Restrictions on activity.",
+              "b4": "Recovery plans.",
+              "b5": "Cooperation with the competent authority.",
+              "b6": "Coordinated crisis management."
+            },
+            "notice": "The detail of sanctions and measures will be the one set by the official regulatory framework."
+          },
+          "crise": {
+            "kicker": "The crisis",
+            "title": "Banking crisis and financial stability",
+            "lead": "In times of stress, preserving the stability of the financial system guides the action of the authorities.",
+            "paragraphs": {
+              "p1": "Early detection, coordination between the authorities, the provision of emergency liquidity, the continuity of services and, where relevant, the resolution of the institution protect the financial system.",
+              "p2": "These mechanisms resonate with monetary policy, the financial system and payments: stability is played out at the scale of the whole system."
+            },
+            "steps": {
+              "detection": {
+                "title": "Detection",
+                "text": "The early identification of fragilities."
+              },
+              "coordination": {
+                "title": "Coordination",
+                "text": "The coordination of the competent authorities."
+              },
+              "liquidite": {
+                "title": "Emergency liquidity",
+                "text": "The provision of liquidity within the applicable framework."
+              },
+              "continuite": {
+                "title": "Continuity",
+                "text": "Maintaining essential services."
+              },
+              "resolution": {
+                "title": "Resolution",
+                "text": "The resolution of the institution where relevant."
+              },
+              "protection": {
+                "title": "Protection",
+                "text": "Protecting the financial system and customers."
+              }
+            },
+            "links": {
+              "politiqueMonetaire": "The Monetary policy theme",
+              "systemeFinancier": "The Financial system theme",
+              "paiements": "The Payments theme",
+              "banqueCentrale": "The Central Bank"
+            }
+          },
+          "donnees": {
+            "kicker": "The data",
+            "title": "Supervision data and reports",
+            "lead": "This section will provide access to supervision publications.",
+            "paragraphs": {
+              "p1": "Statistics, reports, indicators, publications, decisions and aggregated data will be published here.",
+              "p2": "No fictitious data will be presented as official: publications will follow the official supervision documentation."
+            },
+            "statGrid": {
+              "rapports": {
+                "value": "—",
+                "label": "Supervision reports"
+              },
+              "indicateurs": {
+                "value": "—",
+                "label": "Published indicators"
+              },
+              "publications": {
+                "value": "—",
+                "label": "Publications"
+              },
+              "decisions": {
+                "value": "—",
+                "label": "Published decisions"
+              }
+            },
+            "notice": "Supervision data will be published as soon as they are officially established."
+          }
+        }
+      },
+      "sub": {
+        "registreDesEtablissementsAgrees": {
+          "meta": {
+            "title": "The register of authorised institutions",
+            "description": "The future official register of authorised banking and financial institutions: scope, data, search, state of authorisations and publication."
+          },
+          "hero": {
+            "kicker": "Banks · Banking institutions",
+            "title": "The register of authorised institutions",
+            "lead": "The register is the official reference that will identify the institutions authorised to carry out a banking activity in Astoria. This page presents its role, content and publication principles.",
+            "cta": "Understand the categories of institutions",
+            "notice": "No institution is published: the register will be opened with the official data."
+          },
+          "sections": {
+            "comprendre": {
+              "kicker": "Understand",
+              "title": "Understanding the register",
+              "lead": "The register of authorised institutions will be the official list of institutions authorised to carry out a banking activity.",
+              "paragraphs": {
+                "p1": "The register lists the authorised institutions, with the essential information on each: name, status, category, licence, authorised activities and state of the authorisation. It will be kept and published by the Central Bank.",
+                "p2": "Its purpose is twofold: to enable the public to identify authorised institutions, and to enable everyone to check the situation of an institution before entering into a relationship."
+              },
+              "cards": {
+                "public": {
+                  "title": "A public register",
+                  "text": "An official, open list available to all."
+                },
+                "verification": {
+                  "title": "Check",
+                  "text": "Check that an institution is indeed authorised."
+                },
+                "confiance": {
+                  "title": "Confidence",
+                  "text": "The guarantee of dealing with authorised institutions."
+                },
+                "actualite": {
+                  "title": "Up to date",
+                  "text": "A register kept up to date with the situation of each."
+                }
+              }
+            },
+            "perimetre": {
+              "kicker": "The scope",
+              "title": "The scope of the register",
+              "lead": "The register covers all institutions subject to authorisation under Astorian law.",
+              "paragraphs": {
+                "p1": "It will include institutions authorised to carry out a banking activity, specialised institutions, payment institutions and other institutions subject to approval or authorisation.",
+                "p2": "The exact categories will be those provided for by Astorian law. The register will rely on the categories presented in the Banks theme."
+              },
+              "bullets": {
+                "b1": "Institutions authorised to carry out a banking activity.",
+                "b2": "Specialised institutions and payment institutions.",
+                "b3": "Other institutions subject to approval or authorisation."
+              },
+              "notice": "The definitive scope will be the one set by the official regulatory framework."
+            },
+            "recherche": {
+              "kicker": "Search",
+              "title": "Search for an institution",
+              "lead": "The register will make it possible to search for an institution according to several criteria.",
+              "paragraphs": {
+                "p1": "The search can be done by name, by category, by status or by type of licence. The results will present the essential information on each institution."
+              },
+              "links": {
+                "nom": "Search by name",
+                "categorie": "Filter by category of institution",
+                "statut": "Filter by status of the authorisation",
+                "licence": "Filter by type of licence"
+              }
+            },
+            "donnees": {
+              "kicker": "The data",
+              "title": "The data of the register",
+              "lead": "Each entry in the register will include a standard set of information.",
+              "paragraphs": {
+                "p1": "This information will make it possible to identify each institution precisely and to know the exact state of its authorisation."
+              },
+              "facts": {
+                "nom": {
+                  "label": "Name",
+                  "value": "The corporate name of the institution."
+                },
+                "type": {
+                  "label": "Type",
+                  "value": "The category of the institution."
+                },
+                "statut": {
+                  "label": "Status",
+                  "value": "The state of the authorisation."
+                },
+                "licence": {
+                  "label": "Licence",
+                  "value": "The type of licence held."
+                },
+                "numero": {
+                  "label": "Number",
+                  "value": "The registration number."
+                },
+                "date": {
+                  "label": "Date",
+                  "value": "The date of authorisation or amendment."
+                }
+              }
+            },
+            "activites": {
+              "kicker": "The activities",
+              "title": "Authorised activities",
+              "lead": "The register will specify the activities that each institution is authorised to carry out.",
+              "paragraphs": {
+                "p1": "The scope of activity depends on the category of the institution and the terms of its authorisation. Not all activities are authorised for all institutions.",
+                "p2": "The register will indicate, for each institution, the activities actually authorised."
+              },
+              "cards": {
+                "depots": {
+                  "title": "Deposits",
+                  "text": "Taking deposits from the public."
+                },
+                "credits": {
+                  "title": "Credit",
+                  "text": "Extending credit."
+                },
+                "paiements": {
+                  "title": "Payments",
+                  "text": "Payment services."
+                },
+                "epargne": {
+                  "title": "Savings",
+                  "text": "Managing savings."
+                }
+              },
+              "notice": "Activities will be specified according to the terms of each authorisation."
+            },
+            "etat": {
+              "kicker": "The state of the authorisation",
+              "title": "State of the authorisation",
+              "lead": "The register will report on the situation of each authorisation.",
+              "paragraphs": {
+                "p1": "Each entry will include the state of the authorisation: active, suspended, restricted or withdrawn, as well as the corresponding dates and decisions."
+              },
+              "table": {
+                "caption": "Possible states of an authorisation",
+                "headers": {
+                  "0": "State",
+                  "1": "Meaning",
+                  "2": "Effects"
+                },
+                "rows": {
+                  "0": {
+                    "0": "Active",
+                    "1": "The authorisation is in force.",
+                    "2": "The institution carries out its activities."
+                  },
+                  "1": {
+                    "0": "Restricted",
+                    "1": "The scope is limited.",
+                    "2": "Certain activities are prohibited."
+                  },
+                  "2": {
+                    "0": "Suspended",
+                    "1": "The exercise is suspended.",
+                    "2": "The institution can no longer operate."
+                  }
+                },
+                "note": "The exact terminology of the states will be that of the official regulatory framework."
+              }
+            },
+            "verifier": {
+              "kicker": "In practice",
+              "title": "Check a licence",
+              "lead": "Before entering into a relationship, it is prudent to check the situation of an institution.",
+              "paragraphs": {
+                "p1": "Identify the institution, consult its file, check its licence and the state of its authorisation. This information will be available in the register."
+              },
+              "steps": {
+                "identifier": {
+                  "title": "Identify",
+                  "text": "Identify the institution concerned."
+                },
+                "consulter": {
+                  "title": "Consult",
+                  "text": "Consult its file in the register."
+                },
+                "verifier": {
+                  "title": "Check",
+                  "text": "Check the licence and authorised activities."
+                },
+                "obtenir": {
+                  "title": "Confirm",
+                  "text": "Confirm the state of the authorisation."
+                }
+              },
+              "cta": "Understand authorisations and licences"
+            },
+            "publication": {
+              "kicker": "Publication",
+              "title": "The publication of the register",
+              "lead": "The register will be published as soon as the official data are available.",
+              "paragraphs": {
+                "p1": "The Central Bank will publish the register, keep the entries up to date and make changes of status public in accordance with the applicable rules."
+              },
+              "notice": "No substitute data will be presented as official before the publication of the register.",
+              "links": {
+                "criteres": "The conditions of authorisation",
+                "licences": "Banking licences",
+                "retrait": "The withdrawal of the authorisation"
+              }
+            }
+          }
+        },
+        "categoriesDEtablissements": {
+          "meta": {
+            "title": "The categories of institutions",
+            "description": "The different categories of institutions in the Astorian banking system: commercial banks, public banks, specialised and payment institutions."
+          },
+          "hero": {
+            "kicker": "Banks · Banking institutions",
+            "title": "The categories of institutions",
+            "lead": "The Astorian banking system is made up of several categories of institutions, each authorised to carry out specific activities.",
+            "cta": "Understand banking institutions",
+            "notice": "The categories are presented as institutional categories; the definitive legal classification will be the one provided for by Astorian law."
+          },
+          "sections": {
+            "comprendre": {
+              "kicker": "Understand",
+              "title": "Understanding the categories",
+              "lead": "The category of an institution determines the scope of the activities it can carry out.",
+              "paragraphs": {
+                "p1": "The classification of institutions serves a twofold need: to govern the activity of each and to inform the public about the nature of the institutions.",
+                "p2": "Each category is associated with a status, authorised activities and obligations. These elements are specified by the authorisation."
+              },
+              "cards": {
+                "classification": {
+                  "title": "Classification",
+                  "text": "Categories defined by the nature of the activity."
+                },
+                "activites": {
+                  "title": "Activities",
+                  "text": "Each category carries out a specific scope."
+                },
+                "statut": {
+                  "title": "Status",
+                  "text": "A legal status specific to each category."
+                },
+                "perimetre": {
+                  "title": "Scope",
+                  "text": "Activities delimited by the authorisation."
+                }
+              }
+            },
+            "commerciales": {
+              "kicker": "Commercial banks",
+              "title": "Commercial banks",
+              "lead": "Commercial banks serve individuals, businesses and local authorities.",
+              "paragraphs": {
+                "p1": "They offer the full range of banking services: accounts, deposits, credit, payments, savings and financing.",
+                "p2": "They are the institutions with the most direct contact with the public."
+              },
+              "facts": {
+                "clients": {
+                  "label": "Customers",
+                  "value": "Individuals, businesses and local authorities."
+                },
+                "activites": {
+                  "label": "Activities",
+                  "value": "Accounts, deposits, credit, payments, savings."
+                },
+                "contreparties": {
+                  "label": "Counterparties",
+                  "value": "Banks, financial institutions and markets."
+                },
+                "cadre": {
+                  "label": "Framework",
+                  "value": "A complete authorisation and regulation."
+                }
+              }
+            },
+            "publiques": {
+              "kicker": "Public banks",
+              "title": "Public banks",
+              "lead": "Public banks carry out public-interest missions.",
+              "paragraphs": {
+                "p1": "They operate in areas where public intervention responds to a collective need: financing local authorities, supporting strategic sectors or facilitating access to banking services.",
+                "p2": "Their activity takes place within a specific legal framework and governance."
+              },
+              "facts": {
+                "statut": {
+                  "label": "Status",
+                  "value": "A specific public status."
+                },
+                "missions": {
+                  "label": "Missions",
+                  "value": "Public-interest missions."
+                },
+                "gouvernance": {
+                  "label": "Governance",
+                  "value": "Adapted governance and control."
+                },
+                "specificites": {
+                  "label": "Specificities",
+                  "value": "Activities sometimes dedicated to sectors."
+                }
+              }
+            },
+            "specialisees": {
+              "kicker": "Specialised institutions",
+              "title": "Specialised institutions",
+              "lead": "Specialised institutions operate on a specific segment of financing.",
+              "paragraphs": {
+                "p1": "Their activity focuses on one field: financing real estate, trade, equipment, or managing savings.",
+                "p2": "Their scope of activity is narrower than that of commercial banks."
+              },
+              "cards": {
+                "financement": {
+                  "title": "Financing",
+                  "text": "Financing a particular sector."
+                },
+                "epargne": {
+                  "title": "Savings",
+                  "text": "Collecting savings within a defined framework."
+                },
+                "intermediation": {
+                  "title": "Intermediation",
+                  "text": "Intermediation on a specific market."
+                },
+                "specialites": {
+                  "title": "Specialities",
+                  "text": "A targeted expertise."
+                }
+              }
+            },
+            "paiement": {
+              "kicker": "Payment institutions",
+              "title": "Payment institutions",
+              "lead": "Payment institutions offer payment services without taking deposits.",
+              "paragraphs": {
+                "p1": "They execute payment transactions on behalf of their customers: transfers, card payments, direct debits.",
+                "p2": "They are subject to a specific authorisation, distinct from the banking authorisation, and to obligations adapted to their activity."
+              },
+              "bullets": {
+                "b1": "Executing payment transactions on behalf of customers.",
+                "b2": "A specific authorisation for payment services.",
+                "b3": "Obligations to protect customers' funds."
+              },
+              "cta": "Payment systems"
+            },
+            "autres": {
+              "kicker": "The other categories",
+              "title": "The other categories",
+              "lead": "Other categories of institutions may be provided for by Astorian law.",
+              "paragraphs": {
+                "p1": "Depending on changes to the legal framework, other categories of institutions may be authorised to carry out specific financial activities.",
+                "p2": "These categories will be presented as soon as they are defined by the regulatory framework."
+              },
+              "bullets": {
+                "b1": "Institutions specialised in particular financial services.",
+                "b2": "Categories created by Astorian law.",
+                "b3": "Changes to the classification over time."
+              },
+              "notice": "Additional categories will be presented as soon as they are officially defined."
+            },
+            "regime": {
+              "kicker": "The applicable regime",
+              "title": "The applicable regime",
+              "lead": "The applicable regime depends on the category of the institution.",
+              "paragraphs": {
+                "p1": "Status, authorised activities, prudential requirements and obligations vary by category."
+              },
+              "table": {
+                "caption": "Overview of regimes by category",
+                "headers": {
+                  "0": "Category",
+                  "1": "Activities",
+                  "2": "Authorisation"
+                },
+                "rows": {
+                  "0": {
+                    "0": "Commercial banks",
+                    "1": "Complete banking services",
+                    "2": "Banking authorisation"
+                  },
+                  "1": {
+                    "0": "Public banks",
+                    "1": "Public-interest missions",
+                    "2": "Authorisation and public status"
+                  },
+                  "2": {
+                    "0": "Specialised institutions",
+                    "1": "Targeted financing",
+                    "2": "Specialised authorisation"
+                  },
+                  "3": {
+                    "0": "Payment institutions",
+                    "1": "Payment services",
+                    "2": "Payment authorisation"
+                  }
+                },
+                "note": "The detailed regime will be the one set by the official regulatory framework."
+              }
+            },
+            "evolution": {
+              "kicker": "Evolution",
+              "title": "The evolution of categories",
+              "lead": "The classification of institutions can evolve with the law.",
+              "paragraphs": {
+                "p1": "The categories of institutions evolve with the legal framework and the needs of the economy."
+              },
+              "notice": "Changes to the classification will be presented as soon as they are officially published.",
+              "links": {
+                "agrements": "Authorisations and licences",
+                "registre": "The register of authorised institutions",
+                "normes": "Prudential standards"
+              }
+            }
+          }
+        },
+        "comptesDesEtablissements": {
+          "meta": {
+            "title": "The institutions' accounts",
+            "description": "The accounts held by credit institutions with the Central Bank: nature, use, required reserves, refinancing and payment systems."
+          },
+          "hero": {
+            "kicker": "Banks · Banking institutions",
+            "title": "The institutions' accounts",
+            "lead": "Credit institutions hold an account with the Central Bank. This account is the vehicle for liquidity, reserves and interbank payments.",
+            "cta": "Consult the register of institutions",
+            "notice": "The operational conditions of the accounts will be specified by the applicable framework."
+          },
+          "sections": {
+            "comprendre": {
+              "kicker": "Understand",
+              "title": "Understanding the accounts",
+              "lead": "The account held with the Central Bank is a central instrument of the banking system.",
+              "paragraphs": {
+                "p1": "Each credit institution holds an account with the Central Bank. This account records the movements between the institution and the central bank, as well as interbank settlements.",
+                "p2": "It is the instrument through which the institution accesses liquidity, holds its reserves and settles its operations."
+              },
+              "cards": {
+                "definition": {
+                  "title": "Definition",
+                  "text": "An account held by each institution with the BCA."
+                },
+                "role": {
+                  "title": "The role",
+                  "text": "Liquidity, reserves and settlements."
+                },
+                "acces": {
+                  "title": "Access",
+                  "text": "Access to central bank operations."
+                },
+                "condition": {
+                  "title": "Conditions",
+                  "text": "Conditions set by the applicable framework."
+                }
+              }
+            },
+            "nature": {
+              "kicker": "The nature",
+              "title": "The nature of the account",
+              "lead": "The Central Bank account has specific characteristics.",
+              "paragraphs": {
+                "p1": "The account held with the Central Bank differs from customer accounts: it is held by the institution itself and serves institutional purposes.",
+                "p2": "Its balance represents the position of the institution vis-à-vis the central bank."
+              },
+              "facts": {
+                "type": {
+                  "label": "Type",
+                  "value": "An institutional account of the institution."
+                },
+                "titulaire": {
+                  "label": "Holder",
+                  "value": "The authorised credit institution."
+                },
+                "usage": {
+                  "label": "Use",
+                  "value": "Liquidity, reserves and interbank settlements."
+                },
+                "solde": {
+                  "label": "Balance",
+                  "value": "The position of the institution with the BCA."
+                }
+              }
+            },
+            "utilisation": {
+              "kicker": "The use",
+              "title": "The use of the account",
+              "lead": "The account serves several institutional purposes.",
+              "paragraphs": {
+                "p1": "It allows liquidity to be held, interbank settlements to be executed, reserves to be satisfied and the data needed by the central bank to be transmitted."
+              },
+              "cards": {
+                "liquidite": {
+                  "title": "Liquidity",
+                  "text": "Managing the institution's liquidity."
+                },
+                "paiements": {
+                  "title": "Payments",
+                  "text": "Interbank settlements."
+                },
+                "obligations": {
+                  "title": "Obligations",
+                  "text": "Reserves and requirements."
+                },
+                "reporting": {
+                  "title": "Reporting",
+                  "text": "Data transmitted to the central bank."
+                }
+              }
+            },
+            "reserves": {
+              "kicker": "The reserves",
+              "title": "Required reserves",
+              "lead": "Institutions hold reserves with the Central Bank.",
+              "paragraphs": {
+                "p1": "The required reserve regime requires institutions to hold a certain amount of reserves with the Central Bank, based on their deposits.",
+                "p2": "These reserves contribute to controlling bank liquidity and to implementing monetary policy."
+              },
+              "notice": "The exact arrangements of the reserve regime will be those set by the applicable framework.",
+              "cta": "Required reserves"
+            },
+            "refinancement": {
+              "kicker": "Refinancing",
+              "title": "Refinancing",
+              "lead": "The account is the vehicle for the central bank's refinancing operations.",
+              "paragraphs": {
+                "p1": "Institutions can obtain liquidity from the Central Bank through refinancing operations.",
+                "p2": "These operations rely on the institution's account and are governed by the conditions set by the central bank."
+              },
+              "cards": {
+                "operations": {
+                  "title": "Operations",
+                  "text": "The central bank's refinancing operations."
+                },
+                "facilites": {
+                  "title": "Facilities",
+                  "text": "Standing liquidity facilities."
+                },
+                "marche": {
+                  "title": "Market",
+                  "text": "Links with the money market."
+                },
+                "conditions": {
+                  "title": "Conditions",
+                  "text": "Conditions defined by the central bank."
+                }
+              },
+              "cta": "The Financial system theme"
+            },
+            "systeme": {
+              "kicker": "The systems",
+              "title": "Payment systems",
+              "lead": "The account participates in the functioning of payment systems.",
+              "paragraphs": {
+                "p1": "Interbank settlements are executed on accounts held with the Central Bank, within the payment systems."
+              },
+              "cards": {
+                "interbancaire": {
+                  "title": "Interbank",
+                  "text": "Payments between institutions."
+                },
+                "reglement": {
+                  "title": "Settlement",
+                  "text": "The final settlement of operations."
+                },
+                "securite": {
+                  "title": "Security",
+                  "text": "The security of payment systems."
+                },
+                "infrastructure": {
+                  "title": "Infrastructure",
+                  "text": "Settlement infrastructures."
+                }
+              },
+              "cta": "The Payments theme"
+            },
+            "obligations": {
+              "kicker": "The obligations",
+              "title": "Institutional obligations",
+              "lead": "Holding an account with the Central Bank comes with obligations.",
+              "paragraphs": {
+                "p1": "Institutions must comply with the conditions of access, maintain their reserves and transmit the information required by the central bank.",
+                "p2": "These obligations ensure the orderly functioning of the monetary system."
+              },
+              "bullets": {
+                "b1": "Compliance with the conditions of access to the account.",
+                "b2": "Holding the required reserves.",
+                "b3": "Transmitting data to the central bank.",
+                "b4": "Compliance with applicable standards.",
+                "b5": "Safeguards against inappropriate use."
+              }
+            },
+            "orienter": {
+              "kicker": "Go further",
+              "title": "Go further",
+              "lead": "These subjects are explored in the dedicated themes and pages.",
+              "links": {
+                "banqueCentrale": "The Central Bank",
+                "registre": "The register of authorised institutions",
+                "agrements": "Authorisations and licences",
+                "politiqueMonetaire": "The Monetary policy theme"
+              }
+            }
+          }
+        },
+        "reclamations": {
+          "meta": {
+            "title": "Complaints",
+            "description": "How to complain to a banking institution: before complaining, the procedure, mediation, handling standards and the role of the institution."
+          },
+          "hero": {
+            "kicker": "Banks · Banking institutions",
+            "title": "Complaints",
+            "lead": "Every customer of a banking institution has the right to complain in case of difficulty. This page explains how to exercise this right and how complaints are handled.",
+            "cta": "Understand banking institutions",
+            "notice": "The practical arrangements for complaints will be specified by the applicable framework."
+          },
+          "sections": {
+            "comprendre": {
+              "kicker": "Understand",
+              "title": "Understanding complaints",
+              "lead": "The complaint is the right recognised to any customer to contest a situation.",
+              "paragraphs": {
+                "p1": "A complaint is a request by which a customer contests a situation: an operation, fees, a decision or a service of their institution.",
+                "p2": "Any institution is required to handle complaints under defined conditions, to respond within the deadlines and to inform the customer of their remedies."
+              },
+              "cards": {
+                "definition": {
+                  "title": "Definition",
+                  "text": "A request for contestation by the customer."
+                },
+                "droit": {
+                  "title": "The right",
+                  "text": "A right recognised to any customer."
+                },
+                "procedure": {
+                  "title": "Procedure",
+                  "text": "An organised and regulated procedure."
+                },
+                "suivi": {
+                  "title": "Follow-up",
+                  "text": "Tracking of complaints by the institution."
+                }
+              }
+            },
+            "avant": {
+              "kicker": "Before complaining",
+              "title": "Before complaining",
+              "lead": "A few precautions before lodging a complaint.",
+              "paragraphs": {
+                "p1": "Before complaining, it is useful to gather the elements of the situation: contracts, statements, correspondence.",
+                "p2": "It is also advisable to first contact the department of the institution concerned."
+              },
+              "bullets": {
+                "b1": "Gather the documents and evidence.",
+                "b2": "Re-read the terms of the contract and the conditions.",
+                "b3": "Respect the complaint deadlines.",
+                "b4": "Prepare the expected response.",
+                "b5": "Keep a record of the exchanges."
+              }
+            },
+            "procedure": {
+              "kicker": "The procedure",
+              "title": "The complaint procedure",
+              "lead": "The complaint follows a process in several stages.",
+              "paragraphs": {
+                "p1": "The typical process includes the request to the institution, written acknowledgement, handling, response and, in case of disagreement, the remedies."
+              },
+              "steps": {
+                "etablissement": {
+                  "title": "Contact the institution",
+                  "text": "Lodge the complaint with the institution."
+                },
+                "ecrit": {
+                  "title": "Written acknowledgement",
+                  "text": "The institution acknowledges receipt of the complaint."
+                },
+                "traitement": {
+                  "title": "Handling",
+                  "text": "The complaint is examined within the deadlines."
+                },
+                "reponse": {
+                  "title": "Response",
+                  "text": "The institution responds to the customer."
+                },
+                "recours": {
+                  "title": "Remedies",
+                  "text": "In case of disagreement, remedies are possible."
+                }
+              }
+            },
+            "mediation": {
+              "kicker": "Mediation",
+              "title": "Mediation",
+              "lead": "In case of persistent disagreement, mediation may be proposed.",
+              "paragraphs": {
+                "p1": "Mediation is an amicable way of resolving disputes, distinct from the judicial route.",
+                "p2": "It is generally open after an unsatisfactory response from the institution."
+              },
+              "facts": {
+                "role": {
+                  "label": "The role",
+                  "value": "Seeking an amicable solution."
+                },
+                "condition": {
+                  "label": "Condition",
+                  "value": "A prior complaint handled by the institution."
+                },
+                "procedure": {
+                  "label": "Procedure",
+                  "value": "A procedure distinct from the judicial route."
+                },
+                "decision": {
+                  "label": "Decision",
+                  "value": "A non-binding proposal."
+                }
+              }
+            },
+            "normes": {
+              "kicker": "The standards",
+              "title": "Handling standards",
+              "lead": "The handling of complaints follows standards.",
+              "paragraphs": {
+                "p1": "These standards relate to acknowledgement of receipt, deadlines, the reasoned response and the information provided to the customer."
+              },
+              "table": {
+                "caption": "Overview of handling standards",
+                "headers": {
+                  "0": "Obligation",
+                  "1": "Content"
+                },
+                "rows": {
+                  "0": {
+                    "0": "Acknowledgement of receipt",
+                    "1": "Confirm receipt of the complaint."
+                  },
+                  "1": {
+                    "0": "Deadline",
+                    "1": "Respond within a reasonable time."
+                  },
+                  "2": {
+                    "0": "Response",
+                    "1": "Respond with reasons."
+                  },
+                  "3": {
+                    "0": "Information",
+                    "1": "Inform the customer of their remedies."
+                  }
+                },
+                "note": "The detailed standards will be those set by the regulatory framework."
+              }
+            },
+            "etablissement": {
+              "kicker": "The role of the institution",
+              "title": "The role of the institution",
+              "lead": "The institution is the customer's first point of contact.",
+              "paragraphs": {
+                "p1": "It must organise the handling of complaints, designate the responsible persons and ensure follow-up.",
+                "p2": "It must also inform the customer of the progress of their complaint."
+              },
+              "bullets": {
+                "b1": "Receive complaints from customers.",
+                "b2": "Acknowledge receipt and inform the customer.",
+                "b3": "Handle the complaint within the deadlines.",
+                "b4": "Respond with reasons.",
+                "b5": "Inform the customer of the remedies available."
+              }
+            },
+            "guides": {
+              "kicker": "Guides and resources",
+              "title": "Guides and resources",
+              "lead": "Additional resources for understanding the applicable framework.",
+              "paragraphs": {
+                "p1": "The information for institutions and the division of responsibilities complete this page."
+              },
+              "links": {
+                "conditions": "Information for institutions",
+                "competences": "AMSF responsibilities",
+                "roleBca": "The role of the Central Bank"
+              }
+            },
+            "orientation": {
+              "kicker": "Orientations",
+              "title": "Orientations",
+              "lead": "Go further.",
+              "paragraphs": {
+                "p1": "Consult the register to identify an institution and its contact details."
+              },
+              "notice": "Official contacts will be published in the register of institutions.",
+              "links": {
+                "registre": "The register of authorised institutions",
+                "banqueCentrale": "The Central Bank",
+                "etablissements": "Banking institutions"
+              }
+            }
+          }
+        },
+        "conditionsDAgrement": {
+          "meta": {
+            "title": "The conditions of authorisation",
+            "description": "The conditions required to obtain a banking authorisation: capital, governance, systems, risk management, business model and ownership."
+          },
+          "hero": {
+            "kicker": "Banks · Authorisations and licences",
+            "title": "The conditions of authorisation",
+            "lead": "Granting a banking authorisation is subject to precise conditions, which guarantee the soundness and regularity of the project.",
+            "cta": "Submit an application",
+            "notice": "The detailed conditions will be those set by the official regulatory framework."
+          },
+          "sections": {
+            "comprendre": {
+              "kicker": "Understand",
+              "title": "Understanding the conditions",
+              "lead": "The conditions of authorisation are the requirements that an applicant must fulfil.",
+              "paragraphs": {
+                "p1": "They relate to capital, governance, officers, ownership, information systems, security, risk management, continuity and compliance.",
+                "p2": "They guarantee that the institution will be able to carry out its activity safely and in an orderly manner."
+              },
+              "cards": {
+                "definition": {
+                  "title": "Definition",
+                  "text": "The requirements to be met to be authorised."
+                },
+                "principe": {
+                  "title": "Principle",
+                  "text": "Guarantee the soundness of the banking project."
+                },
+                "juridique": {
+                  "title": "Framework",
+                  "text": "A framework set by regulation."
+                },
+                "controle": {
+                  "title": "Control",
+                  "text": "An assessment on a case-by-case basis."
+                }
+              }
+            },
+            "capital": {
+              "kicker": "The capital",
+              "title": "Capital requirements",
+              "lead": "The applicant must have sufficient capital.",
+              "paragraphs": {
+                "p1": "The capital must be sufficient in relation to the project, its risks and its volume of activity.",
+                "p2": "Its origin must be clear and its availability guaranteed."
+              },
+              "bullets": {
+                "b1": "Capital at least equal to the minimum provided for.",
+                "b2": "Capital sufficient in relation to the project.",
+                "b3": "A clear and documented origin.",
+                "b4": "The effective availability of the capital."
+              },
+              "notice": "The minimum amount of capital will be set by the regulatory framework."
+            },
+            "gouvernance": {
+              "kicker": "Governance",
+              "title": "Governance and organisation",
+              "lead": "Governance must be suited to the project.",
+              "paragraphs": {
+                "p1": "The applicant must present a clear organisation, defined bodies and robust decision-making procedures."
+              },
+              "bullets": {
+                "b1": "Defined management and control bodies.",
+                "b2": "Competent and reputable officers.",
+                "b3": "The independence of control functions.",
+                "b4": "Effective internal controls.",
+                "b5": "Formalised decision-making procedures."
+              }
+            },
+            "systemes": {
+              "kicker": "The systems",
+              "title": "IT systems",
+              "lead": "Information systems must be reliable and secure.",
+              "paragraphs": {
+                "p1": "The applicant must have systems suited to its activity, secure and available.",
+                "p2": "It must also provide for data backup and the traceability of operations."
+              },
+              "bullets": {
+                "b1": "Systems protected against unauthorised access.",
+                "b2": "Available and high-performing systems.",
+                "b3": "Regular data backups.",
+                "b4": "Audit trails of operations."
+              }
+            },
+            "risques": {
+              "kicker": "The risks",
+              "title": "Risk management",
+              "lead": "Risk management must be proportionate to the project.",
+              "paragraphs": {
+                "p1": "The applicant must identify, measure and control the main risks of its activity."
+              },
+              "cards": {
+                "credit": {
+                  "title": "Credit",
+                  "text": "The risk of borrower default."
+                },
+                "marche": {
+                  "title": "Market",
+                  "text": "Risks linked to markets."
+                },
+                "liquidite": {
+                  "title": "Liquidity",
+                  "text": "Liquidity risk."
+                },
+                "operationnel": {
+                  "title": "Operational",
+                  "text": "Operational risks."
+                },
+                "conformite": {
+                  "title": "Compliance",
+                  "text": "Compliance risks."
+                }
+              }
+            },
+            "model": {
+              "kicker": "The business model",
+              "title": "The business model",
+              "lead": "The project must rest on a viable business model.",
+              "paragraphs": {
+                "p1": "The applicant must present its business model: activities envisaged, sources of income, profitability and outlook.",
+                "p2": "The model must be coherent with the project and the means of the institution."
+              },
+              "bullets": {
+                "b1": "A clear description of the activities envisaged.",
+                "b2": "Credible forecast profitability.",
+                "b3": "A coherent development strategy.",
+                "b4": "Documented outlook."
+              }
+            },
+            "actionnariat": {
+              "kicker": "Ownership",
+              "title": "Ownership and control",
+              "lead": "Ownership must be transparent and suitable.",
+              "paragraphs": {
+                "p1": "The identity and quality of the shareholders are examined, in order to guarantee the regularity of the control of the institution.",
+                "p2": "Safeguards are provided to prevent inappropriate use of control."
+              },
+              "bullets": {
+                "b1": "Clear and identifiable ownership.",
+                "b2": "Suitable shareholders in relation to the project.",
+                "b3": "Safeguards against conflicts of interest."
+              },
+              "notice": "The ownership transparency rules will be those of the regulatory framework."
+            },
+            "approfondir": {
+              "kicker": "Go further",
+              "title": "Go further",
+              "lead": "The conditions are part of the authorisation process.",
+              "paragraphs": {
+                "p1": "The complete process, from setting up the file to the decision, is presented in the dedicated page."
+              },
+              "links": {
+                "processus": "The authorisation application process",
+                "conditions": "The conditions of authorisation",
+                "banqueCentrale": "The Central Bank"
+              }
+            }
+          }
+        },
+        "demandeDAgrement": {
+          "meta": {
+            "title": "Submitting an authorisation application",
+            "description": "The authorisation application process: project, file, processing, assessment, decision, after the decision and cases of refusal."
+          },
+          "hero": {
+            "kicker": "Banks · Authorisations and licences",
+            "title": "Submitting an authorisation application",
+            "lead": "The authorisation application follows a predictable process, from setting up the project to entering the register. This page details each stage.",
+            "cta": "The conditions of authorisation",
+            "notice": "A future operational platform will make it possible to actually submit a file. This page describes the process."
+          },
+          "sections": {
+            "comprendre": {
+              "kicker": "Understand",
+              "title": "Understanding the process",
+              "lead": "The authorisation application is a regulated and documented process.",
+              "paragraphs": {
+                "p1": "The applicant sets up a project, submits a file, follows the processing, and receives a decision.",
+                "p2": "In the event of authorisation, the institution is entered in the register and subject to the applicable obligations."
+              },
+              "cards": {
+                "definition": {
+                  "title": "Definition",
+                  "text": "The procedure for obtaining the authorisation."
+                },
+                "parcours": {
+                  "title": "Process",
+                  "text": "A process in defined stages."
+                },
+                "delai": {
+                  "title": "Deadlines",
+                  "text": "Regulated deadlines."
+                },
+                "decision": {
+                  "title": "Decision",
+                  "text": "A reasoned decision."
+                }
+              }
+            },
+            "parcours": {
+              "kicker": "The process",
+              "title": "The application process",
+              "lead": "The process takes place in several stages.",
+              "paragraphs": {
+                "p1": "Each stage is documented and concludes with a decision or a next stage."
+              },
+              "flow": {
+                "projet": "Project",
+                "dossier": "File",
+                "instruction": "Processing",
+                "evaluation": "Assessment",
+                "decision": "Decision",
+                "agrement": "Authorisation",
+                "registre": "Entry in the register"
+              }
+            },
+            "projet": {
+              "kicker": "The project",
+              "title": "The banking project",
+              "lead": "The project forms the basis of the application.",
+              "paragraphs": {
+                "p1": "The applicant presents its project: activities, market, governance, risks and finances.",
+                "p2": "The project must be coherent, documented and viable."
+              },
+              "bullets": {
+                "b1": "The activities envisaged.",
+                "b2": "The market and customers targeted.",
+                "b3": "Governance and organisation.",
+                "b4": "Identified risks.",
+                "b5": "Forecast financial data."
+              }
+            },
+            "dossier": {
+              "kicker": "The file",
+              "title": "The application file",
+              "lead": "The file brings together the supporting documents.",
+              "paragraphs": {
+                "p1": "The file includes the documents relating to the applicant, the project, governance, capital and systems.",
+                "p2": "It must be complete to allow processing."
+              },
+              "table": {
+                "caption": "Overview of the contents of the file",
+                "headers": {
+                  "0": "Section",
+                  "1": "Content"
+                },
+                "rows": {
+                  "0": {
+                    "0": "By-laws",
+                    "1": "The by-laws and legal documents."
+                  },
+                  "1": {
+                    "0": "Business programme",
+                    "1": "The description of the project and activities."
+                  },
+                  "2": {
+                    "0": "Governance",
+                    "1": "The officers and the organisation."
+                  },
+                  "3": {
+                    "0": "Capital",
+                    "1": "Information on the capital."
+                  },
+                  "4": {
+                    "0": "Systems",
+                    "1": "The systems and security."
+                  }
+                },
+                "note": "The exact contents of the file will be set by the regulatory framework."
+              }
+            },
+            "instruction": {
+              "kicker": "Processing",
+              "title": "Processing",
+              "lead": "Processing is the phase of examining the file.",
+              "paragraphs": {
+                "p1": "The competent authority verifies the completeness of the file, analyses the project and exchanges with the applicant.",
+                "p2": "It may request additions or clarifications."
+              },
+              "steps": {
+                "reception": {
+                  "title": "Receipt",
+                  "text": "The file is submitted and registered."
+                },
+                "completude": {
+                  "title": "Completeness",
+                  "text": "The completeness of the file is verified."
+                },
+                "analyse": {
+                  "title": "Analysis",
+                  "text": "The project and the conditions are analysed."
+                },
+                "echange": {
+                  "title": "Exchanges",
+                  "text": "Exchanges are conducted with the applicant."
+                }
+              }
+            },
+            "decision": {
+              "kicker": "The decision",
+              "title": "The decision",
+              "lead": "Processing concludes with a decision.",
+              "paragraphs": {
+                "p1": "The decision is taken by the competent authority on the basis of the file and the conditions of authorisation.",
+                "p2": "It is notified to the applicant with its reasons."
+              },
+              "facts": {
+                "autorite": {
+                  "label": "Authority",
+                  "value": "The competent authority according to the mandates."
+                },
+                "criteres": {
+                  "label": "Criteria",
+                  "value": "The conditions of authorisation."
+                },
+                "delai": {
+                  "label": "Deadline",
+                  "value": "A regulated decision deadline."
+                },
+                "notification": {
+                  "label": "Notification",
+                  "value": "A notified and reasoned decision."
+                }
+              }
+            },
+            "apres": {
+              "kicker": "After the decision",
+              "title": "After the decision",
+              "lead": "The granting of the authorisation opens the life of the institution.",
+              "paragraphs": {
+                "p1": "The authorised institution is entered in the register and subject to the applicable obligations."
+              },
+              "cards": {
+                "agrement": {
+                  "title": "Authorisation",
+                  "text": "The authorisation is granted."
+                },
+                "conditions": {
+                  "title": "Conditions",
+                  "text": "Conditions may apply."
+                },
+                "registre": {
+                  "title": "Register",
+                  "text": "The entry in the register is made."
+                },
+                "obligations": {
+                  "title": "Obligations",
+                  "text": "The obligations apply."
+                }
+              }
+            },
+            "refus": {
+              "kicker": "In case of refusal",
+              "title": "In case of refusal",
+              "lead": "The decision can be negative.",
+              "paragraphs": {
+                "p1": "In case of refusal, the applicant is informed of the reasons for the decision.",
+                "p2": "It may present a modified project or, where applicable, exercise the remedies provided for."
+              },
+              "bullets": {
+                "b1": "A reasoned decision.",
+                "b2": "The possible remedies.",
+                "b3": "The possibility of presenting a different project.",
+                "b4": "The possibility of renewing the application."
+              },
+              "notice": "The remedies will be those provided for by Astorian law."
+            }
+          }
+        },
+        "licencesBancaires": {
+          "meta": {
+            "title": "Banking licences",
+            "description": "The different types of licences in the Astorian banking system: banking licence, specialised licence, payment authorisation and other authorisations."
+          },
+          "hero": {
+            "kicker": "Banks · Authorisations and licences",
+            "title": "Banking licences",
+            "lead": "Licences define the level and scope of authorisations. This page presents the different types of licences in the Astorian system.",
+            "cta": "Submit an application",
+            "notice": "The licences are presented as institutional categories; the precise catalogue will be that of the official regulatory framework."
+          },
+          "sections": {
+            "comprendre": {
+              "kicker": "Understand",
+              "title": "Understanding licences",
+              "lead": "A licence is the authorisation to carry out a set of activities.",
+              "paragraphs": {
+                "p1": "The licence determines the level of authorisation of the institution and the scope of its activities.",
+                "p2": "The system has several levels, from banking operations to payment services."
+              },
+              "cards": {
+                "definition": {
+                  "title": "Definition",
+                  "text": "The authorisation to carry out defined activities."
+                },
+                "importance": {
+                  "title": "Importance",
+                  "text": "The level of authorisation of the institution."
+                },
+                "categories": {
+                  "title": "Categories",
+                  "text": "Several types of licences coexist."
+                },
+                "controle": {
+                  "title": "Control",
+                  "text": "Compliance with the conditions is controlled."
+                }
+              }
+            },
+            "bancaire": {
+              "kicker": "The banking licence",
+              "title": "The banking licence",
+              "lead": "The banking licence is the most extensive authorisation.",
+              "paragraphs": {
+                "p1": "It authorises the exercise of banking operations: taking deposits, extending credit and payment services.",
+                "p2": "It is accompanied by the most complete requirements."
+              },
+              "facts": {
+                "definition": {
+                  "label": "Definition",
+                  "value": "The authorisation to carry out banking operations."
+                },
+                "activites": {
+                  "label": "Activities",
+                  "value": "Deposits, credit and payments."
+                },
+                "exigences": {
+                  "label": "Requirements",
+                  "value": "The most complete conditions."
+                },
+                "particularites": {
+                  "label": "Particularities",
+                  "value": "The most extensive authorisation."
+                }
+              }
+            },
+            "specialisee": {
+              "kicker": "The specialised licence",
+              "title": "The specialised licence",
+              "lead": "The specialised licence governs a particular field of financing.",
+              "paragraphs": {
+                "p1": "It authorises the exercise of activities limited to one field or to one type of operation.",
+                "p2": "Its scope is narrower than that of the banking licence."
+              },
+              "facts": {
+                "definition": {
+                  "label": "Definition",
+                  "value": "An authorisation limited to one field."
+                },
+                "activites": {
+                  "label": "Activities",
+                  "value": "Specialised activities."
+                },
+                "limites": {
+                  "label": "Limits",
+                  "value": "A restricted scope."
+                },
+                "perimetre": {
+                  "label": "Scope",
+                  "value": "Defined by the licence."
+                }
+              }
+            },
+            "paiement": {
+              "kicker": "The payment authorisation",
+              "title": "The payment authorisation",
+              "lead": "The payment authorisation covers payment services.",
+              "paragraphs": {
+                "p1": "It makes it possible to carry out payment services without taking deposits.",
+                "p2": "It is accompanied by conditions adapted to the payment activity."
+              },
+              "facts": {
+                "definition": {
+                  "label": "Definition",
+                  "value": "The authorisation of payment services."
+                },
+                "activites": {
+                  "label": "Activities",
+                  "value": "Transfers, cards, direct debits."
+                },
+                "conditions": {
+                  "label": "Conditions",
+                  "value": "Adapted conditions."
+                },
+                "particularites": {
+                  "label": "Particularities",
+                  "value": "Without taking deposits."
+                }
+              }
+            },
+            "autres": {
+              "kicker": "The other authorisations",
+              "title": "The other authorisations",
+              "lead": "Other authorisations may be provided for by Astorian law.",
+              "paragraphs": {
+                "p1": "They concern particular financial activities: savings, transfer, management or advice.",
+                "p2": "Each is defined and governed by the regulatory framework."
+              },
+              "cards": {
+                "epargne": {
+                  "title": "Savings",
+                  "text": "Authorisations related to savings."
+                },
+                "transfert": {
+                  "title": "Transfer",
+                  "text": "Transfer activities."
+                },
+                "gestion": {
+                  "title": "Management",
+                  "text": "Managing financial services."
+                },
+                "conseil": {
+                  "title": "Advice",
+                  "text": "Advisory activities."
+                }
+              },
+              "notice": "These authorisations will be presented as soon as they are officially defined."
+            },
+            "evolution": {
+              "kicker": "Evolution",
+              "title": "The evolution of licences",
+              "lead": "A licence can evolve during the life of the institution.",
+              "paragraphs": {
+                "p1": "Extension, amendment, suspension or withdrawal: the licence evolves according to the situation of the institution."
+              },
+              "bullets": {
+                "b1": "The extension of the scope of activity.",
+                "b2": "The amendment of the conditions.",
+                "b3": "Temporary suspension.",
+                "b4": "The withdrawal of the licence."
+              },
+              "cta": "The withdrawal of the authorisation"
+            },
+            "tableau": {
+              "kicker": "Compare",
+              "title": "Compare the types of licences",
+              "lead": "A comparative overview of the main types of licences.",
+              "paragraphs": {
+                "p1": "This table summarises the characteristics of the main types of licences."
+              },
+              "table": {
+                "caption": "Comparison of the types of licences",
+                "headers": {
+                  "0": "Type",
+                  "1": "Activities",
+                  "2": "Scope",
+                  "3": "Requirements"
+                },
+                "rows": {
+                  "0": {
+                    "0": "Banking licence",
+                    "1": "Banking operations",
+                    "2": "Extensive",
+                    "3": "Complete"
+                  },
+                  "1": {
+                    "0": "Specialised licence",
+                    "1": "Targeted financing",
+                    "2": "Restricted",
+                    "3": "Adapted"
+                  },
+                  "2": {
+                    "0": "Payment authorisation",
+                    "1": "Payment services",
+                    "2": "Specific",
+                    "3": "Adapted"
+                  },
+                  "3": {
+                    "0": "Other authorisations",
+                    "1": "Particular activities",
+                    "2": "Defined",
+                    "3": "Adapted"
+                  }
+                },
+                "note": "The official catalogue of licences will be that of the regulatory framework."
+              }
+            },
+            "consulter": {
+              "kicker": "In practice",
+              "title": "Consult the information",
+              "lead": "Check the licences and the applicable conditions.",
+              "paragraphs": {
+                "p1": "The register will make it possible to check the licence of an institution and the conditions of obtaining it."
+              },
+              "links": {
+                "registre": "The register of authorised institutions",
+                "conditions": "The conditions of authorisation",
+                "demande": "Submit an application"
+              }
+            }
+          }
+        },
+        "retraitDAgrement": {
+          "meta": {
+            "title": "The withdrawal of the authorisation",
+            "description": "The withdrawal of the banking authorisation: definition, grounds, suspension, procedure, consequences, voluntary renunciation and customer protection."
+          },
+          "hero": {
+            "kicker": "Banks · Authorisations and licences",
+            "title": "The withdrawal of the authorisation",
+            "lead": "An authorisation can be withdrawn in defined circumstances. This page explains the grounds, the procedure and the consequences of the withdrawal.",
+            "cta": "Authorisations and licences",
+            "notice": "The detailed rules of the withdrawal will be those set by the official regulatory framework."
+          },
+          "sections": {
+            "comprendre": {
+              "kicker": "Understand",
+              "title": "Understanding the withdrawal",
+              "lead": "The withdrawal of the authorisation is the decision that brings an authorisation to an end.",
+              "paragraphs": {
+                "p1": "The withdrawal of the authorisation is a serious measure, taken under defined conditions, which brings the authorisation to exercise to an end.",
+                "p2": "It fits into a protective framework: the procedure, the grounds and the consequences are regulated."
+              },
+              "cards": {
+                "definition": {
+                  "title": "Definition",
+                  "text": "The end of the authorisation to operate."
+                },
+                "gravite": {
+                  "title": "Seriousness",
+                  "text": "A serious and regulated measure."
+                },
+                "consequences": {
+                  "title": "Consequences",
+                  "text": "Consequences for the institution."
+                },
+                "protection": {
+                  "title": "Protection",
+                  "text": "Customer protection."
+                }
+              }
+            },
+            "motifs": {
+              "kicker": "The grounds",
+              "title": "The grounds for withdrawal",
+              "lead": "Withdrawal may be decided for defined grounds.",
+              "paragraphs": {
+                "p1": "The grounds concern situations where the institution no longer meets the conditions or can no longer carry out its activity.",
+                "p2": "The exact grounds will be those provided for by Astorian law."
+              },
+              "bullets": {
+                "b1": "Failure to comply with the conditions of authorisation.",
+                "b2": "Cessation of activity.",
+                "b3": "Serious breaches of obligations.",
+                "b4": "The loss of the required conditions.",
+                "b5": "The grounds provided for by law."
+              }
+            },
+            "suspension": {
+              "kicker": "The suspension",
+              "title": "The suspension",
+              "lead": "The suspension is distinct from the withdrawal.",
+              "paragraphs": {
+                "p1": "The suspension temporarily interrupts the exercise of the activity, without bringing the authorisation to an end.",
+                "p2": "It may be pronounced under defined conditions."
+              },
+              "facts": {
+                "definition": {
+                  "label": "Definition",
+                  "value": "The temporary interruption of the activity."
+                },
+                "effets": {
+                  "label": "Effects",
+                  "value": "The temporary halt of the exercise."
+                },
+                "conditions": {
+                  "label": "Conditions",
+                  "value": "Defined conditions."
+                },
+                "delai": {
+                  "label": "Duration",
+                  "value": "A limited duration."
+                }
+              },
+              "notice": "The conditions of the suspension will be those set by the regulatory framework."
+            },
+            "procedure": {
+              "kicker": "The procedure",
+              "title": "The procedure",
+              "lead": "The withdrawal follows a regulated procedure.",
+              "paragraphs": {
+                "p1": "The procedure includes the alert, the formal notice, the decision, the notification and the publication."
+              },
+              "steps": {
+                "alerte": {
+                  "title": "Alert",
+                  "text": "The institution is alerted to the situation."
+                },
+                "miseEnDemeure": {
+                  "title": "Formal notice",
+                  "text": "A formal notice is sent."
+                },
+                "decision": {
+                  "title": "Decision",
+                  "text": "The withdrawal decision is taken."
+                },
+                "notification": {
+                  "title": "Notification",
+                  "text": "The decision is notified."
+                },
+                "publication": {
+                  "title": "Publication",
+                  "text": "The withdrawal is published."
+                }
+              }
+            },
+            "consequences": {
+              "kicker": "The consequences",
+              "title": "The consequences for the institution",
+              "lead": "The withdrawal has consequences for the institution.",
+              "paragraphs": {
+                "p1": "The institution ceases its activity, organises the closure of its operations and informs its customers.",
+                "p2": "The liquidation arrangements are regulated."
+              },
+              "bullets": {
+                "b1": "The cessation of the authorised activity.",
+                "b2": "The orderly closure of operations.",
+                "b3": "The information and protection of customers.",
+                "b4": "Compliance with the closure obligations.",
+                "b5": "Liquidation according to the arrangements provided for."
+              }
+            },
+            "volontaire": {
+              "kicker": "The renunciation",
+              "title": "Voluntary renunciation",
+              "lead": "An institution may voluntarily renounce its authorisation.",
+              "paragraphs": {
+                "p1": "The institution may voluntarily cease its activity and renounce its authorisation.",
+                "p2": "This renunciation follows a distinct procedure."
+              },
+              "bullets": {
+                "b1": "The decision to renounce.",
+                "b2": "The relinquishment of the authorisation.",
+                "b3": "The closure of operations.",
+                "b4": "Customer protection."
+              }
+            },
+            "protection": {
+              "kicker": "Customer protection",
+              "title": "Customer protection",
+              "lead": "Customer protection is central in the event of withdrawal.",
+              "paragraphs": {
+                "p1": "Customers must be informed and their funds protected.",
+                "p2": "The account closure arrangements are regulated."
+              },
+              "facts": {
+                "devoirs": {
+                  "label": "Duties",
+                  "value": "The information and protection of customers."
+                },
+                "information": {
+                  "label": "Information",
+                  "value": "Information about the situation."
+                },
+                "cloture": {
+                  "label": "Closure",
+                  "value": "The orderly closure of accounts."
+                },
+                "recours": {
+                  "label": "Remedies",
+                  "value": "Customer remedies."
+                }
+              }
+            },
+            "consulter": {
+              "kicker": "Consult",
+              "title": "Consult the register",
+              "lead": "The register reports on the situation of authorisations.",
+              "paragraphs": {
+                "p1": "The register of institutions will make it possible to check the state of authorisations."
+              },
+              "links": {
+                "registre": "The register of authorised institutions",
+                "agrements": "Authorisations and licences",
+                "controles": "Controls and inspections",
+                "sanctions": "Sanctions and measures"
+              }
+            }
+          }
+        },
+        "textesApplicables": {
+          "meta": {
+            "title": "The applicable texts",
+            "description": "The documentary library of banking regulation: regulations, decisions, instructions, frameworks, guides and technical documents."
+          },
+          "hero": {
+            "kicker": "Banks · Banking regulation",
+            "title": "The applicable texts",
+            "lead": "The regulatory framework is made up of several types of texts. This page presents this documentary library and its organisation.",
+            "cta": "Banking regulation",
+            "notice": "No document is published on this page until the official texts are available."
+          },
+          "sections": {
+            "comprendre": {
+              "kicker": "Understand",
+              "title": "Understanding the texts",
+              "lead": "The applicable texts constitute the documentary basis of the regulation.",
+              "paragraphs": {
+                "p1": "The regulatory framework is made up of texts of different natures: regulations, decisions, instructions, frameworks and guides.",
+                "p2": "Each type of text has its own scope and function."
+              },
+              "cards": {
+                "definition": {
+                  "title": "Definition",
+                  "text": "All the applicable texts."
+                },
+                "hierarchie": {
+                  "title": "Hierarchy",
+                  "text": "Texts of different scopes."
+                },
+                "acces": {
+                  "title": "Access",
+                  "text": "Published and accessible texts."
+                },
+                "actualisation": {
+                  "title": "Updating",
+                  "text": "A kept-up-to-date base."
+                }
+              }
+            },
+            "reglements": {
+              "kicker": "The regulations",
+              "title": "The regulations",
+              "lead": "Regulations have a general scope.",
+              "paragraphs": {
+                "p1": "Regulations set general rules applicable to all institutions.",
+                "p2": "They form the foundation of the regulatory framework."
+              },
+              "facts": {
+                "nature": {
+                  "label": "Nature",
+                  "value": "Texts of general scope."
+                },
+                "portee": {
+                  "label": "Scope",
+                  "value": "Applicable to all institutions."
+                },
+                "effet": {
+                  "label": "Effect",
+                  "value": "They set the rules of the framework."
+                }
+              }
+            },
+            "decisions": {
+              "kicker": "The decisions",
+              "title": "The decisions",
+              "lead": "Decisions have an individual or categorical scope.",
+              "paragraphs": {
+                "p1": "Decisions apply to one institution or to a category of institutions.",
+                "p2": "They may specify or complement the general rules."
+              },
+              "facts": {
+                "nature": {
+                  "label": "Nature",
+                  "value": "Texts of targeted scope."
+                },
+                "portee": {
+                  "label": "Scope",
+                  "value": "Individual or categorical."
+                },
+                "destinataires": {
+                  "label": "Addressees",
+                  "value": "One or more institutions."
+                }
+              }
+            },
+            "instructions": {
+              "kicker": "The instructions",
+              "title": "The instructions",
+              "lead": "Instructions specify the technical arrangements.",
+              "paragraphs": {
+                "p1": "Instructions detail the arrangements for applying the rules.",
+                "p2": "They are addressed to the institutions concerned."
+              },
+              "facts": {
+                "nature": {
+                  "label": "Nature",
+                  "value": "Technical texts."
+                },
+                "portee": {
+                  "label": "Scope",
+                  "value": "Application arrangements."
+                },
+                "cibles": {
+                  "label": "Targets",
+                  "value": "The institutions concerned."
+                }
+              }
+            },
+            "cadres": {
+              "kicker": "The frameworks",
+              "title": "The frameworks",
+              "lead": "Frameworks set common reference bases.",
+              "paragraphs": {
+                "p1": "Frameworks organise coherent sets of rules around a theme.",
+                "p2": "They may provide for a degree of flexibility in application."
+              },
+              "bullets": {
+                "b1": "The definition of a common reference base.",
+                "b2": "Content organised around a theme.",
+                "b3": "The scope of the framework.",
+                "b4": "The flexibility left to institutions."
+              }
+            },
+            "guides": {
+              "kicker": "The guides",
+              "title": "The guides and technical documents",
+              "lead": "The guides accompany the implementation of the rules.",
+              "paragraphs": {
+                "p1": "The guides and technical documents explain the good practices and methodologies.",
+                "p2": "They facilitate the understanding and application of the texts."
+              },
+              "bullets": {
+                "b1": "The guides of good practice.",
+                "b2": "The application methodologies.",
+                "b3": "The technical documentation.",
+                "b4": "The supporting documents."
+              }
+            },
+            "recherche": {
+              "kicker": "Search",
+              "title": "Search for a text",
+              "lead": "This section will organise access to the texts.",
+              "paragraphs": {
+                "p1": "The search will make it possible to find the texts by nature, by theme or by institution concerned."
+              },
+              "links": {
+                "reglementation": "Banking regulation",
+                "etablissements": "Information for institutions",
+                "amsf": "AMSF responsibilities"
+              }
+            },
+            "references": {
+              "kicker": "References",
+              "title": "References",
+              "lead": "Go further.",
+              "paragraphs": {
+                "p1": "The prudential standards and the Central Bank references complete this library."
+              },
+              "notice": "The official library of texts will be published as soon as it is established.",
+              "links": {
+                "banqueCentrale": "The Central Bank",
+                "normes": "Prudential standards"
+              }
+            }
+          }
+        },
+        "normesPrudentielles": {
+          "meta": {
+            "title": "Prudential standards",
+            "description": "The prudential requirements of the Astorian banking system: capital, liquidity, solvency, exposures, loss absorption and evolution."
+          },
+          "hero": {
+            "kicker": "Banks · Banking regulation",
+            "title": "Prudential standards",
+            "lead": "Prudential standards set a common baseline of soundness for institutions. This page presents the main families of requirements, without publishing undefined ratios.",
+            "cta": "Banking regulation",
+            "notice": "No quantified ratio or threshold is published at this stage; official values will be specified by the regulatory framework."
+          },
+          "sections": {
+            "comprendre": {
+              "kicker": "Understand",
+              "title": "Understanding the standards",
+              "lead": "Prudential standards aim at the soundness and resilience of institutions.",
+              "paragraphs": {
+                "p1": "Prudential standards are the requirements that ensure that an institution has sufficient resources to absorb its losses and meet its obligations.",
+                "p2": "They cover capital, liquidity, solvency, exposures and loss-absorption capacity."
+              },
+              "cards": {
+                "definition": {
+                  "title": "Definition",
+                  "text": "The soundness requirements of institutions."
+                },
+                "objectif": {
+                  "title": "Objective",
+                  "text": "Guarantee the resilience of the system."
+                },
+                "solidite": {
+                  "title": "Soundness",
+                  "text": "Sufficient resources."
+                },
+                "prevention": {
+                  "title": "Prevention",
+                  "text": "Prevent difficulties."
+                }
+              }
+            },
+            "fondsPropres": {
+              "kicker": "The capital",
+              "title": "Capital",
+              "lead": "Capital is the first line of protection.",
+              "paragraphs": {
+                "p1": "Capital is the resources that the institution can mobilise to absorb its losses.",
+                "p2": "It is made up of different categories of resources and must reach a defined level."
+              },
+              "facts": {
+                "definition": {
+                  "label": "Definition",
+                  "value": "The institution's own resources."
+                },
+                "role": {
+                  "label": "Role",
+                  "value": "Absorb losses."
+                },
+                "categories": {
+                  "label": "Categories",
+                  "value": "Several categories of capital."
+                },
+                "niveau": {
+                  "label": "Level",
+                  "value": "A level defined by the framework."
+                }
+              },
+              "notice": "The minimum level of capital will be set by the regulatory framework."
+            },
+            "liquidite": {
+              "kicker": "The liquidity",
+              "title": "Liquidity requirements",
+              "lead": "Liquidity requirements guarantee the ability to meet obligations.",
+              "paragraphs": {
+                "p1": "Liquidity is the ability of an institution to meet its short-term obligations.",
+                "p2": "The liquidity requirements provide for ratios and reference horizons."
+              },
+              "facts": {
+                "definition": {
+                  "label": "Definition",
+                  "value": "The ability to meet obligations."
+                },
+                "objectif": {
+                  "label": "Objective",
+                  "value": "Withstand cash-flow stress."
+                },
+                "ratios": {
+                  "label": "Ratios",
+                  "value": "Liquidity ratios."
+                },
+                "horizon": {
+                  "label": "Horizon",
+                  "value": "Different reference horizons."
+                }
+              }
+            },
+            "solvabilite": {
+              "kicker": "The solvency",
+              "title": "Solvency ratios",
+              "lead": "Solvency measures the ability to absorb losses.",
+              "paragraphs": {
+                "p1": "Solvency ratios relate capital to the risks taken by the institution."
+              },
+              "facts": {
+                "definition": {
+                  "label": "Definition",
+                  "value": "The ability to absorb losses."
+                },
+                "composants": {
+                  "label": "Components",
+                  "value": "Capital and risk-weighted assets."
+                },
+                "niveaux": {
+                  "label": "Levels",
+                  "value": "Levels to be met."
+                },
+                "observation": {
+                  "label": "Monitoring",
+                  "value": "Monitoring by supervision."
+                }
+              },
+              "notice": "The ratio levels will be set by the official regulatory framework."
+            },
+            "exposition": {
+              "kicker": "The exposures",
+              "title": "Exposures and concentrations",
+              "lead": "The standards govern exposures and risk concentrations.",
+              "paragraphs": {
+                "p1": "An institution must measure and limit its exposures, in particular to large counterparties, and avoid excessive concentrations.",
+                "p2": "Limits are provided to control these risks."
+              },
+              "bullets": {
+                "b1": "Governing exposures to counterparties.",
+                "b2": "Limiting risk concentrations.",
+                "b3": "Taking into account groups of counterparties.",
+                "b4": "Monitoring holdings and participations.",
+                "b5": "Complying with regulatory limits."
+              }
+            },
+            "absorption": {
+              "kicker": "The absorption",
+              "title": "Loss-absorption capacity",
+              "lead": "Loss-absorption capacity is a central objective.",
+              "paragraphs": {
+                "p1": "The institution must have resources enabling it to absorb its losses without compromising its stability.",
+                "p2": "Specific instruments may be provided for this purpose."
+              },
+              "facts": {
+                "definition": {
+                  "label": "Definition",
+                  "value": "The ability to absorb losses."
+                },
+                "role": {
+                  "label": "Role",
+                  "value": "Preserve stability."
+                },
+                "instrument": {
+                  "label": "Instruments",
+                  "value": "Instruments provided for this purpose."
+                }
+              }
+            },
+            "evolution": {
+              "kicker": "The evolution",
+              "title": "The evolution of the standards",
+              "lead": "Prudential standards evolve with risks.",
+              "paragraphs": {
+                "p1": "The standards are analysed, subject to consultation, published and then applied according to a calendar.",
+                "p2": "This approach guarantees the legibility and predictability of the requirements."
+              },
+              "steps": {
+                "analyse": {
+                  "title": "Analysis",
+                  "text": "The analysis of risks and needs."
+                },
+                "consultation": {
+                  "title": "Consultation",
+                  "text": "The consultation of stakeholders."
+                },
+                "publication": {
+                  "title": "Publication",
+                  "text": "The publication of the standards."
+                },
+                "application": {
+                  "title": "Application",
+                  "text": "The progressive entry into application."
+                }
+              },
+              "links": {
+                "textes": "The applicable texts",
+                "etablissements": "Information for institutions",
+                "amsf": "AMSF responsibilities"
+              }
+            },
+            "relie": {
+              "kicker": "In connection",
+              "title": "In connection with",
+              "lead": "Go further.",
+              "paragraphs": {
+                "p1": "Prudential standards tie in with risk management and supervision."
+              },
+              "notice": "The technical details will be published with the official documentation.",
+              "links": {
+                "risques": "Banking regulation",
+                "supervision": "Supervision"
+              }
+            }
+          }
+        },
+        "informationsPourLesEtablissements": {
+          "meta": {
+            "title": "Information for institutions",
+            "description": "The obligations and references useful to banking institutions: reporting, prudential requirements, compliance, security, resources and the role of the AMSF."
+          },
+          "hero": {
+            "kicker": "Banks · Banking regulation",
+            "title": "Information for institutions",
+            "lead": "This page brings together the obligations and references useful to institutions in the exercise of their activity.",
+            "cta": "Banking regulation",
+            "notice": "The detailed obligations will be specified by the official regulatory framework."
+          },
+          "sections": {
+            "comprendre": {
+              "kicker": "Understand",
+              "title": "Understanding the information",
+              "lead": "This page is intended for institutions and their teams.",
+              "paragraphs": {
+                "p1": "It brings together the regulatory obligations, references and resources useful for carrying out the banking activity.",
+                "p2": "It is intended to be updated as the framework evolves."
+              },
+              "cards": {
+                "definition": {
+                  "title": "Definition",
+                  "text": "Information useful to institutions."
+                },
+                "destinataires": {
+                  "title": "Addressees",
+                  "text": "Institutions and their teams."
+                },
+                "utilite": {
+                  "title": "Usefulness",
+                  "text": "Facilitate compliance."
+                },
+                "actualisation": {
+                  "title": "Updating",
+                  "text": "A kept-up-to-date page."
+                }
+              }
+            },
+            "obligations": {
+              "kicker": "The obligations",
+              "title": "Regulatory obligations",
+              "lead": "Institutions are subject to several families of obligations.",
+              "paragraphs": {
+                "p1": "These obligations relate to reporting, prudential requirements, compliance, governance and security.",
+                "p2": "They are proportionate to the activity of each institution."
+              },
+              "bullets": {
+                "b1": "Reporting obligations.",
+                "b2": "Prudential requirements.",
+                "b3": "Compliance obligations.",
+                "b4": "Governance rules.",
+                "b5": "Security requirements."
+              }
+            },
+            "reporting": {
+              "kicker": "Reporting",
+              "title": "Regulatory reporting",
+              "lead": "Reporting is a periodic obligation.",
+              "paragraphs": {
+                "p1": "Institutions regularly transmit data to the competent authority.",
+                "p2": "The data must be complete, accurate and transmitted within the deadlines."
+              },
+              "facts": {
+                "definition": {
+                  "label": "Definition",
+                  "value": "The transmission of regular data."
+                },
+                "type": {
+                  "label": "Type",
+                  "value": "Activity and prudential data."
+                },
+                "frequence": {
+                  "label": "Frequency",
+                  "value": "Depending on the nature of the data."
+                },
+                "modalites": {
+                  "label": "Arrangements",
+                  "value": "Defined transmission arrangements."
+                }
+              }
+            },
+            "securite": {
+              "kicker": "Security",
+              "title": "Security and continuity",
+              "lead": "Security and continuity are essential obligations.",
+              "paragraphs": {
+                "p1": "Institutions must ensure cybersecurity, business continuity and recovery after an incident.",
+                "p2": "They must also manage incidents and regularly test their arrangements."
+              },
+              "bullets": {
+                "b1": "Cybersecurity.",
+                "b2": "Business continuity.",
+                "b3": "Recovery after an incident.",
+                "b4": "Incident management.",
+                "b5": "Regular testing of arrangements."
+              }
+            },
+            "normes": {
+              "kicker": "The standards",
+              "title": "The standards to observe",
+              "lead": "The references useful to institutions.",
+              "paragraphs": {
+                "p1": "The prudential standards, the applicable texts and risk management constitute the main references."
+              },
+              "links": {
+                "prudentielles": "Prudential standards",
+                "textes": "The applicable texts",
+                "risques": "Banking regulation"
+              }
+            },
+            "ressources": {
+              "kicker": "The resources",
+              "title": "Available resources",
+              "lead": "Resources are made available to institutions.",
+              "paragraphs": {
+                "p1": "Guides, webinars, documentation and contacts facilitate the implementation of the obligations."
+              },
+              "cards": {
+                "guides": {
+                  "title": "Guides",
+                  "text": "Practical guides."
+                },
+                "webinaires": {
+                  "title": "Webinars",
+                  "text": "Information sessions."
+                },
+                "documentation": {
+                  "title": "Documentation",
+                  "text": "Reference documentation."
+                },
+                "contacts": {
+                  "title": "Contacts",
+                  "text": "The competent contacts."
+                }
+              }
+            },
+            "amsf": {
+              "kicker": "The AMSF",
+              "title": "AMSF responsibilities",
+              "lead": "The AMSF carries out financial supervision and regulation within its mandate.",
+              "paragraphs": {
+                "p1": "For financial supervision and regulation, institutions fall within the independent mandate of the AMSF.",
+                "p2": "The Central Bank acts on money, liquidity and infrastructures within the framework of its mandate."
+              },
+              "notice": "The precise division of responsibilities is presented in the dedicated pages.",
+              "cta": "AMSF responsibilities"
+            },
+            "orientation": {
+              "kicker": "Orientations",
+              "title": "Orientations",
+              "lead": "Go further.",
+              "paragraphs": {
+                "p1": "Regulation, supervision and institutions complete this information."
+              },
+              "links": {
+                "reglementation": "Banking regulation",
+                "supervision": "Supervision",
+                "etablissements": "Banking institutions"
+              }
+            }
+          }
+        },
+        "competencesDeLAmsf": {
+          "meta": {
+            "title": "AMSF responsibilities",
+            "description": "The responsibilities of the Financial Supervisory Authority (AMSF): independence, separation from the BCA, scope, regulation, supervision and sanctions."
+          },
+          "hero": {
+            "kicker": "Banks · Banking regulation",
+            "title": "AMSF responsibilities",
+            "lead": "The Financial Supervisory Authority (AMSF) is the independent authority responsible for financial supervision and regulation. This page presents its responsibilities and its separation from the Central Bank.",
+            "cta": "The role of the AMSF",
+            "notice": "The detailed responsibilities of the AMSF are those provided for by Astorian law."
+          },
+          "sections": {
+            "comprendre": {
+              "kicker": "Understand",
+              "title": "Understanding the AMSF",
+              "lead": "The AMSF is the financial supervision and regulation authority within its independent mandate.",
+              "paragraphs": {
+                "p1": "The Financial Supervisory Authority (AMSF) is an independent authority responsible for supervising financial institutions and markets.",
+                "p2": "It exercises a regulation and supervision mandate, distinct from that of the Central Bank.",
+                "p3": "This separation guarantees the independence of supervision and the clarity of responsibilities."
+              },
+              "cards": {
+                "definition": {
+                  "title": "Definition",
+                  "text": "The financial supervisory authority."
+                },
+                "independance": {
+                  "title": "Independence",
+                  "text": "An independent mandate."
+                },
+                "mission": {
+                  "title": "Mission",
+                  "text": "Regulate and supervise."
+                },
+                "difference": {
+                  "title": "Distinction",
+                  "text": "An authority distinct from the BCA."
+                }
+              },
+              "notice": "The exact scope of the responsibilities is the one provided for by Astorian law."
+            },
+            "separation": {
+              "kicker": "The separation",
+              "title": "The BCA - AMSF separation",
+              "lead": "The Astorian model separates the mandates of the Central Bank and of the AMSF.",
+              "paragraphs": {
+                "p1": "The Central Bank acts on money, liquidity and infrastructures. The AMSF supervises and regulates financial institutions and markets.",
+                "p2": "The two institutions cooperate on shared matters, each within its scope."
+              },
+              "facts": {
+                "bca": {
+                  "label": "BCA",
+                  "value": "Money, liquidity, infrastructures, stability within its mandate."
+                },
+                "amsf": {
+                  "label": "AMSF",
+                  "value": "Financial supervision and regulation."
+                },
+                "interfaces": {
+                  "label": "Interfaces",
+                  "value": "Shared matters."
+                },
+                "cooperation": {
+                  "label": "Cooperation",
+                  "value": "Organised cooperation."
+                }
+              }
+            },
+            "perimetre": {
+              "kicker": "The scope",
+              "title": "The scope of responsibility",
+              "lead": "The AMSF operates across a broad financial scope.",
+              "paragraphs": {
+                "p1": "Its responsibilities cover regulation, supervision, controls, sanctions and customer protection.",
+                "p2": "This scope is defined by Astorian law."
+              },
+              "bullets": {
+                "b1": "Financial regulation.",
+                "b2": "The supervision of institutions and markets.",
+                "b3": "Controls and inspections.",
+                "b4": "Sanctions and measures.",
+                "b5": "Customer protection."
+              }
+            },
+            "reglementation": {
+              "kicker": "Regulation",
+              "title": "Financial regulation",
+              "lead": "The AMSF develops and applies financial regulation.",
+              "paragraphs": {
+                "p1": "It sets the rules applicable to institutions, markets and financial instruments.",
+                "p2": "These rules are published and accessible."
+              },
+              "bullets": {
+                "b1": "The rules applicable to institutions.",
+                "b2": "The rules relating to markets.",
+                "b3": "The rules relating to financial instruments.",
+                "b4": "The applicable standards.",
+                "b5": "The published texts."
+              }
+            },
+            "supervision": {
+              "kicker": "Supervision",
+              "title": "Financial supervision",
+              "lead": "The AMSF supervises institutions and markets.",
+              "paragraphs": {
+                "p1": "It collects data, conducts inspections and controls, monitors the situation of institutions and raises the alert in case of fragility."
+              },
+              "bullets": {
+                "b1": "The collection of data.",
+                "b2": "Inspections.",
+                "b3": "Controls.",
+                "b4": "The monitoring of institutions.",
+                "b5": "The alert in case of fragility."
+              }
+            },
+            "sanctions": {
+              "kicker": "The sanctions",
+              "title": "Sanctions",
+              "lead": "The AMSF may impose sanctions.",
+              "paragraphs": {
+                "p1": "In case of breach, the AMSF may impose graduated sanctions, within the applicable framework.",
+                "p2": "Sanctions aim to put an end to the breach and to preserve confidence."
+              },
+              "bullets": {
+                "b1": "The warning.",
+                "b2": "The fine.",
+                "b3": "The prohibition on carrying out certain activities.",
+                "b4": "The withdrawal of authorisation."
+              },
+              "notice": "The applicable sanctions are those provided for by the official regulatory framework."
+            },
+            "interactions": {
+              "kicker": "The interactions",
+              "title": "Interactions with the BCA",
+              "lead": "The AMSF and the Central Bank cooperate on shared matters.",
+              "paragraphs": {
+                "p1": "The two institutions exchange information and coordinate their action on matters of common interest.",
+                "p2": "This cooperation respects the independence and the scopes of each."
+              },
+              "facts": {
+                "echanges": {
+                  "label": "Exchanges",
+                  "value": "Regular exchanges."
+                },
+                "partage": {
+                  "label": "Sharing",
+                  "value": "Information sharing."
+                },
+                "complement": {
+                  "label": "Complementarity",
+                  "value": "Complementary mandates."
+                },
+                "independance": {
+                  "label": "Independence",
+                  "value": "Distinct scopes."
+                }
+              },
+              "cta": "The Central Bank"
+            },
+            "ressources": {
+              "kicker": "Resources",
+              "title": "Resources and references",
+              "lead": "Go further.",
+              "paragraphs": {
+                "p1": "The role of the AMSF, supervision and the Central Bank complete this page."
+              },
+              "links": {
+                "amsf": "The role of the AMSF",
+                "supervision": "Supervision",
+                "banqueCentrale": "The Central Bank"
+              }
+            }
+          }
+        },
+        "roleDeLaBca": {
+          "meta": {
+            "title": "The role of the BCA",
+            "description": "The role of the Central Bank of Astoria in the banking system: monetary stability, liquidity, infrastructures, access to operations and systemic risks."
+          },
+          "hero": {
+            "kicker": "Banks · Supervision",
+            "title": "The role of the BCA",
+            "lead": "The Central Bank of Astoria acts on money, liquidity and infrastructures, and contributes to financial stability within the framework of its mandate.",
+            "cta": "Supervision",
+            "notice": "The role of the Central Bank is presented within the framework of its mandate; financial supervision falls within the AMSF's mandate."
+          },
+          "sections": {
+            "comprendre": {
+              "kicker": "Understand",
+              "title": "Understanding the role of the BCA",
+              "lead": "The Central Bank exercises specific responsibilities in the banking system.",
+              "paragraphs": {
+                "p1": "The Central Bank of Astoria is responsible for money, liquidity and payment infrastructures.",
+                "p2": "It contributes to the stability of the financial system within the framework of its mandate.",
+                "p3": "It is not the financial supervisory authority: this mission falls within the AMSF's mandate."
+              },
+              "cards": {
+                "stabilite": {
+                  "title": "Stability",
+                  "text": "Monetary and financial stability."
+                },
+                "liquidite": {
+                  "title": "Liquidity",
+                  "text": "Providing liquidity to the system."
+                },
+                "infrastructures": {
+                  "title": "Infrastructures",
+                  "text": "Payment infrastructures."
+                },
+                "periode": {
+                  "title": "Situation",
+                  "text": "Action according to the situation."
+                }
+              }
+            },
+            "monetaire": {
+              "kicker": "Monetary stability",
+              "title": "Monetary stability",
+              "lead": "Monetary stability is a central mission of the Central Bank.",
+              "paragraphs": {
+                "p1": "The Central Bank conducts monetary policy and ensures the stability of the currency.",
+                "p2": "This mission is distinct from the supervision of institutions."
+              },
+              "cta": "The Monetary policy theme"
+            },
+            "liquidite": {
+              "kicker": "Liquidity",
+              "title": "Liquidity",
+              "lead": "The Central Bank provides liquidity to the banking system.",
+              "paragraphs": {
+                "p1": "It conducts operations, manages reserves, refinances institutions and offers standing facilities.",
+                "p2": "These interventions aim at the orderly functioning of the money market."
+              },
+              "bullets": {
+                "b1": "Central bank operations.",
+                "b2": "The management of reserves.",
+                "b3": "The refinancing of institutions.",
+                "b4": "Standing facilities."
+              },
+              "cta": "The Financial system theme"
+            },
+            "infrastructures": {
+              "kicker": "The infrastructures",
+              "title": "The infrastructures",
+              "lead": "The Central Bank contributes to payment and settlement infrastructures.",
+              "paragraphs": {
+                "p1": "It ensures the proper functioning of the infrastructures that ensure the circulation of money and the settlement of operations.",
+                "p2": "These infrastructures are essential to the stability of the system."
+              },
+              "bullets": {
+                "b1": "Payment systems.",
+                "b2": "Settlement systems.",
+                "b3": "The security and resilience of infrastructures."
+              },
+              "cta": "The Payments theme"
+            },
+            "acces": {
+              "kicker": "Access",
+              "title": "Access to operations",
+              "lead": "Access to central bank operations is regulated.",
+              "paragraphs": {
+                "p1": "Authorised institutions can access the Central Bank's operations under defined conditions.",
+                "p2": "This access relies on the accounts held with the Central Bank."
+              },
+              "facts": {
+                "titulaires": {
+                  "label": "Holders",
+                  "value": "Authorised institutions."
+                },
+                "compte": {
+                  "label": "Account",
+                  "value": "An account with the BCA."
+                },
+                "conditions": {
+                  "label": "Conditions",
+                  "value": "Defined conditions of access."
+                },
+                "regles": {
+                  "label": "Rules",
+                  "value": "Rules governing the operations."
+                }
+              }
+            },
+            "systemique": {
+              "kicker": "The systemic risks",
+              "title": "Systemic risks",
+              "lead": "The Central Bank monitors systemic risks falling within its mandate.",
+              "paragraphs": {
+                "p1": "It detects fragilities, coordinates its action, prevents risks and manages situations of stress.",
+                "p2": "This action takes place within the framework of its mandate and in cooperation with the other authorities."
+              },
+              "cards": {
+                "detection": {
+                  "title": "Detection",
+                  "text": "The identification of fragilities."
+                },
+                "coordination": {
+                  "title": "Coordination",
+                  "text": "Coordination with the authorities."
+                },
+                "prevention": {
+                  "title": "Prevention",
+                  "text": "The prevention of risks."
+                },
+                "gestion": {
+                  "title": "Management",
+                  "text": "Managing situations of stress."
+                }
+              }
+            },
+            "surveillance": {
+              "kicker": "Surveillance",
+              "title": "Surveillance",
+              "lead": "The Central Bank carries out surveillance within the framework of its responsibilities.",
+              "paragraphs": {
+                "p1": "It monitors indicators, supervises infrastructures and analyses data falling within its mandate.",
+                "p2": "This surveillance is not to be confused with the AMSF's financial supervision."
+              },
+              "bullets": {
+                "b1": "Monitoring aspects falling within its responsibilities.",
+                "b2": "Monitoring indicators.",
+                "b3": "The surveillance of infrastructures.",
+                "b4": "The analysis of data."
+              }
+            },
+            "frontieres": {
+              "kicker": "The boundaries",
+              "title": "The boundaries with the AMSF",
+              "lead": "The role of the Central Bank is distinct from that of the AMSF.",
+              "paragraphs": {
+                "p1": "The Central Bank acts on money, liquidity and infrastructures; the AMSF supervises and regulates institutions and markets.",
+                "p2": "The two institutions cooperate while respecting their respective scopes."
+              },
+              "notice": "The detailed division of responsibilities is presented in the dedicated pages.",
+              "links": {
+                "amsf": "The role of the AMSF",
+                "repartition": "AMSF responsibilities",
+                "banqueCentrale": "The Central Bank"
+              }
+            }
+          }
+        },
+        "roleDeLAmsf": {
+          "meta": {
+            "title": "The role of the AMSF",
+            "description": "The role of the Financial Supervisory Authority (AMSF): independent authority, separation from the BCA, mission, authorisations, surveillance, sanctions and cooperation."
+          },
+          "hero": {
+            "kicker": "Banks · Supervision",
+            "title": "The role of the AMSF",
+            "lead": "The Financial Supervisory Authority (AMSF) is the independent authority responsible for supervising financial institutions and markets, distinct from the Central Bank.",
+            "cta": "AMSF responsibilities",
+            "notice": "The detailed responsibilities of the AMSF are those provided for by Astorian law."
+          },
+          "sections": {
+            "comprendre": {
+              "kicker": "Understand",
+              "title": "Understanding the role of the AMSF",
+              "lead": "The AMSF is an independent supervisory authority.",
+              "paragraphs": {
+                "p1": "The AMSF is the financial supervision and regulation authority within its independent mandate.",
+                "p2": "It is distinct from the Central Bank, which acts on money and liquidity.",
+                "p3": "This separation guarantees independent supervision and clear responsibilities."
+              },
+              "cards": {
+                "autorite": {
+                  "title": "An authority",
+                  "text": "A financial supervisory authority."
+                },
+                "independance": {
+                  "title": "Independence",
+                  "text": "An independent mandate."
+                },
+                "mandat": {
+                  "title": "Mandate",
+                  "text": "Supervise and regulate."
+                },
+                "unite": {
+                  "title": "Unity",
+                  "text": "One authority for institutions and markets."
+                }
+              }
+            },
+            "separation": {
+              "kicker": "The separation",
+              "title": "The separation from the BCA",
+              "lead": "The AMSF is distinct from the Central Bank.",
+              "paragraphs": {
+                "p1": "The Central Bank acts on money, liquidity and infrastructures; the AMSF supervises and regulates financial institutions and markets.",
+                "p2": "The two institutions cooperate on shared matters, each within its scope."
+              },
+              "facts": {
+                "bca": {
+                  "label": "BCA",
+                  "value": "Money, liquidity, infrastructures, stability within its mandate."
+                },
+                "amsf": {
+                  "label": "AMSF",
+                  "value": "Financial supervision and regulation."
+                },
+                "interfaces": {
+                  "label": "Interfaces",
+                  "value": "Shared matters."
+                },
+                "cooperation": {
+                  "label": "Cooperation",
+                  "value": "Organised cooperation."
+                }
+              }
+            },
+            "mission": {
+              "kicker": "The mission",
+              "title": "The mission",
+              "lead": "The AMSF carries out a supervision and regulation mission.",
+              "paragraphs": {
+                "p1": "Its mission covers supervision, regulation, the application of the law, financial stability and customer protection.",
+                "p2": "It acts within the framework of its independent mandate."
+              },
+              "bullets": {
+                "b1": "The supervision of institutions and markets.",
+                "b2": "Financial regulation.",
+                "b3": "The application of financial law.",
+                "b4": "The contribution to financial stability.",
+                "b5": "Customer protection."
+              }
+            },
+            "autorisations": {
+              "kicker": "The authorisations",
+              "title": "The authorisations",
+              "lead": "The AMSF grants the authorisations falling within its scope.",
+              "paragraphs": {
+                "p1": "It processes and grants the approvals, licences and registrations falling within its mandate.",
+                "p2": "It may also impose withdrawals of authorisation."
+              },
+              "bullets": {
+                "b1": "Approvals.",
+                "b2": "Licences.",
+                "b3": "Registrations.",
+                "b4": "Withdrawals of authorisation."
+              }
+            },
+            "surveillance": {
+              "kicker": "Surveillance",
+              "title": "Surveillance",
+              "lead": "The AMSF monitors institutions and markets.",
+              "paragraphs": {
+                "p1": "It collects data, conducts controls and inspections, monitors the situation of institutions and raises the alert.",
+                "p2": "This surveillance is continuous and proportionate."
+              },
+              "bullets": {
+                "b1": "The collection of data.",
+                "b2": "Controls.",
+                "b3": "Inspections.",
+                "b4": "The monitoring of institutions.",
+                "b5": "Alerts."
+              }
+            },
+            "sanctions": {
+              "kicker": "The sanctions",
+              "title": "Sanctions",
+              "lead": "The AMSF may impose sanctions.",
+              "paragraphs": {
+                "p1": "In case of breach, it may impose graduated sanctions, within the applicable framework.",
+                "p2": "Sanctions aim to put an end to the breach and to preserve confidence."
+              },
+              "bullets": {
+                "b1": "The warning.",
+                "b2": "The fine.",
+                "b3": "The prohibition on operating.",
+                "b4": "The withdrawal of authorisation."
+              },
+              "notice": "The applicable sanctions are those provided for by the official regulatory framework."
+            },
+            "cooperation": {
+              "kicker": "Cooperation",
+              "title": "Cooperation",
+              "lead": "The AMSF cooperates with the Central Bank and other authorities.",
+              "paragraphs": {
+                "p1": "It exchanges information and coordinates its action with the Central Bank, the other authorities and its counterparts.",
+                "p2": "This cooperation respects its independence."
+              },
+              "facts": {
+                "bca": {
+                  "label": "BCA",
+                  "value": "Cooperation on shared matters."
+                },
+                "autres": {
+                  "label": "Other authorities",
+                  "value": "Coordination with the other authorities."
+                },
+                "international": {
+                  "label": "International",
+                  "value": "Exchanges with counterparts."
+                },
+                "echanges": {
+                  "label": "Exchanges",
+                  "value": "Information sharing."
+                }
+              }
+            },
+            "liens": {
+              "kicker": "Links",
+              "title": "Links and references",
+              "lead": "Go further.",
+              "paragraphs": {
+                "p1": "AMSF responsibilities, supervision and controls complete this page."
+              },
+              "links": {
+                "competences": "AMSF responsibilities",
+                "supervision": "Supervision",
+                "banqueCentrale": "The Central Bank",
+                "controles": "Controls and inspections"
+              }
+            }
+          }
+        },
+        "controlesEtInspections": {
+          "meta": {
+            "title": "Controls and inspections",
+            "description": "The controls and inspections of the banking system: types of controls, data and indicators, inspections, follow-up, results and BCA-AMSF cooperation."
+          },
+          "hero": {
+            "kicker": "Banks · Supervision",
+            "title": "Controls and inspections",
+            "lead": "Supervision relies on off-site and on-site controls, as well as inspections. This page explains how they are conducted.",
+            "cta": "Supervision",
+            "notice": "The detailed arrangements for the controls will be specified by the official regulatory framework."
+          },
+          "sections": {
+            "comprendre": {
+              "kicker": "Understand",
+              "title": "Understanding the controls",
+              "lead": "Controls verify the compliance and soundness of institutions.",
+              "paragraphs": {
+                "p1": "Controls and inspections make it possible to verify the compliance of institutions, detect fragilities and prevent risks.",
+                "p2": "They rely on data, documents and on-site visits."
+              },
+              "cards": {
+                "definition": {
+                  "title": "Definition",
+                  "text": "The verification of compliance."
+                },
+                "objectif": {
+                  "title": "Objective",
+                  "text": "Detect and prevent risks."
+                },
+                "portee": {
+                  "title": "Scope",
+                  "text": "All institutions."
+                },
+                "moyens": {
+                  "title": "Means",
+                  "text": "Data, documents and visits."
+                }
+              }
+            },
+            "controles": {
+              "kicker": "The types",
+              "title": "The types of controls",
+              "lead": "Several types of controls are conducted.",
+              "paragraphs": {
+                "p1": "Controls can be documentary, on-site, thematic or definitive."
+              },
+              "cards": {
+                "documentaire": {
+                  "title": "Documentary",
+                  "text": "The examination of documents and data."
+                },
+                "surPlace": {
+                  "title": "On-site",
+                  "text": "The visit to the institution."
+                },
+                "thematique": {
+                  "title": "Thematic",
+                  "text": "A control targeted on a subject."
+                },
+                "definitive": {
+                  "title": "Definitive",
+                  "text": "The conclusions of the control."
+                }
+              }
+            },
+            "donnees": {
+              "kicker": "The data",
+              "title": "Data and indicators",
+              "lead": "Controls rely on data and indicators.",
+              "paragraphs": {
+                "p1": "Institutions transmit data, the authorities monitor indicators and detect alerts.",
+                "p2": "The analysis of data guides the controls."
+              },
+              "facts": {
+                "reporting": {
+                  "label": "Reporting",
+                  "value": "The data transmitted."
+                },
+                "indicateurs": {
+                  "label": "Indicators",
+                  "value": "The indicators monitored."
+                },
+                "alertes": {
+                  "label": "Alerts",
+                  "value": "The signals of fragility."
+                },
+                "analyse": {
+                  "label": "Analysis",
+                  "value": "The analysis of data."
+                }
+              }
+            },
+            "inspection": {
+              "kicker": "The inspections",
+              "title": "Inspections",
+              "lead": "An inspection is an in-depth on-site control.",
+              "paragraphs": {
+                "p1": "The inspection takes place in several stages: announcement, conduct, conclusions and follow-up.",
+                "p2": "It gives rise to a report and recommendations."
+              },
+              "steps": {
+                "annonce": {
+                  "title": "Announcement",
+                  "text": "The inspection is announced."
+                },
+                "deroulement": {
+                  "title": "Conduct",
+                  "text": "The inspection takes place on-site."
+                },
+                "conclusions": {
+                  "title": "Conclusions",
+                  "text": "The conclusions are established."
+                },
+                "suivi": {
+                  "title": "Follow-up",
+                  "text": "The follow-up is ensured."
+                }
+              }
+            },
+            "suivi": {
+              "kicker": "The follow-up",
+              "title": "The follow-up of the controls",
+              "lead": "Controls give rise to follow-up.",
+              "paragraphs": {
+                "p1": "Reports, recommendations and corrections are subject to follow-up.",
+                "p2": "Regular exchanges accompany the implementation of the corrections."
+              },
+              "bullets": {
+                "b1": "The control reports.",
+                "b2": "The recommendations.",
+                "b3": "The corrections requested.",
+                "b4": "The exchanges with the institution."
+              }
+            },
+            "resultats": {
+              "kicker": "The results",
+              "title": "The results",
+              "lead": "The results of the controls are used.",
+              "paragraphs": {
+                "p1": "The results may be published, monitored over time and integrated into the assessment of the situation of institutions.",
+                "p2": "Transparency and proportionality guide this use."
+              },
+              "bullets": {
+                "b1": "The publication of the results.",
+                "b2": "The monitoring of the evolution.",
+                "b3": "Transparency.",
+                "b4": "Proportionality."
+              },
+              "notice": "The arrangements for publishing the results will be specified by the regulatory framework."
+            },
+            "amsf": {
+              "kicker": "Cooperation",
+              "title": "BCA - AMSF cooperation",
+              "lead": "The controls take place within the cooperation between authorities.",
+              "paragraphs": {
+                "p1": "The Central Bank and the AMSF cooperate on shared matters, each within its scope.",
+                "p2": "This cooperation avoids duplication and strengthens the effectiveness of control."
+              },
+              "notice": "The division of controls between authorities will be the one provided for by Astorian law.",
+              "cta": "The role of the AMSF"
+            },
+            "liens": {
+              "kicker": "Useful links",
+              "title": "Useful links",
+              "lead": "Go further.",
+              "paragraphs": {
+                "p1": "Supervision, the obligations of institutions and sanctions complete this page."
+              },
+              "links": {
+                "supervision": "Supervision",
+                "obligations": "Banking institutions",
+                "sanctions": "Sanctions and measures"
+              }
+            }
+          }
+        },
+        "sanctionsEtMesures": {
+          "meta": {
+            "title": "Sanctions and measures",
+            "description": "The sanctions and corrective measures of the banking system: corrective measures, graduation, procedure, prudential integration, competence and consequences."
+          },
+          "hero": {
+            "kicker": "Banks · Supervision",
+            "title": "Sanctions and measures",
+            "lead": "In case of breach or fragility, graduated corrective measures may be taken. This page presents the principles.",
+            "cta": "Supervision",
+            "notice": "No precise sanction is presented: the measures described are general principles awaiting the official framework."
+          },
+          "sections": {
+            "comprendre": {
+              "kicker": "Understand",
+              "title": "Understanding sanctions",
+              "lead": "Sanctions aim to put an end to breaches and to preserve stability.",
+              "paragraphs": {
+                "p1": "Sanctions and corrective measures are decisions taken against an institution in case of breach or fragility.",
+                "p2": "They are graduated, proportionate and transparent."
+              },
+              "cards": {
+                "definition": {
+                  "title": "Definition",
+                  "text": "The decisions in case of breach."
+                },
+                "gradation": {
+                  "title": "Graduation",
+                  "text": "Increasingly strong measures."
+                },
+                "proportionalite": {
+                  "title": "Proportionality",
+                  "text": "Measures suited to the breach."
+                },
+                "transparence": {
+                  "title": "Transparency",
+                  "text": "Published decisions."
+                }
+              }
+            },
+            "mesures": {
+              "kicker": "The measures",
+              "title": "Corrective measures",
+              "lead": "Several corrective measures may be taken.",
+              "paragraphs": {
+                "p1": "Corrective measures include the request for correction, preventive measures, restrictions and recovery plans.",
+                "p2": "They aim to restore compliance and soundness."
+              },
+              "cards": {
+                "correction": {
+                  "title": "Correction",
+                  "text": "The request for correction."
+                },
+                "preventives": {
+                  "title": "Preventive",
+                  "text": "Reinforcement measures."
+                },
+                "restrictions": {
+                  "title": "Restrictions",
+                  "text": "Restrictions on activity."
+                },
+                "redressement": {
+                  "title": "Recovery",
+                  "text": "Recovery plans."
+                }
+              }
+            },
+            "gradation": {
+              "kicker": "The graduation",
+              "title": "The graduation of measures",
+              "lead": "Measures are graduated according to severity.",
+              "paragraphs": {
+                "p1": "The graduation goes from the alert to the correction, then to the restriction, the suspension and, as a last resort, the withdrawal.",
+                "p2": "Each stage corresponds to a degree of severity."
+              },
+              "steps": {
+                "alerte": {
+                  "title": "Alert",
+                  "text": "The institution is alerted."
+                },
+                "correction": {
+                  "title": "Correction",
+                  "text": "A correction is requested."
+                },
+                "restriction": {
+                  "title": "Restriction",
+                  "text": "Restrictions are imposed."
+                },
+                "suspension": {
+                  "title": "Suspension",
+                  "text": "The activity is suspended."
+                },
+                "retrait": {
+                  "title": "Withdrawal",
+                  "text": "The authorisation is withdrawn."
+                }
+              }
+            },
+            "procedure": {
+              "kicker": "The procedure",
+              "title": "The procedure",
+              "lead": "Sanctions follow a regulated procedure.",
+              "paragraphs": {
+                "p1": "The procedure includes the finding, the notification, the observation, the decision and the publication.",
+                "p2": "It guarantees the rights of the defence."
+              },
+              "steps": {
+                "constat": {
+                  "title": "Finding",
+                  "text": "The breach is established."
+                },
+                "notification": {
+                  "title": "Notification",
+                  "text": "The institution is informed."
+                },
+                "observation": {
+                  "title": "Observations",
+                  "text": "The institution presents its observations."
+                },
+                "decision": {
+                  "title": "Decision",
+                  "text": "The decision is taken."
+                },
+                "publication": {
+                  "title": "Publication",
+                  "text": "The decision is published."
+                }
+              }
+            },
+            "integration": {
+              "kicker": "The integration",
+              "title": "Prudential integration",
+              "lead": "The measures are part of prudential monitoring.",
+              "paragraphs": {
+                "p1": "Monitoring, recommendations, corrections and proportionality are part of the prudential approach.",
+                "p2": "The objective is to durably restore compliance."
+              },
+              "bullets": {
+                "b1": "The monitoring of measures.",
+                "b2": "The recommendations.",
+                "b3": "The corrections.",
+                "b4": "Proportionality."
+              }
+            },
+            "competence": {
+              "kicker": "The competence",
+              "title": "The competence",
+              "lead": "The competence to sanction falls within the competent authority.",
+              "paragraphs": {
+                "p1": "In the Astorian model, financial supervision and sanctions fall within the independent mandate of the AMSF.",
+                "p2": "The Central Bank acts within the framework of its own mandate."
+              },
+              "notice": "The exact division of responsibilities will be the one provided for by Astorian law.",
+              "cta": "AMSF responsibilities"
+            },
+            "consequences": {
+              "kicker": "The consequences",
+              "title": "The consequences",
+              "lead": "Sanctions have consequences.",
+              "paragraphs": {
+                "p1": "The sanction may be published, entered in the register and open remedies.",
+                "p2": "The consequences are proportionate to the severity of the breach."
+              },
+              "facts": {
+                "sanction": {
+                  "label": "Sanction",
+                  "value": "The measure imposed."
+                },
+                "publication": {
+                  "label": "Publication",
+                  "value": "The publication of the decision."
+                },
+                "registre": {
+                  "label": "Register",
+                  "value": "The entry in the register."
+                },
+                "recours": {
+                  "label": "Remedies",
+                  "value": "The remedies."
+                }
+              }
+            },
+            "liens": {
+              "kicker": "Useful links",
+              "title": "Useful links",
+              "lead": "Go further.",
+              "paragraphs": {
+                "p1": "Supervision, the withdrawal of the authorisation, the role of the AMSF and the controls complete this page."
+              },
+              "links": {
+                "supervision": "Supervision",
+                "retrait": "The withdrawal of the authorisation",
+                "roleAmsf": "The role of the AMSF",
+                "controles": "Controls and inspections"
+              }
+            }
+          }
+        }
+      }
     }
   },
   "nav": {

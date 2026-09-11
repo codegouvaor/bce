@@ -1,10 +1,43 @@
-import { setRequestLocale } from "next-intl/server";
+import type { Metadata } from "next";
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import { localizedAlternates, resolveLocaleParam } from "@/lib/localized-metadata";
+import { supervisionContent } from "@/lib/content/banques/supervision-content";
+import { localizeArticle } from "@/lib/theme-localize";
+import { ThemeArticle } from "@/components/public/content/theme-page";
+
+const PAGE_PATH = "/banques/supervision";
+const PAGE_NAMESPACE = "pages.banques.supervision";
 
 type PageProps = { params: Promise<{ locale: string }> };
 
-export default async function Page({ params }: PageProps) {
-  const { locale } = await params;
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale: rawLocale } = await params;
+  const locale = resolveLocaleParam(rawLocale);
+  const t = await getTranslations({ locale, namespace: PAGE_NAMESPACE });
+
+  return {
+    title: t("meta.title"),
+    description: t("meta.description"),
+    ...localizedAlternates(locale, PAGE_PATH),
+  };
+}
+
+/**
+ * “Supervision” — how the stability and compliance of the banking system are
+ * monitored. The page respects the institutional separation between the BCA
+ * and the AMSF: the BCA acts within its own perimeter, the AMSF within its
+ * independent mandate. Content is fully driven by the message catalogs
+ * (`pages.banques.supervision.*`) through `lib/theme-localize.ts`.
+ */
+export default async function SupervisionPage({ params }: PageProps) {
+  const { locale: rawLocale } = await params;
+  const locale = resolveLocaleParam(rawLocale);
   setRequestLocale(locale);
 
-  return null;
+  const t = await getTranslations({ locale, namespace: PAGE_NAMESPACE });
+  const tRelated = await getTranslations({ locale, namespace: "pages.banques.related" });
+
+  return (
+    <ThemeArticle content={localizeArticle(supervisionContent, t, tRelated)} currentHref={PAGE_PATH} />
+  );
 }
