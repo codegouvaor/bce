@@ -1,4 +1,4 @@
-module github.com/codegouvaor/service-public
+module github.com/codegouvaor/bce
 
 go 1.25.5
 

@@ -1,0 +1,473 @@
+{
+  "brand": {
+    "republicName": "Central Bank of Astoria"
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "skipToFooter": "Skip to footer",
+    "backToTop": {
+      "ariaLabel": "Back to top"
+    }
+  },
+  "meta": {
+    "searchPlaceholder": "Search the Central Bank portal…",
+    "defaultTitle": "Central Bank of Astoria",
+    "suffix": "Central Bank of Astoria",
+    "description": "Official portal of the Central Bank of Astoria: currency, monetary policy, banks, financial markets, payments, the financial system and the institution itself."
+  },
+  "header": {
+    "serviceTitle": "Central Bank of Astoria",
+    "serviceTagline": "The official portal of the Central Bank of the Republic of Astoria",
+    "homeTitle": "Central Bank of Astoria portal home",
+    "myGouv": "Sign in",
+    "signIn": "Sign in",
+    "accountLabel": "My account",
+    "logoutLink": "Sign out",
+    "account": {
+      "profile": "My profile",
+      "settings": "Account settings"
+    }
+  },
+  "home": {
+    "metaTitle": "Central Bank of Astoria",
+    "hero": {
+      "kicker": "Official portal",
+      "title": "Astoria's currency, monetary policy and financial stability",
+      "lead": "The Central Bank of Astoria issues the national currency, conducts monetary policy, safeguards financial stability and operates the Republic's payment system.",
+      "cta": "Discover the Central Bank"
+    },
+    "decision": {
+      "kicker": "Monetary policy",
+      "title": "Monetary policy decision",
+      "lead": "Follow the latest decisions of the Monetary Policy Council and changes in key rates.",
+      "status": "Latest decision — Key rate",
+      "items": {
+        "taux": {
+          "label": "Key rate",
+          "value": "2.50%"
+        },
+        "date": {
+          "label": "Decision date",
+          "value": "15 September 2026"
+        },
+        "prochaine": {
+          "label": "Next meeting",
+          "value": "October 2026"
+        }
+      },
+      "cta": "Read the full decision"
+    },
+    "indicators": {
+      "kicker": "Indicators",
+      "title": "Money and finance in figures",
+      "lead": "The main monetary and financial indicators of the Astorian system, updated to the latest monetary policy decision.",
+      "exploreLink": "See all indicators",
+      "items": {
+        "tauxDirecteur": {
+          "label": "Key rate"
+        },
+        "inflation": {
+          "label": "Inflation (CPI, year-on-year)"
+        },
+        "reserves": {
+          "label": "Foreign exchange reserves"
+        },
+        "masseMonetaire": {
+          "label": "Money supply (M3)"
+        },
+        "tauxDeChange": {
+          "label": "Exchange rate"
+        },
+        "systemesDePaiement": {
+          "label": "Status of payment systems"
+        }
+      },
+      "note": "Figures are indicative reference values — final data is published in the Monetary data section."
+    },
+    "missions": {
+      "kicker": "Missions",
+      "title": "The responsibilities of the Central Bank",
+      "lead": "The Central Bank of Astoria carries out six fundamental missions in the service of the Republic."
+    },
+    "services": {
+      "kicker": "Professional services",
+      "title": "Central Bank services",
+      "lead": "The CBA's operational platform for financial institutions, the State and payment system operators.",
+      "items": {
+        "banqueEtat": {
+          "title": "State banking",
+          "desc": "Management of the Republic's accounts, treasury and financial operations."
+        },
+        "etablissementsFinanciers": {
+          "title": "Financial institutions",
+          "desc": "Authorisations, licences, prudential obligations and relations with the CBA."
+        },
+        "systemePaiement": {
+          "title": "Payment systems",
+          "desc": "Infrastructures, interbank settlement and national payment systems."
+        },
+        "donneesApi": {
+          "title": "Data and APIs",
+          "desc": "Public data, statistics, time series and developer interfaces."
+        }
+      }
+    },
+    "publications": {
+      "kicker": "Publications",
+      "title": "News and publications",
+      "lead": "Latest decisions, press releases, reports and statistics from the Central Bank.",
+      "allLink": "All publications",
+      "featured": {
+        "title": "The Monetary Policy Council keeps the key rate at 2.50%",
+        "text": "The Central Bank of Astoria has decided to keep its key rate unchanged at its latest meeting. Inflation remains within the target range.",
+        "tag": "Decision",
+        "date": "15 September 2026"
+      },
+      "communique": {
+        "title": "Central Bank statement on liquidity conditions",
+        "tag": "Press release",
+        "date": "10 September 2026"
+      },
+      "rapport": {
+        "title": "Financial stability report — September 2026",
+        "tag": "Report",
+        "date": "8 September 2026"
+      },
+      "statistiques": {
+        "title": "Publication of monetary aggregates — August 2026",
+        "tag": "Statistics",
+        "date": "5 September 2026"
+      }
+    },
+    "institution": {
+      "kicker": "The Central Bank",
+      "title": "The Central Bank of Astoria",
+      "lead": "A sovereign, independent institution, the Central Bank of Astoria is responsible for the currency, financial stability and sound functioning of the Republic's banking system.",
+      "links": {
+        "presentation": "Presentation",
+        "gouvernance": "Governance",
+        "organisation": "Organisation",
+        "carrieres": "Careers",
+        "transparence": "Transparency",
+        "contact": "Contact"
+      }
+    }
+  },
+  "nav": {
+    "primary": {
+      "monnaie": "Currency",
+      "politiqueMonetaire": "Monetary policy",
+      "banques": "Banks",
+      "marchesFinanciers": "Financial markets",
+      "paiements": "Payments",
+      "systemeFinancier": "Financial system",
+      "banqueCentrale": "The Central Bank"
+    },
+    "panel": {
+      "monnaie": {
+        "title": "Currency",
+        "text": "Understand the Astorian currency: its issuance, its banknotes and coins, its circulation and the Republic's monetary data.",
+        "allLink": "All about currency",
+        "laMonnaieAstorienne": {
+          "title": "The Astorian currency",
+          "monnaieOfficielle": "The official currency",
+          "uniteMonetaire": "The monetary unit",
+          "emisParLaBca": "Issued by the Central Bank",
+          "pouvoirLiberalatoire": "Legal tender"
+        },
+        "billetsEtPieces": {
+          "title": "Banknotes and coins",
+          "billets": "Banknotes",
+          "pieces": "Coins",
+          "caracteristiques": "Features and security",
+          "authentification": "Authenticate a banknote"
+        },
+        "circulationMonetaire": {
+          "title": "Currency circulation",
+          "emissions": "Monetary issuance",
+          "circulation": "The circulation of currency",
+          "retrait": "Withdrawing banknotes",
+          "fauxBillets": "Fighting counterfeiting"
+        },
+        "donneesMonetaires": {
+          "title": "Monetary data",
+          "statistiques": "Monetary statistics",
+          "agregats": "Monetary aggregates",
+          "encours": "Monetary stocks",
+          "publications": "Monetary publications"
+        }
+      },
+      "politiqueMonetaire": {
+        "title": "Monetary policy",
+        "text": "Follow the Central Bank's monetary policy: decisions, key rates, instruments and economic publications.",
+        "allLink": "All about monetary policy",
+        "decisions": {
+          "title": "Decisions",
+          "dernieresDecisions": "Latest decisions",
+          "calendrier": "Decision calendar",
+          "communiques": "Press releases",
+          "objectifs": "Monetary objectives"
+        },
+        "tauxDirecteurs": {
+          "title": "Key rates",
+          "tauxDirecteur": "The key rate",
+          "facilites": "Facilities",
+          "evolution": "The evolution of rates",
+          "repercussion": "Impact on credit"
+        },
+        "instrumentsMonetaires": {
+          "title": "Monetary instruments",
+          "operations": "Market operations",
+          "reserveObligatoire": "The reserve requirement",
+          "refinancement": "Refinancing",
+          "transmission": "Monetary policy transmission"
+        },
+        "publications": {
+          "title": "Publications",
+          "rapports": "Reports",
+          "analyses": "Economic analyses",
+          "projections": "Projections",
+          "discours": "Speeches"
+        }
+      },
+      "banques": {
+        "title": "Banks",
+        "text": "Discover the organisation of the Astorian banking system: licensed institutions, licensing conditions, regulation and supervision.",
+        "allLink": "All about banks",
+        "etablissementsBancaires": {
+          "title": "Banking institutions",
+          "registre": "The register of licensed institutions",
+          "categories": "Categories of institutions",
+          "comptes": "Institutions' accounts",
+          "reclamations": "Complaints"
+        },
+        "agrementsEtLicences": {
+          "title": "Authorisations and licences",
+          "conditions": "Authorisation conditions",
+          "demande": "Applying for authorisation",
+          "licencesBancaires": "Banking licences",
+          "retrait": "Withdrawal of authorisation"
+        },
+        "reglementationBancaire": {
+          "title": "Banking regulation",
+          "textes": "Applicable texts",
+          "prudentielles": "Prudential standards",
+          "destineeAuxEtablissements": "Information for institutions",
+          "amsf": "AMSF responsibilities"
+        },
+        "supervision": {
+          "title": "Supervision",
+          "roleBca": "The Central Bank's role",
+          "roleAmsf": "The AMSF's role",
+          "controles": "Controls and inspections",
+          "sanctions": "Sanctions and measures"
+        }
+      },
+      "marchesFinanciers": {
+        "title": "Financial markets",
+        "text": "Follow financial markets and financial stability: functioning, regulation, data and financial indicators.",
+        "allLink": "All about financial markets",
+        "marches": {
+          "title": "Markets",
+          "fonctionnement": "How markets work",
+          "infrastructures": "Market infrastructures",
+          "surveillance": "Market supervision",
+          "interactionsAmsf": "Interactions with the AMSF"
+        },
+        "stabiliteFinanciere": {
+          "title": "Financial stability",
+          "rapport": "The financial stability report",
+          "risques": "Systemic risks",
+          "vulnerabilites": "Vulnerabilities",
+          "indicateurs": "Indicators"
+        },
+        "regulation": {
+          "title": "Regulation",
+          "reglementation": "Market regulation",
+          "supervision": "Market supervision",
+          "amsf": "AMSF responsibilities",
+          "consommateurs": "Investor protection"
+        },
+        "donneesStatistiques": {
+          "title": "Data and statistics",
+          "statistiques": "Financial statistics",
+          "indicateurs": "Financial indicators",
+          "publications": "Publications",
+          "donneesOuvertes": "Open data"
+        }
+      },
+      "paiements": {
+        "title": "Payments",
+        "text": "Understand payment systems and the settlement of transactions, at the heart of the Republic's monetary infrastructure.",
+        "allLink": "All about payments",
+        "systemesDePaiement": {
+          "title": "Payment systems",
+          "nationaux": "National systems",
+          "fonctionnement": "How they work",
+          "infrastructuresCritiques": "Critical infrastructures",
+          "surveillance": "Oversight"
+        },
+        "paiementsInterbancaires": {
+          "title": "Interbank payments",
+          "systeme": "The interbank system",
+          "participants": "Participants",
+          "transactions": "Transactions",
+          "deroulement": "How a payment is processed"
+        },
+        "reglement": {
+          "title": "Settlement",
+          "reglementDesTransactions": "Settlement of transactions",
+          "compensation": "Clearing",
+          "monnaieCentrale": "Settlement in central bank money",
+          "finalite": "Finality of settlement"
+        },
+        "innovationFinanciere": {
+          "title": "Financial innovation",
+          "standards": "Payment standards",
+          "innovation": "Financial innovation",
+          "monnaieNumerique": "Central bank digital currency",
+          "moyens": "Means of payment"
+        }
+      },
+      "systemeFinancier": {
+        "title": "Financial system",
+        "text": "Discover how the Central Bank ensures liquidity, reserves and the stability of the Astorian financial system.",
+        "allLink": "All about the financial system",
+        "liquidite": {
+          "title": "Liquidity",
+          "liquiditeDuSysteme": "Banking system liquidity",
+          "operations": "Liquidity operations",
+          "facilites": "Standing facilities",
+          "prisesEnPension": "Reverse repos"
+        },
+        "reserves": {
+          "title": "Reserves",
+          "reservesObligatoires": "Reserve requirements",
+          "reservesDeChange": "Foreign exchange reserves",
+          "gestion": "Reserve management",
+          "comptes": "Reserve accounts"
+        },
+        "infrastructureFinanciere": {
+          "title": "Financial infrastructure",
+          "infrastructures": "Financial infrastructures",
+          "continuite": "Continuity of services",
+          "resilience": "Resilience",
+          "securite": "Security of infrastructures"
+        },
+        "stabiliteSystemique": {
+          "title": "Systemic stability",
+          "risquesSystemiques": "Systemic risks",
+          "mecanismes": "Crisis mechanisms",
+          "prevention": "Risk prevention",
+          "coordination": "Coordination"
+        }
+      },
+      "banqueCentrale": {
+        "title": "The Central Bank",
+        "text": "Discover the institution: its presentation, its governance, its organisation and careers at the Central Bank of Astoria.",
+        "allLink": "All about the Central Bank",
+        "presentation": {
+          "title": "Presentation",
+          "missions": "Missions",
+          "independance": "Independence",
+          "historique": "History",
+          "roleDansLaRepublique": "Its role in the Republic"
+        },
+        "gouvernance": {
+          "title": "Governance",
+          "gouverneur": "The Governor",
+          "conseil": "The CBA Governing Council",
+          "politiqueDeGouvernance": "Governance policy",
+          "transparence": "Transparency"
+        },
+        "organisation": {
+          "title": "Organisation",
+          "organigramme": "Organisational chart",
+          "directions": "Directorates",
+          "implantations": "Locations",
+          "relationsInstitutionnelles": "Institutional relations"
+        },
+        "carrieres": {
+          "title": "Careers",
+          "travailler": "Working at the CBA",
+          "metiers": "Professions",
+          "recrutement": "Recruitment",
+          "concours": "Competitions and applications"
+        }
+      },
+      "platform": {
+        "banqueEtat": {
+          "title": "State banking",
+          "compteEtat": "The State's account",
+          "tresorerieEtat": "The State's treasury",
+          "emissionsDette": "Debt issuance",
+          "gestionReserves": "Reserve management"
+        },
+        "etablissementsFinanciers": {
+          "title": "Financial institutions",
+          "acces": "Platform access",
+          "comptes": "Accounts",
+          "reserveObligatoire": "The reserve requirement",
+          "refinancement": "Refinancing"
+        },
+        "systemePaiement": {
+          "title": "Payment system",
+          "participants": "Participants",
+          "reglements": "Settlements",
+          "standards": "Standards",
+          "surveillance": "Oversight"
+        },
+        "servicesAutorises": {
+          "title": "Authorised banking services",
+          "liste": "List of services",
+          "demande": "Application",
+          "suivi": "Tracking",
+          "documentation": "Documentation"
+        }
+      }
+    }
+  },
+  "footer": {
+    "columns": {
+      "monnaie": { "title": "Currency" },
+      "politiqueMonetaire": { "title": "Monetary policy" },
+      "banques": { "title": "Banks" },
+      "marchesFinanciers": { "title": "Financial markets" },
+      "paiements": { "title": "Payments" },
+      "systemeFinancier": { "title": "Financial system" },
+      "banqueCentrale": { "title": "The Central Bank" }
+    },
+    "contentDescription": "The Central Bank of Astoria is the sovereign institution responsible for the currency, monetary policy and financial stability of the Republic.",
+    "bottom": {
+      "contact": "Contact",
+      "planDuPortail": "Site map",
+      "documentsOpposables": "Binding documents",
+      "privacy": "Privacy",
+      "cookies": "Cookie management",
+      "publications": "Official publications"
+    },
+    "license": "Unless otherwise stated, all content on this site is licensed under the <link>APSL License</link>."
+  },
+  "stayInTouch": {
+    "newsletter": {
+      "title": "Subscribe to our newsletter",
+      "desc": "Each month, receive the essentials from the Central Bank of Astoria: monetary policy decisions, publications and institution news.",
+      "label": "Your email address",
+      "placeholder": "firstname.lastname@example.aor",
+      "submit": "Subscribe",
+      "success": "Your subscription is confirmed. Thank you!",
+      "hint": "You can unsubscribe at any time.",
+      "invalidEmail": "Please enter a valid email address."
+    },
+    "follow": {
+      "title": "Follow the Central Bank",
+      "items": {
+        "x": "X",
+        "facebook": "Facebook",
+        "linkedin": "LinkedIn",
+        "instagram": "Instagram",
+        "threads": "Threads"
+      }
+    }
+  }
+}

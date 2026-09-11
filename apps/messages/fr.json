@@ -1,0 +1,473 @@
+{
+  "brand": {
+    "republicName": "Banque centrale d'Astoria"
+  },
+  "common": {
+    "skipToContent": "Aller au contenu",
+    "skipToFooter": "Aller au pied de page",
+    "backToTop": {
+      "ariaLabel": "Revenir en haut de page"
+    }
+  },
+  "meta": {
+    "searchPlaceholder": "Rechercher sur le portail de la Banque centrale…",
+    "defaultTitle": "Banque centrale d'Astoria",
+    "suffix": "Banque centrale d'Astoria",
+    "description": "Portail officiel de la Banque centrale d'Astoria : monnaie, politique monétaire, banques, marchés financiers, paiements, système financier et présentation de l'institution."
+  },
+  "header": {
+    "serviceTitle": "Banque centrale d'Astoria",
+    "serviceTagline": "Le portail officiel de la Banque centrale de la République d'Astoria",
+    "homeTitle": "Accueil du portail de la Banque centrale d'Astoria",
+    "myGouv": "Se connecter",
+    "signIn": "Se connecter",
+    "accountLabel": "Mon compte",
+    "logoutLink": "Se déconnecter",
+    "account": {
+      "profile": "Mon profil",
+      "settings": "Paramètres du compte"
+    }
+  },
+  "home": {
+    "metaTitle": "Banque centrale d'Astoria",
+    "hero": {
+      "kicker": "Portail officiel",
+      "title": "La monnaie, la politique monétaire et la stabilité financière d'Astoria",
+      "lead": "La Banque centrale d'Astoria émet la monnaie nationale, conduit la politique monétaire, veille à la stabilité financière et organise le système de paiement de la République.",
+      "cta": "Découvrir la Banque centrale"
+    },
+    "decision": {
+      "kicker": "Politique monétaire",
+      "title": "Décision de politique monétaire",
+      "lead": "Suivez les dernières décisions du Conseil de politique monétaire et l'évolution des taux directeurs.",
+      "status": "Dernière décision — Taux directeur",
+      "items": {
+        "taux": {
+          "label": "Taux directeur",
+          "value": "2,50 %"
+        },
+        "date": {
+          "label": "Date de la décision",
+          "value": "15 septembre 2026"
+        },
+        "prochaine": {
+          "label": "Prochaine réunion",
+          "value": "Octobre 2026"
+        }
+      },
+      "cta": "Consulter la décision complète"
+    },
+    "indicators": {
+      "kicker": "Indicateurs",
+      "title": "Monnaie et finance en chiffres",
+      "lead": "Les principaux indicateurs monétaires et financiers du système astorien, à jour de la dernière décision de politique monétaire.",
+      "exploreLink": "Voir tous les indicateurs",
+      "items": {
+        "tauxDirecteur": {
+          "label": "Taux directeur"
+        },
+        "inflation": {
+          "label": "Inflation (IPC, glissement annuel)"
+        },
+        "reserves": {
+          "label": "Réserves de change"
+        },
+        "masseMonetaire": {
+          "label": "Masse monétaire (M3)"
+        },
+        "tauxDeChange": {
+          "label": "Taux de change"
+        },
+        "systemesDePaiement": {
+          "label": "État des systèmes de paiement"
+        }
+      },
+      "note": "Les chiffres sont des valeurs de référence indicative — les données définitives sont publiées dans la rubrique Données monétaires."
+    },
+    "missions": {
+      "kicker": "Missions",
+      "title": "Les responsabilités de la Banque centrale",
+      "lead": "La Banque centrale d'Astoria exerce six missions fondamentales au service de la République."
+    },
+    "services": {
+      "kicker": "Services professionnels",
+      "title": "Les services de la Banque centrale",
+      "lead": "La plateforme opérationnelle de la BCA, destinée aux établissements financiers, à l'État et aux opérateurs du système de paiement.",
+      "items": {
+        "banqueEtat": {
+          "title": "Banque de l'État",
+          "desc": "Gestion des comptes, trésorerie et opérations financières de la République."
+        },
+        "etablissementsFinanciers": {
+          "title": "Établissements financiers",
+          "desc": "Agréments, licences, obligations prudentielles et relations avec la BCA."
+        },
+        "systemePaiement": {
+          "title": "Systèmes de paiement",
+          "desc": "Infrastructures, règlement-interbancaire et systèmes nationaux de paiement."
+        },
+        "donneesApi": {
+          "title": "Données et API",
+          "desc": "Données publiques, statistiques, séries temporelles et interfaces pour développeurs."
+        }
+      }
+    },
+    "publications": {
+      "kicker": "Publications",
+      "title": "Actualités et publications",
+      "lead": "Dernières décisions, communiqués, rapports et statistiques de la Banque centrale.",
+      "allLink": "Toutes les publications",
+      "featured": {
+        "title": "Le Conseil de politique monétaire maintient le taux directeur à 2,50 %",
+        "text": "La Banque centrale d'Astoria a décidé de maintenir le taux directeur inchangé lors de sa dernière réunion. L'inflation se situe dans la fourchette cible.",
+        "tag": "Décision",
+        "date": "15 septembre 2026"
+      },
+      "communique": {
+        "title": "Communiqué de la Banque centrale sur les conditions de liquidité",
+        "tag": "Communiqué",
+        "date": "10 septembre 2026"
+      },
+      "rapport": {
+        "title": "Rapport sur la stabilité financière — Septembre 2026",
+        "tag": "Rapport",
+        "date": "8 septembre 2026"
+      },
+      "statistiques": {
+        "title": "Publication des agrégats monétaires — Août 2026",
+        "tag": "Statistiques",
+        "date": "5 septembre 2026"
+      }
+    },
+    "institution": {
+      "kicker": "La Banque centrale",
+      "title": "La Banque centrale d'Astoria",
+      "lead": "Institution souveraine indépendante, la Banque centrale d'Astoria veille à la monnaie, à la stabilité financière et au bon fonctionnement du système bancaire de la République.",
+      "links": {
+        "presentation": "Présentation",
+        "gouvernance": "Gouvernance",
+        "organisation": "Organisation",
+        "carrieres": "Carrières",
+        "transparence": "Transparence",
+        "contact": "Contact"
+      }
+    }
+  },
+  "nav": {
+    "primary": {
+      "monnaie": "Monnaie",
+      "politiqueMonetaire": "Politique monétaire",
+      "banques": "Banques",
+      "marchesFinanciers": "Marchés financiers",
+      "paiements": "Paiements",
+      "systemeFinancier": "Système financier",
+      "banqueCentrale": "La Banque centrale"
+    },
+    "panel": {
+      "monnaie": {
+        "title": "Monnaie",
+        "text": "Comprenez la monnaie astorienne : son émission, ses billets et pièces, sa circulation et les données monétaires de la République.",
+        "allLink": "Tout sur la monnaie",
+        "laMonnaieAstorienne": {
+          "title": "La monnaie astorienne",
+          "monnaieOfficielle": "La monnaie officielle",
+          "uniteMonetaire": "L'unité monétaire",
+          "emisParLaBca": "Émise par la Banque centrale",
+          "pouvoirLiberalatoire": "Le pouvoir libératoire"
+        },
+        "billetsEtPieces": {
+          "title": "Billets et pièces",
+          "billets": "Les billets",
+          "pieces": "Les pièces",
+          "caracteristiques": "Caractéristiques et sécurité",
+          "authentification": "Authentifier un billet"
+        },
+        "circulationMonetaire": {
+          "title": "Circulation monétaire",
+          "emissions": "Les émissions monétaires",
+          "circulation": "La circulation de la monnaie",
+          "retrait": "Le retrait des billets",
+          "fauxBillets": "Lutte contre la fausse monnaie"
+        },
+        "donneesMonetaires": {
+          "title": "Données monétaires",
+          "statistiques": "Les statistiques monétaires",
+          "agregats": "Les agrégats monétaires",
+          "encours": "Les encours monétaires",
+          "publications": "Publications monétaires"
+        }
+      },
+      "politiqueMonetaire": {
+        "title": "Politique monétaire",
+        "text": "Suivez la politique monétaire de la Banque centrale : décisions, taux directeurs, instruments et publications économiques.",
+        "allLink": "Tout sur la politique monétaire",
+        "decisions": {
+          "title": "Décisions",
+          "dernieresDecisions": "Les dernières décisions",
+          "calendrier": "Le calendrier des décisions",
+          "communiques": "Communiqués",
+          "objectifs": "Les objectifs monétaires"
+        },
+        "tauxDirecteurs": {
+          "title": "Taux directeurs",
+          "tauxDirecteur": "Le taux directeur",
+          "facilites": "Les facilités",
+          "evolution": "L'évolution des taux",
+          "repercussion": "Répercussion sur le crédit"
+        },
+        "instrumentsMonetaires": {
+          "title": "Instruments monétaires",
+          "operations": "Les opérations de marché",
+          "reserveObligatoire": "La réserve obligatoire",
+          "refinancement": "Le refinancement",
+          "transmission": "La transmission de la politique monétaire"
+        },
+        "publications": {
+          "title": "Publications",
+          "rapports": "Rapports",
+          "analyses": "Analyses économiques",
+          "projections": "Projections",
+          "discours": "Discours"
+        }
+      },
+      "banques": {
+        "title": "Banques",
+        "text": "Découvrez l'organisation du système bancaire astorien : établissements agréés, conditions d'agrément, réglementation et supervision.",
+        "allLink": "Tout sur les banques",
+        "etablissementsBancaires": {
+          "title": "Établissements bancaires",
+          "registre": "Le registre des établissements agréés",
+          "categories": "Les catégories d'établissements",
+          "comptes": "Les comptes des établissements",
+          "reclamations": "Réclamations"
+        },
+        "agrementsEtLicences": {
+          "title": "Agréments et licences",
+          "conditions": "Les conditions d'agrément",
+          "demande": "La demande d'agrément",
+          "licencesBancaires": "Les licences bancaires",
+          "retrait": "Le retrait d'agrément"
+        },
+        "reglementationBancaire": {
+          "title": "Réglementation bancaire",
+          "textes": "Les textes applicables",
+          "prudentielles": "Les normes prudentielles",
+          "destineeAuxEtablissements": "Informations pour les établissements",
+          "amsf": "Compétences de l'AMSF"
+        },
+        "supervision": {
+          "title": "Supervision",
+          "roleBca": "Le rôle de la Banque centrale",
+          "roleAmsf": "Le rôle de l'AMSF",
+          "controles": "Contrôles et inspections",
+          "sanctions": "Sanctions et mesures"
+        }
+      },
+      "marchesFinanciers": {
+        "title": "Marchés financiers",
+        "text": "Suivez les marchés financiers et la stabilité financière : fonctionnement, régulation, données et indicateurs financiers.",
+        "allLink": "Tout sur les marchés financiers",
+        "marches": {
+          "title": "Marchés",
+          "fonctionnement": "Le fonctionnement des marchés",
+          "infrastructures": "Les infrastructures de marché",
+          "surveillance": "La surveillance des marchés",
+          "interactionsAmsf": "Interactions avec l'AMSF"
+        },
+        "stabiliteFinanciere": {
+          "title": "Stabilité financière",
+          "rapport": "Le rapport de stabilité financière",
+          "risques": "Les risques systémiques",
+          "vulnerabilites": "Les vulnérabilités",
+          "indicateurs": "Indicateurs"
+        },
+        "regulation": {
+          "title": "Régulation",
+          "reglementation": "La réglementation des marchés",
+          "supervision": "La supervision des marchés",
+          "amsf": "Compétences de l'AMSF",
+          "consommateurs": "La protection des investisseurs"
+        },
+        "donneesStatistiques": {
+          "title": "Données et statistiques",
+          "statistiques": "Les statistiques financières",
+          "indicateurs": "Les indicateurs financiers",
+          "publications": "Publications",
+          "donneesOuvertes": "Données ouvertes"
+        }
+      },
+      "paiements": {
+        "title": "Paiements",
+        "text": "Comprenez les systèmes de paiement et le règlement des transactions, cœur de l'infrastructure monétaire de la République.",
+        "allLink": "Tout sur les paiements",
+        "systemesDePaiement": {
+          "title": "Systèmes de paiement",
+          "nationaux": "Les systèmes nationaux",
+          "fonctionnement": "Leur fonctionnement",
+          "infrastructuresCritiques": "Les infrastructures critiques",
+          "surveillance": "Surveillance"
+        },
+        "paiementsInterbancaires": {
+          "title": "Paiements interbancaires",
+          "systeme": "Le système interbancaire",
+          "participants": "Les participants",
+          "transactions": "Les transactions",
+          "deroulement": "Le déroulement d'un paiement"
+        },
+        "reglement": {
+          "title": "Règlement",
+          "reglementDesTransactions": "Le règlement des transactions",
+          "compensation": "La compensation",
+          "monnaieCentrale": "Le règlement en monnaie centrale",
+          "finalite": "La finalité du règlement"
+        },
+        "innovationFinanciere": {
+          "title": "Innovation financière",
+          "standards": "Les standards de paiement",
+          "innovation": "L'innovation financière",
+          "monnaieNumerique": "La monnaie numérique de banque centrale",
+          "moyens": "Les moyens de paiement"
+        }
+      },
+      "systemeFinancier": {
+        "title": "Système financier",
+        "text": "Découvrez comment la Banque centrale assure la liquidité, les réserves et la stabilité du système financier astorien.",
+        "allLink": "Tout sur le système financier",
+        "liquidite": {
+          "title": "Liquidité",
+          "liquiditeDuSysteme": "La liquidité du système bancaire",
+          "operations": "Les opérations de liquidité",
+          "facilites": "Les facilités permanentes",
+          "prisesEnPension": "Les prises en pension"
+        },
+        "reserves": {
+          "title": "Réserves",
+          "reservesObligatoires": "Les réserves obligatoires",
+          "reservesDeChange": "Les réserves de change",
+          "gestion": "La gestion des réserves",
+          "comptes": "Les comptes de réserves"
+        },
+        "infrastructureFinanciere": {
+          "title": "Infrastructure financière",
+          "infrastructures": "Les infrastructures financières",
+          "continuite": "La continuité des services",
+          "resilience": "La résilience",
+          "securite": "La sécurité des infrastructures"
+        },
+        "stabiliteSystemique": {
+          "title": "Stabilité systémique",
+          "risquesSystemiques": "Les risques systémiques",
+          "mecanismes": "Les mécanismes de crise",
+          "prevention": "La prévention des risques",
+          "coordination": "La coordination"
+        }
+      },
+      "banqueCentrale": {
+        "title": "La Banque centrale",
+        "text": "Découvrez l'institution : sa présentation, sa gouvernance, son organisation et les carrières au sein de la Banque centrale d'Astoria.",
+        "allLink": "Tout sur la Banque centrale",
+        "presentation": {
+          "title": "Présentation",
+          "missions": "Les missions",
+          "independance": "L'indépendance",
+          "historique": "L'historique",
+          "roleDansLaRepublique": "Le rôle dans la République"
+        },
+        "gouvernance": {
+          "title": "Gouvernance",
+          "gouverneur": "Le Gouverneur",
+          "conseil": "Le Conseil de la BCA",
+          "politiqueDeGouvernance": "La politique de gouvernance",
+          "transparence": "La transparence"
+        },
+        "organisation": {
+          "title": "Organisation",
+          "organigramme": "L'organigramme",
+          "directions": "Les directions",
+          "implantations": "Les implantations",
+          "relationsInstitutionnelles": "Les relations institutionnelles"
+        },
+        "carrieres": {
+          "title": "Carrières",
+          "travailler": "Travailler à la BCA",
+          "metiers": "Les métiers",
+          "recrutement": "Le recrutement",
+          "concours": "Concours et candidatures"
+        }
+      },
+      "platform": {
+        "banqueEtat": {
+          "title": "Banque de l'État",
+          "compteEtat": "Le compte de l'État",
+          "tresorerieEtat": "La trésorerie de l'État",
+          "emissionsDette": "Les émissions de dette",
+          "gestionReserves": "La gestion des réserves"
+        },
+        "etablissementsFinanciers": {
+          "title": "Établissements financiers",
+          "acces": "L'accès à la plateforme",
+          "comptes": "Les comptes",
+          "reserveObligatoire": "La réserve obligatoire",
+          "refinancement": "Le refinancement"
+        },
+        "systemePaiement": {
+          "title": "Système de paiement",
+          "participants": "Les participants",
+          "reglements": "Les règlements",
+          "standards": "Les standards",
+          "surveillance": "La surveillance"
+        },
+        "servicesAutorises": {
+          "title": "Services bancaires autorisés",
+          "liste": "La liste des services",
+          "demande": "La demande",
+          "suivi": "Le suivi",
+          "documentation": "La documentation"
+        }
+      }
+    }
+  },
+  "footer": {
+    "columns": {
+      "monnaie": { "title": "Monnaie" },
+      "politiqueMonetaire": { "title": "Politique monétaire" },
+      "banques": { "title": "Banques" },
+      "marchesFinanciers": { "title": "Marchés financiers" },
+      "paiements": { "title": "Paiements" },
+      "systemeFinancier": { "title": "Système financier" },
+      "banqueCentrale": { "title": "La Banque centrale" }
+    },
+    "contentDescription": "La Banque centrale d'Astoria est l'institution souveraine chargée de la monnaie, de la politique monétaire et de la stabilité financière de la République.",
+    "bottom": {
+      "contact": "Contact",
+      "planDuPortail": "Plan du portail",
+      "documentsOpposables": "Documents opposables",
+      "privacy": "Confidentialité",
+      "cookies": "Gestion des cookies",
+      "publications": "Publications officielles"
+    },
+    "license": "Sauf mention contraire, tous les contenus de ce site sont disponibles sous <link>licence APSL</link>."
+  },
+  "stayInTouch": {
+    "newsletter": {
+      "title": "Abonnez-vous à la lettre d'information",
+      "desc": "Recevez chaque mois l'essentiel de la Banque centrale d'Astoria : décisions de politique monétaire, publications et actualités de l'institution.",
+      "label": "Votre adresse e-mail",
+      "placeholder": "prenom.nom@exemple.aor",
+      "submit": "S'abonner",
+      "success": "Votre inscription est confirmée. Merci !",
+      "hint": "Vous pouvez vous désinscrire à tout moment.",
+      "invalidEmail": "Veuillez saisir une adresse e-mail valide."
+    },
+    "follow": {
+      "title": "Suivez la Banque centrale",
+      "items": {
+        "x": "X",
+        "facebook": "Facebook",
+        "linkedin": "LinkedIn",
+        "instagram": "Instagram",
+        "threads": "Threads"
+      }
+    }
+  }
+}
