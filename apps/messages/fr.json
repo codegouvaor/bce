@@ -153,6 +153,1859 @@
       }
     }
   },
+  "pages": {
+    "monnaie": {
+      "related": {
+        "laMonnaieAstorienne": {
+          "label": "La monnaie astorienne",
+          "desc": "L'unité monétaire officielle de la République et son cadre institutionnel."
+        },
+        "billetsEtPieces": {
+          "label": "Billets et pièces",
+          "desc": "Les valeurs faciales, leurs caractéristiques et les éléments de sécurité."
+        },
+        "circulationMonetaire": {
+          "label": "Circulation monétaire",
+          "desc": "Comment la monnaie est émise, mise en circulation, puis retirée."
+        },
+        "donneesMonetaires": {
+          "label": "Données monétaires",
+          "desc": "Les agrégats, la masse monétaire et les statistiques monétaires."
+        }
+      },
+      "section": {
+        "meta": {
+          "title": "Monnaie",
+          "description": "La monnaie astorienne : l'unité monétaire de la République, les billets et pièces, la circulation monétaire et les données monétaires de la Banque centrale d'Astoria."
+        },
+        "hero": {
+          "kicker": "Monnaie",
+          "title": "La monnaie",
+          "lead": "Émise par la Banque centrale, la monnaie est l'unité de compte de la République et le socle de tous les paiements. Ce thème rassemble ce qu'il faut savoir : la monnaie astorienne, ses billets et pièces, sa circulation et ses données.",
+          "cta": "Comprendre la monnaie astorienne"
+        },
+        "sections": {
+          "pillars": {
+            "kicker": "Les quatre thèmes",
+            "title": "Comprendre la monnaie en quatre volets",
+            "lead": "Chaque volet du thème répond à une question : qu'est-ce que la monnaie ? Quel est son visage quotidien ? Comment circule-t-elle ? Que nous apprennent les données ?",
+            "tiles": {
+              "laMonnaieAstorienne": {
+                "title": "La monnaie astorienne",
+                "desc": "L'unité monétaire officielle, son émission et son cadre institutionnel."
+              },
+              "billetsEtPieces": {
+                "title": "Billets et pièces",
+                "desc": "Les valeurs faciales, les caractéristiques et les éléments de sécurité."
+              },
+              "circulationMonetaire": {
+                "title": "Circulation monétaire",
+                "desc": "L'émission, la mise en circulation et le retrait de la monnaie."
+              },
+              "donneesMonetaires": {
+                "title": "Données monétaires",
+                "desc": "Les agrégats, la masse monétaire et les statistiques monétaires."
+              }
+            }
+          },
+          "institution": {
+            "kicker": "Le rôle de la Banque centrale",
+            "title": "La Banque centrale, gardienne de la monnaie",
+            "lead": "Trois responsabilités font de la Banque centrale d'Astoria l'institution de la monnaie de la République.",
+            "paragraphs": {
+              "p1": "La BCA est seule habilitée à émettre les billets ayant cours légal, et elle organise la circulation des espèces sur l'ensemble du territoire. Elle garantit ainsi l'unité monétaire de la République.",
+              "p2": "Elle conduit la politique monétaire : en fixant ses taux directeurs et en fournissant la liquidité au système bancaire, elle agit sur la valeur de la monnaie et protège le pouvoir d'achat des citoyens.",
+              "p3": "Elle veille enfin à ce que la monnaie circule dans de bonnes conditions : authenticité des billets, qualité des espèces, disponibilité de la liquidité et bon fonctionnement du système de paiement."
+            },
+            "cards": {
+              "emission": {
+                "title": "L'émettrice",
+                "text": "Elle émet les billets et organise la circulation des espèces."
+              },
+              "stabilite": {
+                "title": "La gardienne de la valeur",
+                "text": "Sa politique monétaire vise la stabilité des prix."
+              },
+              "confiance": {
+                "title": "La garante de la confiance",
+                "text": "Elle protège l'authenticité de la monnaie et la fluidité des paiements."
+              }
+            },
+            "cta": "Suivre la politique monétaire"
+          },
+          "figures": {
+            "kicker": "En chiffres",
+            "title": "La monnaie en chiffres",
+            "lead": "Les principaux indicateurs monétaires du système astorien, à jour de la dernière décision de politique monétaire.",
+            "statGrid": {
+              "taux": {
+                "value": "2,50 %",
+                "label": "Taux directeur"
+              },
+              "inflation": {
+                "value": "1,8 %",
+                "label": "Inflation (IPC, glissement annuel)"
+              },
+              "m3": {
+                "value": "4 210 Md",
+                "label": "Masse monétaire (M3)"
+              },
+              "fiduciaire": {
+                "value": "310 Md",
+                "label": "Circulation fiduciaire"
+              }
+            },
+            "notice": "Données de démonstration, en attendant la publication des séries officielles."
+          },
+          "institutionLink": {
+            "kicker": "Pour aller plus loin",
+            "title": "L'institution de la monnaie",
+            "lead": "La monnaie est l'une des missions fondamentales de la Banque centrale. Découvrez l'institution et ses autres responsabilités.",
+            "cta": "Découvrir la Banque centrale"
+          }
+        }
+      },
+      "laMonnaieAstorienne": {
+        "meta": {
+          "title": "La monnaie astorienne",
+          "description": "La monnaie officielle de la République d'Astoria : son unité monétaire, son émission par la Banque centrale, son cadre institutionnel et les principes qui la régissent."
+        },
+        "hero": {
+          "kicker": "Monnaie",
+          "title": "La monnaie astorienne",
+          "lead": "Le franc astorien est la monnaie officielle de la République d'Astoria. Émise par la Banque centrale, elle est l'unité de compte de l'économie nationale et le lien commun de tous les paiements.",
+          "cta": "Découvrir les billets et pièces",
+          "notice": "Les dénominations et caractéristiques présentées sur cette page sont des données de démonstration, en attendant la publication des référentiels officiels."
+        },
+        "sections": {
+          "definition": {
+            "kicker": "Comprendre",
+            "title": "Qu'est-ce que la monnaie ?",
+            "lead": "La monnaie est l'invention sociale qui permet à une économie de se coordonner : elle donne une mesure commune aux valeurs, simplifie les échanges et permet de différer la consommation.",
+            "paragraphs": {
+              "p1": "Dans une économie de troc, chaque échange exige que deux besoins se rencontrent exactement. La monnaie supprime cette contrainte en fournissant un moyen d'échange universellement accepté : chacun peut vendre pour obtenir de la monnaie, puis acheter auprès de n'importe qui, à n'importe quel moment.",
+              "p2": "La monnaie remplit trois fonctions complémentaires. C'est cette triple nature — compter, échanger, épargner — qui fait d'elle l'instrument central de toute économie moderne."
+            },
+            "cards": {
+              "unite": {
+                "title": "Une unité de compte",
+                "text": "La monnaie donne une mesure commune aux prix et aux valeurs : tous les biens, services et créances s'expriment dans la même unité."
+              },
+              "echange": {
+                "title": "Un intermédiaire des échanges",
+                "text": "Acceptée par tous, elle facilite les transactions et rend l'économie plus fluide, en espèces comme par les moyens de paiement scripturaux."
+              },
+              "reserve": {
+                "title": "Une réserve de valeur",
+                "text": "La monnaie permet de conserver un pouvoir d'achat dans le temps et de l'utiliser plus tard, au prix de sa stabilité."
+              }
+            }
+          },
+          "official": {
+            "kicker": "La monnaie officielle",
+            "title": "La monnaie officielle de la République",
+            "lead": "Le franc astorien est la seule monnaie ayant cours légal sur l'ensemble du territoire de la République d'Astoria.",
+            "paragraphs": {
+              "p1": "Créée et régie par la loi monétaire, la monnaie nationale est émise par la Banque centrale d'Astoria, seul établissement habilité à émettre des billets. Les pièces, pour leur part, sont frappées par le Trésor public sous le contrôle de l'État, dans le cadre fixé par la loi.",
+              "p2": "Toute personne peut refuser un paiement proposé dans une autre monnaie que le franc astorien : le cours légal s'impose aux créanciers et aux débiteurs, garantissant ainsi l'unité monétaire de la République."
+            },
+            "table": {
+              "caption": "La monnaie astorienne en bref",
+              "headers": {
+                "0": "Élément",
+                "1": "Détail"
+              },
+              "rows": {
+                "0": {
+                  "0": "Dénomination",
+                  "1": "Franc astorien (dénomination provisoire)"
+                },
+                "1": {
+                  "0": "Unité",
+                  "1": "Le franc (F)"
+                },
+                "2": {
+                  "0": "Subdivision",
+                  "1": "100 centimes"
+                },
+                "3": {
+                  "0": "Émetteur des billets",
+                  "1": "Banque centrale d'Astoria (BCA)"
+                },
+                "4": {
+                  "0": "Émetteur des pièces",
+                  "1": "Trésor public"
+                },
+                "5": {
+                  "0": "Cours légal",
+                  "1": "Sur tout le territoire de la République"
+                }
+              },
+              "note": "Données de démonstration : la dénomination et les caractéristiques officielles seront publiées par la Banque centrale."
+            }
+          },
+          "emission": {
+            "kicker": "L'émission",
+            "title": "Une monnaie émise par la Banque centrale",
+            "lead": "L'émission de la monnaie nationale est le premier des privilèges de la Banque centrale d'Astoria.",
+            "paragraphs": {
+              "p1": "La BCA émet la monnaie fiduciaire — les billets — et elle est au cœur de la création de la monnaie scripturale. Les crédits accordés par les banques commerciales créent la majeure partie de la monnaie en circulation ; la BCA garantit la confiance dans cette monnaie en assurant la liquidité du système et en contrôlant le coût de la monnaie de banque centrale.",
+              "p2": "C'est parce qu'elle est la seule à émettre la monnaie de banque centrale — la monnaie la plus sûre du système, celle que les banques s'échangent entre elles — que la Banque centrale peut conduire la politique monétaire de la République et stabiliser la valeur de la monnaie."
+            },
+            "cta": "Comprendre le rôle de la BCA"
+          },
+          "cadre": {
+            "kicker": "Le cadre institutionnel",
+            "title": "Un cadre institutionnel clair",
+            "lead": "Le statut de la monnaie et l'indépendance de son émetteur sont garantis par la Constitution et par la loi monétaire.",
+            "paragraphs": {
+              "p1": "La République d'Astoria a confié la défense de la valeur de la monnaie à une institution indépendante du pouvoir politique : la Banque centrale. Cette indépendance est la condition d'une monnaie stable : elle protège la politique monétaire des considérations de court terme et assure la confiance du public et des marchés."
+            },
+            "cards": {
+              "independance": {
+                "title": "L'indépendance de l'émetteur",
+                "text": "La BCA exerce sa mission à l'abri de toute instruction, dans le cadre défini par la loi."
+              },
+              "pouvoirLiberatoire": {
+                "title": "Le pouvoir libératoire",
+                "text": "La monnaie nationale éteint toute dette exprimée en francs, sans limite de montant pour les billets."
+              },
+              "stabilite": {
+                "title": "La stabilité de la valeur",
+                "text": "La politique monétaire vise la stabilité des prix, condition de la confiance dans la monnaie."
+              },
+              "protection": {
+                "title": "La protection du public",
+                "text": "L'émission s'accompagne de dispositifs de sécurité et de lutte contre la fausse monnaie."
+              }
+            }
+          },
+          "politique": {
+            "kicker": "La politique monétaire",
+            "title": "La monnaie et la politique monétaire",
+            "lead": "La valeur de la monnaie est l'objet même de la politique monétaire de la Banque centrale.",
+            "paragraphs": {
+              "p1": "En fixant ses taux directeurs et en fournissant la liquidité au système bancaire, la BCA agit sur les conditions de financement de l'économie et, à terme, sur l'inflation. Une monnaie dont la valeur est stable protège le pouvoir d'achat des citoyens et préserve les épargnants.",
+              "p2": "Les décisions de politique monétaire sont prises par le Conseil de politique monétaire et publiées, ainsi que leurs objectifs, sur le portail de la Banque centrale."
+            },
+            "cta": "Suivre la politique monétaire"
+          }
+        }
+      },
+      "billetsEtPieces": {
+        "meta": {
+          "title": "Billets et pièces",
+          "description": "Les billets et pièces en francs astoriens : valeurs faciales, caractéristiques, éléments de sécurité et informations pratiques pour les utilisateurs."
+        },
+        "hero": {
+          "kicker": "Monnaie",
+          "title": "Billets et pièces",
+          "lead": "Les billets et les pièces sont le visage quotidien de la monnaie astorienne. Chaque coupure et chaque pièce associe une valeur, des motifs et des éléments de sécurité qui permettent de la vérifier en quelques gestes.",
+          "cta": "Comprendre la circulation monétaire"
+        },
+        "sections": {
+          "billets": {
+            "kicker": "Les billets",
+            "title": "Les billets en circulation",
+            "lead": "Cinq valeurs faciales composent la gamme des billets astoriens. Imprimés par la Banque centrale, ils incorporent des éléments de sécurité accessibles à tous.",
+            "denominations": {
+              "b10": {
+                "unit": "Francs",
+                "tag": "Bleu",
+                "motif": "Patrimoine naturel"
+              },
+              "b20": {
+                "unit": "Francs",
+                "tag": "Orange",
+                "motif": "Architecture"
+              },
+              "b50": {
+                "unit": "Francs",
+                "tag": "Vert",
+                "motif": "Industrie et innovation"
+              },
+              "b100": {
+                "unit": "Francs",
+                "tag": "Violet",
+                "motif": "Science et éducation"
+              },
+              "b200": {
+                "unit": "Francs",
+                "tag": "Rouge",
+                "motif": "République et institutions"
+              }
+            },
+            "notice": "Représentations officielles à venir. Les motifs et couleurs ci-dessous sont des données de démonstration."
+          },
+          "pieces": {
+            "kicker": "Les pièces",
+            "title": "Les pièces en circulation",
+            "lead": "Six valeurs faciales composent la gamme des pièces astoriennes. Frappées par le Trésor public, elles circulent aux côtés des billets pour les petites transactions.",
+            "denominations": {
+              "p5": {
+                "unit": "Centimes"
+              },
+              "p10": {
+                "unit": "Centimes"
+              },
+              "p20": {
+                "unit": "Centimes"
+              },
+              "p50": {
+                "unit": "Centimes"
+              },
+              "p1": {
+                "unit": "Franc"
+              },
+              "p2": {
+                "unit": "Francs"
+              }
+            }
+          },
+          "caracteristiques": {
+            "kicker": "Sécurité",
+            "title": "Caractéristiques et éléments de sécurité",
+            "lead": "Chaque billet associe des éléments qui se vérifient par le regard, le toucher et le mouvement. Apprenez à les reconnaître, ils sont votre première protection.",
+            "cards": {
+              "papier": {
+                "title": "Le papier",
+                "text": "Un papier spécial, résistant et légèrement bruissant, distinct du papier ordinaire."
+              },
+              "relief": {
+                "title": "Les reliefs",
+                "text": "Les encres en relief se sentent au toucher sur le motif principal et le nom de la banque."
+              },
+              "filigrane": {
+                "title": "Le filigrane",
+                "text": "Visible par transparence, il reproduit un motif qui s'éclaircit lorsque le billet est incliné."
+              },
+              "fenetre": {
+                "title": "La fenêtre transparente",
+                "text": "Une fenêtre laissant passer la lumière, avec des détails qui bougent selon l'angle de vue."
+              },
+              "impression": {
+                "title": "L'impression recto-verso",
+                "text": "Les deux faces forment un motif exact lorsqu'elles sont observées par transparence."
+              },
+              "fluorescence": {
+                "title": "Les encres fluorescentes",
+                "text": "Sous lumière ultraviolette, des éléments colorés apparaissent sur la face du billet."
+              },
+              "microtexte": {
+                "title": "Les micro-impressions",
+                "text": "Des textes minuscules, nets à la loupe mais illisibles à l'œil nu."
+              },
+              "barcode": {
+                "title": "Le code-barres et le numéro",
+                "text": "Un code-barres et une série numérotée permettent la traçabilité des coupures."
+              }
+            }
+          },
+          "authentifier": {
+            "kicker": "Authentifier",
+            "title": "Authentifier un billet en quatre gestes",
+            "lead": "Face à un billet, la méthode des quatre gestes — toucher, regarder, incliner, contrôler — permet à chacun de vérifier son authenticité sans aucun instrument.",
+            "steps": {
+              "toucher": {
+                "title": "Toucher",
+                "text": "Sentez le papier et les reliefs : un vrai billet est ferme, craquant et ses encres en relief se sentent sous le doigt."
+              },
+              "regarder": {
+                "title": "Regarder",
+                "text": "Vérifiez le filigrane par transparence et la coïncidence de l'impression recto-verso."
+              },
+              "incliner": {
+                "title": "Incliner",
+                "text": "Inclinez le billet : la fenêtre transparente et les éléments qui changent selon l'angle confirment l'authenticité."
+              },
+              "controler": {
+                "title": "Contrôler",
+                "text": "Si un doute subsiste, comparez avec un billet reconnu ou remettez-le à votre établissement bancaire."
+              }
+            }
+          },
+          "pratiques": {
+            "kicker": "Informations pratiques",
+            "title": "Échange, remplacement et remise en circulation",
+            "lead": "Billets abîmés, pièces usées, retraits de coupures : la Banque centrale accompagne les usagers de la monnaie.",
+            "paragraphs": {
+              "p1": "Les billets endommagés mais authentiques peuvent être échangés auprès de la Banque centrale et des établissements de crédit, selon des conditions publiées. Les pièces usées sont retirées de la circulation par le Trésor public et remplacées.",
+              "p2": "Lorsqu'une coupure est retirée de la circulation, elle conserve sa valeur pendant un délai de retrait légal, puis peut encore être échangée auprès de la Banque centrale pendant une période déterminée. Le calendrier des retraits est annoncé publiquement.",
+              "p3": "Signalez tout billet suspect aux autorités : la lutte contre la fausse monnaie protège l'ensemble des usagers."
+            },
+            "notice": "Ne remettez pas un billet suspect en circulation : remettez-le à votre banque ou aux forces de l'ordre."
+          }
+        }
+      },
+      "circulationMonetaire": {
+        "meta": {
+          "title": "Circulation monétaire",
+          "description": "Comment la monnaie circule en Astoria : émission monétaire, mise en circulation, monnaie scripturale, rôle des banques et de la Banque centrale, évolution de la masse monétaire."
+        },
+        "hero": {
+          "kicker": "Monnaie",
+          "title": "Circulation monétaire",
+          "lead": "Émise par la Banque centrale, la monnaie circule en permanence entre les ménages, les entreprises, les banques et l'État. Comprendre ce circuit, c'est comprendre comment la monnaie naît, circule et se retire.",
+          "cta": "Explorer les données monétaires"
+        },
+        "sections": {
+          "cycle": {
+            "kicker": "Le cycle",
+            "title": "Le cycle de vie de la monnaie",
+            "lead": "La monnaie fiduciaire suit un cycle continu : produite, mise en circulation, elle circule de main en main puis est triée, vérifiée et éventuellement retirée.",
+            "cards": {
+              "emission": {
+                "title": "Émission",
+                "text": "La Banque centrale commande l'impression des billets et le Trésor la frappe des pièces, dans les limites fixées par la loi."
+              },
+              "miseEnCirculation": {
+                "title": "Mise en circulation",
+                "text": "Les espèces quittent les caisses de la Banque centrale vers les banques, puis vers les commerces et les usagers."
+              },
+              "circulation": {
+                "title": "Circulation",
+                "text": "Les billets et pièces passent de main en main : transactions quotidiennes, guichets, commerces."
+              },
+              "retrait": {
+                "title": "Tri, vérification, retrait",
+                "text": "Les banques retournent les espèces à la Banque centrale, qui les trie, en vérifie l'authenticité et retire celles qui sont usées."
+              }
+            }
+          },
+          "emissionMonetaire": {
+            "kicker": "L'émission monétaire",
+            "title": "L'émission monétaire",
+            "lead": "La monnaie ne se crée pas ex nihilo : elle naît des opérations de la Banque centrale et des crédits des banques.",
+            "paragraphs": {
+              "p1": "La majeure partie de la monnaie en circulation est de la monnaie scripturale créée par les banques commerciales lorsqu'elles accordent des crédits. Cette création est encadrée : elle dépend de la demande de crédit, de la réglementation prudentielle et de la politique monétaire de la Banque centrale.",
+              "p2": "La Banque centrale crée la monnaie de banque centrale — la seule monnaie qu'elle contrôle directement — lorsqu'elle refinance les banques ou achète des titres. C'est cette monnaie, détenue en réserve par les banques, qui sert de socle à l'ensemble du système."
+            },
+            "cards": {
+              "banques": {
+                "title": "Les établissements bancaires",
+                "text": "Ils créent la monnaie scripturale en accordant des crédits et jouent le rôle de distributeurs des espèces."
+              },
+              "bca": {
+                "title": "La Banque centrale",
+                "text": "Elle émet la monnaie fiduciaire, fournit la liquidité au système et contrôle le coût de la monnaie."
+              },
+              "etat": {
+                "title": "L'État",
+                "text": "Il frappe les pièces et gère la trésorerie publique, notamment par son compte auprès de la Banque centrale."
+              }
+            }
+          },
+          "masseMonetaire": {
+            "kicker": "La masse monétaire",
+            "title": "L'évolution de la masse monétaire",
+            "lead": "La masse monétaire mesure la quantité de monnaie en circulation dans l'économie. Son évolution est surveillée par la Banque centrale, car elle renseigne sur les pressions inflationnistes potentielles.",
+            "statGrid": {
+              "m3": {
+                "value": "4 210 Md",
+                "label": "Masse monétaire (M3)"
+              },
+              "croissance": {
+                "value": "4,2 %",
+                "label": "Croissance annuelle"
+              },
+              "fiduciaire": {
+                "value": "310 Md",
+                "label": "Circulation fiduciaire"
+              },
+              "scriptural": {
+                "value": "3 900 Md",
+                "label": "Dépôts (M1-M2)"
+              }
+            },
+            "table": {
+              "caption": "Évolution indicative de la masse monétaire",
+              "headers": {
+                "0": "Année",
+                "1": "M1",
+                "2": "M2",
+                "3": "M3"
+              },
+              "rows": {
+                "0": {
+                  "0": "2022",
+                  "1": "1 850 Md",
+                  "2": "3 520 Md",
+                  "3": "3 810 Md"
+                },
+                "1": {
+                  "0": "2023",
+                  "1": "1 930 Md",
+                  "2": "3 660 Md",
+                  "3": "3 960 Md"
+                },
+                "2": {
+                  "0": "2024",
+                  "1": "2 010 Md",
+                  "2": "3 790 Md",
+                  "3": "4 080 Md"
+                },
+                "3": {
+                  "0": "2025",
+                  "1": "2 100 Md",
+                  "2": "3 920 Md",
+                  "3": "4 210 Md"
+                }
+              },
+              "note": "Données de démonstration. Les séries officielles seront publiées sur la page Données monétaires."
+            },
+            "cta": "Voir les agrégats monétaires détaillés"
+          },
+          "retrait": {
+            "kicker": "Le retrait",
+            "title": "Le retrait des billets",
+            "lead": "Les billets ne circulent pas indéfiniment : ils s'usent et, un jour, une coupure entière peut être retirée de la circulation.",
+            "paragraphs": {
+              "p1": "La Banque centrale trie les espèces retournées par les banques, vérifie leur authenticité et élimine celles qui sont trop abîmées pour circuler. Les billets retirés sont remplacés par des coupures neuves et les pièces usées sont fondues par le Trésor public.",
+              "p2": "Lorsqu'une coupure cesse d'être émise, elle conserve son pouvoir libératoire pendant un délai annoncé, puis peut être échangée auprès de la Banque centrale pendant une période de retrait. Les usagers sont informés par des campagnes publiques et sur ce portail."
+            },
+            "notice": "Les billets abîmés mais authentiques peuvent être échangés dans les établissements bancaires, dans les conditions publiées par la Banque centrale."
+          }
+        }
+      },
+      "donneesMonetaires": {
+        "meta": {
+          "title": "Données monétaires",
+          "description": "Les données monétaires de la Banque centrale d'Astoria : indicateurs clés, agrégats monétaires, masse monétaire, circulation fiduciaire, réserves et taux."
+        },
+        "hero": {
+          "kicker": "Monnaie · Données",
+          "title": "Données monétaires",
+          "lead": "Les statistiques monétaires de la République : la masse monétaire et ses agrégats, la circulation fiduciaire, les réserves et les taux directeurs, présentés de manière claire et comparable.",
+          "cta": "Comprendre la circulation monétaire",
+          "notice": "Les chiffres publiés ici sont des données de démonstration, en attendant la mise à disposition des séries officielles."
+        },
+        "sections": {
+          "indicateursCles": {
+            "kicker": "En chiffres",
+            "title": "Les indicateurs clés",
+            "lead": "Un aperçu synthétique de la situation monétaire, à jour de la dernière décision de politique monétaire.",
+            "statGrid": {
+              "taux": {
+                "value": "2,50 %",
+                "label": "Taux directeur"
+              },
+              "inflation": {
+                "value": "1,8 %",
+                "label": "Inflation (IPC, glissement annuel)"
+              },
+              "m3": {
+                "value": "4 210 Md",
+                "label": "Masse monétaire (M3)"
+              },
+              "reserves": {
+                "value": "132 Md",
+                "label": "Réserves de change"
+              }
+            }
+          },
+          "agregats": {
+            "kicker": "Les agrégats",
+            "title": "Les agrégats monétaires",
+            "lead": "La masse monétaire est mesurée par des agrégats de plus en plus larges, selon la liquidité des actifs qu'ils regroupent.",
+            "table": {
+              "caption": "Les agrégats monétaires astoriens",
+              "headers": {
+                "0": "Agrégat",
+                "1": "Composantes principales",
+                "2": "Encours"
+              },
+              "rows": {
+                "0": {
+                  "0": "M0",
+                  "1": "Monnaie de banque centrale (billets, pièces, réserves)",
+                  "2": "320 Md"
+                },
+                "1": {
+                  "0": "M1",
+                  "1": "M0 + dépôts à vue des ménages et entreprises",
+                  "2": "2 100 Md"
+                },
+                "2": {
+                  "0": "M2",
+                  "1": "M1 + dépôts d'épargne à court terme",
+                  "2": "3 920 Md"
+                },
+                "3": {
+                  "0": "M3",
+                  "1": "M2 + titres de créance et parts de fonds monétaires",
+                  "2": "4 210 Md"
+                }
+              },
+              "note": "Données de démonstration. La décomposition officielle sera publiée par la Banque centrale."
+            }
+          },
+          "circulationFiduciaire": {
+            "kicker": "Les espèces",
+            "title": "La circulation fiduciaire",
+            "lead": "Billets et pièces restent, pour de nombreux usages, un moyen de paiement irremplaçable.",
+            "statGrid": {
+              "billets": {
+                "value": "265 Md",
+                "label": "Billets en circulation"
+              },
+              "pieces": {
+                "value": "45 Md",
+                "label": "Pièces en circulation"
+              },
+              "part": {
+                "value": "7,4 %",
+                "label": "Part des espèces dans les paiements"
+              },
+              "billetsParHabitant": {
+                "value": "52",
+                "label": "Billets par habitant (en valeur : 4 400 F)"
+              }
+            }
+          },
+          "masseMonetaire": {
+            "kicker": "Les séries",
+            "title": "Évolution de la masse monétaire",
+            "lead": "Les séries annuelles permettent de suivre l'évolution des agrégats et de la circulation fiduciaire.",
+            "table": {
+              "caption": "Évolution annuelle de la masse monétaire et de la circulation fiduciaire",
+              "headers": {
+                "0": "Année",
+                "1": "M1",
+                "2": "M2",
+                "3": "M3",
+                "4": "Fiduciaire"
+              },
+              "rows": {
+                "0": {
+                  "0": "2021",
+                  "1": "1 760 Md",
+                  "2": "3 340 Md",
+                  "3": "3 640 Md",
+                  "4": "285 Md"
+                },
+                "1": {
+                  "0": "2022",
+                  "1": "1 850 Md",
+                  "2": "3 520 Md",
+                  "3": "3 810 Md",
+                  "4": "298 Md"
+                },
+                "2": {
+                  "0": "2023",
+                  "1": "1 930 Md",
+                  "2": "3 660 Md",
+                  "3": "3 960 Md",
+                  "4": "304 Md"
+                },
+                "3": {
+                  "0": "2024",
+                  "1": "2 010 Md",
+                  "2": "3 790 Md",
+                  "3": "4 080 Md",
+                  "4": "309 Md"
+                },
+                "4": {
+                  "0": "2025",
+                  "1": "2 100 Md",
+                  "2": "3 920 Md",
+                  "3": "4 210 Md",
+                  "4": "310 Md"
+                }
+              },
+              "note": "Données de démonstration, exprimées en milliards de francs (Md). Les séries officielles seront connectées à la source de données de la BCA."
+            }
+          },
+          "reserves": {
+            "kicker": "Les réserves",
+            "title": "Réserves et liquidité",
+            "lead": "La Banque centrale gère les réserves du système et fournit la liquidité nécessaire à son fonctionnement.",
+            "table": {
+              "caption": "Réserves et liquidité",
+              "headers": {
+                "0": "Poste",
+                "1": "Encours",
+                "2": "Évolution annuelle"
+              },
+              "rows": {
+                "0": {
+                  "0": "Réserves de change",
+                  "1": "132 Md",
+                  "2": "+ 4,1 %"
+                },
+                "1": {
+                  "0": "Réserves obligatoires des banques",
+                  "1": "38 Md",
+                  "2": "+ 2,3 %"
+                },
+                "2": {
+                  "0": "Opérations de refinancement",
+                  "1": "112 Md",
+                  "2": "- 1,5 %"
+                },
+                "3": {
+                  "0": "Facilités permanentes",
+                  "1": "14 Md",
+                  "2": "Stable"
+                }
+              },
+              "note": "Données de démonstration."
+            }
+          },
+          "taux": {
+            "kicker": "Les taux",
+            "title": "Les taux directeurs",
+            "lead": "Les taux directeurs sont l'instrument central de la politique monétaire : ils orientent le coût du crédit dans l'économie.",
+            "table": {
+              "caption": "Les taux directeurs de la Banque centrale",
+              "headers": {
+                "0": "Instrument",
+                "1": "Taux"
+              },
+              "rows": {
+                "0": {
+                  "0": "Taux directeur (opérations principales de refinancement)",
+                  "1": "2,50 %"
+                },
+                "1": {
+                  "0": "Facilité de dépôt",
+                  "1": "2,25 %"
+                },
+                "2": {
+                  "0": "Facilité de prêt marginal",
+                  "1": "2,75 %"
+                }
+              },
+              "note": "Données de démonstration, à jour de la dernière décision du Conseil de politique monétaire."
+            },
+            "cta": "Suivre l'évolution des taux"
+          },
+          "publications": {
+            "kicker": "Publications",
+            "title": "Publications et données",
+            "lead": "Les statistiques monétaires sont publiées selon un calendrier régulier, accompagnées des méthodes et des séries téléchargeables.",
+            "links": {
+              "statistiques": "Les statistiques monétaires",
+              "publications": "Les publications monétaires",
+              "donneesOuvertes": "Les données ouvertes de la BCA"
+            },
+            "notice": "Ces pages publieront les séries officielles et, à terme, les données ouvertes de la Banque centrale."
+          }
+        }
+      },
+      "sub": {
+        "monnaieOfficielle": {
+          "meta": {
+            "title": "La monnaie officielle",
+            "description": "Le franc astorien, seule monnaie ayant cours légal en Astoria : son cadre légal, le cours légal et ce que cela change pour les usagers."
+          },
+          "hero": {
+            "kicker": "La monnaie astorienne",
+            "title": "La monnaie officielle",
+            "lead": "La République d'Astoria dispose d'une monnaie unique, seule à avoir cours légal sur l'ensemble du territoire : le franc astorien.",
+            "cta": "Comprendre l'unité monétaire"
+          },
+          "sections": {
+            "cadre": {
+              "kicker": "Le cadre",
+              "title": "La monnaie de la République",
+              "lead": "Le franc astorien est institué par la loi monétaire, qui en fixe le nom, l'unité et les conditions d'émission.",
+              "paragraphs": {
+                "p1": "La monnaie officielle est l'expression de la souveraineté monétaire de la République. Seule la loi peut définir la monnaie nationale, confier son émission et modifier son statut : c'est ce cadre qui donne à la monnaie sa solidité et sa légitimité.",
+                "p2": "La Banque centrale d'Astoria est chargée de l'émission des billets, et le Trésor public de la frappe des pièces. Aucune autre autorité ne peut émettre de monnaie ayant cours légal.",
+                "p3": "Dénomination provisoire : le nom officiel et les caractéristiques de référence seront publiés par la Banque centrale."
+              },
+              "notice": "Le statut exact de la monnaie officielle est défini par la loi monétaire, dont le texte consolidé est publié au Journal officiel."
+            },
+            "coursLegal": {
+              "kicker": "Le cours légal",
+              "title": "Qu'est-ce que le cours légal ?",
+              "lead": "Le cours légal oblige tout créancier à accepter la monnaie nationale en paiement d'une dette exprimée dans cette monnaie.",
+              "paragraphs": {
+                "p1": "Dire qu'une monnaie a cours légal signifie qu'elle doit être acceptée comme moyen de paiement sur le territoire national. Un commerçant ne peut pas refuser des francs astoriens pour régler un achat, sauf cas prévus par la loi.",
+                "p2": "Ce principe protège l'unité monétaire : il garantit que tous les prix, salaires et contrats s'expriment dans la même monnaie et que chaque citoyen peut payer et être payé partout."
+              },
+              "bullets": {
+                "b1": "Le paiement en monnaie nationale éteint la dette, dans la limite des montants fixés pour chaque moyen de paiement.",
+                "b2": "La monnaie nationale ne peut être refusée pour les transactions libellées en francs.",
+                "b3": "Les règles d'arrondi et de remise s'appliquent dans le respect de la loi."
+              }
+            },
+            "enPratique": {
+              "kicker": "En pratique",
+              "title": "Ce que cela change pour vous",
+              "cards": {
+                "payer": {
+                  "title": "Payer",
+                  "text": "Vous pouvez régler en espèces dans tout le pays, sans frais, dans le respect des plafonds en vigueur."
+                },
+                "etrePaye": {
+                  "title": "Être payé",
+                  "text": "Salaires, prestations et remboursements sont exprimés en francs astoriens."
+                },
+                "epargner": {
+                  "title": "Épargner",
+                  "text": "Vos dépôts et placements sont libellés dans la monnaie nationale."
+                },
+                "echanger": {
+                  "title": "Échanger",
+                  "text": "Les changes avec les monnaies étrangères sont proposés par les établissements bancaires."
+                }
+              }
+            }
+          }
+        },
+        "uniteMonetaire": {
+          "meta": {
+            "title": "L'unité monétaire",
+            "description": "L'unité monétaire astorienne : le franc, ses subdivisions en centimes, son rôle d'unité de compte et les raisons d'une unité unique."
+          },
+          "hero": {
+            "kicker": "La monnaie astorienne",
+            "title": "L'unité monétaire",
+            "lead": "L'unité monétaire est la référence commune de tous les prix et de tous les paiements en Astoria : le franc, divisé en centimes.",
+            "cta": "Découvrir la monnaie officielle"
+          },
+          "sections": {
+            "leFrancEtSesSubdivisions": {
+              "kicker": "Le franc",
+              "title": "Le franc et ses subdivisions",
+              "lead": "Le système monétaire astorien repose sur une unité décimale : un franc vaut cent centimes.",
+              "table": {
+                "caption": "Les unités de la monnaie astorienne",
+                "headers": {
+                  "0": "Unité",
+                  "1": "Valeur",
+                  "2": "Usage courant"
+                },
+                "rows": {
+                  "0": {
+                    "0": "Le franc (F)",
+                    "1": "1",
+                    "2": "Unité de compte de référence"
+                  },
+                  "1": {
+                    "0": "Le centime (c)",
+                    "1": "1/100 de franc",
+                    "2": "Subdivision des prix au détail"
+                  },
+                  "2": {
+                    "0": "Les billets",
+                    "1": "10 à 200 F",
+                    "2": "Paiements en espèces courants"
+                  },
+                  "3": {
+                    "0": "Les pièces",
+                    "1": "5 centimes à 2 F",
+                    "2": "Petites transactions et monnaie"
+                  }
+                },
+                "note": "Dénominations de démonstration."
+              },
+              "paragraphs": {
+                "p1": "Le choix d'une unité décimale simplifie les calculs et la comparaison des prix. La subdivision en centimes permet d'exprimer finement les prix de détail sans jamais perdre la référence commune."
+              }
+            },
+            "uniteDeCompte": {
+              "kicker": "Unité de compte",
+              "title": "Une unité qui compte",
+              "lead": "Le franc est l'étalon auquel tous les prix, contrats et créances sont rapportés.",
+              "paragraphs": {
+                "p1": "L'unité monétaire est d'abord une unité de compte : elle sert à mesurer la valeur des biens et des services, à comparer les prix et à libeller les contrats et les dettes. Sans unité de compte commune, aucune économie ne pourrait se coordonner.",
+                "p2": "C'est pourquoi les statistiques publiques, le budget de l'État et les comptes des entreprises s'expriment tous dans la même unité, ce qui rend l'information économique lisible et comparable."
+              },
+              "cta": "Voir les données monétaires"
+            },
+            "uneUniteUnique": {
+              "kicker": "Pourquoi une unité unique",
+              "title": "Les raisons d'une unité unique",
+              "cards": {
+                "simplicite": {
+                  "title": "La simplicité",
+                  "text": "Un seul étalon rend les prix comparables dans tout le pays."
+                },
+                "confiance": {
+                  "title": "La confiance",
+                  "text": "Une monnaie unique et stable protège le pouvoir d'achat."
+                },
+                "integration": {
+                  "title": "L'intégration",
+                  "text": "Elle facilite les échanges entre les régions et les secteurs de l'économie."
+                },
+                "stabilite": {
+                  "title": "La stabilité",
+                  "text": "La politique monétaire de la Banque centrale veille à sa valeur."
+                }
+              }
+            }
+          }
+        },
+        "emiseParLaBca": {
+          "meta": {
+            "title": "Émise par la Banque centrale",
+            "description": "Le privilège d'émission de la Banque centrale d'Astoria : comment la BCA émet les billets, crée la monnaie de banque centrale et contrôle la monnaie."
+          },
+          "hero": {
+            "kicker": "La monnaie astorienne",
+            "title": "Émise par la Banque centrale",
+            "lead": "La Banque centrale d'Astoria est la seule autorité habilitée à émettre les billets de la République : c'est le privilège d'émission.",
+            "cta": "Comprendre le pouvoir libératoire"
+          },
+          "sections": {
+            "privilege": {
+              "kicker": "Le privilège",
+              "title": "Le privilège d'émission",
+              "lead": "Émettre la monnaie nationale est l'un des privilèges fondamentaux de la Banque centrale.",
+              "paragraphs": {
+                "p1": "Le privilège d'émission confie à la Banque centrale le droit exclusif d'émettre les billets ayant cours légal. Il est la contrepartie de sa mission : garantir la confiance dans la monnaie et la stabilité de sa valeur.",
+                "p2": "Ce monopole évite la prolifération de monnaies concurrentes et assure l'unicité monétaire de la République. Les billets émis par la BCA portent sa signature et sont le seul moyen de paiement fiduciaire ayant cours légal."
+              }
+            },
+            "comment": {
+              "kicker": "Comment",
+              "title": "Comment la Banque centrale émet la monnaie",
+              "lead": "L'émission prend plusieurs formes, toutes contrôlées par la Banque centrale.",
+              "cards": {
+                "billets": {
+                  "title": "Les billets",
+                  "text": "Imprimés sous son contrôle, ils portent les éléments de sécurité et sa signature."
+                },
+                "monnaieCentrale": {
+                  "title": "La monnaie de banque centrale",
+                  "text": "Créée lors des opérations de refinancement, elle est détenue en réserve par les banques."
+                },
+                "comptes": {
+                  "title": "Les comptes",
+                  "text": "Les établissements de crédit détiennent leurs réserves sur les comptes de la BCA."
+                },
+                "controle": {
+                  "title": "Le contrôle",
+                  "text": "La BCA encadre la création monétaire des banques par ses instruments et sa réglementation."
+                }
+              }
+            },
+            "circuit": {
+              "kicker": "Le circuit",
+              "title": "Le circuit de l'émission",
+              "paragraphs": {
+                "p1": "Les billets sortent des imprimeries vers les caisses de la Banque centrale, puis vers les banques commerciales qui approvisionnent leurs distributeurs et leurs guichets. Les espèces reviennent ensuite vers la BCA, qui les trie, vérifie leur authenticité et les remet en circulation ou les retire.",
+                "p2": "La monnaie scripturale, elle, circule d'abord sur les comptes des banques : chaque crédit accordé crée de la monnaie, chaque remboursement en détruit. La Banque centrale régule ce processus en fixant le coût de la monnaie de banque centrale."
+              },
+              "cta": "Comprendre la circulation monétaire"
+            }
+          }
+        },
+        "pouvoirLiberatoire": {
+          "meta": {
+            "title": "Le pouvoir libératoire",
+            "description": "Le pouvoir libératoire de la monnaie astorienne : ce que la loi prévoit, comment il s'applique en pratique et les limites des espèces."
+          },
+          "hero": {
+            "kicker": "La monnaie astorienne",
+            "title": "Le pouvoir libératoire",
+            "lead": "Le pouvoir libératoire est la force légale de la monnaie : elle éteint toute dette exprimée dans la monnaie nationale.",
+            "cta": "Découvrir la monnaie officielle"
+          },
+          "sections": {
+            "definition": {
+              "kicker": "Définition",
+              "title": "Qu'est-ce que le pouvoir libératoire ?",
+              "paragraphs": {
+                "p1": "Une monnaie a pouvoir libératoire lorsqu'elle libère le débiteur de son obligation : payer en monnaie nationale éteint la dette, quelle que soit sa valeur. C'est le fondement de la confiance dans la monnaie : chacun sait qu'en acceptant des francs, il pourra lui-même s'acquitter de ses propres dettes.",
+                "p2": "Le pouvoir libératoire ne doit pas être confondu avec le cours légal. Le cours légal oblige à accepter la monnaie ; le pouvoir libératoire garantit qu'elle paie réellement la dette."
+              }
+            },
+            "laLoi": {
+              "kicker": "La loi",
+              "title": "Ce que la loi prévoit",
+              "lead": "Le pouvoir libératoire s'exerce selon des règles précises, qui distinguent les billets et les pièces.",
+              "bullets": {
+                "b1": "Les billets ont pouvoir libératoire sans limite de montant pour les dettes libellées en francs.",
+                "b2": "Les pièces ont pouvoir libératoire dans la limite des montants fixés par la loi, au-delà desquels le créancier peut refuser un règlement exclusivement en pièces.",
+                "b3": "Le paiement en espèces peut être plafonné pour certaines transactions, dans un objectif de lutte contre le blanchiment.",
+                "b4": "Le pouvoir libératoire s'applique aux paiements en monnaie nationale uniquement."
+              },
+              "notice": "Les plafonds exacts sont fixés par la loi et précisés par les textes d'application publiés au Journal officiel."
+            },
+            "enPratique": {
+              "kicker": "En pratique",
+              "title": "Le pouvoir libératoire au quotidien",
+              "cards": {
+                "acheter": {
+                  "title": "Acheter",
+                  "text": "Réglez vos achats en espèces dans le respect des plafonds de paiement."
+                },
+                "rembourser": {
+                  "title": "Rembourser",
+                  "text": "Un paiement en francs éteint votre dette, quelle que soit sa source."
+                },
+                "recevoir": {
+                  "title": "Recevoir",
+                  "text": "Vous ne pouvez être contraint d'accepter une autre monnaie en paiement."
+                },
+                "echanger": {
+                  "title": "Échanger",
+                  "text": "Les billets retirés conservent leur valeur pendant le délai de retrait."
+                }
+              }
+            }
+          }
+        },
+        "billets": {
+          "meta": {
+            "title": "Les billets",
+            "description": "Les billets en francs astoriens : la gamme des coupures, leurs caractéristiques et les premiers réflexes pour les vérifier."
+          },
+          "hero": {
+            "kicker": "Billets et pièces",
+            "title": "Les billets",
+            "lead": "Imprimés par la Banque centrale, les billets astoriens déclinent cinq valeurs faciales, chacune reconnaissable à sa couleur et à son motif.",
+            "cta": "Découvrir les pièces"
+          },
+          "sections": {
+            "laGamme": {
+              "kicker": "La gamme",
+              "title": "Les coupures en circulation",
+              "lead": "Cinq valeurs faciales couvrent les usages quotidiens, de la petite dépense au paiement plus important.",
+              "table": {
+                "caption": "La gamme des billets astoriens",
+                "headers": {
+                  "0": "Valeur",
+                  "1": "Couleur",
+                  "2": "Motif",
+                  "3": "Format"
+                },
+                "rows": {
+                  "0": {
+                    "0": "10 F",
+                    "1": "Bleu",
+                    "2": "Patrimoine naturel",
+                    "3": "120 × 62 mm"
+                  },
+                  "1": {
+                    "0": "20 F",
+                    "1": "Orange",
+                    "2": "Architecture",
+                    "3": "127 × 67 mm"
+                  },
+                  "2": {
+                    "0": "50 F",
+                    "1": "Vert",
+                    "2": "Industrie et innovation",
+                    "3": "134 × 72 mm"
+                  },
+                  "3": {
+                    "0": "100 F",
+                    "1": "Violet",
+                    "2": "Science et éducation",
+                    "3": "141 × 77 mm"
+                  },
+                  "4": {
+                    "0": "200 F",
+                    "1": "Rouge",
+                    "2": "République et institutions",
+                    "3": "148 × 82 mm"
+                  }
+                },
+                "note": "Caractéristiques de démonstration, en attendant la publication des référentiels officiels."
+              },
+              "paragraphs": {
+                "p1": "Chaque coupure est conçue pour être immédiatement reconnaissable et difficile à imiter : les couleurs, les motifs et les formats sont choisis pour faciliter leur usage quotidien."
+              }
+            },
+            "lireUnBillet": {
+              "kicker": "Lire",
+              "title": "Comment lire un billet",
+              "lead": "Chaque billet associe des repères simples qui permettent de l'identifier en un coup d'œil.",
+              "cards": {
+                "valeur": {
+                  "title": "La valeur",
+                  "text": "Le chiffre de la valeur figure en grand sur les deux faces."
+                },
+                "motif": {
+                  "title": "Le motif",
+                  "text": "Un thème commun à la série, décliné selon la coupure."
+                },
+                "couleur": {
+                  "title": "La couleur",
+                  "text": "Chaque valeur a sa couleur dominante, reconnaissable au premier regard."
+                },
+                "signature": {
+                  "title": "La signature",
+                  "text": "La signature du Gouverneur atteste l'origine officielle du billet."
+                }
+              }
+            },
+            "verifier": {
+              "kicker": "Vérifier",
+              "title": "Vérifier un billet",
+              "paragraphs": {
+                "p1": "Avant de vérifier un billet, rappelez-vous la méthode des quatre gestes : toucher, regarder, incliner, contrôler. Le papier, les reliefs et la fenêtre transparente sont vos premiers repères.",
+                "p2": "En cas de doute, comparez le billet avec un billet dont vous êtes certain de l'authenticité, puis confiez-le à un établissement bancaire."
+              },
+              "cta": "Apprendre à authentifier un billet"
+            }
+          }
+        },
+        "pieces": {
+          "meta": {
+            "title": "Les pièces",
+            "description": "Les pièces en francs astoriens : la gamme des valeurs faciales, leurs caractéristiques et leur usage quotidien."
+          },
+          "hero": {
+            "kicker": "Billets et pièces",
+            "title": "Les pièces",
+            "lead": "Frappées par le Trésor public, les pièces astoriennes complètent les billets pour les petites transactions du quotidien.",
+            "cta": "Découvrir les billets"
+          },
+          "sections": {
+            "laGamme": {
+              "kicker": "La gamme",
+              "title": "Les pièces en circulation",
+              "lead": "Six valeurs faciales, de la pièce de monnaie à la pièce de deux francs.",
+              "table": {
+                "caption": "La gamme des pièces astoriennes",
+                "headers": {
+                  "0": "Valeur",
+                  "1": "Métal",
+                  "2": "Usage courant"
+                },
+                "rows": {
+                  "0": {
+                    "0": "5 centimes",
+                    "1": "Acier plaqué",
+                    "2": "Petites transactions"
+                  },
+                  "1": {
+                    "0": "10 centimes",
+                    "1": "Acier plaqué",
+                    "2": "Petites transactions"
+                  },
+                  "2": {
+                    "0": "20 centimes",
+                    "1": "Cuivre-nickel",
+                    "2": "Petites transactions"
+                  },
+                  "3": {
+                    "0": "50 centimes",
+                    "1": "Cuivre-nickel",
+                    "2": "Transactions courantes"
+                  },
+                  "4": {
+                    "0": "1 franc",
+                    "1": "Bimétallique",
+                    "2": "Transactions courantes"
+                  },
+                  "5": {
+                    "0": "2 francs",
+                    "1": "Bimétallique",
+                    "2": "Transactions courantes"
+                  }
+                },
+                "note": "Caractéristiques de démonstration."
+              },
+              "paragraphs": {
+                "p1": "Les pièces sont destinées aux paiements de faible montant et à rendre la monnaie. Leur frappe est encadrée par la loi, et le Trésor public en assure la mise en circulation et le retrait."
+              }
+            },
+            "caracteristiques": {
+              "kicker": "Caractéristiques",
+              "title": "Des pièces conçues pour durer",
+              "cards": {
+                "materiaux": {
+                  "title": "Des matériaux résistants",
+                  "text": "Alliages choisis pour la durée et la lisibilité, à un coût maîtrisé."
+                },
+                "gravures": {
+                  "title": "Des gravures distinctives",
+                  "text": "Chaque valeur se reconnaît à son diamètre, son épaisseur et ses motifs."
+                },
+                "bimetal": {
+                  "title": "Le bimétallisme",
+                  "text": "Les pièces d'un et deux francs associent deux alliages pour faciliter la reconnaissance."
+                },
+                "accessibilite": {
+                  "title": "Pensées pour tous",
+                  "text": "Les différences de taille et de relief facilitent la reconnaissance par tous les publics."
+                }
+              }
+            },
+            "usages": {
+              "kicker": "Usages",
+              "title": "Le rôle quotidien des pièces",
+              "paragraphs": {
+                "p1": "Les pièces restent indispensables pour les paiements de faible montant : distributeurs, péages, monnaie de la vie quotidienne. Elles circulent des caisses des commerçants vers les banques, puis reviennent à la Trésorerie qui les trie et retire celles qui sont usées.",
+                "p2": "Comme les billets, les pièces usées ou endommagées peuvent être remises aux établissements bancaires, qui les remplacent gratuitement dans les conditions prévues."
+              },
+              "notice": "Les pièces n'ayant plus cours doivent être remises à la Banque centrale ou au Trésor public avant la fin du délai de retrait."
+            }
+          }
+        },
+        "caracteristiquesEtSecurite": {
+          "meta": {
+            "title": "Caractéristiques et sécurité",
+            "description": "Les caractéristiques des billets astoriens et leurs éléments de sécurité : papier, filigrane, fenêtre, reliefs, micro-impressions."
+          },
+          "hero": {
+            "kicker": "Billets et pièces",
+            "title": "Caractéristiques et sécurité",
+            "lead": "Chaque billet associe des éléments de sécurité qui se vérifient par le regard, le toucher et le mouvement. Les connaître, c'est se protéger.",
+            "cta": "Apprendre à authentifier un billet"
+          },
+          "sections": {
+            "lesElements": {
+              "kicker": "Les éléments",
+              "title": "Les éléments de sécurité",
+              "lead": "Les éléments de sécurité sont répartis entre ceux que chacun peut vérifier et ceux qui servent aux professionnels.",
+              "cards": {
+                "papier": {
+                  "title": "Le papier",
+                  "text": "Un papier spécial, résistant et bruissant, distinct du papier ordinaire."
+                },
+                "filigrane": {
+                  "title": "Le filigrane",
+                  "text": "Visible par transparence, il s'éclaircit à l'inclinaison."
+                },
+                "fenetre": {
+                  "title": "La fenêtre transparente",
+                  "text": "Une fenêtre qui laisse passer la lumière, avec des détails en mouvement."
+                },
+                "reliefs": {
+                  "title": "Les reliefs",
+                  "text": "Des encres en relief sensibles au toucher sur les motifs principaux."
+                },
+                "coincidence": {
+                  "title": "La coïncidence",
+                  "text": "Les deux faces forment un motif exact observé par transparence."
+                },
+                "micro": {
+                  "title": "Les micro-impressions",
+                  "text": "Des textes minuscules, nets à la loupe mais illisibles à l'œil nu."
+                },
+                "uv": {
+                  "title": "Les encres fluorescentes",
+                  "text": "Des éléments colorés apparaissent sous lumière ultraviolette."
+                },
+                "barcode": {
+                  "title": "Le code et la série",
+                  "text": "Un code-barres et un numéro permettent la traçabilité des coupures."
+                }
+              }
+            },
+            "parTransparence": {
+              "kicker": "Vérifier",
+              "title": "Vérifier par transparence",
+              "paragraphs": {
+                "p1": "La transparence est le premier réflexe : placez le billet devant une source de lumière. Le filigrane apparaît, la fenêtre laisse passer la lumière et les motifs des deux faces se complètent exactement.",
+                "p2": "Aucun élément de sécurité ne suffit à lui seul : c'est la combinaison des signes, et leur cohérence, qui garantit l'authenticité d'un billet."
+              }
+            },
+            "signesDAlerte": {
+              "kicker": "Attention",
+              "title": "Les signes d'alerte",
+              "bullets": {
+                "b1": "Un papier trop lisse ou trop fin, qui ne produit pas le bruissement caractéristique.",
+                "b2": "Des couleurs ternes, des reliefs absents ou des impressions imprécises.",
+                "b3": "Une fenêtre opaque, un filigrane absent ou un motif qui ne coïncide pas.",
+                "b4": "Un numéro de série mal aligné ou des micro-impressions illisibles à la loupe."
+              },
+              "notice": "Ces signes ne sont que des indices : en cas de doute, remettez le billet à un établissement bancaire plutôt que de le remettre en circulation."
+            }
+          }
+        },
+        "authentifierUnBillet": {
+          "meta": {
+            "title": "Authentifier un billet",
+            "description": "Authentifier un billet en quatre gestes : toucher, regarder, incliner, contrôler. La méthode à la portée de tous pour vérifier un billet."
+          },
+          "hero": {
+            "kicker": "Billets et pièces",
+            "title": "Authentifier un billet",
+            "lead": "La méthode des quatre gestes — toucher, regarder, incliner, contrôler — permet à chacun de vérifier l'authenticité d'un billet sans aucun instrument.",
+            "cta": "Comprendre les éléments de sécurité"
+          },
+          "sections": {
+            "lesQuatreGestes": {
+              "kicker": "La méthode",
+              "title": "Les quatre gestes",
+              "lead": "Quatre gestes simples, dans l'ordre, pour vérifier un billet en quelques secondes.",
+              "cards": {
+                "toucher": {
+                  "title": "1. Toucher",
+                  "text": "Sentez le papier : ferme, craquant, avec des reliefs perceptibles sous le doigt."
+                },
+                "regarder": {
+                  "title": "2. Regarder",
+                  "text": "Observez le filigrane par transparence et la coïncidence du recto-verso."
+                },
+                "incliner": {
+                  "title": "3. Incliner",
+                  "text": "Inclinez le billet : la fenêtre et les éléments dynamiques changent d'aspect."
+                },
+                "controler": {
+                  "title": "4. Contrôler",
+                  "text": "Comparez avec un billet reconnu ou confiez-le à votre banque en cas de doute."
+                }
+              }
+            },
+            "enCasDeDoute": {
+              "kicker": "En cas de doute",
+              "title": "Que faire si un doute subsiste ?",
+              "paragraphs": {
+                "p1": "Un doute isolé ne signifie pas que le billet est faux : il peut être simplement usé. La vérification doit toujours se faire sur un ensemble de signes, jamais sur un seul.",
+                "p2": "Si le doute persiste, ne remettez pas le billet en circulation. Remettez-le à un établissement bancaire, qui dispose des équipements de détection, ou signalez-le aux autorités."
+              }
+            },
+            "signaler": {
+              "kicker": "Signaler",
+              "title": "Signaler un billet suspect",
+              "bullets": {
+                "b1": "Remettez le billet à votre banque ou à la Banque centrale, sans chercher à le faire passer.",
+                "b2": "Si vous pensez être victime d'une tentative de fraude, contactez les forces de l'ordre.",
+                "b3": "Ne reprenez pas un billet manifestement faux que l'on cherche à vous donner.",
+                "b4": "Les personnes qui remettent de bonne foi un billet faux ne sont pas poursuivies."
+              },
+              "notice": "Remettre un billet suspect en circulation est une infraction. Toute personne qui en remet un de bonne foi est protégée."
+            }
+          }
+        },
+        "emissionsMonetaires": {
+          "meta": {
+            "title": "Les émissions monétaires",
+            "description": "Les émissions monétaires en Astoria : qui crée la monnaie, sous quelles formes, et quel est le rôle de la Banque centrale."
+          },
+          "hero": {
+            "kicker": "Circulation monétaire",
+            "title": "Les émissions monétaires",
+            "lead": "La monnaie ne sort pas d'imprimeries par magie : elle est émise, sous différentes formes, par la Banque centrale et par les banques commerciales.",
+            "cta": "Découvrir la circulation de la monnaie"
+          },
+          "sections": {
+            "quiCreeLaMonnaie": {
+              "kicker": "Qui crée la monnaie",
+              "title": "Qui crée la monnaie ?",
+              "paragraphs": {
+                "p1": "Contrairement à une idée répandue, la plus grande partie de la monnaie n'est pas émise par la Banque centrale : elle est créée par les banques commerciales lorsqu'elles accordent des crédits. Chaque prêt crée un dépôt correspondant : c'est la création monétaire.",
+                "p2": "Cette création est encadrée. Les banques ne créent pas la monnaie sans limites : elles doivent répondre à la demande de crédit, respecter les règles prudentielles et se refinancer auprès de la Banque centrale, qui fixe le coût de la monnaie de banque centrale."
+              }
+            },
+            "lesFormes": {
+              "kicker": "Les formes",
+              "title": "Les formes de l'émission",
+              "lead": "L'émission monétaire prend trois formes complémentaires.",
+              "cards": {
+                "fiduciaire": {
+                  "title": "La monnaie fiduciaire",
+                  "text": "Les billets, émis par la Banque centrale, et les pièces, frappées par le Trésor."
+                },
+                "scripturale": {
+                  "title": "La monnaie scripturale",
+                  "text": "Les dépôts créés par les crédits des banques, au cœur de l'économie."
+                },
+                "banqueCentrale": {
+                  "title": "La monnaie de banque centrale",
+                  "text": "La monnaie que les banques détiennent en réserve, émise par la BCA."
+                },
+                "electronique": {
+                  "title": "La monnaie électronique",
+                  "text": "Les moyens de paiement électroniques s'appuient sur ces mêmes monnaies."
+                }
+              }
+            },
+            "roleBca": {
+              "kicker": "La BCA",
+              "title": "Le rôle de la Banque centrale",
+              "paragraphs": {
+                "p1": "La Banque centrale est l'émettrice de la monnaie de banque centrale et la garante du système. C'est elle qui fixe les taux auxquels elle fournit la liquidité aux banques, et c'est elle qui assure que la monnaie circule dans de bonnes conditions.",
+                "p2": "En orientant le coût du refinancement, la BCA agit sur le volume de crédit, donc sur la création monétaire, et à terme sur l'inflation : c'est la transmission de la politique monétaire."
+              },
+              "cta": "Suivre la politique monétaire"
+            }
+          }
+        },
+        "circulationDeLaMonnaie": {
+          "meta": {
+            "title": "La circulation de la monnaie",
+            "description": "Comment la monnaie circule en Astoria : le circuit entre ménages, entreprises, banques et État, les espèces et la monnaie scripturale."
+          },
+          "hero": {
+            "kicker": "Circulation monétaire",
+            "title": "La circulation de la monnaie",
+            "lead": "La monnaie circule en permanence entre les ménages, les entreprises, les banques et l'État : comprendre ce circuit, c'est comprendre l'économie.",
+            "cta": "Découvrir les émissions monétaires"
+          },
+          "sections": {
+            "leCircuit": {
+              "kicker": "Le circuit",
+              "title": "Le circuit de la monnaie",
+              "paragraphs": {
+                "p1": "Chaque acteur de l'économie reçoit et émet de la monnaie : les ménages reçoivent des salaires et paient leurs achats, les entreprises vendent et investissent, l'État prélève et dépense, les banques collectent et prêtent.",
+                "p2": "Ce circuit est permanent : la monnaie déposée par un acteur devient le crédit d'un autre, et chaque dépense devient le revenu d'un tiers. C'est pourquoi la stabilité de la monnaie et du crédit intéresse l'ensemble de la société."
+              }
+            },
+            "especesEtScripturale": {
+              "kicker": "Deux formes",
+              "title": "Espèces et monnaie scripturale",
+              "lead": "La monnaie circule sous deux formes principales, complémentaires.",
+              "cards": {
+                "especes": {
+                  "title": "Les espèces",
+                  "text": "Billets et pièces passent de main en main, sans intermédiaire : le paiement est immédiat."
+                },
+                "scripturale": {
+                  "title": "La monnaie scripturale",
+                  "text": "Déposée sur les comptes, elle circule par virements, prélèvements et cartes."
+                },
+                "electronique": {
+                  "title": "Les moyens électroniques",
+                  "text": "Cartes, paiements mobiles et virements instantanés utilisent la monnaie scripturale."
+                },
+                "bca": {
+                  "title": "Le règlement interbancaire",
+                  "text": "Les soldes entre banques se règlent en monnaie de banque centrale."
+                }
+              }
+            },
+            "vitesse": {
+              "kicker": "La vitesse",
+              "title": "La vitesse de circulation",
+              "paragraphs": {
+                "p1": "La vitesse de circulation mesure le nombre de fois où une même unité de monnaie est utilisée dans une période donnée. Elle dépend des habitudes de paiement et de la confiance dans l'économie.",
+                "p2": "Une vitesse élevée signifie que la monnaie finance de nombreuses transactions ; une vitesse faible peut signaler une épargne de précaution. La Banque centrale surveille ces évolutions pour apprécier la santé monétaire de la République."
+              },
+              "cta": "Voir les statistiques monétaires"
+            }
+          }
+        },
+        "retraitDesBillets": {
+          "meta": {
+            "title": "Le retrait des billets",
+            "description": "Pourquoi et comment la Banque centrale retire des billets : usure, renouvellement des séries, délais de retrait et échange."
+          },
+          "hero": {
+            "kicker": "Circulation monétaire",
+            "title": "Le retrait des billets",
+            "lead": "Les billets ne circulent pas indéfiniment : usés, remplacés ou retirés, ils quittent la circulation selon des règles précises.",
+            "cta": "Comprendre la circulation de la monnaie"
+          },
+          "sections": {
+            "pourquoiRetirer": {
+              "kicker": "Pourquoi",
+              "title": "Pourquoi retirer des billets ?",
+              "paragraphs": {
+                "p1": "Un billet s'use : il se salit, se plie, se déchire. Les billets trop abîmés sont retirés par la Banque centrale lors du tri des espèces pour préserver la qualité de la monnaie en circulation.",
+                "p2": "Une coupure peut aussi être retirée de la circulation pour être remplacée par une nouvelle série, plus sûre ou plus adaptée. Le retrait est alors annoncé longtemps à l'avance."
+              }
+            },
+            "laProcedure": {
+              "kicker": "La procédure",
+              "title": "Comment se déroule un retrait ?",
+              "lead": "Le retrait d'une coupure suit une procédure ordonnée qui protège les usagers.",
+              "bullets": {
+                "b1": "La Banque centrale annonce publiquement le retrait et sa date d'effet.",
+                "b2": "Pendant un délai de retrait, la coupure conserve son pouvoir libératoire dans tous les paiements.",
+                "b3": "Les banques continuent d'accepter la coupure et la retournent à la Banque centrale.",
+                "b4": "Après le délai de retrait, la coupure peut encore être échangée auprès de la Banque centrale pendant une période déterminée.",
+                "b5": "Les billets usés sont remplacés gratuitement par des billets neufs dans les conditions publiées."
+              }
+            },
+            "echange": {
+              "kicker": "L'échange",
+              "title": "Échanger un billet abîmé ou retiré",
+              "paragraphs": {
+                "p1": "Les billets abîmés mais authentiques peuvent être échangés. La valeur remboursée dépend de l'état du billet et de la possibilité d'en établir l'authenticité.",
+                "p2": "Les billets retirés de la circulation conservent leur valeur pendant le délai de retrait, puis peuvent être échangés auprès de la Banque centrale pendant la période prévue. Au-delà, ils perdent leur pouvoir libératoire."
+              },
+              "notice": "Conservez un billet retiré : son échange reste possible auprès de la Banque centrale dans les délais annoncés."
+            }
+          }
+        },
+        "lutteContreLaFausseMonnaie": {
+          "meta": {
+            "title": "Lutte contre la fausse monnaie",
+            "description": "La lutte contre la fausse monnaie en Astoria : les acteurs mobilisés, la protection des usagers et la conduite à tenir face à un faux billet."
+          },
+          "hero": {
+            "kicker": "Circulation monétaire",
+            "title": "Lutte contre la fausse monnaie",
+            "lead": "La contrefaçon menace la confiance dans la monnaie. La Banque centrale, les banques et les forces de l'ordre sont mobilisées pour la combattre.",
+            "cta": "Apprendre à authentifier un billet"
+          },
+          "sections": {
+            "unEnjeuDeConfiance": {
+              "kicker": "L'enjeu",
+              "title": "Un enjeu de confiance",
+              "paragraphs": {
+                "p1": "La fausse monnaie est une atteinte directe à la confiance dans la monnaie : elle lèse celui qui la reçoit et fragilise les échanges. La lutte contre la contrefaçon est donc une mission essentielle de la Banque centrale.",
+                "p2": "Les billets sont conçus avec des éléments de sécurité toujours plus difficiles à imiter, et les banques sont équipées de machines de détection. Chaque billet suspect est retiré de la circulation et analysé."
+              }
+            },
+            "lesActeurs": {
+              "kicker": "Les acteurs",
+              "title": "Qui lutte contre la fausse monnaie ?",
+              "lead": "La lutte associe plusieurs acteurs complémentaires.",
+              "cards": {
+                "bca": {
+                  "title": "La Banque centrale",
+                  "text": "Elle conçoit les billets, forme les professionnels et analyse les contrefaçons."
+                },
+                "banques": {
+                  "title": "Les banques",
+                  "text": "Elles détectent les billets suspects et les confisquent au profit de la BCA."
+                },
+                "forces": {
+                  "title": "Les forces de l'ordre",
+                  "text": "Elles enquêtent sur les réseaux de contrefaçon et poursuivent leurs auteurs."
+                },
+                "public": {
+                  "title": "Le public",
+                  "text": "Chacun peut contribuer en apprenant à vérifier les billets et en signalant."
+                }
+              }
+            },
+            "queFaire": {
+              "kicker": "Que faire ?",
+              "title": "Que faire face à un faux billet ?",
+              "bullets": {
+                "b1": "Ne le remettez pas en circulation : c'est une infraction.",
+                "b2": "Remettez-le à votre banque ou aux forces de l'ordre.",
+                "b3": "Notez, si possible, les circonstances de sa remise (date, lieu, personne).",
+                "b4": "Toute personne qui remet de bonne foi un billet faux est protégée."
+              },
+              "notice": "La remise volontaire d'un billet suspect ne fait l'objet d'aucune poursuite lorsqu'elle est faite de bonne foi."
+            }
+          }
+        },
+        "statistiquesMonetaires": {
+          "meta": {
+            "title": "Les statistiques monétaires",
+            "description": "Les statistiques monétaires de la Banque centrale d'Astoria : les séries publiées, le calendrier de publication et les méthodes."
+          },
+          "hero": {
+            "kicker": "Données monétaires",
+            "title": "Les statistiques monétaires",
+            "lead": "La Banque centrale publie des statistiques monétaires régulières, comparables et accompagnées de leurs méthodes.",
+            "cta": "Découvrir les agrégats monétaires"
+          },
+          "sections": {
+            "lesSeries": {
+              "kicker": "Les séries",
+              "title": "Les séries publiées",
+              "lead": "Un socle de séries monétaires est publié de manière régulière.",
+              "cards": {
+                "masse": {
+                  "title": "La masse monétaire",
+                  "text": "M1, M2 et M3, publiées chaque mois."
+                },
+                "fiduciaire": {
+                  "title": "La circulation fiduciaire",
+                  "text": "Billets et pièces en circulation, par valeur faciale."
+                },
+                "credit": {
+                  "title": "Le crédit",
+                  "text": "Le crédit aux ménages et aux entreprises, secteur par secteur."
+                },
+                "taux": {
+                  "title": "Les taux",
+                  "text": "Les taux directeurs et les taux du marché monétaire."
+                }
+              }
+            },
+            "calendrier": {
+              "kicker": "Le calendrier",
+              "title": "Le calendrier de publication",
+              "lead": "Les statistiques sont publiées selon un calendrier annoncé, sans surprise.",
+              "table": {
+                "caption": "Calendrier indicatif de publication",
+                "headers": {
+                  "0": "Série",
+                  "1": "Fréquence",
+                  "2": "Délai de publication"
+                },
+                "rows": {
+                  "0": {
+                    "0": "Masse monétaire (M1-M3)",
+                    "1": "Mensuelle",
+                    "2": "30 jours"
+                  },
+                  "1": {
+                    "0": "Circulation fiduciaire",
+                    "1": "Mensuelle",
+                    "2": "30 jours"
+                  },
+                  "2": {
+                    "0": "Crédit au secteur privé",
+                    "1": "Mensuelle",
+                    "2": "45 jours"
+                  },
+                  "3": {
+                    "0": "Taux directeurs",
+                    "1": "Après chaque décision",
+                    "2": "Immédiat"
+                  }
+                },
+                "note": "Calendrier de démonstration, en attendant la publication des séries officielles."
+              }
+            },
+            "methodes": {
+              "kicker": "Les méthodes",
+              "title": "Méthodes et définitions",
+              "paragraphs": {
+                "p1": "Les statistiques monétaires suivent des définitions précises, conformes aux normes de l'information statistique. Chaque agrégat est documenté : composantes, périmètre, retraitements.",
+                "p2": "Les séries sont révisées selon un calendrier fixe, et chaque révision est signalée. Cette rigueur garantit la comparabilité des données dans le temps."
+              },
+              "notice": "Les données publiées sur cette page sont des données de démonstration. Les séries officielles seront connectées à la source de données de la Banque centrale."
+            }
+          }
+        },
+        "agregatsMonetaires": {
+          "meta": {
+            "title": "Les agrégats monétaires",
+            "description": "Les agrégats monétaires astoriens, de M0 à M3 : définition, composantes, encours et ce qu'ils mesurent."
+          },
+          "hero": {
+            "kicker": "Données monétaires",
+            "title": "Les agrégats monétaires",
+            "lead": "Pour mesurer la quantité de monnaie, la Banque centrale construit des agrégats de plus en plus larges, du plus liquide au plus épargné.",
+            "cta": "Explorer les encours monétaires"
+          },
+          "sections": {
+            "deM0aM3": {
+              "kicker": "De M0 à M3",
+              "title": "Les agrégats, du plus étroit au plus large",
+              "lead": "Chaque agrégat regroupe les actifs selon leur degré de liquidité.",
+              "table": {
+                "caption": "Les agrégats monétaires astoriens",
+                "headers": {
+                  "0": "Agrégat",
+                  "1": "Composantes",
+                  "2": "Encours"
+                },
+                "rows": {
+                  "0": {
+                    "0": "M0",
+                    "1": "Monnaie de banque centrale (billets, pièces, réserves)",
+                    "2": "320 Md"
+                  },
+                  "1": {
+                    "0": "M1",
+                    "1": "M0 + dépôts à vue des ménages et entreprises",
+                    "2": "2 100 Md"
+                  },
+                  "2": {
+                    "0": "M2",
+                    "1": "M1 + dépôts d'épargne à court terme",
+                    "2": "3 920 Md"
+                  },
+                  "3": {
+                    "0": "M3",
+                    "1": "M2 + titres de créance et parts de fonds monétaires",
+                    "2": "4 210 Md"
+                  }
+                },
+                "note": "Données de démonstration."
+              }
+            },
+            "commentLesLire": {
+              "kicker": "Lire",
+              "title": "Comment lire les agrégats",
+              "paragraphs": {
+                "p1": "Plus un agrégat est étroit, plus les actifs qu'il regroupe sont liquides : M1 est immédiatement disponible pour payer, M3 inclut des placements moins liquides mais encore proches de la monnaie.",
+                "p2": "L'agrégat de référence est M3 : il mesure la masse monétaire au sens large, c'est-à-dire tout ce qui peut être utilisé pour payer ou être rapidement converti en moyens de paiement."
+              }
+            },
+            "pourquoiLesSuivre": {
+              "kicker": "Pourquoi",
+              "title": "Pourquoi suivre les agrégats ?",
+              "cards": {
+                "inflation": {
+                  "title": "Anticiper l'inflation",
+                  "text": "Une création monétaire rapide peut annoncer des tensions sur les prix."
+                },
+                "credit": {
+                  "title": "Observer le crédit",
+                  "text": "Les agrégats reflètent l'activité de crédit des banques."
+                },
+                "politique": {
+                  "title": "Éclairer la politique",
+                  "text": "La Banque centrale s'appuie sur ces séries pour ses décisions."
+                },
+                "comparer": {
+                  "title": "Comparer",
+                  "text": "Des définitions stables rendent les données comparables dans le temps."
+                }
+              }
+            }
+          }
+        },
+        "encoursMonetaires": {
+          "meta": {
+            "title": "Les encours monétaires",
+            "description": "Les encours monétaires de la Banque centrale d'Astoria : les montants en circulation, leur évolution et la manière de les lire."
+          },
+          "hero": {
+            "kicker": "Données monétaires",
+            "title": "Les encours monétaires",
+            "lead": "Un encours mesure le stock de monnaie ou de crédit détenu à un moment donné. Voici les principaux encours du système astorien.",
+            "cta": "Découvrir les agrégats monétaires"
+          },
+          "sections": {
+            "enChiffres": {
+              "kicker": "En chiffres",
+              "title": "Les encours à retenir",
+              "cards": {
+                "masse": {
+                  "title": "Masse monétaire (M3)",
+                  "text": "4 210 Md — le stock total de monnaie au sens large."
+                },
+                "fiduciaire": {
+                  "title": "Circulation fiduciaire",
+                  "text": "310 Md — billets et pièces dans les porte-monnaies et les caisses."
+                },
+                "credit": {
+                  "title": "Crédit au secteur privé",
+                  "text": "3 240 Md — les prêts des banques aux ménages et entreprises."
+                },
+                "reserves": {
+                  "title": "Réserves obligatoires",
+                  "text": "38 Md — la part des dépôts immobilisée auprès de la BCA."
+                }
+              }
+            },
+            "evolution": {
+              "kicker": "Évolution",
+              "title": "L'évolution des encours",
+              "table": {
+                "caption": "Évolution indicative des principaux encours",
+                "headers": {
+                  "0": "Année",
+                  "1": "M3",
+                  "2": "Fiduciaire",
+                  "3": "Crédit privé"
+                },
+                "rows": {
+                  "0": {
+                    "0": "2022",
+                    "1": "3 810 Md",
+                    "2": "298 Md",
+                    "3": "2 940 Md"
+                  },
+                  "1": {
+                    "0": "2023",
+                    "1": "3 960 Md",
+                    "2": "304 Md",
+                    "3": "3 050 Md"
+                  },
+                  "2": {
+                    "0": "2024",
+                    "1": "4 080 Md",
+                    "2": "309 Md",
+                    "3": "3 150 Md"
+                  },
+                  "3": {
+                    "0": "2025",
+                    "1": "4 210 Md",
+                    "2": "310 Md",
+                    "3": "3 240 Md"
+                  }
+                },
+                "note": "Données de démonstration."
+              }
+            },
+            "lireUnEncours": {
+              "kicker": "Comprendre",
+              "title": "Comprendre un encours",
+              "paragraphs": {
+                "p1": "Un encours est une photographie : il indique le montant détenu à une date donnée, sans dire comment il évolue. C'est le flux — la création monétaire nette de la période — qui renseigne sur la dynamique.",
+                "p2": "Les encours se lisent donc en regard des flux et des ratios : croissance annuelle de M3, part des espèces, ratio crédit sur dépôts. C'est la combinaison de ces mesures qui donne une image complète."
+              },
+              "cta": "Voir les statistiques monétaires"
+            }
+          }
+        },
+        "publicationsMonetaires": {
+          "meta": {
+            "title": "Publications monétaires",
+            "description": "Les publications monétaires de la Banque centrale d'Astoria : rapports, séries de données, méthodes et données ouvertes."
+          },
+          "hero": {
+            "kicker": "Données monétaires",
+            "title": "Publications monétaires",
+            "lead": "La Banque centrale documente la monnaie : rapports, séries de données, méthodes et jeux de données ouverts.",
+            "cta": "Voir les statistiques monétaires"
+          },
+          "sections": {
+            "lesPublications": {
+              "kicker": "Les publications",
+              "title": "Ce que la Banque centrale publie",
+              "lead": "Un socle de publications régulières accompagne les données monétaires.",
+              "cards": {
+                "rapports": {
+                  "title": "Les rapports",
+                  "text": "Rapport annuel et rapports thématiques sur la monnaie."
+                },
+                "series": {
+                  "title": "Les séries",
+                  "text": "Les statistiques monétaires téléchargeables, séries historiques comprises."
+                },
+                "methodes": {
+                  "title": "Les méthodes",
+                  "text": "Définitions, périmètres et retraitements de chaque agrégat."
+                },
+                "ouvertes": {
+                  "title": "Les données ouvertes",
+                  "text": "Des jeux de données réutilisables par tous, sous licence ouverte."
+                }
+              }
+            },
+            "calendrier": {
+              "kicker": "Le calendrier",
+              "title": "Le calendrier des publications",
+              "table": {
+                "caption": "Calendrier indicatif des publications monétaires",
+                "headers": {
+                  "0": "Publication",
+                  "1": "Fréquence",
+                  "2": "Prochaine parution"
+                },
+                "rows": {
+                  "0": {
+                    "0": "Statistiques mensuelles",
+                    "1": "Mensuelle",
+                    "2": "Première quinzaine du mois"
+                  },
+                  "1": {
+                    "0": "Rapport sur la monnaie",
+                    "1": "Annuelle",
+                    "2": "Premier trimestre"
+                  },
+                  "2": {
+                    "0": "Méthodes et définitions",
+                    "1": "Révision annuelle",
+                    "2": "Début d'année"
+                  },
+                  "3": {
+                    "0": "Données ouvertes",
+                    "1": "Continue",
+                    "2": "Publication en continu"
+                  }
+                },
+                "note": "Calendrier de démonstration."
+              }
+            },
+            "acceder": {
+              "kicker": "Accéder",
+              "title": "Accéder aux données",
+              "paragraphs": {
+                "p1": "Les publications sont accessibles gratuitement sur le portail de la Banque centrale. Les séries téléchargeables sont accompagnées de leurs métadonnées, pour que chacun puisse les réutiliser avec rigueur.",
+                "p2": "À terme, les données monétaires seront également mises à disposition en données ouvertes, pour permettre aux chercheurs, aux entreprises et aux citoyens de les exploiter librement."
+              },
+              "notice": "Les séries publiées sur cette page sont des données de démonstration. Les jeux de données officiels seront mis à disposition par la Banque centrale."
+            }
+          }
+        }
+      }
+    }
+  },
   "nav": {
     "primary": {
       "monnaie": "Monnaie",

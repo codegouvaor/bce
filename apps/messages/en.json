@@ -153,6 +153,1859 @@
       }
     }
   },
+  "pages": {
+    "monnaie": {
+      "related": {
+        "laMonnaieAstorienne": {
+          "label": "The Astorian currency",
+          "desc": "The official monetary unit of the Republic and its institutional framework."
+        },
+        "billetsEtPieces": {
+          "label": "Banknotes and coins",
+          "desc": "The denominations, their characteristics and their security features."
+        },
+        "circulationMonetaire": {
+          "label": "Monetary circulation",
+          "desc": "How money is issued, put into circulation and withdrawn."
+        },
+        "donneesMonetaires": {
+          "label": "Monetary data",
+          "desc": "The aggregates, the money supply and the monetary statistics."
+        }
+      },
+      "section": {
+        "meta": {
+          "title": "Currency",
+          "description": "The Astorian currency: the Republic's monetary unit, banknotes and coins, monetary circulation and the monetary data of the Central Bank of Astoria."
+        },
+        "hero": {
+          "kicker": "Currency",
+          "title": "Currency",
+          "lead": "Issued by the Central Bank, money is the Republic's unit of account and the foundation of all payments. This theme gathers what you need to know: the Astorian currency, its banknotes and coins, its circulation and its data.",
+          "cta": "Understand the Astorian currency"
+        },
+        "sections": {
+          "pillars": {
+            "kicker": "The four topics",
+            "title": "Understanding money in four parts",
+            "lead": "Each part of the theme answers a question: what is money? What does it look like in everyday life? How does it circulate? What do the data tell us?",
+            "tiles": {
+              "laMonnaieAstorienne": {
+                "title": "The Astorian currency",
+                "desc": "The official monetary unit, its issue and its institutional framework."
+              },
+              "billetsEtPieces": {
+                "title": "Banknotes and coins",
+                "desc": "The denominations, characteristics and security features."
+              },
+              "circulationMonetaire": {
+                "title": "Monetary circulation",
+                "desc": "The issue, the putting into circulation and the withdrawal of money."
+              },
+              "donneesMonetaires": {
+                "title": "Monetary data",
+                "desc": "The aggregates, the money supply and the monetary statistics."
+              }
+            }
+          },
+          "institution": {
+            "kicker": "The role of the Central Bank",
+            "title": "The Central Bank, guardian of the currency",
+            "lead": "Three responsibilities make the Central Bank of Astoria the monetary institution of the Republic.",
+            "paragraphs": {
+              "p1": "The BCA is the only institution allowed to issue legal-tender banknotes, and it organises the circulation of cash throughout the territory. In doing so, it guarantees the monetary unity of the Republic.",
+              "p2": "It conducts monetary policy: by setting its key rates and providing liquidity to the banking system, it acts on the value of money and protects the purchasing power of citizens.",
+              "p3": "Finally, it ensures that money circulates in good conditions: authenticity of banknotes, quality of coins, availability of liquidity and smooth functioning of the payment system."
+            },
+            "cards": {
+              "emission": {
+                "title": "The issuer",
+                "text": "It issues banknotes and organises the circulation of cash."
+              },
+              "stabilite": {
+                "title": "The guardian of value",
+                "text": "Its monetary policy aims at price stability."
+              },
+              "confiance": {
+                "title": "The guarantor of trust",
+                "text": "It protects the authenticity of money and the smooth flow of payments."
+              }
+            },
+            "cta": "Follow monetary policy"
+          },
+          "figures": {
+            "kicker": "In figures",
+            "title": "Currency in figures",
+            "lead": "The main monetary indicators of the Astorian system, up to date with the latest monetary policy decision.",
+            "statGrid": {
+              "taux": {
+                "value": "2.50%",
+                "label": "Key rate"
+              },
+              "inflation": {
+                "value": "1.8%",
+                "label": "Inflation (CPI, year-on-year)"
+              },
+              "m3": {
+                "value": "4 210 Bn",
+                "label": "Money supply (M3)"
+              },
+              "fiduciaire": {
+                "value": "310 Bn",
+                "label": "Cash in circulation"
+              }
+            },
+            "notice": "Demonstration data, pending the publication of the official series."
+          },
+          "institutionLink": {
+            "kicker": "To go further",
+            "title": "The institution of money",
+            "lead": "Money is one of the fundamental missions of the Central Bank. Discover the institution and its other responsibilities.",
+            "cta": "Discover the Central Bank"
+          }
+        }
+      },
+      "laMonnaieAstorienne": {
+        "meta": {
+          "title": "The Astorian currency",
+          "description": "The official currency of the Republic of Astoria: its monetary unit, its issue by the Central Bank, its institutional framework and the principles that govern it."
+        },
+        "hero": {
+          "kicker": "Currency",
+          "title": "The Astorian currency",
+          "lead": "The Astorian franc is the official currency of the Republic of Astoria. Issued by the Central Bank, it is the unit of account of the national economy and the common link of all payments.",
+          "cta": "Discover the banknotes and coins",
+          "notice": "The denominations and characteristics shown on this page are demonstration data, pending the publication of the official reference materials."
+        },
+        "sections": {
+          "definition": {
+            "kicker": "Understand",
+            "title": "What is money?",
+            "lead": "Money is the social invention that allows an economy to coordinate itself: it gives a common measure to values, simplifies exchanges and makes it possible to postpone consumption.",
+            "paragraphs": {
+              "p1": "In a barter economy, every exchange requires two needs to meet exactly. Money removes this constraint by providing a universally accepted means of exchange: anyone can sell to obtain money, then buy from anyone, at any time.",
+              "p2": "Money performs three complementary functions. This threefold nature — counting, exchanging, saving — makes it the central instrument of any modern economy."
+            },
+            "cards": {
+              "unite": {
+                "title": "A unit of account",
+                "text": "Money gives a common measure to prices and values: all goods, services and claims are expressed in the same unit."
+              },
+              "echange": {
+                "title": "A medium of exchange",
+                "text": "Accepted by everyone, it makes transactions easier and the economy more fluid, in cash and through scriptural means of payment."
+              },
+              "reserve": {
+                "title": "A store of value",
+                "text": "Money makes it possible to preserve purchasing power over time and use it later, at the cost of its stability."
+              }
+            }
+          },
+          "official": {
+            "kicker": "The official currency",
+            "title": "The official currency of the Republic",
+            "lead": "The Astorian franc is the only currency with legal tender throughout the territory of the Republic of Astoria.",
+            "paragraphs": {
+              "p1": "Created and governed by monetary law, the national currency is issued by the Central Bank of Astoria, the only institution authorised to issue banknotes. Coins, for their part, are struck by the Public Treasury under the control of the State, within the framework set by law.",
+              "p2": "Anyone may refuse a payment offered in a currency other than the Astorian franc: legal tender applies to creditors and debtors alike, thereby guaranteeing the monetary unity of the Republic."
+            },
+            "table": {
+              "caption": "The Astorian currency at a glance",
+              "headers": {
+                "0": "Item",
+                "1": "Detail"
+              },
+              "rows": {
+                "0": {
+                  "0": "Denomination",
+                  "1": "Astorian franc (provisional name)"
+                },
+                "1": {
+                  "0": "Unit",
+                  "1": "The franc (F)"
+                },
+                "2": {
+                  "0": "Subdivision",
+                  "1": "100 centimes"
+                },
+                "3": {
+                  "0": "Issuer of banknotes",
+                  "1": "Central Bank of Astoria (BCA)"
+                },
+                "4": {
+                  "0": "Issuer of coins",
+                  "1": "Public Treasury"
+                },
+                "5": {
+                  "0": "Legal tender",
+                  "1": "Throughout the territory of the Republic"
+                }
+              },
+              "note": "Demonstration data: the official denomination and characteristics will be published by the Central Bank."
+            }
+          },
+          "emission": {
+            "kicker": "Issue",
+            "title": "A currency issued by the Central Bank",
+            "lead": "The issue of the national currency is the first of the privileges of the Central Bank of Astoria.",
+            "paragraphs": {
+              "p1": "The BCA issues fiduciary money — banknotes — and lies at the heart of the creation of scriptural money. Credits granted by commercial banks create most of the money in circulation; the BCA guarantees confidence in this money by ensuring the liquidity of the system and controlling the cost of central bank money.",
+              "p2": "Because it is the only issuer of central bank money — the safest money in the system, the one banks exchange among themselves — the Central Bank can conduct the monetary policy of the Republic and stabilise the value of money."
+            },
+            "cta": "Understand the role of the BCA"
+          },
+          "cadre": {
+            "kicker": "The institutional framework",
+            "title": "A clear institutional framework",
+            "lead": "The status of money and the independence of its issuer are guaranteed by the Constitution and by monetary law.",
+            "paragraphs": {
+              "p1": "The Republic of Astoria has entrusted the defence of the value of money to an institution independent of political power: the Central Bank. This independence is the condition of a stable currency: it protects monetary policy from short-term considerations and ensures the trust of the public and the markets."
+            },
+            "cards": {
+              "independance": {
+                "title": "Independence of the issuer",
+                "text": "The BCA carries out its mission free from any instruction, within the framework set by law."
+              },
+              "pouvoirLiberatoire": {
+                "title": "Legal tender power",
+                "text": "The national currency extinguishes any debt expressed in francs, without amount limit for banknotes."
+              },
+              "stabilite": {
+                "title": "Stability of value",
+                "text": "Monetary policy aims at price stability, the condition of confidence in money."
+              },
+              "protection": {
+                "title": "Protection of the public",
+                "text": "Issue goes hand in hand with security features and the fight against counterfeiting."
+              }
+            }
+          },
+          "politique": {
+            "kicker": "Monetary policy",
+            "title": "Money and monetary policy",
+            "lead": "The value of money is the very object of the monetary policy of the Central Bank.",
+            "paragraphs": {
+              "p1": "By setting its key rates and providing liquidity to the banking system, the BCA acts on the financing conditions of the economy and, ultimately, on inflation. A currency whose value is stable protects the purchasing power of citizens and preserves savers.",
+              "p2": "Monetary policy decisions are taken by the Monetary Policy Council and published, together with their objectives, on the Central Bank portal."
+            },
+            "cta": "Follow monetary policy"
+          }
+        }
+      },
+      "billetsEtPieces": {
+        "meta": {
+          "title": "Banknotes and coins",
+          "description": "Banknotes and coins in Astorian francs: denominations, characteristics, security features and practical information for users."
+        },
+        "hero": {
+          "kicker": "Currency",
+          "title": "Banknotes and coins",
+          "lead": "Banknotes and coins are the everyday face of the Astorian currency. Each denomination combines a value, motifs and security features that allow it to be verified in a few gestures.",
+          "cta": "Understand monetary circulation"
+        },
+        "sections": {
+          "billets": {
+            "kicker": "Banknotes",
+            "title": "Banknotes in circulation",
+            "lead": "Five denominations make up the range of Astorian banknotes. Printed by the Central Bank, they incorporate security features accessible to everyone.",
+            "denominations": {
+              "b10": {
+                "unit": "Francs",
+                "tag": "Blue",
+                "motif": "Natural heritage"
+              },
+              "b20": {
+                "unit": "Francs",
+                "tag": "Orange",
+                "motif": "Architecture"
+              },
+              "b50": {
+                "unit": "Francs",
+                "tag": "Green",
+                "motif": "Industry and innovation"
+              },
+              "b100": {
+                "unit": "Francs",
+                "tag": "Purple",
+                "motif": "Science and education"
+              },
+              "b200": {
+                "unit": "Francs",
+                "tag": "Red",
+                "motif": "Republic and institutions"
+              }
+            },
+            "notice": "Official representations to come. The motifs and colours below are demonstration data."
+          },
+          "pieces": {
+            "kicker": "Coins",
+            "title": "Coins in circulation",
+            "lead": "Six denominations make up the range of Astorian coins. Struck by the Public Treasury, they circulate alongside banknotes for small transactions.",
+            "denominations": {
+              "p5": {
+                "unit": "Centimes"
+              },
+              "p10": {
+                "unit": "Centimes"
+              },
+              "p20": {
+                "unit": "Centimes"
+              },
+              "p50": {
+                "unit": "Centimes"
+              },
+              "p1": {
+                "unit": "Franc"
+              },
+              "p2": {
+                "unit": "Francs"
+              }
+            }
+          },
+          "caracteristiques": {
+            "kicker": "Security",
+            "title": "Characteristics and security features",
+            "lead": "Each banknote combines features that can be checked by sight, touch and movement. Learn to recognise them: they are your first protection.",
+            "cards": {
+              "papier": {
+                "title": "The paper",
+                "text": "A special paper, resistant and slightly crisp, distinct from ordinary paper."
+              },
+              "relief": {
+                "title": "The embossing",
+                "text": "Embossed inks can be felt by touch on the main motif and the name of the bank."
+              },
+              "filigrane": {
+                "title": "The watermark",
+                "text": "Visible by transparency, it reproduces a motif that lightens when the banknote is tilted."
+              },
+              "fenetre": {
+                "title": "The transparent window",
+                "text": "A window that lets light through, with details that move depending on the angle of view."
+              },
+              "impression": {
+                "title": "Front-to-back printing",
+                "text": "The two faces form an exact motif when viewed by transparency."
+              },
+              "fluorescence": {
+                "title": "Fluorescent inks",
+                "text": "Under ultraviolet light, coloured elements appear on the face of the banknote."
+              },
+              "microtexte": {
+                "title": "Micro-printing",
+                "text": "Tiny texts, sharp under a magnifier but illegible to the naked eye."
+              },
+              "barcode": {
+                "title": "The barcode and the number",
+                "text": "A barcode and a numbered series allow the traceability of the notes."
+              }
+            }
+          },
+          "authentifier": {
+            "kicker": "Authenticate",
+            "title": "Authenticating a banknote in four gestures",
+            "lead": "Faced with a banknote, the four-gesture method — touch, look, tilt, check — allows anyone to verify its authenticity without any instrument.",
+            "steps": {
+              "toucher": {
+                "title": "Touch",
+                "text": "Feel the paper and the embossing: a genuine banknote is firm, crisp and its embossed inks can be felt under the finger."
+              },
+              "regarder": {
+                "title": "Look",
+                "text": "Check the watermark by transparency and the alignment of the front-to-back printing."
+              },
+              "incliner": {
+                "title": "Tilt",
+                "text": "Tilt the banknote: the transparent window and the elements that change with the angle confirm its authenticity."
+              },
+              "controler": {
+                "title": "Check",
+                "text": "If in doubt, compare with a recognised banknote or hand it to your bank."
+              }
+            }
+          },
+          "pratiques": {
+            "kicker": "Practical information",
+            "title": "Exchange, replacement and recirculation",
+            "lead": "Damaged banknotes, worn coins, withdrawn denominations: the Central Bank supports the users of money.",
+            "paragraphs": {
+              "p1": "Damaged but authentic banknotes can be exchanged at the Central Bank and at credit institutions, under published conditions. Worn coins are withdrawn from circulation by the Public Treasury and replaced.",
+              "p2": "When a denomination is withdrawn from circulation, it keeps its value for a legal withdrawal period, then can still be exchanged at the Central Bank for a set period. The withdrawal calendar is announced publicly.",
+              "p3": "Report any suspect banknote to the authorities: the fight against counterfeiting protects all users."
+            },
+            "notice": "Do not put a suspect banknote back into circulation: hand it to your bank or to the authorities."
+          }
+        }
+      },
+      "circulationMonetaire": {
+        "meta": {
+          "title": "Monetary circulation",
+          "description": "How money circulates in Astoria: monetary issue, putting into circulation, scriptural money, the role of banks and of the Central Bank, evolution of the money supply."
+        },
+        "hero": {
+          "kicker": "Currency",
+          "title": "Monetary circulation",
+          "lead": "Issued by the Central Bank, money circulates continuously between households, businesses, banks and the State. Understanding this circuit is understanding how money is born, circulates and is withdrawn.",
+          "cta": "Explore the monetary data"
+        },
+        "sections": {
+          "cycle": {
+            "kicker": "The cycle",
+            "title": "The life cycle of money",
+            "lead": "Fiduciary money follows a continuous cycle: produced and put into circulation, it passes from hand to hand, then is sorted, checked and possibly withdrawn.",
+            "cards": {
+              "emission": {
+                "title": "Issue",
+                "text": "The Central Bank commissions the printing of banknotes and the Treasury the striking of coins, within the limits set by law."
+              },
+              "miseEnCirculation": {
+                "title": "Putting into circulation",
+                "text": "Cash leaves the Central Bank's vaults towards the banks, then towards shops and users."
+              },
+              "circulation": {
+                "title": "Circulation",
+                "text": "Banknotes and coins pass from hand to hand: daily transactions, counters, shops."
+              },
+              "retrait": {
+                "title": "Sorting, checking, withdrawal",
+                "text": "Banks return cash to the Central Bank, which sorts it, verifies its authenticity and withdraws the worn notes."
+              }
+            }
+          },
+          "emissionMonetaire": {
+            "kicker": "Monetary issue",
+            "title": "Monetary issue",
+            "lead": "Money is not created out of nothing: it is born of the operations of the Central Bank and the credits of the banks.",
+            "paragraphs": {
+              "p1": "Most of the money in circulation is scriptural money created by commercial banks when they grant credits. This creation is regulated: it depends on credit demand, prudential regulation and the monetary policy of the Central Bank.",
+              "p2": "The Central Bank creates central bank money — the only money it controls directly — when it refinances banks or purchases securities. This money, held in reserve by the banks, serves as the foundation of the entire system."
+            },
+            "cards": {
+              "banques": {
+                "title": "Banking institutions",
+                "text": "They create scriptural money by granting credits and act as distributors of cash."
+              },
+              "bca": {
+                "title": "The Central Bank",
+                "text": "It issues fiduciary money, provides liquidity to the system and controls the cost of money."
+              },
+              "etat": {
+                "title": "The State",
+                "text": "It strikes coins and manages the public treasury, notably through its account at the Central Bank."
+              }
+            }
+          },
+          "masseMonetaire": {
+            "kicker": "The money supply",
+            "title": "The evolution of the money supply",
+            "lead": "The money supply measures the amount of money in circulation in the economy. Its evolution is monitored by the Central Bank, as it signals potential inflationary pressures.",
+            "statGrid": {
+              "m3": {
+                "value": "4 210 Bn",
+                "label": "Money supply (M3)"
+              },
+              "croissance": {
+                "value": "4.2%",
+                "label": "Annual growth"
+              },
+              "fiduciaire": {
+                "value": "310 Bn",
+                "label": "Cash in circulation"
+              },
+              "scriptural": {
+                "value": "3 900 Bn",
+                "label": "Deposits (M1-M2)"
+              }
+            },
+            "table": {
+              "caption": "Indicative evolution of the money supply",
+              "headers": {
+                "0": "Year",
+                "1": "M1",
+                "2": "M2",
+                "3": "M3"
+              },
+              "rows": {
+                "0": {
+                  "0": "2022",
+                  "1": "1 850 Bn",
+                  "2": "3 520 Bn",
+                  "3": "3 810 Bn"
+                },
+                "1": {
+                  "0": "2023",
+                  "1": "1 930 Bn",
+                  "2": "3 660 Bn",
+                  "3": "3 960 Bn"
+                },
+                "2": {
+                  "0": "2024",
+                  "1": "2 010 Bn",
+                  "2": "3 790 Bn",
+                  "3": "4 080 Bn"
+                },
+                "3": {
+                  "0": "2025",
+                  "1": "2 100 Bn",
+                  "2": "3 920 Bn",
+                  "3": "4 210 Bn"
+                }
+              },
+              "note": "Demonstration data. The official series will be published on the Monetary data page."
+            },
+            "cta": "See the detailed monetary aggregates"
+          },
+          "retrait": {
+            "kicker": "Withdrawal",
+            "title": "The withdrawal of banknotes",
+            "lead": "Banknotes do not circulate indefinitely: they wear out and, one day, an entire denomination may be withdrawn from circulation.",
+            "paragraphs": {
+              "p1": "The Central Bank sorts the cash returned by banks, verifies its authenticity and removes the notes too worn to circulate. Withdrawn banknotes are replaced by new notes and worn coins are melted by the Public Treasury.",
+              "p2": "When a denomination is no longer issued, it keeps its legal tender power for an announced period, then can be exchanged at the Central Bank for a withdrawal period. Users are informed through public campaigns and on this portal."
+            },
+            "notice": "Damaged but authentic banknotes can be exchanged at banking institutions, under the conditions published by the Central Bank."
+          }
+        }
+      },
+      "donneesMonetaires": {
+        "meta": {
+          "title": "Monetary data",
+          "description": "The monetary data of the Central Bank of Astoria: key indicators, monetary aggregates, money supply, cash in circulation, reserves and rates."
+        },
+        "hero": {
+          "kicker": "Currency · Data",
+          "title": "Monetary data",
+          "lead": "The monetary statistics of the Republic: the money supply and its aggregates, cash in circulation, reserves and key rates, presented clearly and comparably.",
+          "cta": "Understand monetary circulation",
+          "notice": "The figures published here are demonstration data, pending the release of the official series."
+        },
+        "sections": {
+          "indicateursCles": {
+            "kicker": "In figures",
+            "title": "Key indicators",
+            "lead": "A synthetic overview of the monetary situation, up to date with the latest monetary policy decision.",
+            "statGrid": {
+              "taux": {
+                "value": "2.50%",
+                "label": "Key rate"
+              },
+              "inflation": {
+                "value": "1.8%",
+                "label": "Inflation (CPI, year-on-year)"
+              },
+              "m3": {
+                "value": "4 210 Bn",
+                "label": "Money supply (M3)"
+              },
+              "reserves": {
+                "value": "132 Bn",
+                "label": "Foreign exchange reserves"
+              }
+            }
+          },
+          "agregats": {
+            "kicker": "The aggregates",
+            "title": "The monetary aggregates",
+            "lead": "The money supply is measured by increasingly broad aggregates, according to the liquidity of the assets they group together.",
+            "table": {
+              "caption": "The Astorian monetary aggregates",
+              "headers": {
+                "0": "Aggregate",
+                "1": "Main components",
+                "2": "Outstanding"
+              },
+              "rows": {
+                "0": {
+                  "0": "M0",
+                  "1": "Central bank money (banknotes, coins, reserves)",
+                  "2": "320 Bn"
+                },
+                "1": {
+                  "0": "M1",
+                  "1": "M0 + sight deposits of households and businesses",
+                  "2": "2 100 Bn"
+                },
+                "2": {
+                  "0": "M2",
+                  "1": "M1 + short-term savings deposits",
+                  "2": "3 920 Bn"
+                },
+                "3": {
+                  "0": "M3",
+                  "1": "M2 + debt securities and money market fund shares",
+                  "2": "4 210 Bn"
+                }
+              },
+              "note": "Demonstration data. The official breakdown will be published by the Central Bank."
+            }
+          },
+          "circulationFiduciaire": {
+            "kicker": "Cash",
+            "title": "Cash in circulation",
+            "lead": "For many uses, banknotes and coins remain an irreplaceable means of payment.",
+            "statGrid": {
+              "billets": {
+                "value": "265 Bn",
+                "label": "Banknotes in circulation"
+              },
+              "pieces": {
+                "value": "45 Bn",
+                "label": "Coins in circulation"
+              },
+              "part": {
+                "value": "7.4%",
+                "label": "Share of cash in payments"
+              },
+              "billetsParHabitant": {
+                "value": "52",
+                "label": "Banknotes per inhabitant (4,400 F by value)"
+              }
+            }
+          },
+          "masseMonetaire": {
+            "kicker": "The series",
+            "title": "Evolution of the money supply",
+            "lead": "The annual series make it possible to track the evolution of the aggregates and of cash in circulation.",
+            "table": {
+              "caption": "Annual evolution of the money supply and cash in circulation",
+              "headers": {
+                "0": "Year",
+                "1": "M1",
+                "2": "M2",
+                "3": "M3",
+                "4": "Cash"
+              },
+              "rows": {
+                "0": {
+                  "0": "2021",
+                  "1": "1 760 Bn",
+                  "2": "3 340 Bn",
+                  "3": "3 640 Bn",
+                  "4": "285 Bn"
+                },
+                "1": {
+                  "0": "2022",
+                  "1": "1 850 Bn",
+                  "2": "3 520 Bn",
+                  "3": "3 810 Bn",
+                  "4": "298 Bn"
+                },
+                "2": {
+                  "0": "2023",
+                  "1": "1 930 Bn",
+                  "2": "3 660 Bn",
+                  "3": "3 960 Bn",
+                  "4": "304 Bn"
+                },
+                "3": {
+                  "0": "2024",
+                  "1": "2 010 Bn",
+                  "2": "3 790 Bn",
+                  "3": "4 080 Bn",
+                  "4": "309 Bn"
+                },
+                "4": {
+                  "0": "2025",
+                  "1": "2 100 Bn",
+                  "2": "3 920 Bn",
+                  "3": "4 210 Bn",
+                  "4": "310 Bn"
+                }
+              },
+              "note": "Demonstration data, expressed in billions of francs (Bn). The official series will be connected to the BCA data source."
+            }
+          },
+          "reserves": {
+            "kicker": "The reserves",
+            "title": "Reserves and liquidity",
+            "lead": "The Central Bank manages the reserves of the system and provides the liquidity needed for its functioning.",
+            "table": {
+              "caption": "Reserves and liquidity",
+              "headers": {
+                "0": "Item",
+                "1": "Outstanding",
+                "2": "Annual change"
+              },
+              "rows": {
+                "0": {
+                  "0": "Foreign exchange reserves",
+                  "1": "132 Bn",
+                  "2": "+ 4.1%"
+                },
+                "1": {
+                  "0": "Banks' required reserves",
+                  "1": "38 Bn",
+                  "2": "+ 2.3%"
+                },
+                "2": {
+                  "0": "Refinancing operations",
+                  "1": "112 Bn",
+                  "2": "- 1.5%"
+                },
+                "3": {
+                  "0": "Standing facilities",
+                  "1": "14 Bn",
+                  "2": "Stable"
+                }
+              },
+              "note": "Demonstration data."
+            }
+          },
+          "taux": {
+            "kicker": "The rates",
+            "title": "The key rates",
+            "lead": "The key rates are the central instrument of monetary policy: they steer the cost of credit in the economy.",
+            "table": {
+              "caption": "The key rates of the Central Bank",
+              "headers": {
+                "0": "Instrument",
+                "1": "Rate"
+              },
+              "rows": {
+                "0": {
+                  "0": "Key rate (main refinancing operations)",
+                  "1": "2.50%"
+                },
+                "1": {
+                  "0": "Deposit facility",
+                  "1": "2.25%"
+                },
+                "2": {
+                  "0": "Marginal lending facility",
+                  "1": "2.75%"
+                }
+              },
+              "note": "Demonstration data, up to date with the latest decision of the Monetary Policy Council."
+            },
+            "cta": "Follow the evolution of the rates"
+          },
+          "publications": {
+            "kicker": "Publications",
+            "title": "Publications and data",
+            "lead": "The monetary statistics are published on a regular schedule, together with the methods and downloadable series.",
+            "links": {
+              "statistiques": "The monetary statistics",
+              "publications": "The monetary publications",
+              "donneesOuvertes": "The open data of the BCA"
+            },
+            "notice": "These pages will publish the official series and, in time, the open data of the Central Bank."
+          }
+        }
+      },
+      "sub": {
+        "monnaieOfficielle": {
+          "meta": {
+            "title": "The official currency",
+            "description": "The Astorian franc, the only currency with legal tender in Astoria: its legal framework, legal tender and what it means for users."
+          },
+          "hero": {
+            "kicker": "The Astorian currency",
+            "title": "The official currency",
+            "lead": "The Republic of Astoria has a single currency, the only one with legal tender throughout the territory: the Astorian franc.",
+            "cta": "Understand the monetary unit"
+          },
+          "sections": {
+            "cadre": {
+              "kicker": "The framework",
+              "title": "The currency of the Republic",
+              "lead": "The Astorian franc is established by monetary law, which sets its name, unit and conditions of issue.",
+              "paragraphs": {
+                "p1": "The official currency expresses the monetary sovereignty of the Republic. Only the law can define the national currency, entrust its issue and modify its status: it is this framework that gives money its solidity and legitimacy.",
+                "p2": "The Central Bank of Astoria is responsible for issuing banknotes, and the Public Treasury for striking coins. No other authority may issue legal-tender money.",
+                "p3": "Provisional denomination: the official name and reference characteristics will be published by the Central Bank."
+              },
+              "notice": "The exact status of the official currency is defined by monetary law, whose consolidated text is published in the Official Journal."
+            },
+            "coursLegal": {
+              "kicker": "Legal tender",
+              "title": "What is legal tender?",
+              "lead": "Legal tender obliges any creditor to accept the national currency in payment of a debt expressed in that currency.",
+              "paragraphs": {
+                "p1": "Saying that a currency is legal tender means that it must be accepted as a means of payment on the national territory. A trader cannot refuse Astorian francs to settle a purchase, except in cases provided for by law.",
+                "p2": "This principle protects monetary unity: it guarantees that all prices, wages and contracts are expressed in the same currency and that every citizen can pay and be paid everywhere."
+              },
+              "bullets": {
+                "b1": "Payment in the national currency extinguishes the debt, within the limits set for each means of payment.",
+                "b2": "The national currency cannot be refused for transactions denominated in francs.",
+                "b3": "Rounding and change rules apply in accordance with the law."
+              }
+            },
+            "enPratique": {
+              "kicker": "In practice",
+              "title": "What it means for you",
+              "cards": {
+                "payer": {
+                  "title": "Paying",
+                  "text": "You can pay in cash anywhere in the country, free of charge, within the applicable limits."
+                },
+                "etrePaye": {
+                  "title": "Being paid",
+                  "text": "Salaries, benefits and reimbursements are expressed in Astorian francs."
+                },
+                "epargner": {
+                  "title": "Saving",
+                  "text": "Your deposits and investments are denominated in the national currency."
+                },
+                "echanger": {
+                  "title": "Exchanging",
+                  "text": "Exchanges with foreign currencies are offered by banking institutions."
+                }
+              }
+            }
+          }
+        },
+        "uniteMonetaire": {
+          "meta": {
+            "title": "The monetary unit",
+            "description": "The Astorian monetary unit: the franc, its subdivisions in centimes, its role as a unit of account and the reasons for a single unit."
+          },
+          "hero": {
+            "kicker": "The Astorian currency",
+            "title": "The monetary unit",
+            "lead": "The monetary unit is the common reference of all prices and payments in Astoria: the franc, divided into centimes.",
+            "cta": "Discover the official currency"
+          },
+          "sections": {
+            "leFrancEtSesSubdivisions": {
+              "kicker": "The franc",
+              "title": "The franc and its subdivisions",
+              "lead": "The Astorian monetary system is based on a decimal unit: one franc equals one hundred centimes.",
+              "table": {
+                "caption": "The units of the Astorian currency",
+                "headers": {
+                  "0": "Unit",
+                  "1": "Value",
+                  "2": "Common use"
+                },
+                "rows": {
+                  "0": {
+                    "0": "The franc (F)",
+                    "1": "1",
+                    "2": "Reference unit of account"
+                  },
+                  "1": {
+                    "0": "The centime (c)",
+                    "1": "1/100 of a franc",
+                    "2": "Subdivision of retail prices"
+                  },
+                  "2": {
+                    "0": "Banknotes",
+                    "1": "10 to 200 F",
+                    "2": "Common cash payments"
+                  },
+                  "3": {
+                    "0": "Coins",
+                    "1": "5 centimes to 2 F",
+                    "2": "Small transactions and change"
+                  }
+                },
+                "note": "Demonstration denominations."
+              },
+              "paragraphs": {
+                "p1": "Choosing a decimal unit simplifies calculations and the comparison of prices. The subdivision into centimes makes it possible to express retail prices finely without ever losing the common reference."
+              }
+            },
+            "uniteDeCompte": {
+              "kicker": "Unit of account",
+              "title": "A unit that counts",
+              "lead": "The franc is the standard to which all prices, contracts and claims are referenced.",
+              "paragraphs": {
+                "p1": "The monetary unit is first of all a unit of account: it serves to measure the value of goods and services, to compare prices and to denominate contracts and debts. Without a common unit of account, no economy could coordinate itself.",
+                "p2": "This is why public statistics, the State budget and company accounts are all expressed in the same unit, making economic information legible and comparable."
+              },
+              "cta": "See the monetary data"
+            },
+            "uneUniteUnique": {
+              "kicker": "Why a single unit",
+              "title": "The reasons for a single unit",
+              "cards": {
+                "simplicite": {
+                  "title": "Simplicity",
+                  "text": "A single standard makes prices comparable throughout the country."
+                },
+                "confiance": {
+                  "title": "Confidence",
+                  "text": "A single, stable currency protects purchasing power."
+                },
+                "integration": {
+                  "title": "Integration",
+                  "text": "It facilitates exchanges between regions and sectors of the economy."
+                },
+                "stabilite": {
+                  "title": "Stability",
+                  "text": "The monetary policy of the Central Bank watches over its value."
+                }
+              }
+            }
+          }
+        },
+        "emiseParLaBca": {
+          "meta": {
+            "title": "Issued by the Central Bank",
+            "description": "The issue privilege of the Central Bank of Astoria: how the BCA issues banknotes, creates central bank money and controls money."
+          },
+          "hero": {
+            "kicker": "The Astorian currency",
+            "title": "Issued by the Central Bank",
+            "lead": "The Central Bank of Astoria is the only authority authorised to issue the banknotes of the Republic: this is the issue privilege.",
+            "cta": "Understand legal tender power"
+          },
+          "sections": {
+            "privilege": {
+              "kicker": "The privilege",
+              "title": "The issue privilege",
+              "lead": "Issuing the national currency is one of the fundamental privileges of the Central Bank.",
+              "paragraphs": {
+                "p1": "The issue privilege gives the Central Bank the exclusive right to issue legal-tender banknotes. It is the counterpart of its mission: to guarantee confidence in money and the stability of its value.",
+                "p2": "This monopoly prevents the proliferation of competing currencies and ensures the monetary unity of the Republic. Banknotes issued by the BCA bear its signature and are the only fiduciary means of payment with legal tender."
+              }
+            },
+            "comment": {
+              "kicker": "How",
+              "title": "How the Central Bank issues money",
+              "lead": "Issue takes several forms, all controlled by the Central Bank.",
+              "cards": {
+                "billets": {
+                  "title": "Banknotes",
+                  "text": "Printed under its control, they bear the security features and its signature."
+                },
+                "monnaieCentrale": {
+                  "title": "Central bank money",
+                  "text": "Created during refinancing operations, it is held in reserve by the banks."
+                },
+                "comptes": {
+                  "title": "Accounts",
+                  "text": "Credit institutions hold their reserves in the BCA's accounts."
+                },
+                "controle": {
+                  "title": "Control",
+                  "text": "The BCA regulates the monetary creation of banks through its instruments and its regulation."
+                }
+              }
+            },
+            "circuit": {
+              "kicker": "The circuit",
+              "title": "The circuit of issue",
+              "paragraphs": {
+                "p1": "Banknotes leave the printing works for the Central Bank's vaults, then for commercial banks which supply their cash machines and counters. Cash then returns to the BCA, which sorts it, verifies its authenticity and puts it back into circulation or withdraws it.",
+                "p2": "Scriptural money, for its part, circulates first on the accounts of the banks: each credit granted creates money, each repayment destroys it. The Central Bank regulates this process by setting the cost of central bank money."
+              },
+              "cta": "Understand monetary circulation"
+            }
+          }
+        },
+        "pouvoirLiberatoire": {
+          "meta": {
+            "title": "Legal tender power",
+            "description": "The legal tender power of the Astorian currency: what the law provides, how it applies in practice and the limits of cash."
+          },
+          "hero": {
+            "kicker": "The Astorian currency",
+            "title": "Legal tender power",
+            "lead": "Legal tender power is the legal force of money: it extinguishes any debt expressed in the national currency.",
+            "cta": "Discover the official currency"
+          },
+          "sections": {
+            "definition": {
+              "kicker": "Definition",
+              "title": "What is legal tender power?",
+              "paragraphs": {
+                "p1": "A currency has legal tender power when it frees the debtor from his obligation: paying in the national currency extinguishes the debt, whatever its value. This is the foundation of confidence in money: everyone knows that by accepting francs, they will be able to settle their own debts.",
+                "p2": "Legal tender power must not be confused with legal tender. Legal tender obliges accepting the currency; legal tender power guarantees that it actually pays the debt."
+              }
+            },
+            "laLoi": {
+              "kicker": "The law",
+              "title": "What the law provides",
+              "lead": "Legal tender power is exercised according to precise rules, which distinguish banknotes from coins.",
+              "bullets": {
+                "b1": "Banknotes have legal tender power without amount limit for debts denominated in francs.",
+                "b2": "Coins have legal tender power within the limits set by law, beyond which the creditor may refuse a payment made exclusively in coins.",
+                "b3": "Cash payments may be capped for certain transactions, with a view to combating money laundering.",
+                "b4": "Legal tender power applies only to payments in the national currency."
+              },
+              "notice": "The exact limits are set by law and specified in the implementing texts published in the Official Journal."
+            },
+            "enPratique": {
+              "kicker": "In practice",
+              "title": "Legal tender power in daily life",
+              "cards": {
+                "acheter": {
+                  "title": "Buying",
+                  "text": "Settle your purchases in cash within the payment limits."
+                },
+                "rembourser": {
+                  "title": "Repaying",
+                  "text": "A payment in francs extinguishes your debt, whatever its source."
+                },
+                "recevoir": {
+                  "title": "Receiving",
+                  "text": "You cannot be forced to accept another currency in payment."
+                },
+                "echanger": {
+                  "title": "Exchanging",
+                  "text": "Withdrawn banknotes keep their value during the withdrawal period."
+                }
+              }
+            }
+          }
+        },
+        "billets": {
+          "meta": {
+            "title": "Banknotes",
+            "description": "Banknotes in Astorian francs: the range of denominations, their characteristics and the first reflexes to verify them."
+          },
+          "hero": {
+            "kicker": "Banknotes and coins",
+            "title": "Banknotes",
+            "lead": "Printed by the Central Bank, Astorian banknotes come in five denominations, each recognisable by its colour and motif.",
+            "cta": "Discover the coins"
+          },
+          "sections": {
+            "laGamme": {
+              "kicker": "The range",
+              "title": "Denominations in circulation",
+              "lead": "Five denominations cover everyday uses, from small purchases to larger payments.",
+              "table": {
+                "caption": "The range of Astorian banknotes",
+                "headers": {
+                  "0": "Value",
+                  "1": "Colour",
+                  "2": "Motif",
+                  "3": "Format"
+                },
+                "rows": {
+                  "0": {
+                    "0": "10 F",
+                    "1": "Blue",
+                    "2": "Natural heritage",
+                    "3": "120 × 62 mm"
+                  },
+                  "1": {
+                    "0": "20 F",
+                    "1": "Orange",
+                    "2": "Architecture",
+                    "3": "127 × 67 mm"
+                  },
+                  "2": {
+                    "0": "50 F",
+                    "1": "Green",
+                    "2": "Industry and innovation",
+                    "3": "134 × 72 mm"
+                  },
+                  "3": {
+                    "0": "100 F",
+                    "1": "Purple",
+                    "2": "Science and education",
+                    "3": "141 × 77 mm"
+                  },
+                  "4": {
+                    "0": "200 F",
+                    "1": "Red",
+                    "2": "Republic and institutions",
+                    "3": "148 × 82 mm"
+                  }
+                },
+                "note": "Demonstration characteristics, pending the publication of the official reference materials."
+              },
+              "paragraphs": {
+                "p1": "Each denomination is designed to be immediately recognisable and hard to counterfeit: the colours, motifs and formats are chosen to make everyday use easier."
+              }
+            },
+            "lireUnBillet": {
+              "kicker": "Reading",
+              "title": "How to read a banknote",
+              "lead": "Each banknote combines simple markers that allow it to be identified at a glance.",
+              "cards": {
+                "valeur": {
+                  "title": "The value",
+                  "text": "The value figure appears in large on both faces."
+                },
+                "motif": {
+                  "title": "The motif",
+                  "text": "A theme common to the series, declined according to the denomination."
+                },
+                "couleur": {
+                  "title": "The colour",
+                  "text": "Each value has its dominant colour, recognisable at first glance."
+                },
+                "signature": {
+                  "title": "The signature",
+                  "text": "The Governor's signature attests to the official origin of the banknote."
+                }
+              }
+            },
+            "verifier": {
+              "kicker": "Verifying",
+              "title": "Verifying a banknote",
+              "paragraphs": {
+                "p1": "Before checking a banknote, remember the four-gesture method: touch, look, tilt, check. The paper, the embossing and the transparent window are your first landmarks.",
+                "p2": "In case of doubt, compare the banknote with one you are certain is authentic, then hand it to a banking institution."
+              },
+              "cta": "Learn to authenticate a banknote"
+            }
+          }
+        },
+        "pieces": {
+          "meta": {
+            "title": "Coins",
+            "description": "Coins in Astorian francs: the range of denominations, their characteristics and their everyday use."
+          },
+          "hero": {
+            "kicker": "Banknotes and coins",
+            "title": "Coins",
+            "lead": "Struck by the Public Treasury, Astorian coins complement banknotes for everyday small transactions.",
+            "cta": "Discover the banknotes"
+          },
+          "sections": {
+            "laGamme": {
+              "kicker": "The range",
+              "title": "Coins in circulation",
+              "lead": "Six denominations, from the one-centime coin to the two-franc coin.",
+              "table": {
+                "caption": "The range of Astorian coins",
+                "headers": {
+                  "0": "Value",
+                  "1": "Metal",
+                  "2": "Common use"
+                },
+                "rows": {
+                  "0": {
+                    "0": "5 centimes",
+                    "1": "Plated steel",
+                    "2": "Small transactions"
+                  },
+                  "1": {
+                    "0": "10 centimes",
+                    "1": "Plated steel",
+                    "2": "Small transactions"
+                  },
+                  "2": {
+                    "0": "20 centimes",
+                    "1": "Copper-nickel",
+                    "2": "Small transactions"
+                  },
+                  "3": {
+                    "0": "50 centimes",
+                    "1": "Copper-nickel",
+                    "2": "Common transactions"
+                  },
+                  "4": {
+                    "0": "1 franc",
+                    "1": "Bimetallic",
+                    "2": "Common transactions"
+                  },
+                  "5": {
+                    "0": "2 francs",
+                    "1": "Bimetallic",
+                    "2": "Common transactions"
+                  }
+                },
+                "note": "Demonstration characteristics."
+              },
+              "paragraphs": {
+                "p1": "Coins are intended for small payments and for giving change. Their striking is governed by law, and the Public Treasury manages their issue and withdrawal."
+              }
+            },
+            "caracteristiques": {
+              "kicker": "Characteristics",
+              "title": "Coins designed to last",
+              "cards": {
+                "materiaux": {
+                  "title": "Resistant materials",
+                  "text": "Alloys chosen for durability and legibility, at a controlled cost."
+                },
+                "gravures": {
+                  "title": "Distinctive engravings",
+                  "text": "Each value is recognisable by its diameter, thickness and motifs."
+                },
+                "bimetal": {
+                  "title": "Bimetallism",
+                  "text": "The one- and two-franc coins combine two alloys to make them easier to recognise."
+                },
+                "accessibilite": {
+                  "title": "Designed for all",
+                  "text": "Differences in size and relief make recognition easier for all audiences."
+                }
+              }
+            },
+            "usages": {
+              "kicker": "Uses",
+              "title": "The everyday role of coins",
+              "paragraphs": {
+                "p1": "Coins remain essential for small payments: vending machines, tolls, everyday change. They circulate from traders' tills to banks, then return to the Treasury which sorts them and withdraws the worn ones.",
+                "p2": "Like banknotes, worn or damaged coins can be handed in at banking institutions, which replace them free of charge under the prescribed conditions."
+              },
+              "notice": "Coins that are no longer legal tender must be handed in to the Central Bank or the Public Treasury before the end of the withdrawal period."
+            }
+          }
+        },
+        "caracteristiquesEtSecurite": {
+          "meta": {
+            "title": "Characteristics and security",
+            "description": "The characteristics of Astorian banknotes and their security features: paper, watermark, window, embossing, micro-printing."
+          },
+          "hero": {
+            "kicker": "Banknotes and coins",
+            "title": "Characteristics and security",
+            "lead": "Each banknote combines security features that can be checked by sight, touch and movement. Knowing them means protecting yourself.",
+            "cta": "Learn to authenticate a banknote"
+          },
+          "sections": {
+            "lesElements": {
+              "kicker": "The features",
+              "title": "The security features",
+              "lead": "Security features are divided between those everyone can check and those used by professionals.",
+              "cards": {
+                "papier": {
+                  "title": "The paper",
+                  "text": "A special, resistant, crisp paper, distinct from ordinary paper."
+                },
+                "filigrane": {
+                  "title": "The watermark",
+                  "text": "Visible by transparency, it lightens when tilted."
+                },
+                "fenetre": {
+                  "title": "The transparent window",
+                  "text": "A window that lets light through, with moving details."
+                },
+                "reliefs": {
+                  "title": "The embossing",
+                  "text": "Embossed inks that can be felt by touch on the main motifs."
+                },
+                "coincidence": {
+                  "title": "Front-to-back alignment",
+                  "text": "The two faces form an exact motif when viewed by transparency."
+                },
+                "micro": {
+                  "title": "Micro-printing",
+                  "text": "Tiny texts, sharp under a magnifier but illegible to the naked eye."
+                },
+                "uv": {
+                  "title": "Fluorescent inks",
+                  "text": "Coloured elements appear under ultraviolet light."
+                },
+                "barcode": {
+                  "title": "The code and the series",
+                  "text": "A barcode and a number allow the traceability of the notes."
+                }
+              }
+            },
+            "parTransparence": {
+              "kicker": "Checking",
+              "title": "Checking by transparency",
+              "paragraphs": {
+                "p1": "Transparency is the first reflex: hold the banknote in front of a light source. The watermark appears, the window lets the light through and the motifs on both faces match exactly.",
+                "p2": "No single security feature is enough: it is the combination of signs, and their coherence, that guarantees the authenticity of a banknote."
+              }
+            },
+            "signesDAlerte": {
+              "kicker": "Beware",
+              "title": "The warning signs",
+              "bullets": {
+                "b1": "Paper that is too smooth or too thin, without the characteristic crisp sound.",
+                "b2": "Dull colours, missing embossing or imprecise printing.",
+                "b3": "An opaque window, a missing watermark or a motif that does not align.",
+                "b4": "A badly aligned serial number or micro-printing illegible under a magnifier."
+              },
+              "notice": "These signs are only clues: in case of doubt, hand the banknote to a banking institution rather than putting it back into circulation."
+            }
+          }
+        },
+        "authentifierUnBillet": {
+          "meta": {
+            "title": "Authenticating a banknote",
+            "description": "Authenticating a banknote in four gestures: touch, look, tilt, check. The method within everyone's reach to verify a banknote."
+          },
+          "hero": {
+            "kicker": "Banknotes and coins",
+            "title": "Authenticating a banknote",
+            "lead": "The four-gesture method — touch, look, tilt, check — allows anyone to verify the authenticity of a banknote without any instrument.",
+            "cta": "Understand the security features"
+          },
+          "sections": {
+            "lesQuatreGestes": {
+              "kicker": "The method",
+              "title": "The four gestures",
+              "lead": "Four simple gestures, in order, to verify a banknote in seconds.",
+              "cards": {
+                "toucher": {
+                  "title": "1. Touch",
+                  "text": "Feel the paper: firm, crisp, with embossing perceptible under the finger."
+                },
+                "regarder": {
+                  "title": "2. Look",
+                  "text": "Observe the watermark by transparency and the front-to-back alignment."
+                },
+                "incliner": {
+                  "title": "3. Tilt",
+                  "text": "Tilt the banknote: the window and the dynamic elements change appearance."
+                },
+                "controler": {
+                  "title": "4. Check",
+                  "text": "Compare with a recognised banknote or hand it to your bank in case of doubt."
+                }
+              }
+            },
+            "enCasDeDoute": {
+              "kicker": "In case of doubt",
+              "title": "What if a doubt remains?",
+              "paragraphs": {
+                "p1": "An isolated doubt does not mean the banknote is counterfeit: it may simply be worn. Verification should always be based on a set of signs, never on a single one.",
+                "p2": "If the doubt persists, do not put the banknote back into circulation. Hand it to a banking institution, which has detection equipment, or report it to the authorities."
+              }
+            },
+            "signaler": {
+              "kicker": "Reporting",
+              "title": "Reporting a suspect banknote",
+              "bullets": {
+                "b1": "Hand the banknote to your bank or to the Central Bank, without trying to pass it.",
+                "b2": "If you believe you are the victim of an attempted fraud, contact the authorities.",
+                "b3": "Do not accept an obviously counterfeit banknote that someone is trying to give you.",
+                "b4": "People who hand in a counterfeit banknote in good faith are not prosecuted."
+              },
+              "notice": "Putting a suspect banknote back into circulation is an offence. Anyone who hands one in in good faith is protected."
+            }
+          }
+        },
+        "emissionsMonetaires": {
+          "meta": {
+            "title": "Monetary issue",
+            "description": "Monetary issue in Astoria: who creates money, in what forms, and what is the role of the Central Bank."
+          },
+          "hero": {
+            "kicker": "Monetary circulation",
+            "title": "Monetary issue",
+            "lead": "Money does not come out of printing works by magic: it is issued, in various forms, by the Central Bank and by commercial banks.",
+            "cta": "Discover the circulation of money"
+          },
+          "sections": {
+            "quiCreeLaMonnaie": {
+              "kicker": "Who creates money",
+              "title": "Who creates money?",
+              "paragraphs": {
+                "p1": "Contrary to a widespread idea, most money is not issued by the Central Bank: it is created by commercial banks when they grant credits. Each loan creates a corresponding deposit: this is monetary creation.",
+                "p2": "This creation is regulated. Banks do not create money without limits: they must respond to credit demand, comply with prudential rules and refinance themselves at the Central Bank, which sets the cost of central bank money."
+              }
+            },
+            "lesFormes": {
+              "kicker": "The forms",
+              "title": "The forms of issue",
+              "lead": "Monetary issue takes three complementary forms.",
+              "cards": {
+                "fiduciaire": {
+                  "title": "Fiduciary money",
+                  "text": "Banknotes, issued by the Central Bank, and coins, struck by the Treasury."
+                },
+                "scripturale": {
+                  "title": "Scriptural money",
+                  "text": "The deposits created by bank credits, at the heart of the economy."
+                },
+                "banqueCentrale": {
+                  "title": "Central bank money",
+                  "text": "The money banks hold in reserve, issued by the BCA."
+                },
+                "electronique": {
+                  "title": "Electronic money",
+                  "text": "Electronic means of payment rely on these same monies."
+                }
+              }
+            },
+            "roleBca": {
+              "kicker": "The BCA",
+              "title": "The role of the Central Bank",
+              "paragraphs": {
+                "p1": "The Central Bank is the issuer of central bank money and the guarantor of the system. It sets the rates at which it provides liquidity to banks, and it ensures that money circulates in good conditions.",
+                "p2": "By steering the cost of refinancing, the BCA acts on the volume of credit, hence on monetary creation, and ultimately on inflation: this is the transmission of monetary policy."
+              },
+              "cta": "Follow monetary policy"
+            }
+          }
+        },
+        "circulationDeLaMonnaie": {
+          "meta": {
+            "title": "The circulation of money",
+            "description": "How money circulates in Astoria: the circuit between households, businesses, banks and the State, cash and scriptural money."
+          },
+          "hero": {
+            "kicker": "Monetary circulation",
+            "title": "The circulation of money",
+            "lead": "Money circulates continuously between households, businesses, banks and the State: understanding this circuit is understanding the economy.",
+            "cta": "Discover monetary issue"
+          },
+          "sections": {
+            "leCircuit": {
+              "kicker": "The circuit",
+              "title": "The circuit of money",
+              "paragraphs": {
+                "p1": "Every actor of the economy receives and spends money: households receive wages and pay for their purchases, businesses sell and invest, the State collects and spends, banks collect and lend.",
+                "p2": "This circuit is permanent: the money deposited by one actor becomes the credit of another, and every expense becomes the income of a third party. This is why the stability of money and credit concerns society as a whole."
+              }
+            },
+            "especesEtScripturale": {
+              "kicker": "Two forms",
+              "title": "Cash and scriptural money",
+              "lead": "Money circulates in two main, complementary forms.",
+              "cards": {
+                "especes": {
+                  "title": "Cash",
+                  "text": "Banknotes and coins pass from hand to hand, without an intermediary: payment is immediate."
+                },
+                "scripturale": {
+                  "title": "Scriptural money",
+                  "text": "Deposited on accounts, it circulates by transfers, direct debits and cards."
+                },
+                "electronique": {
+                  "title": "Electronic means",
+                  "text": "Cards, mobile payments and instant transfers use scriptural money."
+                },
+                "bca": {
+                  "title": "Interbank settlement",
+                  "text": "Balances between banks are settled in central bank money."
+                }
+              }
+            },
+            "vitesse": {
+              "kicker": "Velocity",
+              "title": "The velocity of circulation",
+              "paragraphs": {
+                "p1": "The velocity of circulation measures how many times the same unit of money is used in a given period. It depends on payment habits and confidence in the economy.",
+                "p2": "A high velocity means that money finances many transactions; a low velocity may signal precautionary saving. The Central Bank monitors these trends to assess the monetary health of the Republic."
+              },
+              "cta": "See the monetary statistics"
+            }
+          }
+        },
+        "retraitDesBillets": {
+          "meta": {
+            "title": "The withdrawal of banknotes",
+            "description": "Why and how the Central Bank withdraws banknotes: wear, series renewal, withdrawal periods and exchange."
+          },
+          "hero": {
+            "kicker": "Monetary circulation",
+            "title": "The withdrawal of banknotes",
+            "lead": "Banknotes do not circulate indefinitely: worn, replaced or withdrawn, they leave circulation according to precise rules.",
+            "cta": "Understand the circulation of money"
+          },
+          "sections": {
+            "pourquoiRetirer": {
+              "kicker": "Why",
+              "title": "Why withdraw banknotes?",
+              "paragraphs": {
+                "p1": "A banknote wears out: it gets dirty, folded, torn. Notes that are too damaged are withdrawn by the Central Bank during the sorting of cash to preserve the quality of the currency in circulation.",
+                "p2": "A denomination can also be withdrawn to be replaced by a new, safer or more adapted series. The withdrawal is then announced well in advance."
+              }
+            },
+            "laProcedure": {
+              "kicker": "The procedure",
+              "title": "How does a withdrawal work?",
+              "lead": "The withdrawal of a denomination follows an orderly procedure that protects users.",
+              "bullets": {
+                "b1": "The Central Bank publicly announces the withdrawal and its effective date.",
+                "b2": "During a withdrawal period, the denomination keeps its legal tender power in all payments.",
+                "b3": "Banks continue to accept the denomination and return it to the Central Bank.",
+                "b4": "After the withdrawal period, the denomination can still be exchanged at the Central Bank for a set period.",
+                "b5": "Worn banknotes are replaced free of charge by new notes under the published conditions."
+              }
+            },
+            "echange": {
+              "kicker": "Exchange",
+              "title": "Exchanging a damaged or withdrawn banknote",
+              "paragraphs": {
+                "p1": "Damaged but authentic banknotes can be exchanged. The amount reimbursed depends on the condition of the banknote and the ability to establish its authenticity.",
+                "p2": "Banknotes withdrawn from circulation keep their value during the withdrawal period, then can be exchanged at the Central Bank for the prescribed period. Beyond that, they lose their legal tender power."
+              },
+              "notice": "Keep a withdrawn banknote: it can still be exchanged at the Central Bank within the announced deadlines."
+            }
+          }
+        },
+        "lutteContreLaFausseMonnaie": {
+          "meta": {
+            "title": "The fight against counterfeiting",
+            "description": "The fight against counterfeiting in Astoria: the actors mobilised, the protection of users and what to do when faced with a counterfeit banknote."
+          },
+          "hero": {
+            "kicker": "Monetary circulation",
+            "title": "The fight against counterfeiting",
+            "lead": "Counterfeiting threatens confidence in money. The Central Bank, the banks and the authorities are mobilised to fight it.",
+            "cta": "Learn to authenticate a banknote"
+          },
+          "sections": {
+            "unEnjeuDeConfiance": {
+              "kicker": "The issue",
+              "title": "A matter of confidence",
+              "paragraphs": {
+                "p1": "Counterfeiting is a direct attack on confidence in money: it harms whoever receives it and weakens exchanges. Fighting counterfeiting is therefore an essential mission of the Central Bank.",
+                "p2": "Banknotes are designed with security features that are increasingly hard to imitate, and banks are equipped with detection machines. Every suspect banknote is withdrawn from circulation and analysed."
+              }
+            },
+            "lesActeurs": {
+              "kicker": "The actors",
+              "title": "Who fights counterfeiting?",
+              "lead": "The fight involves several complementary actors.",
+              "cards": {
+                "bca": {
+                  "title": "The Central Bank",
+                  "text": "It designs the banknotes, trains professionals and analyses counterfeits."
+                },
+                "banques": {
+                  "title": "The banks",
+                  "text": "They detect suspect banknotes and confiscate them for the benefit of the BCA."
+                },
+                "forces": {
+                  "title": "The authorities",
+                  "text": "They investigate counterfeiting networks and prosecute their authors."
+                },
+                "public": {
+                  "title": "The public",
+                  "text": "Everyone can help by learning to check banknotes and by reporting."
+                }
+              }
+            },
+            "queFaire": {
+              "kicker": "What to do?",
+              "title": "What to do with a counterfeit banknote?",
+              "bullets": {
+                "b1": "Do not put it back into circulation: it is an offence.",
+                "b2": "Hand it to your bank or to the authorities.",
+                "b3": "Note, if possible, the circumstances of its receipt (date, place, person).",
+                "b4": "Anyone who hands in a counterfeit banknote in good faith is protected."
+              },
+              "notice": "Voluntarily handing in a suspect banknote carries no prosecution when done in good faith."
+            }
+          }
+        },
+        "statistiquesMonetaires": {
+          "meta": {
+            "title": "Monetary statistics",
+            "description": "The monetary statistics of the Central Bank of Astoria: the series published, the release calendar and the methods."
+          },
+          "hero": {
+            "kicker": "Monetary data",
+            "title": "Monetary statistics",
+            "lead": "The Central Bank publishes regular, comparable monetary statistics, accompanied by their methods.",
+            "cta": "Discover the monetary aggregates"
+          },
+          "sections": {
+            "lesSeries": {
+              "kicker": "The series",
+              "title": "The series published",
+              "lead": "A core set of monetary series is published on a regular basis.",
+              "cards": {
+                "masse": {
+                  "title": "The money supply",
+                  "text": "M1, M2 and M3, published each month."
+                },
+                "fiduciaire": {
+                  "title": "Cash in circulation",
+                  "text": "Banknotes and coins in circulation, by denomination."
+                },
+                "credit": {
+                  "title": "Credit",
+                  "text": "Credit to households and businesses, sector by sector."
+                },
+                "taux": {
+                  "title": "The rates",
+                  "text": "The key rates and the money market rates."
+                }
+              }
+            },
+            "calendrier": {
+              "kicker": "The calendar",
+              "title": "The release calendar",
+              "lead": "The statistics are released on an announced calendar, without surprises.",
+              "table": {
+                "caption": "Indicative release calendar",
+                "headers": {
+                  "0": "Series",
+                  "1": "Frequency",
+                  "2": "Release lag"
+                },
+                "rows": {
+                  "0": {
+                    "0": "Money supply (M1-M3)",
+                    "1": "Monthly",
+                    "2": "30 days"
+                  },
+                  "1": {
+                    "0": "Cash in circulation",
+                    "1": "Monthly",
+                    "2": "30 days"
+                  },
+                  "2": {
+                    "0": "Credit to the private sector",
+                    "1": "Monthly",
+                    "2": "45 days"
+                  },
+                  "3": {
+                    "0": "Key rates",
+                    "1": "After each decision",
+                    "2": "Immediate"
+                  }
+                },
+                "note": "Demonstration calendar, pending the publication of the official series."
+              }
+            },
+            "methodes": {
+              "kicker": "The methods",
+              "title": "Methods and definitions",
+              "paragraphs": {
+                "p1": "The monetary statistics follow precise definitions, in line with statistical information standards. Each aggregate is documented: components, scope, adjustments.",
+                "p2": "The series are revised on a fixed calendar, and each revision is signalled. This rigour guarantees the comparability of the data over time."
+              },
+              "notice": "The data published on this page are demonstration data. The official series will be connected to the Central Bank data source."
+            }
+          }
+        },
+        "agregatsMonetaires": {
+          "meta": {
+            "title": "Monetary aggregates",
+            "description": "The Astorian monetary aggregates, from M0 to M3: definition, components, outstanding amounts and what they measure."
+          },
+          "hero": {
+            "kicker": "Monetary data",
+            "title": "Monetary aggregates",
+            "lead": "To measure the quantity of money, the Central Bank builds increasingly broad aggregates, from the most liquid to the most saved.",
+            "cta": "Explore the monetary outstanding amounts"
+          },
+          "sections": {
+            "deM0aM3": {
+              "kicker": "From M0 to M3",
+              "title": "The aggregates, from the narrowest to the broadest",
+              "lead": "Each aggregate groups assets according to their degree of liquidity.",
+              "table": {
+                "caption": "The Astorian monetary aggregates",
+                "headers": {
+                  "0": "Aggregate",
+                  "1": "Components",
+                  "2": "Outstanding"
+                },
+                "rows": {
+                  "0": {
+                    "0": "M0",
+                    "1": "Central bank money (banknotes, coins, reserves)",
+                    "2": "320 Bn"
+                  },
+                  "1": {
+                    "0": "M1",
+                    "1": "M0 + sight deposits of households and businesses",
+                    "2": "2 100 Bn"
+                  },
+                  "2": {
+                    "0": "M2",
+                    "1": "M1 + short-term savings deposits",
+                    "2": "3 920 Bn"
+                  },
+                  "3": {
+                    "0": "M3",
+                    "1": "M2 + debt securities and money market fund shares",
+                    "2": "4 210 Bn"
+                  }
+                },
+                "note": "Demonstration data."
+              }
+            },
+            "commentLesLire": {
+              "kicker": "Reading",
+              "title": "How to read the aggregates",
+              "paragraphs": {
+                "p1": "The narrower an aggregate, the more liquid the assets it groups: M1 is immediately available for payment, M3 includes less liquid investments that are still close to money.",
+                "p2": "The reference aggregate is M3: it measures the broad money supply, that is, everything that can be used to pay or be quickly converted into means of payment."
+              }
+            },
+            "pourquoiLesSuivre": {
+              "kicker": "Why",
+              "title": "Why follow the aggregates?",
+              "cards": {
+                "inflation": {
+                  "title": "Anticipating inflation",
+                  "text": "Rapid monetary creation can herald price pressures."
+                },
+                "credit": {
+                  "title": "Observing credit",
+                  "text": "The aggregates reflect the credit activity of banks."
+                },
+                "politique": {
+                  "title": "Informing policy",
+                  "text": "The Central Bank relies on these series for its decisions."
+                },
+                "comparer": {
+                  "title": "Comparing",
+                  "text": "Stable definitions make the data comparable over time."
+                }
+              }
+            }
+          }
+        },
+        "encoursMonetaires": {
+          "meta": {
+            "title": "Monetary outstanding amounts",
+            "description": "The monetary outstanding amounts of the Central Bank of Astoria: the amounts in circulation, their evolution and how to read them."
+          },
+          "hero": {
+            "kicker": "Monetary data",
+            "title": "Monetary outstanding amounts",
+            "lead": "An outstanding amount measures the stock of money or credit held at a given moment. Here are the main outstanding amounts of the Astorian system.",
+            "cta": "Discover the monetary aggregates"
+          },
+          "sections": {
+            "enChiffres": {
+              "kicker": "In figures",
+              "title": "The outstanding amounts to remember",
+              "cards": {
+                "masse": {
+                  "title": "Money supply (M3)",
+                  "text": "4 210 Bn — the total stock of money in the broad sense."
+                },
+                "fiduciaire": {
+                  "title": "Cash in circulation",
+                  "text": "310 Bn — banknotes and coins in wallets and tills."
+                },
+                "credit": {
+                  "title": "Credit to the private sector",
+                  "text": "3 240 Bn — loans from banks to households and businesses."
+                },
+                "reserves": {
+                  "title": "Required reserves",
+                  "text": "38 Bn — the share of deposits held at the BCA."
+                }
+              }
+            },
+            "evolution": {
+              "kicker": "Evolution",
+              "title": "The evolution of the outstanding amounts",
+              "table": {
+                "caption": "Indicative evolution of the main outstanding amounts",
+                "headers": {
+                  "0": "Year",
+                  "1": "M3",
+                  "2": "Cash",
+                  "3": "Private credit"
+                },
+                "rows": {
+                  "0": {
+                    "0": "2022",
+                    "1": "3 810 Bn",
+                    "2": "298 Bn",
+                    "3": "2 940 Bn"
+                  },
+                  "1": {
+                    "0": "2023",
+                    "1": "3 960 Bn",
+                    "2": "304 Bn",
+                    "3": "3 050 Bn"
+                  },
+                  "2": {
+                    "0": "2024",
+                    "1": "4 080 Bn",
+                    "2": "309 Bn",
+                    "3": "3 150 Bn"
+                  },
+                  "3": {
+                    "0": "2025",
+                    "1": "4 210 Bn",
+                    "2": "310 Bn",
+                    "3": "3 240 Bn"
+                  }
+                },
+                "note": "Demonstration data."
+              }
+            },
+            "lireUnEncours": {
+              "kicker": "Understanding",
+              "title": "Understanding an outstanding amount",
+              "paragraphs": {
+                "p1": "An outstanding amount is a snapshot: it indicates the amount held on a given date, without saying how it evolves. It is the flow — the net monetary creation of the period — that informs about the dynamics.",
+                "p2": "Outstanding amounts are therefore read alongside flows and ratios: annual growth of M3, share of cash, credit-to-deposit ratio. It is the combination of these measures that gives a complete picture."
+              },
+              "cta": "See the monetary statistics"
+            }
+          }
+        },
+        "publicationsMonetaires": {
+          "meta": {
+            "title": "Monetary publications",
+            "description": "The monetary publications of the Central Bank of Astoria: reports, data series, methods and open data."
+          },
+          "hero": {
+            "kicker": "Monetary data",
+            "title": "Monetary publications",
+            "lead": "The Central Bank documents money: reports, data series, methods and open datasets.",
+            "cta": "See the monetary statistics"
+          },
+          "sections": {
+            "lesPublications": {
+              "kicker": "The publications",
+              "title": "What the Central Bank publishes",
+              "lead": "A core set of regular publications accompanies the monetary data.",
+              "cards": {
+                "rapports": {
+                  "title": "The reports",
+                  "text": "Annual report and thematic reports on money."
+                },
+                "series": {
+                  "title": "The series",
+                  "text": "Downloadable monetary statistics, including historical series."
+                },
+                "methodes": {
+                  "title": "The methods",
+                  "text": "Definitions, scope and adjustments of each aggregate."
+                },
+                "ouvertes": {
+                  "title": "Open data",
+                  "text": "Datasets reusable by everyone, under an open licence."
+                }
+              }
+            },
+            "calendrier": {
+              "kicker": "The calendar",
+              "title": "The publications calendar",
+              "table": {
+                "caption": "Indicative calendar of monetary publications",
+                "headers": {
+                  "0": "Publication",
+                  "1": "Frequency",
+                  "2": "Next release"
+                },
+                "rows": {
+                  "0": {
+                    "0": "Monthly statistics",
+                    "1": "Monthly",
+                    "2": "First half of the month"
+                  },
+                  "1": {
+                    "0": "Report on money",
+                    "1": "Annual",
+                    "2": "First quarter"
+                  },
+                  "2": {
+                    "0": "Methods and definitions",
+                    "1": "Annual revision",
+                    "2": "Beginning of the year"
+                  },
+                  "3": {
+                    "0": "Open data",
+                    "1": "Continuous",
+                    "2": "Continuous release"
+                  }
+                },
+                "note": "Demonstration calendar."
+              }
+            },
+            "acceder": {
+              "kicker": "Accessing",
+              "title": "Accessing the data",
+              "paragraphs": {
+                "p1": "The publications are freely accessible on the Central Bank portal. The downloadable series are accompanied by their metadata, so that everyone can reuse them rigorously.",
+                "p2": "In time, the monetary data will also be made available as open data, so that researchers, businesses and citizens can freely make use of them."
+              },
+              "notice": "The series published on this page are demonstration data. The official datasets will be made available by the Central Bank."
+            }
+          }
+        }
+      }
+    }
+  },
   "nav": {
     "primary": {
       "monnaie": "Currency",
