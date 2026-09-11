@@ -1,114 +1,216 @@
-import { sectionPaths } from "@/lib/site-structure";
+import { platformPath, sectionPaths } from "@/lib/site-structure";
 
 /**
- * Content configuration of the BCE home page.
+ * Content configuration of the homepage of the Banque centrale d'Astoria.
  *
- * Every section of the homepage is driven by this configuration and the
- * message catalogs — the same pattern as the other Astoria portals — so the
- * content can evolve without rewriting the interface. Paths reuse the URL plan
- * of `site-structure` (`sectionPaths`) so the header, footer and homepage never
- * drift apart.
+ * The homepage is the digital front door of the central bank. It is organised
+ * around ten sections with a clear editorial hierarchy:
  *
- * The indicators, the monetary-policy decision and the publication list below
- * are *structural placeholders*: they define the interface, not final figures.
- * The values are deliberately fictive and marked as such; when the BCA API
- * ships, these arrays become the seam where server data plugs in.
+ *   Niveau 1 — Introduction, Situation monétaire, Politique monétaire
+ *   Niveau 2 — La monnaie astorienne, Système bancaire, Paiements, Données
+ *   Niveau 3 — Publications et calendrier, Services
+ *   Niveau 4 — La Banque centrale
+ *
+ * Every section is driven by this configuration and the message catalogs
+ * (`apps/messages/{fr,en}.json`, namespace `home`), the same pattern as the
+ * Monnaie theme pages: the structure (keys, hrefs, icons, figures) lives here,
+ * every display string lives in the catalogs. Paths reuse the URL plan of
+ * `site-structure` (`sectionPaths`, `platformPath`) so the header, footer and
+ * homepage never drift apart.
+ *
+ * The figures, dates and statuses below are *structural placeholders*: they
+ * define the interface, not final official figures, and are marked as such in
+ * the copy. When the BCA data API ships, these arrays become the seam where
+ * server data plugs in (`/api/monetary/indicators`, `/api/monetary/policy`,
+ * `/api/payments/status`, `/api/banking/statistics`, …) — no fake API is
+ * created here.
  */
 
-const DECISION_PATH = `${sectionPaths.politiqueMonetaire}/decisions`;
-const RATES_PATH = `${sectionPaths.politiqueMonetaire}/taux-directeurs`;
-const STATS_PATH = `${sectionPaths.monnaie}/donnees-monetaires`;
+const MONNAIE = sectionPaths.monnaie;
+const POLITIQUE = sectionPaths.politiqueMonetaire;
+const BANQUES = sectionPaths.banques;
+const MARCHES = sectionPaths.marchesFinanciers;
+const PAIEMENTS = sectionPaths.paiements;
+const SYSTEME = sectionPaths.systemeFinancier;
+const INSTITUTION = sectionPaths.banqueCentrale;
+
+const DECISIONS_PATH = `${POLITIQUE}/decisions`;
+const COMMUNIQUES_PATH = `${POLITIQUE}/decisions/communiques`;
+const CALENDAR_PATH = `${POLITIQUE}/decisions/calendrier-des-decisions`;
+const RATES_PATH = `${POLITIQUE}/taux-directeurs`;
+const STATS_PATH = `${MONNAIE}/donnees-monetaires`;
+const FINANCIAL_STATS_PATH = `${MARCHES}/donnees-et-statistiques`;
 
 export const homeContent = {
-  /** Key of the “recent monetary-policy decision” highlight. */
-  decision: {
-    href: DECISION_PATH,
-    rateValue: "2,50 %",
-    /** `home.decision.items.<key>.*` message keys. */
-    keys: ["taux", "date", "prochaine"] as const,
+  /**
+   * Section 01 — Introduction institutionnelle. Two priority access: the
+   * monetary-policy decisions and the data, data being what the BCA produces
+   * and publishes.
+   */
+  hero: {
+    ctaDecisions: { href: DECISIONS_PATH },
+    ctaData: { href: STATS_PATH },
   },
   /**
-   * Key monetary & financial indicators shown on the home page.
-   * `value` is a structural placeholder (fictive); `href` resolves the detail
-   * section. `labelKey` reuses the `home.indicators.items.<key>` labels.
+   * Section 02 — Situation monétaire. Key monetary indicators in a single
+   * legible band, with the reference date. `value` is a structural
+   * placeholder; `href` resolves the detail section.
    */
-  indicators: [
-    { key: "tauxDirecteur", value: "2,50 %", href: RATES_PATH },
-    { key: "inflation", value: "1,8 %", href: STATS_PATH },
-    { key: "reserves", value: "132 Md", href: `${sectionPaths.systemeFinancier}/reserves` },
-    { key: "masseMonetaire", value: "4 210 Md", href: STATS_PATH },
-    { key: "tauxDeChange", value: "1,000", href: STATS_PATH },
-    { key: "systemesDePaiement", value: "Opérationnels", href: sectionPaths.paiements },
-  ] as const,
+  situation: {
+    primary: [
+      { key: "tauxDirecteur", value: "2,50 %", href: RATES_PATH },
+      { key: "inflation", value: "1,8 %", href: STATS_PATH },
+      { key: "reserves", value: "132 Md", href: `${SYSTEME}/reserves` },
+      { key: "masseMonetaire", value: "4 210 Md", href: STATS_PATH },
+    ],
+    secondary: [
+      { key: "circulationMonetaire", value: "38,2 Md", href: `${MONNAIE}/circulation-monetaire` },
+      { key: "tauxDeChange", value: "1,000", href: STATS_PATH },
+    ],
+    cta: { href: STATS_PATH },
+  },
   /**
-   * The main missions of the BCA. `labelKey`/`descKey` reuse the header panel
-   * vocabulary (`nav.panel.<section>.title` / `.text`) so the homepage speaks
-   * the same language as the navigation.
+   * Section 03 — Politique monétaire. The last decision of the Monetary
+   * Policy Council: current rate, previous rate, decision date and next
+   * meeting. `rateValue` is a structural placeholder; the item details are
+   * localized in the catalogs (`home.decision.items.<key>.*`).
    */
-  missions: [
-    { key: "monnaie", section: "monnaie", href: sectionPaths.monnaie },
-    { key: "politiqueMonetaire", section: "politiqueMonetaire", href: sectionPaths.politiqueMonetaire },
-    { key: "banques", section: "banques", href: sectionPaths.banques },
-    { key: "paiements", section: "paiements", href: sectionPaths.paiements },
-    { key: "systemeFinancier", section: "systemeFinancier", href: sectionPaths.systemeFinancier },
-    { key: "marchesFinanciers", section: "marchesFinanciers", href: sectionPaths.marchesFinanciers },
-  ] as const,
+  decision: {
+    rateValue: "2,50 %",
+    /** `home.decision.items.<key>.*` message keys. */
+    items: ["date", "precedent", "prochaine"] as const,
+    ctaCommunique: { href: COMMUNIQUES_PATH },
+    ctaDocuments: { href: DECISIONS_PATH },
+  },
   /**
-   * Professional services of the BCA — the operational interface, kept
-   * distinct from the six editorial subjects. Labels come from
-   * `home.services.items.<key>.*`.
+   * Section 04 — La monnaie astorienne. Editorial transition between the
+   * indicators and the understanding of the monetary system.
+   */
+  monnaie: {
+    /** `home.monnaie.essentials.<key>.*` message keys. */
+    essentials: [
+      { key: "unite", iconId: "fr-icon-money-euro-circle-line" },
+      { key: "emission", iconId: "fr-icon-printer-line" },
+      { key: "billets", iconId: "fr-icon-bank-card-line" },
+      { key: "pieces", iconId: "fr-icon-coin-line" },
+      { key: "circulation", iconId: "fr-icon-refresh-line" },
+      { key: "principes", iconId: "fr-icon-lock-line" },
+    ] as const,
+    cta: { href: `${MONNAIE}/la-monnaie-astorienne` },
+  },
+  /**
+   * Section 05 — Système bancaire. The BCA as the bank of banks: figures of
+   * the banking system and access to the supervision, regulation and
+   * stability destinations.
+   */
+  banques: {
+    figures: [
+      { key: "etablissements", value: "38", href: `${BANQUES}/etablissements-bancaires` },
+      { key: "liquidite", value: "1 240 Md", href: `${SYSTEME}/liquidite` },
+      { key: "reserves", value: "132 Md", href: `${SYSTEME}/reserves` },
+      { key: "stabilite", value: "Stable", href: `${MARCHES}/stabilite-financiere` },
+    ] as const,
+    links: [
+      { key: "etablissements", href: `${BANQUES}/etablissements-bancaires` },
+      { key: "agrements", href: `${BANQUES}/agrements-et-licences` },
+      { key: "reglementation", href: `${BANQUES}/reglementation-bancaire` },
+      { key: "liquidite", href: `${SYSTEME}/liquidite` },
+      { key: "stabilite", href: `${MARCHES}/stabilite-financiere` },
+    ] as const,
+  },
+  /**
+   * Section 06 — Paiements. The BCA as operator and guarantor of the payment
+   * and settlement infrastructures.
+   */
+  paiements: {
+    items: [
+      { key: "systemes", iconId: "fr-icon-refresh-line", href: `${PAIEMENTS}/systemes-de-paiement` },
+      { key: "interbancaire", iconId: "fr-icon-bank-line", href: `${PAIEMENTS}/paiements-interbancaires` },
+      { key: "reglement", iconId: "fr-icon-checkbox-circle-line", href: `${PAIEMENTS}/reglement` },
+      { key: "infrastructures", iconId: "fr-icon-line-chart-line", href: `${SYSTEME}/infrastructure-financiere` },
+      { key: "innovation", iconId: "fr-icon-lightbulb-line", href: `${PAIEMENTS}/innovation-financiere` },
+    ] as const,
+  },
+  /**
+   * Section 07 — Données et statistiques. Series table (`value`, `variation`
+   * are structural placeholders) and access to the data destinations.
+   */
+  donnees: {
+    series: [
+      { key: "tauxDirecteur", value: "2,50 %", variation: "—" },
+      { key: "inflation", value: "1,8 %", variation: "−0,2 pt" },
+      { key: "masseMonetaire", value: "4 210 Md", variation: "+0,6 %" },
+      { key: "reserves", value: "132 Md", variation: "+2,1 %" },
+      { key: "circulation", value: "38,2 Md", variation: "+1,4 %" },
+    ] as const,
+    links: [
+      { key: "donneesMonetaires", href: STATS_PATH },
+      { key: "statistiquesFinancieres", href: FINANCIAL_STATS_PATH },
+      { key: "seriesTemporelles", href: `${MONNAIE}/donnees-monetaires/statistiques-monetaires` },
+      { key: "telechargements", href: `${MONNAIE}/donnees-monetaires/encours-monetaires` },
+      { key: "api", href: `${MONNAIE}/donnees-monetaires/publications` },
+    ] as const,
+  },
+  /**
+   * Section 08 — Publications et calendrier. Official publications and the
+   * institutional calendar — not a news feed.
+   */
+  publications: {
+    items: [
+      { key: "decision", href: DECISIONS_PATH },
+      { key: "stabilite", href: `${MARCHES}/stabilite-financiere` },
+      { key: "bulletin", href: `${POLITIQUE}/publications` },
+      { key: "statistiques", href: STATS_PATH },
+      { key: "rapports", href: `${INSTITUTION}/presentation` },
+    ] as const,
+    calendar: [
+      { key: "decision", href: CALENDAR_PATH },
+      { key: "publication", href: `${POLITIQUE}/publications` },
+      { key: "statistiques", href: STATS_PATH },
+      { key: "evenement", href: `${INSTITUTION}/gouvernance` },
+    ] as const,
+    allLink: { href: `${POLITIQUE}/publications` },
+  },
+  /**
+   * Section 09 — Services de la Banque centrale. The operational platform of
+   * the bank (financial institutions, State banking, payment systems, data &
+   * APIs), distinct from the seven editorial entries of the header.
    */
   services: [
     {
-      key: "banqueEtat",
-      href: "/services/banque-de-l-etat",
-      iconId: "fr-icon-bank-line",
-    },
-    {
       key: "etablissementsFinanciers",
-      href: "/services/etablissements-financiers",
+      href: `${platformPath}/etablissements-financiers`,
       iconId: "fr-icon-building-line",
     },
     {
+      key: "banqueEtat",
+      href: `${platformPath}/banque-de-l-etat`,
+      iconId: "fr-icon-bank-line",
+    },
+    {
       key: "systemePaiement",
-      href: "/services/systeme-de-paiement",
+      href: `${platformPath}/systeme-de-paiement`,
       iconId: "fr-icon-refresh-line",
     },
     {
       key: "donneesApi",
-      href: "/donnees-et-ressources",
+      href: FINANCIAL_STATS_PATH,
       iconId: "fr-icon-database-line",
     },
   ] as const,
   /**
-   * Latest institutional publications. `labelKey`/`tagKey`/`dateKey` resolve
-   * under `home.publications.items.<key>.*`; `href` points to the target
-   * section (routes being published).
+   * Section 10 — La Banque centrale. Institutional closing, coherent with the
+   * “La Banque centrale” entry of the header.
    */
-  publications: {
-    featured: {
-      titleKey: "publications.featured.title",
-      textKey: "publications.featured.text",
-      tagKey: "publications.featured.tag",
-      dateKey: "publications.featured.date",
-      href: DECISION_PATH,
-    },
-    secondary: [
-      { titleKey: "publications.communique.title", tagKey: "publications.communique.tag", dateKey: "publications.communique.date", href: `${sectionPaths.politiqueMonetaire}/publications` },
-      { titleKey: "publications.rapport.title", tagKey: "publications.rapport.tag", dateKey: "publications.rapport.date", href: `${sectionPaths.marchesFinanciers}/stabilite-financiere` },
-      { titleKey: "publications.statistiques.title", tagKey: "publications.statistiques.tag", dateKey: "publications.statistiques.date", href: STATS_PATH },
+  institution: {
+    cta: { href: INSTITUTION },
+    links: [
+      { key: "missions", href: `${INSTITUTION}/presentation/missions` },
+      { key: "gouvernance", href: `${INSTITUTION}/gouvernance` },
+      { key: "organisation", href: `${INSTITUTION}/organisation` },
+      { key: "independance", href: `${INSTITUTION}/presentation/independance` },
+      { key: "transparence", href: `${INSTITUTION}/gouvernance/transparence` },
+      { key: "carrieres", href: `${INSTITUTION}/carrieres` },
     ] as const,
   },
-  /**
-   * The institution — closing section coherent with the “La Banque centrale”
-   * header entry.
-   */
-  institution: [
-    { key: "presentation", href: `${sectionPaths.banqueCentrale}/presentation` },
-    { key: "gouvernance", href: `${sectionPaths.banqueCentrale}/gouvernance` },
-    { key: "organisation", href: `${sectionPaths.banqueCentrale}/organisation` },
-    { key: "carrieres", href: `${sectionPaths.banqueCentrale}/carrieres` },
-    { key: "transparence", href: `${sectionPaths.banqueCentrale}/gouvernance/transparence` },
-    { key: "contact", href: "/contact" },
-  ] as const,
 } as const;

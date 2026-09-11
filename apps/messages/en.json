@@ -31,37 +31,18 @@
   "home": {
     "metaTitle": "Central Bank of Astoria",
     "hero": {
-      "kicker": "Official portal",
-      "title": "Astoria's currency, monetary policy and financial stability",
-      "lead": "The Central Bank of Astoria issues the national currency, conducts monetary policy, safeguards financial stability and operates the Republic's payment system.",
-      "cta": "Discover the Central Bank"
+      "kicker": "Central Bank of Astoria",
+      "title": "Monetary and financial stability in the service of the Republic",
+      "lead": "The Central Bank of Astoria issues the national currency, conducts monetary policy, safeguards financial stability and operates the Republic's payment system. Find here the monetary situation, the latest decisions and official data.",
+      "ctaDecisions": "Monetary policy decisions",
+      "ctaData": "Data and statistics"
     },
-    "decision": {
-      "kicker": "Monetary policy",
-      "title": "Monetary policy decision",
-      "lead": "Follow the latest decisions of the Monetary Policy Council and changes in key rates.",
-      "status": "Latest decision — Key rate",
-      "items": {
-        "taux": {
-          "label": "Key rate",
-          "value": "2.50%"
-        },
-        "date": {
-          "label": "Decision date",
-          "value": "15 September 2026"
-        },
-        "prochaine": {
-          "label": "Next meeting",
-          "value": "October 2026"
-        }
-      },
-      "cta": "Read the full decision"
-    },
-    "indicators": {
-      "kicker": "Indicators",
-      "title": "Money and finance in figures",
-      "lead": "The main monetary and financial indicators of the Astorian system, updated to the latest monetary policy decision.",
-      "exploreLink": "See all indicators",
+    "situation": {
+      "kicker": "Monetary situation",
+      "title": "Monetary situation",
+      "lead": "The key currency and monetary policy indicators, updated to the latest Council decision.",
+      "updatedLabel": "Data updated on",
+      "updated": "15 September 2026",
       "items": {
         "tauxDirecteur": {
           "label": "Key rate"
@@ -75,81 +56,270 @@
         "masseMonetaire": {
           "label": "Money supply (M3)"
         },
+        "circulationMonetaire": {
+          "label": "Currency in circulation"
+        },
         "tauxDeChange": {
           "label": "Exchange rate"
-        },
-        "systemesDePaiement": {
-          "label": "Status of payment systems"
         }
       },
-      "note": "Figures are indicative reference values — final data is published in the Monetary data section."
+      "note": "Indicative reference values. Final data is published in the Monetary data section.",
+      "exploreLink": "See the monetary data"
     },
-    "missions": {
-      "kicker": "Missions",
-      "title": "The responsibilities of the Central Bank",
-      "lead": "The Central Bank of Astoria carries out six fundamental missions in the service of the Republic."
-    },
-    "services": {
-      "kicker": "Professional services",
-      "title": "Central Bank services",
-      "lead": "The CBA's operational platform for financial institutions, the State and payment system operators.",
+    "decision": {
+      "kicker": "Monetary policy",
+      "title": "Latest Council decision",
+      "lead": "The Monetary Policy Council kept the key rate at 2.50%. Inflation remains on a path consistent with the 2% target over the medium term.",
+      "status": "Latest decision",
+      "action": "Key rate held at 2.50%",
       "items": {
-        "banqueEtat": {
-          "title": "State banking",
-          "desc": "Management of the Republic's accounts, treasury and financial operations."
+        "date": {
+          "label": "Decision of",
+          "value": "15 September 2026"
         },
-        "etablissementsFinanciers": {
-          "title": "Financial institutions",
-          "desc": "Authorisations, licences, prudential obligations and relations with the CBA."
+        "precedent": {
+          "label": "Previous rate",
+          "value": "2.50%"
         },
-        "systemePaiement": {
-          "title": "Payment systems",
-          "desc": "Infrastructures, interbank settlement and national payment systems."
+        "prochaine": {
+          "label": "Next decision",
+          "value": "October 2026"
+        }
+      },
+      "ctaCommunique": "Read the press release",
+      "ctaDocuments": "Related documents"
+    },
+    "monnaie": {
+      "kicker": "The currency",
+      "title": "The Astorian currency",
+      "lead": "The Astorian euro is the Republic's official currency. The Central Bank holds the sole right of issue and guarantees its value and use throughout the economy.",
+      "paragraph": "Issued by the Central Bank of Astoria, the Astorian currency circulates as banknotes and coins and serves as legal tender and the unit of account throughout the Republic. Its creation is strictly governed: it supports economic activity and price stability, in line with the institution's monetary principles.",
+      "essentialsTitle": "Key facts",
+      "essentials": {
+        "unite": {
+          "title": "The monetary unit",
+          "text": "The Astorian euro, divided into cents, is the Republic's official unit of account."
         },
-        "donneesApi": {
-          "title": "Data and APIs",
-          "desc": "Public data, statistics, time series and developer interfaces."
+        "emission": {
+          "title": "Sole right of issue",
+          "text": "The CBA alone is authorised to issue banknotes and mint coins."
+        },
+        "billets": {
+          "title": "Banknotes",
+          "text": "Seven denominations with modern, verifiable security features."
+        },
+        "pieces": {
+          "title": "Coins",
+          "text": "Circulation coins minted for everyday exchanges."
+        },
+        "circulation": {
+          "title": "Circulation",
+          "text": "Issuance, withdrawal and replacement of worn banknotes."
+        },
+        "principes": {
+          "title": "Monetary principles",
+          "text": "Legal tender, confidence and monetary stability."
+        }
+      },
+      "cta": "Discover the Astorian currency"
+    },
+    "banques": {
+      "kicker": "Banking system",
+      "title": "The Central Bank, bank of banks",
+      "lead": "The CBA authorises credit institutions, provides them with liquidity and safeguards the stability of the Republic's banking system.",
+      "items": {
+        "etablissements": {
+          "label": "Authorised institutions"
+        },
+        "liquidite": {
+          "label": "System liquidity"
+        },
+        "reserves": {
+          "label": "Reserves"
+        },
+        "stabilite": {
+          "label": "Financial stability"
+        }
+      },
+      "linksTitle": "Learn more",
+      "links": {
+        "etablissements": {
+          "label": "Credit institutions"
+        },
+        "agrements": {
+          "label": "Authorisations and licences"
+        },
+        "reglementation": {
+          "label": "Banking regulation"
+        },
+        "liquidite": {
+          "label": "System liquidity"
+        },
+        "stabilite": {
+          "label": "Financial stability"
         }
       }
     },
+    "paiements": {
+      "kicker": "Payments",
+      "title": "Payment infrastructures serving the economy",
+      "lead": "The Central Bank operates and oversees the payment and settlement systems that ensure the circulation of money in the economy.",
+      "statusLabel": "Payment systems",
+      "statusValue": "Operational",
+      "items": {
+        "systemes": {
+          "title": "Payment systems",
+          "desc": "National payment systems and how they work."
+        },
+        "interbancaire": {
+          "title": "Interbank payments",
+          "desc": "Clearing and settlement of transactions between banks."
+        },
+        "reglement": {
+          "title": "Settlement",
+          "desc": "Final settlement of transactions in central bank money."
+        },
+        "infrastructures": {
+          "title": "Financial infrastructures",
+          "desc": "Critical market infrastructures and business continuity."
+        },
+        "innovation": {
+          "title": "Financial innovation",
+          "desc": "Standards, digital currency and new payment methods."
+        }
+      }
+    },
+    "donnees": {
+      "kicker": "Data and statistics",
+      "title": "The Republic's official data",
+      "lead": "Monetary and financial series, aggregates, outstanding amounts and indicators published by the Central Bank.",
+      "linksTitle": "Access the data",
+      "tableCaption": "Key monetary and financial indicators",
+      "tableNote": "Indicative reference values. Full series are available in the Monetary data section.",
+      "headers": [
+        "Indicator",
+        "Value",
+        "Change"
+      ],
+      "rows": {
+        "tauxDirecteur": {
+          "label": "Key rate"
+        },
+        "inflation": {
+          "label": "Inflation (CPI)"
+        },
+        "masseMonetaire": {
+          "label": "Money supply (M3)"
+        },
+        "reserves": {
+          "label": "Foreign exchange reserves"
+        },
+        "circulation": {
+          "label": "Currency in circulation"
+        }
+      },
+      "links": {
+        "donneesMonetaires": {
+          "label": "Monetary data"
+        },
+        "statistiquesFinancieres": {
+          "label": "Financial statistics"
+        },
+        "seriesTemporelles": {
+          "label": "Time series"
+        },
+        "telechargements": {
+          "label": "Downloads"
+        },
+        "api": {
+          "label": "Data API"
+        }
+      },
+      "exploreLink": "Explore the data"
+    },
     "publications": {
       "kicker": "Publications",
-      "title": "News and publications",
-      "lead": "Latest decisions, press releases, reports and statistics from the Central Bank.",
-      "allLink": "All publications",
-      "featured": {
-        "title": "The Monetary Policy Council keeps the key rate at 2.50%",
-        "text": "The Central Bank of Astoria has decided to keep its key rate unchanged at its latest meeting. Inflation remains within the target range.",
-        "tag": "Decision",
-        "date": "15 September 2026"
+      "title": "Publications and institutional calendar",
+      "lead": "The Central Bank's official publications and upcoming dates.",
+      "publicationsTitle": "Publications",
+      "items": {
+        "decision": {
+          "title": "Monetary policy decisions",
+          "date": "15 September 2026"
+        },
+        "stabilite": {
+          "title": "Financial stability report",
+          "date": "September 2026"
+        },
+        "bulletin": {
+          "title": "Economic bulletin",
+          "date": "September 2026"
+        },
+        "statistiques": {
+          "title": "Monetary statistics",
+          "date": "August 2026"
+        },
+        "rapports": {
+          "title": "Institutional reports",
+          "date": "2026"
+        }
       },
-      "communique": {
-        "title": "Central Bank statement on liquidity conditions",
-        "tag": "Press release",
-        "date": "10 September 2026"
+      "calendarTitle": "Calendar",
+      "calendar": {
+        "decision": {
+          "label": "Next monetary policy decision",
+          "date": "October 2026"
+        },
+        "publication": {
+          "label": "Next economic bulletin",
+          "date": "October 2026"
+        },
+        "statistiques": {
+          "label": "Next statistics release",
+          "date": "September 2026"
+        },
+        "evenement": {
+          "label": "Monetary Policy Council meeting",
+          "date": "October 2026"
+        }
       },
-      "rapport": {
-        "title": "Financial stability report — September 2026",
-        "tag": "Report",
-        "date": "8 September 2026"
-      },
-      "statistiques": {
-        "title": "Publication of monetary aggregates — August 2026",
-        "tag": "Statistics",
-        "date": "5 September 2026"
+      "allLink": "All publications"
+    },
+    "services": {
+      "kicker": "Services",
+      "title": "Working with the Central Bank",
+      "lead": "The CBA's operational platform for financial institutions, the State and payment system operators.",
+      "items": {
+        "etablissementsFinanciers": {
+          "title": "Financial institutions",
+          "desc": "Authorisations, regulation, obligations and access to infrastructures."
+        },
+        "banqueEtat": {
+          "title": "State banking",
+          "desc": "Services and infrastructures for public institutions."
+        },
+        "systemePaiement": {
+          "title": "Payment systems",
+          "desc": "Access and information on payment infrastructures."
+        },
+        "donneesApi": {
+          "title": "Data and APIs",
+          "desc": "Access to data and technical resources."
+        }
       }
     },
     "institution": {
       "kicker": "The Central Bank",
       "title": "The Central Bank of Astoria",
-      "lead": "A sovereign, independent institution, the Central Bank of Astoria is responsible for the currency, financial stability and sound functioning of the Republic's banking system.",
+      "lead": "A sovereign, independent institution, the Central Bank of Astoria is responsible for the currency, financial stability and the sound functioning of the Republic's banking system.",
+      "cta": "Discover the Central Bank",
       "links": {
-        "presentation": "Presentation",
+        "missions": "Missions",
         "gouvernance": "Governance",
         "organisation": "Organisation",
-        "carrieres": "Careers",
+        "independance": "Independence",
         "transparence": "Transparency",
-        "contact": "Contact"
+        "carrieres": "Careers"
       }
     }
   },

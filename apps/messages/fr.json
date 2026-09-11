@@ -31,37 +31,18 @@
   "home": {
     "metaTitle": "Banque centrale d'Astoria",
     "hero": {
-      "kicker": "Portail officiel",
-      "title": "La monnaie, la politique monétaire et la stabilité financière d'Astoria",
-      "lead": "La Banque centrale d'Astoria émet la monnaie nationale, conduit la politique monétaire, veille à la stabilité financière et organise le système de paiement de la République.",
-      "cta": "Découvrir la Banque centrale"
+      "kicker": "Banque centrale d'Astoria",
+      "title": "La stabilité monétaire et financière au service de la République",
+      "lead": "La Banque centrale d'Astoria émet la monnaie nationale, conduit la politique monétaire, veille à la stabilité financière et organise le système de paiement de la République. Retrouvez ici la situation monétaire, les dernières décisions et les données officielles.",
+      "ctaDecisions": "Décisions de politique monétaire",
+      "ctaData": "Données et statistiques"
     },
-    "decision": {
-      "kicker": "Politique monétaire",
-      "title": "Décision de politique monétaire",
-      "lead": "Suivez les dernières décisions du Conseil de politique monétaire et l'évolution des taux directeurs.",
-      "status": "Dernière décision — Taux directeur",
-      "items": {
-        "taux": {
-          "label": "Taux directeur",
-          "value": "2,50 %"
-        },
-        "date": {
-          "label": "Date de la décision",
-          "value": "15 septembre 2026"
-        },
-        "prochaine": {
-          "label": "Prochaine réunion",
-          "value": "Octobre 2026"
-        }
-      },
-      "cta": "Consulter la décision complète"
-    },
-    "indicators": {
-      "kicker": "Indicateurs",
-      "title": "Monnaie et finance en chiffres",
-      "lead": "Les principaux indicateurs monétaires et financiers du système astorien, à jour de la dernière décision de politique monétaire.",
-      "exploreLink": "Voir tous les indicateurs",
+    "situation": {
+      "kicker": "Situation monétaire",
+      "title": "Situation monétaire",
+      "lead": "Les principaux indicateurs de la monnaie et de la politique monétaire, mis à jour à la dernière décision du Conseil.",
+      "updatedLabel": "Données mises à jour le",
+      "updated": "15 septembre 2026",
       "items": {
         "tauxDirecteur": {
           "label": "Taux directeur"
@@ -75,81 +56,270 @@
         "masseMonetaire": {
           "label": "Masse monétaire (M3)"
         },
+        "circulationMonetaire": {
+          "label": "Circulation fiduciaire"
+        },
         "tauxDeChange": {
           "label": "Taux de change"
-        },
-        "systemesDePaiement": {
-          "label": "État des systèmes de paiement"
         }
       },
-      "note": "Les chiffres sont des valeurs de référence indicative — les données définitives sont publiées dans la rubrique Données monétaires."
+      "note": "Valeurs de référence indicative. Les données définitives sont publiées dans la rubrique Données monétaires.",
+      "exploreLink": "Voir les données monétaires"
     },
-    "missions": {
-      "kicker": "Missions",
-      "title": "Les responsabilités de la Banque centrale",
-      "lead": "La Banque centrale d'Astoria exerce six missions fondamentales au service de la République."
-    },
-    "services": {
-      "kicker": "Services professionnels",
-      "title": "Les services de la Banque centrale",
-      "lead": "La plateforme opérationnelle de la BCA, destinée aux établissements financiers, à l'État et aux opérateurs du système de paiement.",
+    "decision": {
+      "kicker": "Politique monétaire",
+      "title": "Dernière décision du Conseil",
+      "lead": "Le Conseil de politique monétaire a maintenu le taux directeur à 2,50 %. L'inflation reste orientée vers la cible de 2 % à moyen terme.",
+      "status": "Dernière décision",
+      "action": "Maintien du taux directeur",
       "items": {
-        "banqueEtat": {
-          "title": "Banque de l'État",
-          "desc": "Gestion des comptes, trésorerie et opérations financières de la République."
+        "date": {
+          "label": "Décision du",
+          "value": "15 septembre 2026"
         },
-        "etablissementsFinanciers": {
-          "title": "Établissements financiers",
-          "desc": "Agréments, licences, obligations prudentielles et relations avec la BCA."
+        "precedent": {
+          "label": "Taux précédent",
+          "value": "2,50 %"
         },
-        "systemePaiement": {
-          "title": "Systèmes de paiement",
-          "desc": "Infrastructures, règlement-interbancaire et systèmes nationaux de paiement."
+        "prochaine": {
+          "label": "Prochaine décision",
+          "value": "Octobre 2026"
+        }
+      },
+      "ctaCommunique": "Lire le communiqué",
+      "ctaDocuments": "Documents associés"
+    },
+    "monnaie": {
+      "kicker": "La monnaie",
+      "title": "La monnaie astorienne",
+      "lead": "L'euro astorien est la monnaie officielle de la République. La Banque centrale en détient le monopole d'émission et garantit sa valeur et son usage dans toute l'économie.",
+      "paragraph": "Émise par la Banque centrale d'Astoria, la monnaie astorienne circule sous forme de billets et de pièces et sert de moyen de paiement légal et d'unité de compte dans toute la République. Sa création est strictement encadrée : elle accompagne l'activité économique et la stabilité des prix, conformément aux principes monétaires de l'institution.",
+      "essentialsTitle": "L'essentiel",
+      "essentials": {
+        "unite": {
+          "title": "L'unité monétaire",
+          "text": "L'euro astorien, divisé en centimes, est l'unité de compte officielle de la République."
         },
-        "donneesApi": {
-          "title": "Données et API",
-          "desc": "Données publiques, statistiques, séries temporelles et interfaces pour développeurs."
+        "emission": {
+          "title": "Le monopole d'émission",
+          "text": "La BCA est seule habilitée à émettre les billets et à frapper les pièces."
+        },
+        "billets": {
+          "title": "Les billets",
+          "text": "Sept coupures dotées d'éléments de sécurité modernes et vérifiables."
+        },
+        "pieces": {
+          "title": "Les pièces",
+          "text": "Des pièces de circulation frappées pour les échanges du quotidien."
+        },
+        "circulation": {
+          "title": "La circulation",
+          "text": "Mise en circulation, retrait et remplacement des billets usagés."
+        },
+        "principes": {
+          "title": "Les principes monétaires",
+          "text": "Pouvoir libératoire, confiance et stabilité de la monnaie."
+        }
+      },
+      "cta": "Découvrir la monnaie astorienne"
+    },
+    "banques": {
+      "kicker": "Système bancaire",
+      "title": "La Banque centrale, banque des banques",
+      "lead": "La BCA agrée les établissements de crédit, leur fournit la liquidité et veille à la stabilité du système bancaire de la République.",
+      "items": {
+        "etablissements": {
+          "label": "Établissements agréés"
+        },
+        "liquidite": {
+          "label": "Liquidité du système"
+        },
+        "reserves": {
+          "label": "Réserves"
+        },
+        "stabilite": {
+          "label": "Stabilité financière"
+        }
+      },
+      "linksTitle": "En savoir plus",
+      "links": {
+        "etablissements": {
+          "label": "Établissements bancaires"
+        },
+        "agrements": {
+          "label": "Agréments et licences"
+        },
+        "reglementation": {
+          "label": "Réglementation bancaire"
+        },
+        "liquidite": {
+          "label": "Liquidité du système"
+        },
+        "stabilite": {
+          "label": "Stabilité financière"
         }
       }
     },
+    "paiements": {
+      "kicker": "Paiements",
+      "title": "Des infrastructures de paiement au service de l'économie",
+      "lead": "La Banque centrale opère et surveille les systèmes de paiement et de règlement qui assurent la circulation de la monnaie dans l'économie.",
+      "statusLabel": "Systèmes de paiement",
+      "statusValue": "Opérationnels",
+      "items": {
+        "systemes": {
+          "title": "Systèmes de paiement",
+          "desc": "Les systèmes nationaux de paiement et leur fonctionnement."
+        },
+        "interbancaire": {
+          "title": "Paiements interbancaires",
+          "desc": "La compensation et le règlement des transactions entre banques."
+        },
+        "reglement": {
+          "title": "Règlement",
+          "desc": "Le règlement des transactions en monnaie centrale, en toute finalité."
+        },
+        "infrastructures": {
+          "title": "Infrastructures financières",
+          "desc": "Les infrastructures critiques de marché et leur continuité."
+        },
+        "innovation": {
+          "title": "Innovation financière",
+          "desc": "Standards, monnaie numérique et nouveaux moyens de paiement."
+        }
+      }
+    },
+    "donnees": {
+      "kicker": "Données et statistiques",
+      "title": "Les données officielles de la République",
+      "lead": "Séries monétaires et financières, agrégats, encours et indicateurs publiés par la Banque centrale.",
+      "linksTitle": "Accéder aux données",
+      "tableCaption": "Principaux indicateurs monétaires et financiers",
+      "tableNote": "Valeurs de référence indicative. Les séries complètes sont disponibles dans la rubrique Données monétaires.",
+      "headers": [
+        "Indicateur",
+        "Valeur",
+        "Variation"
+      ],
+      "rows": {
+        "tauxDirecteur": {
+          "label": "Taux directeur"
+        },
+        "inflation": {
+          "label": "Inflation (IPC)"
+        },
+        "masseMonetaire": {
+          "label": "Masse monétaire (M3)"
+        },
+        "reserves": {
+          "label": "Réserves de change"
+        },
+        "circulation": {
+          "label": "Circulation fiduciaire"
+        }
+      },
+      "links": {
+        "donneesMonetaires": {
+          "label": "Données monétaires"
+        },
+        "statistiquesFinancieres": {
+          "label": "Statistiques financières"
+        },
+        "seriesTemporelles": {
+          "label": "Séries temporelles"
+        },
+        "telechargements": {
+          "label": "Téléchargements"
+        },
+        "api": {
+          "label": "API de données"
+        }
+      },
+      "exploreLink": "Explorer les données"
+    },
     "publications": {
       "kicker": "Publications",
-      "title": "Actualités et publications",
-      "lead": "Dernières décisions, communiqués, rapports et statistiques de la Banque centrale.",
-      "allLink": "Toutes les publications",
-      "featured": {
-        "title": "Le Conseil de politique monétaire maintient le taux directeur à 2,50 %",
-        "text": "La Banque centrale d'Astoria a décidé de maintenir le taux directeur inchangé lors de sa dernière réunion. L'inflation se situe dans la fourchette cible.",
-        "tag": "Décision",
-        "date": "15 septembre 2026"
+      "title": "Publications et calendrier institutionnel",
+      "lead": "Les publications officielles de la Banque centrale et les prochaines échéances.",
+      "publicationsTitle": "Publications",
+      "items": {
+        "decision": {
+          "title": "Décisions de politique monétaire",
+          "date": "15 septembre 2026"
+        },
+        "stabilite": {
+          "title": "Rapport de stabilité financière",
+          "date": "Septembre 2026"
+        },
+        "bulletin": {
+          "title": "Bulletin économique",
+          "date": "Septembre 2026"
+        },
+        "statistiques": {
+          "title": "Statistiques monétaires",
+          "date": "Août 2026"
+        },
+        "rapports": {
+          "title": "Rapports institutionnels",
+          "date": "2026"
+        }
       },
-      "communique": {
-        "title": "Communiqué de la Banque centrale sur les conditions de liquidité",
-        "tag": "Communiqué",
-        "date": "10 septembre 2026"
+      "calendarTitle": "Calendrier",
+      "calendar": {
+        "decision": {
+          "label": "Prochaine décision de politique monétaire",
+          "date": "Octobre 2026"
+        },
+        "publication": {
+          "label": "Prochain bulletin économique",
+          "date": "Octobre 2026"
+        },
+        "statistiques": {
+          "label": "Prochaine publication des statistiques",
+          "date": "Septembre 2026"
+        },
+        "evenement": {
+          "label": "Réunion du Conseil de politique monétaire",
+          "date": "Octobre 2026"
+        }
       },
-      "rapport": {
-        "title": "Rapport sur la stabilité financière — Septembre 2026",
-        "tag": "Rapport",
-        "date": "8 septembre 2026"
-      },
-      "statistiques": {
-        "title": "Publication des agrégats monétaires — Août 2026",
-        "tag": "Statistiques",
-        "date": "5 septembre 2026"
+      "allLink": "Toutes les publications"
+    },
+    "services": {
+      "kicker": "Services",
+      "title": "Travailler avec la Banque centrale",
+      "lead": "La plateforme opérationnelle de la BCA, destinée aux établissements financiers, à l'État et aux opérateurs du système de paiement.",
+      "items": {
+        "etablissementsFinanciers": {
+          "title": "Établissements financiers",
+          "desc": "Agréments, réglementation, obligations et accès aux infrastructures."
+        },
+        "banqueEtat": {
+          "title": "Banque de l'État",
+          "desc": "Services et infrastructures destinés aux institutions publiques."
+        },
+        "systemePaiement": {
+          "title": "Systèmes de paiement",
+          "desc": "Accès et informations sur les infrastructures de paiement."
+        },
+        "donneesApi": {
+          "title": "Données et API",
+          "desc": "Accès aux données et aux ressources techniques."
+        }
       }
     },
     "institution": {
       "kicker": "La Banque centrale",
       "title": "La Banque centrale d'Astoria",
-      "lead": "Institution souveraine indépendante, la Banque centrale d'Astoria veille à la monnaie, à la stabilité financière et au bon fonctionnement du système bancaire de la République.",
+      "lead": "Institution souveraine et indépendante, la Banque centrale d'Astoria veille à la monnaie, à la stabilité financière et au bon fonctionnement du système bancaire de la République.",
+      "cta": "Découvrir la Banque centrale",
       "links": {
-        "presentation": "Présentation",
+        "missions": "Missions",
         "gouvernance": "Gouvernance",
         "organisation": "Organisation",
-        "carrieres": "Carrières",
+        "independance": "Indépendance",
         "transparence": "Transparence",
-        "contact": "Contact"
+        "carrieres": "Carrières"
       }
     }
   },

@@ -1,19 +1,23 @@
 import type { CSSProperties } from "react";
 import type { Metadata } from "next";
+import type { FrIconClassName } from "@codegouvaor/react-ads/fr";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { localizedAlternates, resolveLocaleParam } from "@/lib/localized-metadata";
 import { homeContent } from "@/lib/home-content";
+import { CtaButtonsGroup, LinkTile } from "@/components/public/content/ads-fragments";
 import {
-  ArticleCard,
-  CtaButtonsGroup,
-  LinkTile,
-} from "@/components/public/content/ads-fragments";
-import { sectionPaths } from "@/lib/site-structure";
+  DataTable,
+  ThemeSection,
+  figureLabelStyle,
+  figureValueStyle,
+  heroContainerStyle,
+  iconBlockStyle,
+  linkListStyle,
+  teaserCardStyle,
+  teaserTagStyle,
+} from "@/components/public/content/theme-page";
 
 const HOME_PATH = "/";
-const DECISIONS_PATH = `${sectionPaths.politiqueMonetaire}/decisions`;
-const PUBLICATIONS_PATH = `${sectionPaths.politiqueMonetaire}/publications`;
-const RATES_PATH = `${sectionPaths.politiqueMonetaire}/taux-directeurs`;
 
 type PageProps = { params: Promise<{ locale: string }> };
 
@@ -36,97 +40,181 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
  * owned by the Design System. Only the BCA-specific arrangement of these
  * blocks is expressed here, inline, without any local stylesheet. */
 
-const heroContainerStyle: CSSProperties = {
-  maxWidth: "52rem",
-  marginInline: "auto",
-  textAlign: "center",
-};
-
-const teaserCardStyle: CSSProperties = {
-  display: "flex",
-  flexDirection: "column",
-  gap: "0.75rem",
-  height: "100%",
-  padding: "1.25rem",
-  background: "var(--ads-color-background)",
+const panelStyle: CSSProperties = {
+  maxWidth: "72rem",
+  background: "var(--ads-color-border)",
   border: "1px solid var(--ads-color-border)",
   borderTop: "3px solid var(--ads-color-primary)",
+  overflow: "hidden",
+};
+
+const figureBandStyle: CSSProperties = {
+  display: "grid",
+  gridTemplateColumns: "repeat(auto-fit, minmax(12rem, 1fr))",
+  gap: "1px",
+};
+
+const figureCellStyle: CSSProperties = {
+  display: "block",
+  padding: "1.5rem 1.25rem",
+  background: "var(--ads-color-background)",
   textDecoration: "none",
   color: "var(--ads-color-text)",
 };
 
-const teaserTagStyle: CSSProperties = {
-  fontSize: "0.75rem",
-  fontWeight: 700,
-  letterSpacing: "0.06em",
-  textTransform: "uppercase",
-  color: "var(--ads-color-primary)",
-};
-
-const teaserArrowStyle: CSSProperties = {
-  marginTop: "auto",
-  alignSelf: "flex-end",
-  fontSize: "1rem",
-  color: "var(--ads-color-primary)",
-};
-
-const figureValueStyle: CSSProperties = {
-  display: "block",
-  fontSize: "clamp(1.5rem, 3vw, 2rem)",
-  lineHeight: 1.2,
-  fontWeight: 700,
-};
-
-const figureLabelStyle: CSSProperties = {
-  display: "block",
-  fontSize: "0.9375rem",
-  fontWeight: 600,
-};
-
 const decisionValueStyle: CSSProperties = {
   margin: "0 0 0.375rem",
-  fontSize: "clamp(2rem, 4vw, 2.75rem)",
-  lineHeight: 1.15,
+  fontSize: "clamp(2.25rem, 5vw, 3rem)",
+  lineHeight: 1.1,
   fontWeight: 700,
+};
+
+const decisionActionStyle: CSSProperties = {
+  margin: "0 0 0.5rem",
+  fontSize: "1.125rem",
+  lineHeight: 1.4,
+  fontWeight: 600,
 };
 
 const decisionMetaStyle: CSSProperties = {
   display: "flex",
   flexWrap: "wrap",
-  gap: "0.5rem 1.5rem",
+  gap: "0.5rem 2rem",
   margin: "0 0 1.5rem",
   listStyle: "none",
   padding: "0",
 };
 
 const decisionMetaItemStyle: CSSProperties = {
-  fontSize: "0.875rem",
+  fontSize: "0.9375rem",
   color: "var(--ads-color-text-muted)",
 };
 
+const linksTitleStyle: CSSProperties = {
+  margin: "0 0 0.75rem",
+  fontSize: "1.0625rem",
+  lineHeight: 1.35,
+  fontWeight: 700,
+};
+
+const linkRowStyle: CSSProperties = {
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "space-between",
+  gap: "1rem",
+  padding: "1rem 1.25rem",
+  fontWeight: 600,
+  textDecoration: "none",
+  color: "var(--ads-color-text)",
+  border: "1px solid var(--ads-color-border)",
+  borderTop: "none",
+  background: "var(--ads-color-background)",
+};
+
+const publicationRowStyle: CSSProperties = {
+  ...linkRowStyle,
+  alignItems: "flex-start",
+};
+
+const calendarDateStyle: CSSProperties = {
+  display: "block",
+  fontSize: "0.8125rem",
+  fontWeight: 700,
+  letterSpacing: "0.04em",
+  textTransform: "uppercase",
+  color: "var(--ads-color-primary)",
+};
+
+const essentialsListStyle: CSSProperties = {
+  listStyle: "none",
+  margin: "0",
+  padding: "0",
+  display: "grid",
+  gap: "0.75rem",
+};
+
+const essentialsItemStyle: CSSProperties = {
+  display: "flex",
+  gap: "0.875rem",
+  alignItems: "flex-start",
+  padding: "0.875rem 1rem",
+  background: "var(--ads-color-background)",
+  border: "1px solid var(--ads-color-border)",
+};
+
+const statusBannerStyle: CSSProperties = {
+  display: "flex",
+  alignItems: "center",
+  gap: "0.75rem",
+  padding: "0.875rem 1.25rem",
+  marginBottom: "1.5rem",
+  background: "var(--ads-color-background)",
+  border: "1px solid var(--ads-color-border)",
+  borderLeft: "3px solid var(--ads-color-primary)",
+};
+
+const statusLabelStyle: CSSProperties = {
+  display: "block",
+  fontSize: "0.75rem",
+  fontWeight: 700,
+  letterSpacing: "0.06em",
+  textTransform: "uppercase",
+  color: "var(--ads-color-text-muted)",
+};
+
+const statusValueStyle: CSSProperties = {
+  display: "block",
+  fontSize: "1.0625rem",
+  fontWeight: 700,
+};
+
+const closingLeadStyle: CSSProperties = {
+  margin: "0 auto 1.5rem",
+  maxWidth: "42rem",
+  fontSize: "0.9375rem",
+  lineHeight: 1.7,
+  color: "var(--ads-color-text-muted)",
+};
+
+const closingLinksStyle: CSSProperties = {
+  listStyle: "none",
+  margin: "1.5rem 0 0",
+  padding: "0",
+  display: "flex",
+  flexWrap: "wrap",
+  justifyContent: "center",
+  gap: "0.625rem 1.75rem",
+};
+
+const inlineLinkStyle: CSSProperties = {
+  fontWeight: 600,
+  textUnderlineOffset: "0.2em",
+};
+
 /**
- * Homepage of the Banque centrale d'Astoria — the institutional front door of
- * the central bank of the Republic.
+ * Homepage of the Banque centrale d'Astoria — the digital front door of the
+ * central bank of the Republic.
  *
- * The header allows exploring the bank's missions (seven entries); this page
- * establishes the institution and surfaces what matters most — the monetary
- * stance and the state of the financial system — section after section:
+ * The page is organised around ten sections with a deliberate editorial
+ * hierarchy, so a visitor understands in a few seconds what the BCA is, the
+ * current monetary situation, the latest decision, and where to go next:
  *
- *   01 Hero                 — who we are, in one sober institutional statement
- *   02 Décision de politique monétaire — the latest monetary decision and the key rate
- *   03 Indicateurs          — the state of money and finance at a glance
- *   04 Missions             — the BCA's responsibilities, each to its section
- *   05 Services de la BCA   — the operational platform, distinct from the editorial site
- *   06 Actualités & publications — institutional publications, kept secondary
- *   07 La Banque centrale   — the institution itself, closing the page
+ *   01 Introduction institutionnelle  — who we are, and the two priority access
+ *   02 Situation monétaire            — the state of money and finance, at a glance
+ *   03 Politique monétaire            — the latest decision and the key rate
+ *   04 La monnaie astorienne          — the currency and its principles
+ *   05 Système bancaire               — the BCA as the bank of banks
+ *   06 Paiements                      — the payment and settlement infrastructures
+ *   07 Données et statistiques        — the official series and their access
+ *   08 Publications et calendrier     — official publications and next dates
+ *   09 Services de la Banque centrale — working with the BCA
+ *   10 La Banque centrale             — the institution itself, closing the page
  *
  * Every section is driven by the `homeContent` configuration
  * (lib/home-content.ts) and the message catalogs, so the content can evolve
- * without rewriting the interface. The indicators, the decision and the
- * publications are structural placeholders (fictive figures): they define the
- * interface and mark the seam where the future BCA API plugs in. The six
- * editorial subjects deliberately do not appear here as a second navigation —
- * they belong to the header.
+ * without rewriting the interface. The figures, dates and statuses are
+ * structural placeholders (demonstration data, marked as such): they define
+ * the interface and mark the seam where the future BCA data API plugs in.
  */
 export default async function HomePage({ params }: PageProps) {
   const { locale: rawLocale } = await params;
@@ -134,13 +222,13 @@ export default async function HomePage({ params }: PageProps) {
   setRequestLocale(locale);
 
   const t = await getTranslations({ locale, namespace: "home" });
-  const tNavPanel = await getTranslations({ locale, namespace: "nav.panel" });
 
   return (
     <>
-      {/* 01 — Hero: institutional statement. Sober by design: the BCA is a
-          sovereign institution, not a commercial bank. The monetary stance is
-          the first thing a visitor should grasp. */}
+      {/* 01 — Introduction institutionnelle: a sober opening that establishes
+          the BCA and gives immediate access to the two things it produces —
+          its decisions and its data. Not a marketing hero: the navigation
+          stays immediately available. */}
       <section className="gov-section" aria-labelledby="home-hero-title">
         <div className="gov-section__container" style={heroContainerStyle}>
           <p className="gov-kicker">{t("hero.kicker")}</p>
@@ -150,8 +238,14 @@ export default async function HomePage({ params }: PageProps) {
             alignment="center"
             buttons={[
               {
-                children: t("hero.cta"),
-                href: sectionPaths.banqueCentrale,
+                children: t("hero.ctaDecisions"),
+                href: homeContent.hero.ctaDecisions.href,
+                priority: "primary",
+                iconId: "fr-icon-arrow-right-line",
+              },
+              {
+                children: t("hero.ctaData"),
+                href: homeContent.hero.ctaData.href,
                 priority: "secondary",
                 iconId: "fr-icon-arrow-right-line",
               },
@@ -160,253 +254,413 @@ export default async function HomePage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* 02 — Décision de politique monétaire: the most important signal the
-          bank emits. It comes right after the hero, before any news. The
-          values are placeholders until the BCA API feeds this block. */}
-      <section className="gov-section gov-section--subtle" aria-labelledby="decision-title">
-        <div className="gov-section__container">
-          <div className="gov-section__header">
-            <div>
-              <p className="gov-kicker">{t("decision.kicker")}</p>
-              <h2 id="decision-title" className="gov-section__title">
-                {t("decision.title")}
-              </h2>
-              <p className="gov-lead">{t("decision.lead")}</p>
-            </div>
-          </div>
-          <div
-            style={{
-              maxWidth: "72rem",
-              padding: "1.75rem",
-              background: "var(--ads-color-background)",
-              border: "1px solid var(--ads-color-border)",
-              borderTop: "3px solid var(--ads-color-primary)",
-            }}
-          >
-            <p style={{ ...teaserTagStyle, margin: "0 0 0.75rem" }}>{t("decision.status")}</p>
-            <p style={decisionValueStyle}>{homeContent.decision.rateValue}</p>
-            <ul style={decisionMetaStyle} role="list">
-              {homeContent.decision.keys.map((key) => (
-                <li key={key} style={decisionMetaItemStyle}>
-                  <strong style={{ color: "var(--ads-color-text)" }}>
-                    {t(`decision.items.${key}.label`)}
-                  </strong>{" "}
-                  {t(`decision.items.${key}.value`)}
-                </li>
-              ))}
-            </ul>
-            <CtaButtonsGroup
-              buttons={[
-                {
-                  children: t("decision.cta"),
-                  href: DECISIONS_PATH,
-                  priority: "secondary",
-                  iconId: "fr-icon-arrow-right-line",
-                },
-              ]}
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* 03 — Indicateurs monétaires et financiers: a synthetic view of the
-          monetary and financial system, driven by the indicators config (the
-          seam where a future data source plugs in). Values are placeholders. */}
-      <section className="gov-section" aria-labelledby="indicators-title">
-        <div className="gov-section__container">
-          <div className="gov-section__header">
-            <div>
-              <p className="gov-kicker">{t("indicators.kicker")}</p>
-              <h2 id="indicators-title" className="gov-section__title">
-                {t("indicators.title")}
-              </h2>
-              <p className="gov-lead">{t("indicators.lead")}</p>
-            </div>
-            <CtaButtonsGroup
-              buttons={[
-                {
-                  children: t("indicators.exploreLink"),
-                  href: RATES_PATH,
-                  priority: "secondary",
-                  iconId: "fr-icon-arrow-right-line",
-                },
-              ]}
-            />
-          </div>
-          <ul className="fr-grid-row fr-grid-row--gutters" role="list">
-            {homeContent.indicators.map((indicator) => (
-              <li key={indicator.key} className="fr-col-12 fr-col-md-6 fr-col-lg-4">
-                <a href={indicator.href} style={teaserCardStyle}>
-                  <span style={figureValueStyle}>{indicator.value}</span>
-                  <span style={figureLabelStyle}>
-                    {t(`indicators.items.${indicator.key}.label`)}
-                  </span>
-                  <span
-                    className="fr-icon-arrow-right-line"
-                    aria-hidden="true"
-                    style={teaserArrowStyle}
-                  />
-                </a>
-              </li>
-            ))}
-          </ul>
-          <p className="fr-text--sm" style={{ color: "var(--ads-color-text-muted)" }}>
-            {t("indicators.note")}
+      {/* 02 — Situation monétaire: the most important data of the page. A
+          single band of key figures with the reference date — a situation
+          board, not a stack of cards. Values are placeholders until the BCA
+          data API feeds this block. */}
+      <ThemeSection
+        id="situation-title"
+        kicker={t("situation.kicker")}
+        title={t("situation.title")}
+        lead={t("situation.lead")}
+        subtle
+        action={
+          <p className="fr-text--sm" style={{ margin: 0, color: "var(--ads-color-text-muted)" }}>
+            {t("situation.updatedLabel")} {t("situation.updated")}
           </p>
-        </div>
-      </section>
-
-      {/* 04 — Missions de la Banque centrale: the BCA's responsibilities, each
-          opening its section. Labels reuse the header panel vocabulary so the
-          homepage speaks the same language as the navigation. */}
-      <section className="gov-section gov-section--subtle" aria-labelledby="missions-title">
-        <div className="gov-section__container">
-          <div className="gov-section__header">
-            <div>
-              <p className="gov-kicker">{t("missions.kicker")}</p>
-              <h2 id="missions-title" className="gov-section__title">
-                {t("missions.title")}
-              </h2>
-              <p className="gov-lead">{t("missions.lead")}</p>
-            </div>
+        }
+      >
+        <div style={panelStyle}>
+          <div style={figureBandStyle}>
+            {homeContent.situation.primary.map((item) => (
+              <a key={item.key} href={item.href} style={figureCellStyle}>
+                <span style={figureValueStyle}>{item.value}</span>
+                <span style={figureLabelStyle}>{t(`situation.items.${item.key}.label`)}</span>
+              </a>
+            ))}
           </div>
-          <div className="fr-grid-row fr-grid-row--gutters">
-            {homeContent.missions.map((mission) => (
-              <div key={mission.key} className="fr-col-12 fr-col-md-6 fr-col-lg-4">
-                <LinkTile
-                  title={tNavPanel(`${mission.section}.title`)}
-                  desc={tNavPanel(`${mission.section}.text`)}
-                  href={mission.href}
-                  iconId="fr-icon-arrow-right-line"
-                />
-              </div>
+          <div style={{ ...figureBandStyle, marginTop: "1px" }}>
+            {homeContent.situation.secondary.map((item) => (
+              <a key={item.key} href={item.href} style={figureCellStyle}>
+                <span style={figureValueStyle}>{item.value}</span>
+                <span style={figureLabelStyle}>{t(`situation.items.${item.key}.label`)}</span>
+              </a>
             ))}
           </div>
         </div>
-      </section>
-
-      {/* 05 — Services de la BCA: the operational platform of the bank (State
-          banking, financial institutions, payment systems, data & APIs).
-          Distinct from the six editorial subjects: this is an operational
-          interface, not a second navigation. */}
-      <section className="gov-section" aria-labelledby="services-title">
-        <div className="gov-section__container">
-          <div className="gov-section__header">
-            <div>
-              <p className="gov-kicker">{t("services.kicker")}</p>
-              <h2 id="services-title" className="gov-section__title">
-                {t("services.title")}
-              </h2>
-              <p className="gov-lead">{t("services.lead")}</p>
-            </div>
-          </div>
-          <div className="fr-grid-row fr-grid-row--gutters">
-            {homeContent.services.map((service) => (
-              <div key={service.key} className="fr-col-12 fr-col-md-6 fr-col-lg-4">
-                <LinkTile
-                  title={t(`services.items.${service.key}.title`)}
-                  desc={t(`services.items.${service.key}.desc`)}
-                  href={service.href}
-                  iconId={service.iconId}
-                />
-              </div>
-            ))}
-          </div>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "1rem",
+            alignItems: "center",
+            justifyContent: "space-between",
+            marginTop: "1.5rem",
+          }}
+        >
+          <p className="fr-text--sm" style={{ margin: 0, color: "var(--ads-color-text-muted)" }}>
+            {t("situation.note")}
+          </p>
+          <CtaButtonsGroup
+            buttons={[
+              {
+                children: t("situation.exploreLink"),
+                href: homeContent.situation.cta.href,
+                priority: "secondary",
+                iconId: "fr-icon-arrow-right-line",
+              },
+            ]}
+          />
         </div>
-      </section>
+      </ThemeSection>
 
-      {/* 06 — Actualités & publications: one featured, several secondary
-          institutional publications. Secondary by design: decisions and
-          indicators come first. */}
-      <section className="gov-section gov-section--subtle" aria-labelledby="publications-title">
-        <div className="gov-section__container">
-          <div className="gov-section__header">
-            <div>
-              <p className="gov-kicker">{t("publications.kicker")}</p>
-              <h2 id="publications-title" className="gov-section__title">
-                {t("publications.title")}
-              </h2>
-              <p className="gov-lead">{t("publications.lead")}</p>
+      {/* 03 — Politique monétaire: the most important signal the bank emits.
+          The latest decision, its rate and its schedule, with the press
+          release and the related documents. */}
+      <ThemeSection
+        id="decision-title"
+        kicker={t("decision.kicker")}
+        title={t("decision.title")}
+        lead={t("decision.lead")}
+      >
+        <div style={{ ...panelStyle, padding: "1.75rem" }}>
+          <div className="fr-grid-row fr-grid-row--gutters fr-grid-row--middle">
+            <div className="fr-col-12 fr-col-md-4">
+              <p style={{ ...teaserTagStyle, margin: "0 0 0.75rem" }}>{t("decision.status")}</p>
+              <p style={decisionValueStyle}>{homeContent.decision.rateValue}</p>
+              <p style={decisionActionStyle}>{t("decision.action")}</p>
             </div>
-            <CtaButtonsGroup
-              buttons={[
-                {
-                  children: t("publications.allLink"),
-                  href: PUBLICATIONS_PATH,
-                  priority: "secondary",
-                  iconId: "fr-icon-arrow-right-line",
-                },
-              ]}
-            />
-          </div>
-          <div className="fr-grid-row fr-grid-row--gutters">
-            <div className="fr-col-12 fr-col-lg-7">
-              <ArticleCard
-                title={t(homeContent.publications.featured.titleKey)}
-                desc={t(homeContent.publications.featured.textKey)}
-                tag={t(homeContent.publications.featured.tagKey)}
-                date={t(homeContent.publications.featured.dateKey)}
-                href={homeContent.publications.featured.href}
-                size="large"
-              />
-            </div>
-            <div className="fr-col-12 fr-col-lg-5">
-              <ul
-                role="list"
-                style={{ listStyle: "none", margin: "0", padding: "0", display: "grid", gap: "1.5rem" }}
-              >
-                {homeContent.publications.secondary.map((article) => (
-                  <li key={article.href}>
-                    <ArticleCard
-                      title={t(article.titleKey)}
-                      tag={t(article.tagKey)}
-                      date={t(article.dateKey)}
-                      href={article.href}
-                      size="small"
-                    />
+            <div className="fr-col-12 fr-col-md-8">
+              <ul style={decisionMetaStyle} role="list">
+                {homeContent.decision.items.map((key) => (
+                  <li key={key} style={decisionMetaItemStyle}>
+                    <strong style={{ color: "var(--ads-color-text)" }}>
+                      {t(`decision.items.${key}.label`)}
+                    </strong>{" "}
+                    {t(`decision.items.${key}.value`)}
                   </li>
                 ))}
               </ul>
+              <CtaButtonsGroup
+                buttons={[
+                  {
+                    children: t("decision.ctaCommunique"),
+                    href: homeContent.decision.ctaCommunique.href,
+                    priority: "secondary",
+                    iconId: "fr-icon-arrow-right-line",
+                  },
+                  {
+                    children: t("decision.ctaDocuments"),
+                    href: homeContent.decision.ctaDocuments.href,
+                    priority: "tertiary no outline",
+                    iconId: "fr-icon-arrow-right-line",
+                  },
+                ]}
+              />
             </div>
           </div>
         </div>
-      </section>
+      </ThemeSection>
 
-      {/* 07 — La Banque centrale: discreet institutional closing, coherent with
-          the “La Banque centrale” entry of the header. */}
-      <section className="gov-section" aria-labelledby="institution-title">
+      {/* 04 — La monnaie astorienne: editorial transition between the
+          indicators and the understanding of the monetary system. */}
+      <ThemeSection
+        id="monnaie-title"
+        kicker={t("monnaie.kicker")}
+        title={t("monnaie.title")}
+        lead={t("monnaie.lead")}
+        subtle
+      >
+        <div className="fr-grid-row fr-grid-row--gutters">
+          <div className="fr-col-12 fr-col-lg-7">
+            <div className="gov-prose">
+              <p>{t("monnaie.paragraph")}</p>
+            </div>
+            <p style={{ marginTop: "1.5rem" }}>
+              <a href={homeContent.monnaie.cta.href} style={inlineLinkStyle}>
+                {t("monnaie.cta")}
+                <span className="fr-icon-arrow-right-line" aria-hidden="true" />
+              </a>
+            </p>
+          </div>
+          <div className="fr-col-12 fr-col-lg-5">
+            <h3 style={linksTitleStyle}>{t("monnaie.essentialsTitle")}</h3>
+            <ul role="list" style={essentialsListStyle}>
+              {homeContent.monnaie.essentials.map((item) => (
+                <li key={item.key} style={essentialsItemStyle}>
+                  <span className={item.iconId} aria-hidden="true" style={iconBlockStyle} />
+                  <span>
+                    <span style={{ display: "block", fontWeight: 700 }}>
+                      {t(`monnaie.essentials.${item.key}.title`)}
+                    </span>
+                    <span
+                      className="fr-text--sm"
+                      style={{ display: "block", color: "var(--ads-color-text-muted)" }}
+                    >
+                      {t(`monnaie.essentials.${item.key}.text`)}
+                    </span>
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </ThemeSection>
+
+      {/* 05 — Système bancaire: the BCA as the bank of banks. Figures of the
+          banking system on one side, the supervision, regulation and
+          stability destinations on the other. */}
+      <ThemeSection
+        id="banques-title"
+        kicker={t("banques.kicker")}
+        title={t("banques.title")}
+        lead={t("banques.lead")}
+      >
+        <div className="fr-grid-row fr-grid-row--gutters">
+          <div className="fr-col-12 fr-col-lg-7">
+            <ul
+              className="fr-grid-row fr-grid-row--gutters"
+              role="list"
+              style={{ listStyle: "none", margin: 0, padding: 0 }}
+            >
+              {homeContent.banques.figures.map((figure) => (
+                <li key={figure.key} className="fr-col-12 fr-col-sm-6">
+                  <a href={figure.href} style={teaserCardStyle}>
+                    <span style={figureValueStyle}>{figure.value}</span>
+                    <span style={figureLabelStyle}>{t(`banques.items.${figure.key}.label`)}</span>
+                    <span
+                      className="fr-icon-arrow-right-line"
+                      aria-hidden="true"
+                      style={{
+                        marginTop: "auto",
+                        alignSelf: "flex-end",
+                        fontSize: "1rem",
+                        color: "var(--ads-color-primary)",
+                      }}
+                    />
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="fr-col-12 fr-col-lg-5">
+            <h3 style={linksTitleStyle}>{t("banques.linksTitle")}</h3>
+            <ul role="list" style={linkListStyle}>
+              {homeContent.banques.links.map((link) => (
+                <li key={link.key}>
+                  <a href={link.href} style={linkRowStyle}>
+                    {t(`banques.links.${link.key}.label`)}
+                    <span className="fr-icon-arrow-right-line" aria-hidden="true" />
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </ThemeSection>
+
+      {/* 06 — Paiements: the BCA as operator and guarantor of the payment and
+          settlement infrastructures. An operational status, then the
+          infrastructures themselves. */}
+      <ThemeSection
+        id="paiements-title"
+        kicker={t("paiements.kicker")}
+        title={t("paiements.title")}
+        lead={t("paiements.lead")}
+        subtle
+      >
+        <div style={{ maxWidth: "72rem" }}>
+          <div style={statusBannerStyle}>
+            <span
+              className="fr-icon-check-line"
+              aria-hidden="true"
+              style={{ fontSize: "1.25rem", color: "var(--ads-color-primary)" }}
+            />
+            <span>
+              <span style={statusLabelStyle}>{t("paiements.statusLabel")}</span>
+              <span style={statusValueStyle}>{t("paiements.statusValue")}</span>
+            </span>
+          </div>
+          <div className="fr-grid-row fr-grid-row--gutters">
+            {homeContent.paiements.items.map((item) => (
+              <div key={item.key} className="fr-col-12 fr-col-md-6 fr-col-lg-4">
+                <LinkTile
+                  title={t(`paiements.items.${item.key}.title`)}
+                  desc={t(`paiements.items.${item.key}.desc`)}
+                  href={item.href}
+                  iconId={item.iconId as FrIconClassName}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </ThemeSection>
+
+      {/* 07 — Données et statistiques: the official series, in a legible table,
+          and the destinations to download them or connect to the future API.
+          The structure is ready for a real data source. */}
+      <ThemeSection
+        id="donnees-title"
+        kicker={t("donnees.kicker")}
+        title={t("donnees.title")}
+        lead={t("donnees.lead")}
+        action={
+          <CtaButtonsGroup
+            buttons={[
+              {
+                children: t("donnees.exploreLink"),
+                href: homeContent.donnees.links[0].href,
+                priority: "secondary",
+                iconId: "fr-icon-arrow-right-line",
+              },
+            ]}
+          />
+        }
+      >
+        <div className="fr-grid-row fr-grid-row--gutters">
+          <div className="fr-col-12 fr-col-lg-7">
+            <DataTable
+              caption={t("donnees.tableCaption")}
+              headers={[t("donnees.headers.0"), t("donnees.headers.1"), t("donnees.headers.2")]}
+              rows={homeContent.donnees.series.map((row) => [
+                t(`donnees.rows.${row.key}.label`),
+                row.value,
+                row.variation,
+              ])}
+              note={t("donnees.tableNote")}
+            />
+          </div>
+          <div className="fr-col-12 fr-col-lg-5">
+            <h3 style={linksTitleStyle}>{t("donnees.linksTitle")}</h3>
+            <ul role="list" style={linkListStyle}>
+              {homeContent.donnees.links.map((link) => (
+                <li key={link.key}>
+                  <a href={link.href} style={linkRowStyle}>
+                    {t(`donnees.links.${link.key}.label`)}
+                    <span className="fr-icon-arrow-right-line" aria-hidden="true" />
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </ThemeSection>
+
+      {/* 08 — Publications et calendrier: official publications and the
+          institutional calendar — not a news feed. */}
+      <ThemeSection
+        id="publications-title"
+        kicker={t("publications.kicker")}
+        title={t("publications.title")}
+        lead={t("publications.lead")}
+        subtle
+        action={
+          <CtaButtonsGroup
+            buttons={[
+              {
+                children: t("publications.allLink"),
+                href: homeContent.publications.allLink.href,
+                priority: "secondary",
+                iconId: "fr-icon-arrow-right-line",
+              },
+            ]}
+          />
+        }
+      >
+        <div className="fr-grid-row fr-grid-row--gutters">
+          <div className="fr-col-12 fr-col-lg-7">
+            <h3 style={linksTitleStyle}>{t("publications.publicationsTitle")}</h3>
+            <ul role="list" style={linkListStyle}>
+              {homeContent.publications.items.map((item) => (
+                <li key={item.key}>
+                  <a href={item.href} style={publicationRowStyle}>
+                    <span>
+                      <span style={{ display: "block", fontWeight: 700 }}>
+                        {t(`publications.items.${item.key}.title`)}
+                      </span>
+                      <span
+                        className="fr-text--sm"
+                        style={{ display: "block", color: "var(--ads-color-text-muted)" }}
+                      >
+                        {t(`publications.items.${item.key}.date`)}
+                      </span>
+                    </span>
+                    <span className="fr-icon-arrow-right-line" aria-hidden="true" />
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="fr-col-12 fr-col-lg-5">
+            <h3 style={linksTitleStyle}>{t("publications.calendarTitle")}</h3>
+            <ul role="list" style={linkListStyle}>
+              {homeContent.publications.calendar.map((item) => (
+                <li key={item.key}>
+                  <a href={item.href} style={publicationRowStyle}>
+                    <span>
+                      <span style={calendarDateStyle}>
+                        {t(`publications.calendar.${item.key}.date`)}
+                      </span>
+                      <span style={{ display: "block", fontWeight: 600 }}>
+                        {t(`publications.calendar.${item.key}.label`)}
+                      </span>
+                    </span>
+                    <span className="fr-icon-arrow-right-line" aria-hidden="true" />
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </ThemeSection>
+
+      {/* 09 — Services de la Banque centrale: the operational platform, for
+          financial institutions, the State, payment operators and data
+          users. Distinct from the seven editorial entries of the header. */}
+      <ThemeSection
+        id="services-title"
+        kicker={t("services.kicker")}
+        title={t("services.title")}
+        lead={t("services.lead")}
+      >
+        <div className="fr-grid-row fr-grid-row--gutters">
+          {homeContent.services.map((service) => (
+            <div key={service.key} className="fr-col-12 fr-col-md-6">
+              <LinkTile
+                title={t(`services.items.${service.key}.title`)}
+                desc={t(`services.items.${service.key}.desc`)}
+                href={service.href}
+                iconId={service.iconId as FrIconClassName}
+              />
+            </div>
+          ))}
+        </div>
+      </ThemeSection>
+
+      {/* 10 — La Banque centrale: discreet institutional closing, coherent
+          with the “La Banque centrale” entry of the header. */}
+      <section className="gov-section gov-section--subtle" aria-labelledby="institution-title">
         <div className="gov-section__container" style={heroContainerStyle}>
           <p className="gov-kicker">{t("institution.kicker")}</p>
           <h2 id="institution-title" className="gov-section__title">
             {t("institution.title")}
           </h2>
-          <p
-            style={{
-              margin: "0 auto 1.5rem",
-              maxWidth: "42rem",
-              fontSize: "0.9375rem",
-              lineHeight: 1.7,
-              color: "var(--ads-color-text-muted)",
-            }}
-          >
-            {t("institution.lead")}
-          </p>
-          <ul
-            role="list"
-            style={{
-              listStyle: "none",
-              margin: "0",
-              padding: "0",
-              display: "flex",
-              flexWrap: "wrap",
-              justifyContent: "center",
-              marginTop: "1.5rem",
-              gap: "0.625rem 1.75rem",
-            }}
-          >
-            {homeContent.institution.map((link) => (
+          <p style={closingLeadStyle}>{t("institution.lead")}</p>
+          <CtaButtonsGroup
+            alignment="center"
+            buttons={[
+              {
+                children: t("institution.cta"),
+                href: homeContent.institution.cta.href,
+                priority: "secondary",
+                iconId: "fr-icon-arrow-right-line",
+              },
+            ]}
+          />
+          <ul role="list" style={closingLinksStyle}>
+            {homeContent.institution.links.map((link) => (
               <li key={link.key}>
-                <a href={link.href} style={{ fontWeight: 600, textUnderlineOffset: "0.2em" }}>
+                <a href={link.href} style={inlineLinkStyle}>
                   {t(`institution.links.${link.key}`)}
                   <span className="fr-icon-arrow-right-line" aria-hidden="true" />
                 </a>
