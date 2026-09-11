@@ -1,6 +1,6 @@
 .PHONY: help build build-dev build-prod dev-up dev-down dev-logs dev-rebuild prod-up prod-down prod-logs prod-rebuild stop clean prune
 
-APP_NAME := codegouvaor/service-public
+APP_NAME := codegouvaor/bce
 
 help:
 	@echo "Available targets:"

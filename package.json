@@ -1,7 +1,7 @@
 {
-  "name": "service-public",
+  "name": "bce-gouv",
   "version": "1.0.0",
-  "description": "Open platform for Astoria's foreign policy, diplomatic relations, treaties, and international affairs.",
+  "description": "The digital platform of the Central Bank of Astoria.",
   "private": true,
   "type": "module",
   "workspaces": [
@@ -68,7 +68,7 @@
   "packageManager": "pnpm@8.15.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/codegouvaor/service-public.git"
+    "url": "https://github.com/codegouvaor/bce.git"
   },
   "keywords": [
     "news",
@@ -80,14 +80,14 @@
   ],
   "author": {
     "name": "Astoria Government Development Team",
-    "email": "developer@service-public.gouv.aor",
-    "url": "https://service-public.gouv.aor"
+    "email": "developer@bce.gouv.aor",
+    "url": "https://bce.gouv.aor"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codegouvaor/service-public/issues"
+    "url": "https://github.com/codegouvaor/bce/issues"
   },
-  "homepage": "https://github.com/codegouvaor/service-public#readme",
+  "homepage": "https://github.com/codegouvaor/bce#readme",
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "eslint --fix --quiet",
