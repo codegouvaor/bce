@@ -37,6 +37,10 @@ export type ArticleSectionConfig = {
   table?: { headerCount: number; rowCells: ReadonlyArray<number>; note?: boolean };
   denominations?: ReadonlyArray<{ key: string; value: string; tag?: boolean; motif?: boolean }>;
   steps?: ReadonlyArray<{ key: string }>;
+  /** Process / flow schema: each node resolves `flow.<key>`. */
+  flow?: ReadonlyArray<{ key: string }>;
+  /** Reference facts: each item resolves `facts.<key>.label` / `.value`. */
+  facts?: ReadonlyArray<{ key: string }>;
   links?: ReadonlyArray<{ key: string; href: string }>;
   notice?: boolean;
   cta?: { href: string };
@@ -49,6 +53,8 @@ export type ArticleHeroConfig = {
   ctaKey?: string;
   ctaHref?: string;
   noticeKey?: string;
+  /** Optional key figure shown in the hero (`hero.stat.value` / `.label`). */
+  statKey?: string;
 };
 
 export type ArticleContent = {
@@ -143,6 +149,21 @@ function sectionStrings(section: ArticleSectionConfig, t: TranslateFn): Localize
     }));
   }
 
+  if (section.flow) {
+    localized.flow = section.flow.map((node) => ({
+      key: node.key,
+      label: t(`${base}.flow.${node.key}`),
+    }));
+  }
+
+  if (section.facts) {
+    localized.facts = section.facts.map((fact) => ({
+      key: fact.key,
+      label: t(`${base}.facts.${fact.key}.label`),
+      value: t(`${base}.facts.${fact.key}.value`),
+    }));
+  }
+
   if (section.links) {
     localized.links = section.links.map((link) => ({
       key: link.key,
@@ -184,6 +205,12 @@ export function localizeArticle(
           ? { label: t(content.hero.ctaKey), href: content.hero.ctaHref }
           : undefined,
       notice: content.hero.noticeKey ? t(content.hero.noticeKey) : undefined,
+      stat: content.hero.statKey
+        ? {
+            value: t(`${content.hero.statKey}.value`),
+            label: t(`${content.hero.statKey}.label`),
+          }
+        : undefined,
     },
     sections: content.sections.map((section) => sectionStrings(section, t)),
     related: content.related.map(({ key, href }) => ({

@@ -125,18 +125,145 @@ const stepBadgeStyle: CSSProperties = {
   fontWeight: 700,
 };
 
+const flowItemStyle: CSSProperties = {
+  display: "inline-flex",
+  alignItems: "center",
+  gap: "0.5rem",
+};
+
+const flowListStyle: CSSProperties = {
+  listStyle: "none",
+  margin: 0,
+  padding: 0,
+  display: "flex",
+  flexWrap: "wrap",
+  alignItems: "center",
+  gap: "0.5rem",
+};
+
+const flowNodeStyle: CSSProperties = {
+  padding: "0.625rem 1rem",
+  background: "var(--ads-color-background)",
+  border: "1px solid var(--ads-color-border)",
+  borderTop: "3px solid var(--ads-color-primary)",
+  fontSize: "0.9375rem",
+  fontWeight: 600,
+  color: "var(--ads-color-text)",
+};
+
+const factsListStyle: CSSProperties = {
+  margin: 0,
+  display: "grid",
+  gridTemplateColumns: "repeat(auto-fit, minmax(15rem, 1fr))",
+  gap: "1px",
+  background: "var(--ads-color-border)",
+  border: "1px solid var(--ads-color-border)",
+};
+
+const factCellStyle: CSSProperties = {
+  padding: "1rem 1.25rem",
+  background: "var(--ads-color-background)",
+};
+
+const factLabelStyle: CSSProperties = {
+  margin: "0 0 0.25rem",
+  fontSize: "0.8125rem",
+  fontWeight: 600,
+  color: "var(--ads-color-text-muted)",
+};
+
+const factValueStyle: CSSProperties = {
+  margin: 0,
+  fontSize: "1.0625rem",
+  lineHeight: 1.4,
+  fontWeight: 600,
+  color: "var(--ads-color-text)",
+};
+
+const heroStatStyle: CSSProperties = {
+  display: "inline-flex",
+  alignItems: "baseline",
+  gap: "0.75rem",
+  marginTop: "1.5rem",
+  padding: "0.875rem 1.25rem",
+  background: "var(--ads-color-background)",
+  border: "1px solid var(--ads-color-border)",
+  borderTop: "3px solid var(--ads-color-primary)",
+  textAlign: "left",
+};
+
 /* ---- Blocks --------------------------------------------------------------- */
+
+/**
+ * Generic process/flow representation: a chain of labelled nodes separated by
+ * arrows. Used for the monetary circuits (“BCA → banques → usagers → BCA”) —
+ * a schema, never a fake chart. Wraps gracefully on small screens.
+ */
+export function FlowDiagram({
+  items,
+  caption,
+}: {
+  items: ReadonlyArray<{ key: string; label: string }>;
+  caption?: string;
+}) {
+  return (
+    <figure style={{ margin: 0 }}>
+      <ol role="list" style={flowListStyle}>
+        {items.map((item, index) => (
+          <li key={item.key} style={flowItemStyle}>
+            {index > 0 ? (
+              <span
+                className="fr-icon-arrow-right-line"
+                aria-hidden="true"
+                style={{ color: "var(--ads-color-primary)" }}
+              />
+            ) : null}
+            <span style={flowNodeStyle}>{item.label}</span>
+          </li>
+        ))}
+      </ol>
+      {caption ? (
+        <figcaption
+          className="fr-text--sm"
+          style={{ marginTop: "0.75rem", color: "var(--ads-color-text-muted)" }}
+        >
+          {caption}
+        </figcaption>
+      ) : null}
+    </figure>
+  );
+}
+
+/** Definition grid for institutional reference facts (name, unit, status…). */
+export function FactList({
+  items,
+}: {
+  items: ReadonlyArray<{ key: string; label: string; value: string }>;
+}) {
+  return (
+    <dl style={factsListStyle}>
+      {items.map((item) => (
+        <div key={item.key} style={factCellStyle}>
+          <dt style={factLabelStyle}>{item.label}</dt>
+          <dd style={factValueStyle}>{item.value}</dd>
+        </div>
+      ))}
+    </dl>
+  );
+}
 
 export function ThemeHero({
   kicker,
   title,
   lead,
   actions,
+  stat,
 }: {
   kicker: string;
   title: string;
   lead: string;
   actions?: [CtaButton, ...CtaButton[]];
+  stat?: { value: string; label: string };
 }) {
   return (
     <section className="gov-section" aria-labelledby="theme-hero-title">
@@ -144,6 +271,16 @@ export function ThemeHero({
         <p className="gov-kicker">{kicker}</p>
         <h1 id="theme-hero-title">{title}</h1>
         <p className="gov-lead">{lead}</p>
+        {stat ? (
+          <p style={heroStatStyle}>
+            <span style={{ fontSize: "clamp(1.5rem, 3vw, 2rem)", lineHeight: 1.1, fontWeight: 700 }}>
+              {stat.value}
+            </span>
+            <span style={{ fontSize: "0.9375rem", fontWeight: 600, color: "var(--ads-color-text-muted)" }}>
+              {stat.label}
+            </span>
+          </p>
+        ) : null}
         {actions ? <CtaButtonsGroup alignment="center" buttons={actions} /> : null}
       </div>
     </section>
@@ -384,6 +521,10 @@ export type LocalizedSection = {
   paragraphs?: ReadonlyArray<string>;
   /** Simple list, rendered inside `.gov-prose`. */
   bullets?: ReadonlyArray<string>;
+  /** Institutional reference facts (label + value), rendered as a definition grid. */
+  facts?: ReadonlyArray<{ key: string; label: string; value: string }>;
+  /** Process / flow schema (chain of labelled nodes). */
+  flow?: ReadonlyArray<{ key: string; label: string }>;
   /** Feature cards (icon + title + text). */
   cards?: ReadonlyArray<{ key: string; title: string; text: string; iconId?: string }>;
   /** ADS tiles (title + desc + icon + link). */
@@ -410,7 +551,14 @@ export type LocalizedSection = {
 };
 
 export type LocalizedArticle = {
-  hero: { kicker: string; title: string; lead: string; cta?: { label: string; href: string }; notice?: string };
+  hero: {
+    kicker: string;
+    title: string;
+    lead: string;
+    cta?: { label: string; href: string };
+    notice?: string;
+    stat?: { value: string; label: string };
+  };
   sections: ReadonlyArray<LocalizedSection>;
   related: ReadonlyArray<{ key: string; label: string; desc: string; href: string }>;
 };
@@ -420,13 +568,20 @@ export type LocalizedArticle = {
  * `lib/monnaie-localize.ts` from the message catalogs): hero, ordered
  * sections and cross-links.
  */
-export function ThemeArticle({ content, currentHref }: { content: LocalizedArticle; currentHref: string }) {
+export function ThemeArticle({
+  content,
+  currentHref,
+}: {
+  content: LocalizedArticle;
+  currentHref: string;
+}) {
   return (
     <>
       <ThemeHero
         kicker={content.hero.kicker}
         title={content.hero.title}
         lead={content.hero.lead}
+        stat={content.hero.stat}
         actions={
           content.hero.cta
             ? [
@@ -474,6 +629,18 @@ export function ThemeArticle({ content, currentHref }: { content: LocalizedArtic
                   <li key={bullet}>{bullet}</li>
                 ))}
               </ul>
+            </div>
+          ) : null}
+
+          {section.facts ? (
+            <div style={{ marginTop: "1.5rem" }}>
+              <FactList items={section.facts} />
+            </div>
+          ) : null}
+
+          {section.flow ? (
+            <div style={{ marginTop: "1.5rem" }}>
+              <FlowDiagram items={section.flow} />
             </div>
           ) : null}
 
