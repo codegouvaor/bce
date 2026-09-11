@@ -1,5 +1,6 @@
 import type { CSSProperties, ReactNode } from "react";
 import type { FrIconClassName } from "@codegouvaor/react-ads/fr";
+import { Link } from "@/i18n/navigation";
 import { CtaButtonsGroup, LinkTile, NoticeCallout, type CtaButton } from "./ads-fragments";
 
 /**
@@ -364,9 +365,9 @@ export function StatGrid({
         return (
           <li key={item.key} className={columnClass}>
             {item.href ? (
-              <a href={item.href} style={teaserCardStyle}>
+              <Link href={item.href} style={teaserCardStyle}>
                 {content}
-              </a>
+              </Link>
             ) : (
               <div style={teaserCardStyle}>{content}</div>
             )}
@@ -474,7 +475,7 @@ export function RelatedPages({
       <ul role="list" style={linkListStyle}>
         {pages.map((page) => (
           <li key={page.key}>
-            <a
+            <Link
               href={page.href}
               style={{
                 display: "flex",
@@ -500,7 +501,7 @@ export function RelatedPages({
                 </span>
               </span>
               <span className="fr-icon-arrow-right-line" aria-hidden="true" />
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
@@ -758,7 +759,7 @@ export function ThemeArticle({
             <ul role="list" style={linkListStyle}>
               {section.links.map((link) => (
                 <li key={link.key}>
-                  <a
+                  <Link
                     href={link.href}
                     style={{
                       display: "flex",
@@ -776,7 +777,7 @@ export function ThemeArticle({
                   >
                     {link.label}
                     <span className="fr-icon-arrow-right-line" aria-hidden="true" />
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -784,10 +785,10 @@ export function ThemeArticle({
 
           {section.cta ? (
             <p>
-              <a href={section.cta.href} style={{ fontWeight: 600, textUnderlineOffset: "0.2em" }}>
+              <Link href={section.cta.href} style={{ fontWeight: 600, textUnderlineOffset: "0.2em" }}>
                 {section.cta.label}
                 <span className="fr-icon-arrow-right-line" aria-hidden="true" />
-              </a>
+              </Link>
             </p>
           ) : null}
 

@@ -151,6 +151,7 @@ export function GovernmentHeader() {
       />
       <Header
         className="gov-header"
+        classes={{ brand: "fr-enlarge-link" }}
         identity={{
           imgUrl: "/astoria-gouv.png",
           alt: tBrand("republicName"),

@@ -92,13 +92,14 @@
     "monnaie": {
       "kicker": "La monnaie",
       "title": "La monnaie astorienne",
-      "lead": "L'euro astorien est la monnaie officielle de la République. La Banque centrale en détient le monopole d'émission et garantit sa valeur et son usage dans toute l'économie.",
-      "paragraph": "Émise par la Banque centrale d'Astoria, la monnaie astorienne circule sous forme de billets et de pièces et sert de moyen de paiement légal et d'unité de compte dans toute la République. Sa création est strictement encadrée : elle accompagne l'activité économique et la stabilité des prix, conformément aux principes monétaires de l'institution.",
+      "lead": "Le franc astorien (FAS) est la monnaie officielle de la République. La Banque centrale en détient le monopole d'émission et garantit sa valeur et son usage dans toute l'économie.",
+      "paragraph": "Émis par la Banque centrale d'Astoria, le franc astorien (FAS) circule sous forme de billets et de pièces et sert de moyen de paiement légal et d'unité de compte dans toute la République. Sa création est strictement encadrée : elle accompagne l'activité économique et la stabilité des prix, conformément aux principes monétaires de l'institution.",
+      "paragraph2": "Le franc astorien repose sur trois principes : il est émis par la Banque centrale, il a cours légal dans toute la République et sa valeur est préservée par la politique monétaire. Comprendre la monnaie, c'est aussi comprendre comment sa valeur est protégée.",
       "essentialsTitle": "L'essentiel",
       "essentials": {
         "unite": {
           "title": "L'unité monétaire",
-          "text": "L'euro astorien, divisé en centimes, est l'unité de compte officielle de la République."
+          "text": "Le franc astorien (FAS), divisé en centimes, est l'unité de compte officielle de la République."
         },
         "emission": {
           "title": "Le monopole d'émission",
@@ -121,7 +122,27 @@
           "text": "Pouvoir libératoire, confiance et stabilité de la monnaie."
         }
       },
-      "cta": "Découvrir la monnaie astorienne"
+      "cta": "Découvrir la monnaie astorienne",
+      "pillarsTitle": "Les quatre volets de la monnaie",
+      "pillars": {
+        "laMonnaieAstorienne": {
+          "title": "La monnaie astorienne",
+          "desc": "L'unité monétaire officielle, son émission et son cadre institutionnel."
+        },
+        "billetsEtPieces": {
+          "title": "Billets et pièces",
+          "desc": "Les valeurs faciales, les caractéristiques et les éléments de sécurité."
+        },
+        "circulationMonetaire": {
+          "title": "Circulation monétaire",
+          "desc": "L'émission, la mise en circulation et le retrait de la monnaie."
+        },
+        "donneesMonetaires": {
+          "title": "Données monétaires",
+          "desc": "Les agrégats, la masse monétaire et les statistiques monétaires."
+        }
+      },
+      "politique": "La monnaie et la politique monétaire"
     },
     "banques": {
       "kicker": "Système bancaire",

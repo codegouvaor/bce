@@ -84,7 +84,10 @@ export const homeContent = {
   },
   /**
    * Section 04 — La monnaie astorienne. Editorial transition between the
-   * indicators and the understanding of the monetary system.
+   * indicators and the understanding of the monetary system: the currency in
+   * its principles (left), its essentials (right), then a gateway to the four
+   * pillars of the Monnaie theme and a bridge to the Politique monétaire
+   * theme.
    */
   monnaie: {
     /** `home.monnaie.essentials.<key>.*` message keys. */
@@ -92,11 +95,20 @@ export const homeContent = {
       { key: "unite", iconId: "fr-icon-money-euro-circle-line" },
       { key: "emission", iconId: "fr-icon-printer-line" },
       { key: "billets", iconId: "fr-icon-bank-card-line" },
-      { key: "pieces", iconId: "fr-icon-coin-line" },
+      { key: "pieces", iconId: "fr-icon-coin-fill" },
       { key: "circulation", iconId: "fr-icon-refresh-line" },
       { key: "principes", iconId: "fr-icon-lock-line" },
     ] as const,
+    /** The four pillars of the Monnaie theme, as gateway tiles. */
+    pillars: [
+      { key: "laMonnaieAstorienne", href: `${MONNAIE}/la-monnaie-astorienne`, iconId: "fr-icon-money-euro-circle-line" },
+      { key: "billetsEtPieces", href: `${MONNAIE}/billets-et-pieces`, iconId: "fr-icon-bank-card-line" },
+      { key: "circulationMonetaire", href: `${MONNAIE}/circulation-monetaire`, iconId: "fr-icon-refresh-line" },
+      { key: "donneesMonetaires", href: `${MONNAIE}/donnees-monetaires`, iconId: "fr-icon-database-line" },
+    ] as const,
     cta: { href: `${MONNAIE}/la-monnaie-astorienne` },
+    /** Cross-theme bridge: money is protected by monetary policy. */
+    politique: { href: POLITIQUE },
   },
   /**
    * Section 05 — Système bancaire. The BCA as the bank of banks: figures of

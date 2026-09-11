@@ -3,11 +3,13 @@ import type { Metadata } from "next";
 import type { FrIconClassName } from "@codegouvaor/react-ads/fr";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { localizedAlternates, resolveLocaleParam } from "@/lib/localized-metadata";
+import { Link } from "@/i18n/navigation";
 import { homeContent } from "@/lib/home-content";
 import { CtaButtonsGroup, LinkTile } from "@/components/public/content/ads-fragments";
 import {
   DataTable,
   ThemeSection,
+  cardGridStyle,
   figureLabelStyle,
   figureValueStyle,
   heroContainerStyle,
@@ -125,19 +127,12 @@ const calendarDateStyle: CSSProperties = {
   color: "var(--ads-color-primary)",
 };
 
-const essentialsListStyle: CSSProperties = {
-  listStyle: "none",
-  margin: "0",
-  padding: "0",
-  display: "grid",
-  gap: "0.75rem",
-};
-
 const essentialsItemStyle: CSSProperties = {
   display: "flex",
   gap: "0.875rem",
   alignItems: "flex-start",
-  padding: "0.875rem 1rem",
+  height: "100%",
+  padding: "1rem 1.125rem",
   background: "var(--ads-color-background)",
   border: "1px solid var(--ads-color-border)",
 };
@@ -273,18 +268,18 @@ export default async function HomePage({ params }: PageProps) {
         <div style={panelStyle}>
           <div style={figureBandStyle}>
             {homeContent.situation.primary.map((item) => (
-              <a key={item.key} href={item.href} style={figureCellStyle}>
+              <Link key={item.key} href={item.href} style={figureCellStyle}>
                 <span style={figureValueStyle}>{item.value}</span>
                 <span style={figureLabelStyle}>{t(`situation.items.${item.key}.label`)}</span>
-              </a>
+              </Link>
             ))}
           </div>
           <div style={{ ...figureBandStyle, marginTop: "1px" }}>
             {homeContent.situation.secondary.map((item) => (
-              <a key={item.key} href={item.href} style={figureCellStyle}>
+              <Link key={item.key} href={item.href} style={figureCellStyle}>
                 <span style={figureValueStyle}>{item.value}</span>
                 <span style={figureLabelStyle}>{t(`situation.items.${item.key}.label`)}</span>
-              </a>
+              </Link>
             ))}
           </div>
         </div>
@@ -363,7 +358,10 @@ export default async function HomePage({ params }: PageProps) {
       </ThemeSection>
 
       {/* 04 — La monnaie astorienne: editorial transition between the
-          indicators and the understanding of the monetary system. */}
+          indicators and the understanding of the monetary system. Fully
+          horizontal composition: editorial band, essentials as horizontal
+          cards, the four pillars of the Monnaie theme as a row of tiles, then
+          a horizontal bridge to the monetary-policy theme. */}
       <ThemeSection
         id="monnaie-title"
         kicker={t("monnaie.kicker")}
@@ -371,40 +369,60 @@ export default async function HomePage({ params }: PageProps) {
         lead={t("monnaie.lead")}
         subtle
       >
-        <div className="fr-grid-row fr-grid-row--gutters">
-          <div className="fr-col-12 fr-col-lg-7">
-            <div className="gov-prose">
-              <p>{t("monnaie.paragraph")}</p>
-            </div>
-            <p style={{ marginTop: "1.5rem" }}>
-              <a href={homeContent.monnaie.cta.href} style={inlineLinkStyle}>
-                {t("monnaie.cta")}
-                <span className="fr-icon-arrow-right-line" aria-hidden="true" />
-              </a>
-            </p>
-          </div>
-          <div className="fr-col-12 fr-col-lg-5">
-            <h3 style={linksTitleStyle}>{t("monnaie.essentialsTitle")}</h3>
-            <ul role="list" style={essentialsListStyle}>
-              {homeContent.monnaie.essentials.map((item) => (
-                <li key={item.key} style={essentialsItemStyle}>
-                  <span className={item.iconId} aria-hidden="true" style={iconBlockStyle} />
-                  <span>
-                    <span style={{ display: "block", fontWeight: 700 }}>
-                      {t(`monnaie.essentials.${item.key}.title`)}
-                    </span>
-                    <span
-                      className="fr-text--sm"
-                      style={{ display: "block", color: "var(--ads-color-text-muted)" }}
-                    >
-                      {t(`monnaie.essentials.${item.key}.text`)}
-                    </span>
-                  </span>
-                </li>
-              ))}
-            </ul>
-          </div>
+        <div className="gov-prose" style={{ maxWidth: "72rem" }}>
+          <p>{t("monnaie.paragraph")}</p>
+          <p>{t("monnaie.paragraph2")}</p>
         </div>
+        <p style={{ marginTop: "1.5rem" }}>
+          <Link href={homeContent.monnaie.cta.href} style={inlineLinkStyle}>
+            {t("monnaie.cta")}
+            <span className="fr-icon-arrow-right-line" aria-hidden="true" />
+          </Link>
+        </p>
+
+        <h3 style={{ ...linksTitleStyle, marginTop: "2.5rem" }}>{t("monnaie.essentialsTitle")}</h3>
+        <ul className="fr-grid-row fr-grid-row--gutters" role="list" style={cardGridStyle}>
+          {homeContent.monnaie.essentials.map((item) => (
+            <li key={item.key} className="fr-col-12 fr-col-sm-6 fr-col-lg-4" style={essentialsItemStyle}>
+              <span className={item.iconId} aria-hidden="true" style={iconBlockStyle} />
+              <span>
+                <span style={{ display: "block", fontWeight: 700 }}>
+                  {t(`monnaie.essentials.${item.key}.title`)}
+                </span>
+                <span
+                  className="fr-text--sm"
+                  style={{ display: "block", color: "var(--ads-color-text-muted)" }}
+                >
+                  {t(`monnaie.essentials.${item.key}.text`)}
+                </span>
+              </span>
+            </li>
+          ))}
+        </ul>
+
+        <h3 style={{ ...linksTitleStyle, marginTop: "2.5rem" }}>{t("monnaie.pillarsTitle")}</h3>
+        <div className="fr-grid-row fr-grid-row--gutters">
+          {homeContent.monnaie.pillars.map((pillar) => (
+            <div key={pillar.key} className="fr-col-12 fr-col-md-6 fr-col-lg-3">
+              <LinkTile
+                title={t(`monnaie.pillars.${pillar.key}.title`)}
+                desc={t(`monnaie.pillars.${pillar.key}.desc`)}
+                href={pillar.href}
+                iconId={pillar.iconId as FrIconClassName}
+              />
+            </div>
+          ))}
+        </div>
+
+        <p style={{ marginTop: "2.5rem" }}>
+          <Link
+            href={homeContent.monnaie.politique.href}
+            style={{ ...linkRowStyle, borderTop: "1px solid var(--ads-color-border)" }}
+          >
+            {t("monnaie.politique")}
+            <span className="fr-icon-arrow-right-line" aria-hidden="true" />
+          </Link>
+        </p>
       </ThemeSection>
 
       {/* 05 — Système bancaire: the BCA as the bank of banks. Figures of the
@@ -425,7 +443,7 @@ export default async function HomePage({ params }: PageProps) {
             >
               {homeContent.banques.figures.map((figure) => (
                 <li key={figure.key} className="fr-col-12 fr-col-sm-6">
-                  <a href={figure.href} style={teaserCardStyle}>
+                  <Link href={figure.href} style={teaserCardStyle}>
                     <span style={figureValueStyle}>{figure.value}</span>
                     <span style={figureLabelStyle}>{t(`banques.items.${figure.key}.label`)}</span>
                     <span
@@ -438,7 +456,7 @@ export default async function HomePage({ params }: PageProps) {
                         color: "var(--ads-color-primary)",
                       }}
                     />
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -448,10 +466,10 @@ export default async function HomePage({ params }: PageProps) {
             <ul role="list" style={linkListStyle}>
               {homeContent.banques.links.map((link) => (
                 <li key={link.key}>
-                  <a href={link.href} style={linkRowStyle}>
+                  <Link href={link.href} style={linkRowStyle}>
                     {t(`banques.links.${link.key}.label`)}
                     <span className="fr-icon-arrow-right-line" aria-hidden="true" />
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -535,10 +553,10 @@ export default async function HomePage({ params }: PageProps) {
             <ul role="list" style={linkListStyle}>
               {homeContent.donnees.links.map((link) => (
                 <li key={link.key}>
-                  <a href={link.href} style={linkRowStyle}>
+                  <Link href={link.href} style={linkRowStyle}>
                     {t(`donnees.links.${link.key}.label`)}
                     <span className="fr-icon-arrow-right-line" aria-hidden="true" />
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -573,7 +591,7 @@ export default async function HomePage({ params }: PageProps) {
             <ul role="list" style={linkListStyle}>
               {homeContent.publications.items.map((item) => (
                 <li key={item.key}>
-                  <a href={item.href} style={publicationRowStyle}>
+                  <Link href={item.href} style={publicationRowStyle}>
                     <span>
                       <span style={{ display: "block", fontWeight: 700 }}>
                         {t(`publications.items.${item.key}.title`)}
@@ -586,7 +604,7 @@ export default async function HomePage({ params }: PageProps) {
                       </span>
                     </span>
                     <span className="fr-icon-arrow-right-line" aria-hidden="true" />
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -596,7 +614,7 @@ export default async function HomePage({ params }: PageProps) {
             <ul role="list" style={linkListStyle}>
               {homeContent.publications.calendar.map((item) => (
                 <li key={item.key}>
-                  <a href={item.href} style={publicationRowStyle}>
+                  <Link href={item.href} style={publicationRowStyle}>
                     <span>
                       <span style={calendarDateStyle}>
                         {t(`publications.calendar.${item.key}.date`)}
@@ -606,7 +624,7 @@ export default async function HomePage({ params }: PageProps) {
                       </span>
                     </span>
                     <span className="fr-icon-arrow-right-line" aria-hidden="true" />
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -660,10 +678,10 @@ export default async function HomePage({ params }: PageProps) {
           <ul role="list" style={closingLinksStyle}>
             {homeContent.institution.links.map((link) => (
               <li key={link.key}>
-                <a href={link.href} style={inlineLinkStyle}>
+                <Link href={link.href} style={inlineLinkStyle}>
                   {t(`institution.links.${link.key}`)}
                   <span className="fr-icon-arrow-right-line" aria-hidden="true" />
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

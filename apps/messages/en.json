@@ -92,13 +92,14 @@
     "monnaie": {
       "kicker": "The currency",
       "title": "The Astorian currency",
-      "lead": "The Astorian euro is the Republic's official currency. The Central Bank holds the sole right of issue and guarantees its value and use throughout the economy.",
-      "paragraph": "Issued by the Central Bank of Astoria, the Astorian currency circulates as banknotes and coins and serves as legal tender and the unit of account throughout the Republic. Its creation is strictly governed: it supports economic activity and price stability, in line with the institution's monetary principles.",
+      "lead": "The Astorian franc (FAS) is the Republic's official currency. The Central Bank holds the sole right of issue and guarantees its value and use throughout the economy.",
+      "paragraph": "Issued by the Central Bank of Astoria, the Astorian franc (FAS) circulates as banknotes and coins and serves as legal tender and the unit of account throughout the Republic. Its creation is strictly governed: it supports economic activity and price stability, in line with the institution's monetary principles.",
+      "paragraph2": "The Astorian franc rests on three principles: it is issued by the Central Bank, it is legal tender throughout the Republic and its value is preserved by monetary policy. Understanding money also means understanding how its value is protected.",
       "essentialsTitle": "Key facts",
       "essentials": {
         "unite": {
           "title": "The monetary unit",
-          "text": "The Astorian euro, divided into cents, is the Republic's official unit of account."
+          "text": "The Astorian franc (FAS), divided into cents, is the Republic's official unit of account."
         },
         "emission": {
           "title": "Sole right of issue",
@@ -121,7 +122,27 @@
           "text": "Legal tender, confidence and monetary stability."
         }
       },
-      "cta": "Discover the Astorian currency"
+      "cta": "Discover the Astorian currency",
+      "pillarsTitle": "The four pillars of money",
+      "pillars": {
+        "laMonnaieAstorienne": {
+          "title": "The Astorian currency",
+          "desc": "The official monetary unit, its issuance and its institutional framework."
+        },
+        "billetsEtPieces": {
+          "title": "Banknotes and coins",
+          "desc": "The denominations, their characteristics and their security features."
+        },
+        "circulationMonetaire": {
+          "title": "Monetary circulation",
+          "desc": "The issuance, circulation and withdrawal of money."
+        },
+        "donneesMonetaires": {
+          "title": "Monetary data",
+          "desc": "The aggregates, the money supply and the monetary statistics."
+        }
+      },
+      "politique": "Money and monetary policy"
     },
     "banques": {
       "kicker": "Banking system",
