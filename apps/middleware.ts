@@ -28,13 +28,13 @@ const handleI18nRouting = createIntlMiddleware(routing);
 
 type DomainGroup = "sso" | "studios" | "main";
 
-const SSO_HOSTS = ["sso.gouv.localhost", "sso.gouv.lan"];
-const STUDIOS_HOSTS = ["studios.gouv.localhost", "studios.gouv.lan"];
+const SSO_HOSTS = ["sso.astoria-gouv.localhost", "sso.astoria-gouv.lan"];
+const STUDIOS_HOSTS = ["studios.astoria-gouv.localhost", "studios.astoria-gouv.lan"];
 const MAIN_HOSTS = [
-  "service-public.gouv.localhost",
-  "service-public.gouv.lan",
-  "service-public.gouv.aor",
-  "www.service-public.gouv.aor",
+  "bca.astoria-gouv.localhost",
+  "bca.astoria-gouv.lan",
+  "bca.astoria-gouv-gouv.org",
+  "www.bca.astoria-gouv.org",
 ];
 
 const AUTH_PATHS = [
@@ -64,19 +64,19 @@ function getDomainForGroup(group: DomainGroup, currentUrl: URL): string {
   if (IS_DEVELOPMENT) {
     switch (group) {
       case "sso":
-        return `${protocol}//sso.gouv.localhost`;
+        return `${protocol}//sso.astoria-gouv.localhost`;
       case "studios":
-        return `${protocol}//studios.gouv.localhost`;
+        return `${protocol}//studios.astoria-gouv.localhost`;
       case "main":
-        return `${protocol}//service-public.gouv.localhost`;
+        return `${protocol}//bca.astoria-gouv.localhost`;
     }
   }
 
   switch (group) {
     case "sso":
-      return `${protocol}//sso.gouv.localhost`;
+      return `${protocol}//sso.astoria-gouv.localhost`;
     case "studios":
-      return `${protocol}//studios.gouv.localhost`;
+      return `${protocol}//studios.astoria-gouv.localhost`;
     case "main":
       return `${protocol}//${hostname}`;
   }

@@ -143,4 +143,5 @@ package-lock.json
 yarn.lock
 pnpm-lock.yaml
 .pnpmfile.cjs   
-pnpm-workspace.yaml
+
+.opencode/

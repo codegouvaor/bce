@@ -7,10 +7,11 @@ import { AdsProvider } from "@/components/public/ads/ads-provider";
 import { GovernmentHeader } from "@/components/public/header/government-header";
 import { GovernmentFooter } from "@/components/public/footer/government-footer";
 import { BackToTopButton } from "@/components/common/back-to-top-button";
+import { PopUp } from "@/components/common/pop-up";
 
 import "@codegouvaor/react-ads/main.css";
   
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://bce.gouv.aor";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://bce.astoria-gouv.org";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -78,6 +79,7 @@ export default async function LocaleLayout({
               </main>
               <GovernmentFooter />
               <BackToTopButton />
+              <PopUp />
             </div>
           </AdsProvider>
         </NextIntlClientProvider>
